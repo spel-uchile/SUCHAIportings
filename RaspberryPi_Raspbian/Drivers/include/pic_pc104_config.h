@@ -9,7 +9,7 @@
  * Este .h y su correspondiente .c contendra la configuracion del PIC.
  * Muchas partes de las librerias incluidas se han repetido, para efecto de
  * claridad y completitud, de modo que solo sea necesario acceder a este .h
- * para poder configurar todo
+ * para poder configurar toda
  *
  * Para el bus PC104:
  * -PPS
