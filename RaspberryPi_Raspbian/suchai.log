@@ -1,0 +1,1782 @@
+2015/03/05 16:14:02:DEBUG:This message should go to the log file
+2015/03/05 16:14:02:INFO:So should this
+2015/03/05 16:14:02:WARNING:And this, too
+2015/03/05 16:14:22:DEBUG:This message should go to the log file
+2015/03/05 16:14:22:INFO:So should this
+2015/03/05 16:14:22:WARNING:And this, too
+2015/03/05 16:14:32:DEBUG:
+
+This message should go to the log file
+2015/03/05 16:14:32:INFO:So should this
+2015/03/05 16:14:32:WARNING:And this, too
+2015/03/05 16:14:44:DEBUG:
+
+This message should go to the log file
+2015/03/05 16:14:44:INFO:So should this
+2015/03/05 16:14:44:WARNING:And this, too
+2015/03/05 16:15:02:DEBUG:
+This message should go to the log file
+2015/03/05 16:15:02:INFO:So should this
+2015/03/05 16:15:02:WARNING:And this, too
+2015/03/05 16:15:28:INFO:
+
+2015/03/05 16:15:28:DEBUG:This message should go to the log file
+2015/03/05 16:15:28:INFO:So should this
+2015/03/05 16:15:28:WARNING:And this, too
+2015/03/05 16:20:35:INFO:
+
+2015/03/05 16:20:35:DEBUG:Hello World
+2015/03/05 16:20:35:INFO:You should note this
+2015/03/05 16:20:35:WARNING:be warned
+2015/03/05 16:20:35:ERROR:an normal error arose
+2015/03/05 16:20:35:CRITICAL:a critical error arose
+2015/03/05 16:23:47:INFO:
+
+2015/03/05 16:23:47:DEBUG:Hello World
+2015/03/05 16:23:47:INFO:You should note this
+2015/03/05 16:23:47:WARNING:be warned
+2015/03/05 16:23:47:ERROR:an normal error arose
+2015/03/05 16:23:47:CRITICAL:a critical error arose
+2015/03/05 16:23:47:DEBUG:StateVar(0) => StateVar.RTC_isAlive
+2015/03/05 16:23:47:DEBUG:StateVar(1) => StateVar.TRX_isAlive
+2015/03/05 16:23:47:DEBUG:StateVar(2) => StateVar.EPS_isAlive
+2015/03/05 16:23:47:DEBUG:StateVar(3) => StateVar.MemEEPROM_isAlive
+2015/03/05 16:23:47:DEBUG:StateVar(4) => StateVar.MemSD_isAlive
+2015/03/05 16:23:47:DEBUG:StateVar(5) => StateVar.AntSwitch_isOpen
+2015/03/05 16:23:47:DEBUG:StateVar(6) => StateVar.pay_lagmuirProbe_isAlive
+2015/03/05 16:23:47:DEBUG:StateVar(7) => StateVar.pay_sensTemp_isAlive
+2015/03/05 16:23:47:DEBUG:StateVar(8) => StateVar.pay_gps_isAlive
+2015/03/05 16:23:47:DEBUG:StateVar(9) => StateVar.pay_expFis_isAlive
+2015/03/05 16:23:47:DEBUG:StateVar(10) => StateVar.pay_camera_isAlive
+2015/03/05 16:23:47:DEBUG:StateVar(11) => StateVar.pay_gyro_isAlive
+2015/03/05 16:23:47:DEBUG:StateVar(12) => StateVar.pay_tmEstado_isAlive
+2015/03/05 16:23:47:DEBUG:StateVar(13) => StateVar.pay_battery_isAlive
+2015/03/05 16:23:47:DEBUG:StateVar(14) => StateVar.pay_debug_isAlive
+2015/03/05 16:23:47:DEBUG:StateVar(15) => StateVar.pay_lagmuirProbe_isDeployed
+2015/03/05 16:23:47:DEBUG:StateVar(16) => StateVar.fpl_index
+2015/03/05 16:23:47:DEBUG:StateVar(17) => StateVar.ppc_opMode
+2015/03/05 16:23:47:DEBUG:StateVar(18) => StateVar.ppc_lastResetSource
+2015/03/05 16:23:47:DEBUG:StateVar(19) => StateVar.ppc_hoursAlive
+2015/03/05 16:23:47:DEBUG:StateVar(20) => StateVar.ppc_hoursWithoutReset
+2015/03/05 16:23:47:DEBUG:StateVar(21) => StateVar.ppc_resetCounter
+2015/03/05 16:23:47:DEBUG:StateVar(22) => StateVar.ppc_wdt
+2015/03/05 16:23:47:DEBUG:StateVar(23) => StateVar.ppc_osc
+2015/03/05 16:23:47:DEBUG:StateVar(24) => StateVar.ppc_MB_nOE_USB_nINT_stat
+2015/03/05 16:23:47:DEBUG:StateVar(25) => StateVar.ppc_MB_nOE_MHX_stat
+2015/03/05 16:23:47:DEBUG:StateVar(26) => StateVar.ppc_MB_nON_MHX_stat
+2015/03/05 16:23:47:DEBUG:StateVar(27) => StateVar.ppc_MB_nON_SD_stat
+2015/03/05 16:23:47:DEBUG:StateVar(28) => StateVar.dep_ant_deployed
+2015/03/05 16:23:47:DEBUG:StateVar(29) => StateVar.dep_ant_tries
+2015/03/05 16:23:47:DEBUG:StateVar(30) => StateVar.dep_year
+2015/03/05 16:23:47:DEBUG:StateVar(31) => StateVar.dep_month
+2015/03/05 16:23:47:DEBUG:StateVar(32) => StateVar.dep_week_day
+2015/03/05 16:23:47:DEBUG:StateVar(33) => StateVar.dep_day_number
+2015/03/05 16:23:47:DEBUG:StateVar(34) => StateVar.dep_hours
+2015/03/05 16:23:47:DEBUG:StateVar(35) => StateVar.dep_minutes
+2015/03/05 16:23:47:DEBUG:StateVar(36) => StateVar.dep_seconds
+2015/03/05 16:23:47:DEBUG:StateVar(37) => StateVar.rtc_year
+2015/03/05 16:23:47:DEBUG:StateVar(38) => StateVar.rtc_month
+2015/03/05 16:23:47:DEBUG:StateVar(39) => StateVar.rtc_week_day
+2015/03/05 16:23:47:DEBUG:StateVar(40) => StateVar.rtc_day_number
+2015/03/05 16:23:47:DEBUG:StateVar(41) => StateVar.rtc_hours
+2015/03/05 16:23:47:DEBUG:StateVar(42) => StateVar.rtc_minutes
+2015/03/05 16:23:47:DEBUG:StateVar(43) => StateVar.rtc_seconds
+2015/03/05 16:23:47:DEBUG:StateVar(44) => StateVar.eps_bat0_voltage
+2015/03/05 16:23:47:DEBUG:StateVar(45) => StateVar.eps_bat0_current
+2015/03/05 16:23:47:DEBUG:StateVar(46) => StateVar.eps_bus5V_current
+2015/03/05 16:23:47:DEBUG:StateVar(47) => StateVar.eps_bus3V_current
+2015/03/05 16:23:47:DEBUG:StateVar(48) => StateVar.eps_bus_battery_current
+2015/03/05 16:23:47:DEBUG:StateVar(49) => StateVar.eps_bat0_temp
+2015/03/05 16:23:47:DEBUG:StateVar(50) => StateVar.eps_panel_pwr
+2015/03/05 16:23:47:DEBUG:StateVar(51) => StateVar.eps_status
+2015/03/05 16:23:47:DEBUG:StateVar(52) => StateVar.eps_soc
+2015/03/05 16:23:47:DEBUG:StateVar(53) => StateVar.eps_socss
+2015/03/05 16:23:47:DEBUG:StateVar(54) => StateVar.eps_state_flag
+2015/03/05 16:23:47:DEBUG:StateVar(55) => StateVar.eps_charging
+2015/03/05 16:23:47:DEBUG:StateVar(56) => StateVar.trx_opmode
+2015/03/05 16:23:47:DEBUG:StateVar(57) => StateVar.trx_count_tm
+2015/03/05 16:23:47:DEBUG:StateVar(58) => StateVar.trx_count_tc
+2015/03/05 16:23:47:DEBUG:StateVar(59) => StateVar.trx_day_last_tc
+2015/03/05 16:23:47:DEBUG:StateVar(60) => StateVar.trx_beacon_period
+2015/03/05 16:23:47:DEBUG:StateVar(61) => StateVar.trx_beacon_bat_lvl
+2015/03/05 16:23:47:DEBUG:StateVar(62) => StateVar.trx_rx_baud
+2015/03/05 16:23:47:DEBUG:StateVar(63) => StateVar.trx_tx_baud
+2015/03/05 16:23:47:DEBUG:StateVar(64) => StateVar.pay_lagmuirProbe_state
+2015/03/05 16:23:47:DEBUG:StateVar(65) => StateVar.pay_sensTemp_state
+2015/03/05 16:23:47:DEBUG:StateVar(66) => StateVar.pay_gps_state
+2015/03/05 16:23:47:DEBUG:StateVar(67) => StateVar.pay_expFis_state
+2015/03/05 16:23:47:DEBUG:StateVar(68) => StateVar.pay_camera_state
+2015/03/05 16:23:47:DEBUG:StateVar(69) => StateVar.pay_gyro_state
+2015/03/05 16:23:47:DEBUG:StateVar(70) => StateVar.pay_tmEstado_state
+2015/03/05 16:23:47:DEBUG:StateVar(71) => StateVar.pay_battery_state
+2015/03/05 16:23:47:DEBUG:StateVar(72) => StateVar.pay_debug_state
+2015/03/05 16:23:47:DEBUG:-------------------------
+2015/03/05 16:23:51:DEBUG:-------------------------
+2015/03/05 16:23:51:DEBUG:
+Starting Suchai Sw ..
+
+2015/03/05 16:26:19:INFO:
+
+2015/03/05 16:26:19:DEBUG:Hello World
+2015/03/05 16:26:19:INFO:You should note this
+2015/03/05 16:26:19:WARNING:be warned
+2015/03/05 16:26:19:ERROR:an normal error arose
+2015/03/05 16:26:19:CRITICAL:a critical error arose
+2015/03/05 16:26:19:DEBUG:StateVar(0) => StateVar.RTC_isAlive
+2015/03/05 16:26:19:DEBUG:StateVar(1) => StateVar.TRX_isAlive
+2015/03/05 16:26:19:DEBUG:StateVar(2) => StateVar.EPS_isAlive
+2015/03/05 16:26:19:DEBUG:StateVar(3) => StateVar.MemEEPROM_isAlive
+2015/03/05 16:26:19:DEBUG:StateVar(4) => StateVar.MemSD_isAlive
+2015/03/05 16:26:19:DEBUG:StateVar(5) => StateVar.AntSwitch_isOpen
+2015/03/05 16:26:19:DEBUG:StateVar(6) => StateVar.pay_lagmuirProbe_isAlive
+2015/03/05 16:26:19:DEBUG:StateVar(7) => StateVar.pay_sensTemp_isAlive
+2015/03/05 16:26:19:DEBUG:StateVar(8) => StateVar.pay_gps_isAlive
+2015/03/05 16:26:19:DEBUG:StateVar(9) => StateVar.pay_expFis_isAlive
+2015/03/05 16:26:19:DEBUG:StateVar(10) => StateVar.pay_camera_isAlive
+2015/03/05 16:26:19:DEBUG:StateVar(11) => StateVar.pay_gyro_isAlive
+2015/03/05 16:26:19:DEBUG:StateVar(12) => StateVar.pay_tmEstado_isAlive
+2015/03/05 16:26:19:DEBUG:StateVar(13) => StateVar.pay_battery_isAlive
+2015/03/05 16:26:19:DEBUG:StateVar(14) => StateVar.pay_debug_isAlive
+2015/03/05 16:26:19:DEBUG:StateVar(15) => StateVar.pay_lagmuirProbe_isDeployed
+2015/03/05 16:26:19:DEBUG:StateVar(16) => StateVar.fpl_index
+2015/03/05 16:26:19:DEBUG:StateVar(17) => StateVar.ppc_opMode
+2015/03/05 16:26:19:DEBUG:StateVar(18) => StateVar.ppc_lastResetSource
+2015/03/05 16:26:19:DEBUG:StateVar(19) => StateVar.ppc_hoursAlive
+2015/03/05 16:26:19:DEBUG:StateVar(20) => StateVar.ppc_hoursWithoutReset
+2015/03/05 16:26:19:DEBUG:StateVar(21) => StateVar.ppc_resetCounter
+2015/03/05 16:26:19:DEBUG:StateVar(22) => StateVar.ppc_wdt
+2015/03/05 16:26:19:DEBUG:StateVar(23) => StateVar.ppc_osc
+2015/03/05 16:26:19:DEBUG:StateVar(24) => StateVar.ppc_MB_nOE_USB_nINT_stat
+2015/03/05 16:26:19:DEBUG:StateVar(25) => StateVar.ppc_MB_nOE_MHX_stat
+2015/03/05 16:26:19:DEBUG:StateVar(26) => StateVar.ppc_MB_nON_MHX_stat
+2015/03/05 16:26:19:DEBUG:StateVar(27) => StateVar.ppc_MB_nON_SD_stat
+2015/03/05 16:26:19:DEBUG:StateVar(28) => StateVar.dep_ant_deployed
+2015/03/05 16:26:19:DEBUG:StateVar(29) => StateVar.dep_ant_tries
+2015/03/05 16:26:19:DEBUG:StateVar(30) => StateVar.dep_year
+2015/03/05 16:26:19:DEBUG:StateVar(31) => StateVar.dep_month
+2015/03/05 16:26:19:DEBUG:StateVar(32) => StateVar.dep_week_day
+2015/03/05 16:26:19:DEBUG:StateVar(33) => StateVar.dep_day_number
+2015/03/05 16:26:19:DEBUG:StateVar(34) => StateVar.dep_hours
+2015/03/05 16:26:19:DEBUG:StateVar(35) => StateVar.dep_minutes
+2015/03/05 16:26:19:DEBUG:StateVar(36) => StateVar.dep_seconds
+2015/03/05 16:26:19:DEBUG:StateVar(37) => StateVar.rtc_year
+2015/03/05 16:26:19:DEBUG:StateVar(38) => StateVar.rtc_month
+2015/03/05 16:26:19:DEBUG:StateVar(39) => StateVar.rtc_week_day
+2015/03/05 16:26:19:DEBUG:StateVar(40) => StateVar.rtc_day_number
+2015/03/05 16:26:19:DEBUG:StateVar(41) => StateVar.rtc_hours
+2015/03/05 16:26:19:DEBUG:StateVar(42) => StateVar.rtc_minutes
+2015/03/05 16:26:19:DEBUG:StateVar(43) => StateVar.rtc_seconds
+2015/03/05 16:26:19:DEBUG:StateVar(44) => StateVar.eps_bat0_voltage
+2015/03/05 16:26:19:DEBUG:StateVar(45) => StateVar.eps_bat0_current
+2015/03/05 16:26:19:DEBUG:StateVar(46) => StateVar.eps_bus5V_current
+2015/03/05 16:26:19:DEBUG:StateVar(47) => StateVar.eps_bus3V_current
+2015/03/05 16:26:19:DEBUG:StateVar(48) => StateVar.eps_bus_battery_current
+2015/03/05 16:26:19:DEBUG:StateVar(49) => StateVar.eps_bat0_temp
+2015/03/05 16:26:19:DEBUG:StateVar(50) => StateVar.eps_panel_pwr
+2015/03/05 16:26:19:DEBUG:StateVar(51) => StateVar.eps_status
+2015/03/05 16:26:19:DEBUG:StateVar(52) => StateVar.eps_soc
+2015/03/05 16:26:19:DEBUG:StateVar(53) => StateVar.eps_socss
+2015/03/05 16:26:19:DEBUG:StateVar(54) => StateVar.eps_state_flag
+2015/03/05 16:26:19:DEBUG:StateVar(55) => StateVar.eps_charging
+2015/03/05 16:26:19:DEBUG:StateVar(56) => StateVar.trx_opmode
+2015/03/05 16:26:19:DEBUG:StateVar(57) => StateVar.trx_count_tm
+2015/03/05 16:26:19:DEBUG:StateVar(58) => StateVar.trx_count_tc
+2015/03/05 16:26:19:DEBUG:StateVar(59) => StateVar.trx_day_last_tc
+2015/03/05 16:26:19:DEBUG:StateVar(60) => StateVar.trx_beacon_period
+2015/03/05 16:26:19:DEBUG:StateVar(61) => StateVar.trx_beacon_bat_lvl
+2015/03/05 16:26:19:DEBUG:StateVar(62) => StateVar.trx_rx_baud
+2015/03/05 16:26:19:DEBUG:StateVar(63) => StateVar.trx_tx_baud
+2015/03/05 16:26:19:DEBUG:StateVar(64) => StateVar.pay_lagmuirProbe_state
+2015/03/05 16:26:19:DEBUG:StateVar(65) => StateVar.pay_sensTemp_state
+2015/03/05 16:26:19:DEBUG:StateVar(66) => StateVar.pay_gps_state
+2015/03/05 16:26:19:DEBUG:StateVar(67) => StateVar.pay_expFis_state
+2015/03/05 16:26:19:DEBUG:StateVar(68) => StateVar.pay_camera_state
+2015/03/05 16:26:19:DEBUG:StateVar(69) => StateVar.pay_gyro_state
+2015/03/05 16:26:19:DEBUG:StateVar(70) => StateVar.pay_tmEstado_state
+2015/03/05 16:26:19:DEBUG:StateVar(71) => StateVar.pay_battery_state
+2015/03/05 16:26:19:DEBUG:StateVar(72) => StateVar.pay_debug_state
+2015/03/05 16:26:19:DEBUG:-------------------------
+2015/03/05 16:26:21:DEBUG:task_dispatcher, 25434, True, None
+2015/03/05 16:26:21:DEBUG:task_console, 25436, True, None
+2015/03/05 16:26:21:DEBUG:task_comunications, 25435, True, None
+2015/03/05 16:26:21:DEBUG:task_housekeeping, 25438, True, None
+2015/03/05 16:26:21:DEBUG:task_flightplant, 25437, True, None
+2015/03/05 16:26:23:DEBUG:-------------------------
+2015/03/05 16:26:23:DEBUG:
+Starting Suchai Sw ..
+
+2015/03/05 16:28:14:INFO:
+
+2015/03/05 16:28:14:DEBUG:Hello World
+2015/03/05 16:28:14:INFO:You should note this
+2015/03/05 16:28:14:WARNING:be warned
+2015/03/05 16:28:14:ERROR:an normal error arose
+2015/03/05 16:28:14:CRITICAL:a critical error arose
+2015/03/05 16:28:14:DEBUG:StateVar(0) => StateVar.RTC_isAlive
+2015/03/05 16:28:14:DEBUG:StateVar(1) => StateVar.TRX_isAlive
+2015/03/05 16:28:14:DEBUG:StateVar(2) => StateVar.EPS_isAlive
+2015/03/05 16:28:14:DEBUG:StateVar(3) => StateVar.MemEEPROM_isAlive
+2015/03/05 16:28:14:DEBUG:StateVar(4) => StateVar.MemSD_isAlive
+2015/03/05 16:28:14:DEBUG:StateVar(5) => StateVar.AntSwitch_isOpen
+2015/03/05 16:28:14:DEBUG:StateVar(6) => StateVar.pay_lagmuirProbe_isAlive
+2015/03/05 16:28:14:DEBUG:StateVar(7) => StateVar.pay_sensTemp_isAlive
+2015/03/05 16:28:14:DEBUG:StateVar(8) => StateVar.pay_gps_isAlive
+2015/03/05 16:28:14:DEBUG:StateVar(9) => StateVar.pay_expFis_isAlive
+2015/03/05 16:28:14:DEBUG:StateVar(10) => StateVar.pay_camera_isAlive
+2015/03/05 16:28:14:DEBUG:StateVar(11) => StateVar.pay_gyro_isAlive
+2015/03/05 16:28:14:DEBUG:StateVar(12) => StateVar.pay_tmEstado_isAlive
+2015/03/05 16:28:14:DEBUG:StateVar(13) => StateVar.pay_battery_isAlive
+2015/03/05 16:28:14:DEBUG:StateVar(14) => StateVar.pay_debug_isAlive
+2015/03/05 16:28:14:DEBUG:StateVar(15) => StateVar.pay_lagmuirProbe_isDeployed
+2015/03/05 16:28:14:DEBUG:StateVar(16) => StateVar.fpl_index
+2015/03/05 16:28:14:DEBUG:StateVar(17) => StateVar.ppc_opMode
+2015/03/05 16:28:14:DEBUG:StateVar(18) => StateVar.ppc_lastResetSource
+2015/03/05 16:28:14:DEBUG:StateVar(19) => StateVar.ppc_hoursAlive
+2015/03/05 16:28:14:DEBUG:StateVar(20) => StateVar.ppc_hoursWithoutReset
+2015/03/05 16:28:14:DEBUG:StateVar(21) => StateVar.ppc_resetCounter
+2015/03/05 16:28:14:DEBUG:StateVar(22) => StateVar.ppc_wdt
+2015/03/05 16:28:14:DEBUG:StateVar(23) => StateVar.ppc_osc
+2015/03/05 16:28:14:DEBUG:StateVar(24) => StateVar.ppc_MB_nOE_USB_nINT_stat
+2015/03/05 16:28:14:DEBUG:StateVar(25) => StateVar.ppc_MB_nOE_MHX_stat
+2015/03/05 16:28:14:DEBUG:StateVar(26) => StateVar.ppc_MB_nON_MHX_stat
+2015/03/05 16:28:14:DEBUG:StateVar(27) => StateVar.ppc_MB_nON_SD_stat
+2015/03/05 16:28:14:DEBUG:StateVar(28) => StateVar.dep_ant_deployed
+2015/03/05 16:28:14:DEBUG:StateVar(29) => StateVar.dep_ant_tries
+2015/03/05 16:28:14:DEBUG:StateVar(30) => StateVar.dep_year
+2015/03/05 16:28:14:DEBUG:StateVar(31) => StateVar.dep_month
+2015/03/05 16:28:14:DEBUG:StateVar(32) => StateVar.dep_week_day
+2015/03/05 16:28:14:DEBUG:StateVar(33) => StateVar.dep_day_number
+2015/03/05 16:28:14:DEBUG:StateVar(34) => StateVar.dep_hours
+2015/03/05 16:28:14:DEBUG:StateVar(35) => StateVar.dep_minutes
+2015/03/05 16:28:14:DEBUG:StateVar(36) => StateVar.dep_seconds
+2015/03/05 16:28:14:DEBUG:StateVar(37) => StateVar.rtc_year
+2015/03/05 16:28:14:DEBUG:StateVar(38) => StateVar.rtc_month
+2015/03/05 16:28:14:DEBUG:StateVar(39) => StateVar.rtc_week_day
+2015/03/05 16:28:14:DEBUG:StateVar(40) => StateVar.rtc_day_number
+2015/03/05 16:28:14:DEBUG:StateVar(41) => StateVar.rtc_hours
+2015/03/05 16:28:14:DEBUG:StateVar(42) => StateVar.rtc_minutes
+2015/03/05 16:28:14:DEBUG:StateVar(43) => StateVar.rtc_seconds
+2015/03/05 16:28:14:DEBUG:StateVar(44) => StateVar.eps_bat0_voltage
+2015/03/05 16:28:14:DEBUG:StateVar(45) => StateVar.eps_bat0_current
+2015/03/05 16:28:14:DEBUG:StateVar(46) => StateVar.eps_bus5V_current
+2015/03/05 16:28:14:DEBUG:StateVar(47) => StateVar.eps_bus3V_current
+2015/03/05 16:28:14:DEBUG:StateVar(48) => StateVar.eps_bus_battery_current
+2015/03/05 16:28:14:DEBUG:StateVar(49) => StateVar.eps_bat0_temp
+2015/03/05 16:28:14:DEBUG:StateVar(50) => StateVar.eps_panel_pwr
+2015/03/05 16:28:14:DEBUG:StateVar(51) => StateVar.eps_status
+2015/03/05 16:28:14:DEBUG:StateVar(52) => StateVar.eps_soc
+2015/03/05 16:28:14:DEBUG:StateVar(53) => StateVar.eps_socss
+2015/03/05 16:28:14:DEBUG:StateVar(54) => StateVar.eps_state_flag
+2015/03/05 16:28:14:DEBUG:StateVar(55) => StateVar.eps_charging
+2015/03/05 16:28:14:DEBUG:StateVar(56) => StateVar.trx_opmode
+2015/03/05 16:28:14:DEBUG:StateVar(57) => StateVar.trx_count_tm
+2015/03/05 16:28:14:DEBUG:StateVar(58) => StateVar.trx_count_tc
+2015/03/05 16:28:14:DEBUG:StateVar(59) => StateVar.trx_day_last_tc
+2015/03/05 16:28:14:DEBUG:StateVar(60) => StateVar.trx_beacon_period
+2015/03/05 16:28:14:DEBUG:StateVar(61) => StateVar.trx_beacon_bat_lvl
+2015/03/05 16:28:14:DEBUG:StateVar(62) => StateVar.trx_rx_baud
+2015/03/05 16:28:14:DEBUG:StateVar(63) => StateVar.trx_tx_baud
+2015/03/05 16:28:14:DEBUG:StateVar(64) => StateVar.pay_lagmuirProbe_state
+2015/03/05 16:28:14:DEBUG:StateVar(65) => StateVar.pay_sensTemp_state
+2015/03/05 16:28:14:DEBUG:StateVar(66) => StateVar.pay_gps_state
+2015/03/05 16:28:14:DEBUG:StateVar(67) => StateVar.pay_expFis_state
+2015/03/05 16:28:14:DEBUG:StateVar(68) => StateVar.pay_camera_state
+2015/03/05 16:28:14:DEBUG:StateVar(69) => StateVar.pay_gyro_state
+2015/03/05 16:28:14:DEBUG:StateVar(70) => StateVar.pay_tmEstado_state
+2015/03/05 16:28:14:DEBUG:StateVar(71) => StateVar.pay_battery_state
+2015/03/05 16:28:14:DEBUG:StateVar(72) => StateVar.pay_debug_state
+2015/03/05 16:28:14:DEBUG:task_dispatcher, None, False, None
+2015/03/05 16:28:14:DEBUG:task_comunications, None, False, None
+2015/03/05 16:28:14:DEBUG:task_console, None, False, None
+2015/03/05 16:28:14:DEBUG:task_flightplant, None, False, None
+2015/03/05 16:28:14:DEBUG:task_housekeeping, None, False, None
+2015/03/05 16:28:14:DEBUG:-------------------------
+2015/03/05 16:28:16:DEBUG:task_dispatcher, 25490, True, None
+2015/03/05 16:28:16:DEBUG:task_console, 25492, True, None
+2015/03/05 16:28:16:DEBUG:task_comunications, 25491, True, None
+2015/03/05 16:28:16:DEBUG:task_flightplant, 25493, True, None
+2015/03/05 16:28:16:DEBUG:task_housekeeping, 25494, True, None
+2015/03/05 16:28:18:DEBUG:-------------------------
+2015/03/05 16:28:18:DEBUG:task_dispatcher, 25490, False, 0
+2015/03/05 16:28:18:DEBUG:task_comunications, 25491, False, 0
+2015/03/05 16:28:18:DEBUG:task_console, 25492, False, 0
+2015/03/05 16:28:18:DEBUG:task_flightplant, 25493, False, 0
+2015/03/05 16:28:18:DEBUG:task_housekeeping, 25494, False, 0
+2015/03/05 16:28:18:DEBUG:
+Starting Suchai Sw ..
+
+2015/03/05 16:28:57:DEBUG:StateVar(0) => StateVar.RTC_isAlive
+2015/03/05 16:28:57:DEBUG:StateVar(1) => StateVar.TRX_isAlive
+2015/03/05 16:28:57:DEBUG:StateVar(2) => StateVar.EPS_isAlive
+2015/03/05 16:28:57:DEBUG:StateVar(3) => StateVar.MemEEPROM_isAlive
+2015/03/05 16:28:57:DEBUG:StateVar(4) => StateVar.MemSD_isAlive
+2015/03/05 16:28:57:DEBUG:StateVar(5) => StateVar.AntSwitch_isOpen
+2015/03/05 16:28:57:DEBUG:StateVar(6) => StateVar.pay_lagmuirProbe_isAlive
+2015/03/05 16:28:57:DEBUG:StateVar(7) => StateVar.pay_sensTemp_isAlive
+2015/03/05 16:28:57:DEBUG:StateVar(8) => StateVar.pay_gps_isAlive
+2015/03/05 16:28:57:DEBUG:StateVar(9) => StateVar.pay_expFis_isAlive
+2015/03/05 16:28:57:DEBUG:StateVar(10) => StateVar.pay_camera_isAlive
+2015/03/05 16:28:57:DEBUG:StateVar(11) => StateVar.pay_gyro_isAlive
+2015/03/05 16:28:57:DEBUG:StateVar(12) => StateVar.pay_tmEstado_isAlive
+2015/03/05 16:28:57:DEBUG:StateVar(13) => StateVar.pay_battery_isAlive
+2015/03/05 16:28:57:DEBUG:StateVar(14) => StateVar.pay_debug_isAlive
+2015/03/05 16:28:57:DEBUG:StateVar(15) => StateVar.pay_lagmuirProbe_isDeployed
+2015/03/05 16:28:57:DEBUG:StateVar(16) => StateVar.fpl_index
+2015/03/05 16:28:57:DEBUG:StateVar(17) => StateVar.ppc_opMode
+2015/03/05 16:28:57:DEBUG:StateVar(18) => StateVar.ppc_lastResetSource
+2015/03/05 16:28:57:DEBUG:StateVar(19) => StateVar.ppc_hoursAlive
+2015/03/05 16:28:57:DEBUG:StateVar(20) => StateVar.ppc_hoursWithoutReset
+2015/03/05 16:28:57:DEBUG:StateVar(21) => StateVar.ppc_resetCounter
+2015/03/05 16:28:57:DEBUG:StateVar(22) => StateVar.ppc_wdt
+2015/03/05 16:28:57:DEBUG:StateVar(23) => StateVar.ppc_osc
+2015/03/05 16:28:57:DEBUG:StateVar(24) => StateVar.ppc_MB_nOE_USB_nINT_stat
+2015/03/05 16:28:57:DEBUG:StateVar(25) => StateVar.ppc_MB_nOE_MHX_stat
+2015/03/05 16:28:57:DEBUG:StateVar(26) => StateVar.ppc_MB_nON_MHX_stat
+2015/03/05 16:28:57:DEBUG:StateVar(27) => StateVar.ppc_MB_nON_SD_stat
+2015/03/05 16:28:57:DEBUG:StateVar(28) => StateVar.dep_ant_deployed
+2015/03/05 16:28:57:DEBUG:StateVar(29) => StateVar.dep_ant_tries
+2015/03/05 16:28:57:DEBUG:StateVar(30) => StateVar.dep_year
+2015/03/05 16:28:57:DEBUG:StateVar(31) => StateVar.dep_month
+2015/03/05 16:28:57:DEBUG:StateVar(32) => StateVar.dep_week_day
+2015/03/05 16:28:57:DEBUG:StateVar(33) => StateVar.dep_day_number
+2015/03/05 16:28:57:DEBUG:StateVar(34) => StateVar.dep_hours
+2015/03/05 16:28:57:DEBUG:StateVar(35) => StateVar.dep_minutes
+2015/03/05 16:28:57:DEBUG:StateVar(36) => StateVar.dep_seconds
+2015/03/05 16:28:57:DEBUG:StateVar(37) => StateVar.rtc_year
+2015/03/05 16:28:57:DEBUG:StateVar(38) => StateVar.rtc_month
+2015/03/05 16:28:57:DEBUG:StateVar(39) => StateVar.rtc_week_day
+2015/03/05 16:28:57:DEBUG:StateVar(40) => StateVar.rtc_day_number
+2015/03/05 16:28:57:DEBUG:StateVar(41) => StateVar.rtc_hours
+2015/03/05 16:28:57:DEBUG:StateVar(42) => StateVar.rtc_minutes
+2015/03/05 16:28:57:DEBUG:StateVar(43) => StateVar.rtc_seconds
+2015/03/05 16:28:57:DEBUG:StateVar(44) => StateVar.eps_bat0_voltage
+2015/03/05 16:28:57:DEBUG:StateVar(45) => StateVar.eps_bat0_current
+2015/03/05 16:28:57:DEBUG:StateVar(46) => StateVar.eps_bus5V_current
+2015/03/05 16:28:57:DEBUG:StateVar(47) => StateVar.eps_bus3V_current
+2015/03/05 16:28:57:DEBUG:StateVar(48) => StateVar.eps_bus_battery_current
+2015/03/05 16:28:57:DEBUG:StateVar(49) => StateVar.eps_bat0_temp
+2015/03/05 16:28:57:DEBUG:StateVar(50) => StateVar.eps_panel_pwr
+2015/03/05 16:28:57:DEBUG:StateVar(51) => StateVar.eps_status
+2015/03/05 16:28:57:DEBUG:StateVar(52) => StateVar.eps_soc
+2015/03/05 16:28:57:DEBUG:StateVar(53) => StateVar.eps_socss
+2015/03/05 16:28:57:DEBUG:StateVar(54) => StateVar.eps_state_flag
+2015/03/05 16:28:57:DEBUG:StateVar(55) => StateVar.eps_charging
+2015/03/05 16:28:57:DEBUG:StateVar(56) => StateVar.trx_opmode
+2015/03/05 16:28:57:DEBUG:StateVar(57) => StateVar.trx_count_tm
+2015/03/05 16:28:57:DEBUG:StateVar(58) => StateVar.trx_count_tc
+2015/03/05 16:28:57:DEBUG:StateVar(59) => StateVar.trx_day_last_tc
+2015/03/05 16:28:57:DEBUG:StateVar(60) => StateVar.trx_beacon_period
+2015/03/05 16:28:57:DEBUG:StateVar(61) => StateVar.trx_beacon_bat_lvl
+2015/03/05 16:28:57:DEBUG:StateVar(62) => StateVar.trx_rx_baud
+2015/03/05 16:28:57:DEBUG:StateVar(63) => StateVar.trx_tx_baud
+2015/03/05 16:28:57:DEBUG:StateVar(64) => StateVar.pay_lagmuirProbe_state
+2015/03/05 16:28:57:DEBUG:StateVar(65) => StateVar.pay_sensTemp_state
+2015/03/05 16:28:57:DEBUG:StateVar(66) => StateVar.pay_gps_state
+2015/03/05 16:28:57:DEBUG:StateVar(67) => StateVar.pay_expFis_state
+2015/03/05 16:28:57:DEBUG:StateVar(68) => StateVar.pay_camera_state
+2015/03/05 16:28:57:DEBUG:StateVar(69) => StateVar.pay_gyro_state
+2015/03/05 16:28:57:DEBUG:StateVar(70) => StateVar.pay_tmEstado_state
+2015/03/05 16:28:57:DEBUG:StateVar(71) => StateVar.pay_battery_state
+2015/03/05 16:28:57:DEBUG:StateVar(72) => StateVar.pay_debug_state
+2015/03/05 16:28:57:DEBUG:task_dispatcher, None, False, None
+2015/03/05 16:28:57:DEBUG:task_comunications, None, False, None
+2015/03/05 16:28:57:DEBUG:task_console, None, False, None
+2015/03/05 16:28:57:DEBUG:task_flightplant, None, False, None
+2015/03/05 16:28:57:DEBUG:task_housekeeping, None, False, None
+2015/03/05 16:28:57:DEBUG:-------------------------
+2015/03/05 16:28:59:DEBUG:task_comunications, 25520, True, None
+2015/03/05 16:28:59:DEBUG:task_console, 25521, True, None
+2015/03/05 16:28:59:DEBUG:task_housekeeping, 25523, True, None
+2015/03/05 16:28:59:DEBUG:task_dispatcher, 25519, True, None
+2015/03/05 16:28:59:DEBUG:task_flightplant, 25522, True, None
+2015/03/05 16:29:01:DEBUG:-------------------------
+2015/03/05 16:29:01:DEBUG:task_dispatcher, 25519, False, 0
+2015/03/05 16:29:01:DEBUG:task_comunications, 25520, False, 0
+2015/03/05 16:29:01:DEBUG:task_console, 25521, False, 0
+2015/03/05 16:29:01:DEBUG:task_flightplant, 25522, False, 0
+2015/03/05 16:29:01:DEBUG:task_housekeeping, 25523, False, 0
+2015/03/05 16:29:01:DEBUG:Starting Suchai Sw ..
+2015/03/05 16:30:20:DEBUG:core.deployment.init_state_repo calls state.StateVar.on_reset ..
+2015/03/05 16:30:20:DEBUG:StateVar(0) => StateVar.RTC_isAlive
+2015/03/05 16:30:20:DEBUG:StateVar(1) => StateVar.TRX_isAlive
+2015/03/05 16:30:20:DEBUG:StateVar(2) => StateVar.EPS_isAlive
+2015/03/05 16:30:20:DEBUG:StateVar(3) => StateVar.MemEEPROM_isAlive
+2015/03/05 16:30:20:DEBUG:StateVar(4) => StateVar.MemSD_isAlive
+2015/03/05 16:30:20:DEBUG:StateVar(5) => StateVar.AntSwitch_isOpen
+2015/03/05 16:30:20:DEBUG:StateVar(6) => StateVar.pay_lagmuirProbe_isAlive
+2015/03/05 16:30:20:DEBUG:StateVar(7) => StateVar.pay_sensTemp_isAlive
+2015/03/05 16:30:20:DEBUG:StateVar(8) => StateVar.pay_gps_isAlive
+2015/03/05 16:30:20:DEBUG:StateVar(9) => StateVar.pay_expFis_isAlive
+2015/03/05 16:30:20:DEBUG:StateVar(10) => StateVar.pay_camera_isAlive
+2015/03/05 16:30:20:DEBUG:StateVar(11) => StateVar.pay_gyro_isAlive
+2015/03/05 16:30:20:DEBUG:StateVar(12) => StateVar.pay_tmEstado_isAlive
+2015/03/05 16:30:20:DEBUG:StateVar(13) => StateVar.pay_battery_isAlive
+2015/03/05 16:30:20:DEBUG:StateVar(14) => StateVar.pay_debug_isAlive
+2015/03/05 16:30:20:DEBUG:StateVar(15) => StateVar.pay_lagmuirProbe_isDeployed
+2015/03/05 16:30:20:DEBUG:StateVar(16) => StateVar.fpl_index
+2015/03/05 16:30:20:DEBUG:StateVar(17) => StateVar.ppc_opMode
+2015/03/05 16:30:20:DEBUG:StateVar(18) => StateVar.ppc_lastResetSource
+2015/03/05 16:30:20:DEBUG:StateVar(19) => StateVar.ppc_hoursAlive
+2015/03/05 16:30:20:DEBUG:StateVar(20) => StateVar.ppc_hoursWithoutReset
+2015/03/05 16:30:20:DEBUG:StateVar(21) => StateVar.ppc_resetCounter
+2015/03/05 16:30:20:DEBUG:StateVar(22) => StateVar.ppc_wdt
+2015/03/05 16:30:20:DEBUG:StateVar(23) => StateVar.ppc_osc
+2015/03/05 16:30:20:DEBUG:StateVar(24) => StateVar.ppc_MB_nOE_USB_nINT_stat
+2015/03/05 16:30:20:DEBUG:StateVar(25) => StateVar.ppc_MB_nOE_MHX_stat
+2015/03/05 16:30:20:DEBUG:StateVar(26) => StateVar.ppc_MB_nON_MHX_stat
+2015/03/05 16:30:20:DEBUG:StateVar(27) => StateVar.ppc_MB_nON_SD_stat
+2015/03/05 16:30:20:DEBUG:StateVar(28) => StateVar.dep_ant_deployed
+2015/03/05 16:30:20:DEBUG:StateVar(29) => StateVar.dep_ant_tries
+2015/03/05 16:30:20:DEBUG:StateVar(30) => StateVar.dep_year
+2015/03/05 16:30:20:DEBUG:StateVar(31) => StateVar.dep_month
+2015/03/05 16:30:20:DEBUG:StateVar(32) => StateVar.dep_week_day
+2015/03/05 16:30:20:DEBUG:StateVar(33) => StateVar.dep_day_number
+2015/03/05 16:30:20:DEBUG:StateVar(34) => StateVar.dep_hours
+2015/03/05 16:30:20:DEBUG:StateVar(35) => StateVar.dep_minutes
+2015/03/05 16:30:20:DEBUG:StateVar(36) => StateVar.dep_seconds
+2015/03/05 16:30:20:DEBUG:StateVar(37) => StateVar.rtc_year
+2015/03/05 16:30:20:DEBUG:StateVar(38) => StateVar.rtc_month
+2015/03/05 16:30:20:DEBUG:StateVar(39) => StateVar.rtc_week_day
+2015/03/05 16:30:20:DEBUG:StateVar(40) => StateVar.rtc_day_number
+2015/03/05 16:30:20:DEBUG:StateVar(41) => StateVar.rtc_hours
+2015/03/05 16:30:20:DEBUG:StateVar(42) => StateVar.rtc_minutes
+2015/03/05 16:30:20:DEBUG:StateVar(43) => StateVar.rtc_seconds
+2015/03/05 16:30:20:DEBUG:StateVar(44) => StateVar.eps_bat0_voltage
+2015/03/05 16:30:20:DEBUG:StateVar(45) => StateVar.eps_bat0_current
+2015/03/05 16:30:20:DEBUG:StateVar(46) => StateVar.eps_bus5V_current
+2015/03/05 16:30:20:DEBUG:StateVar(47) => StateVar.eps_bus3V_current
+2015/03/05 16:30:20:DEBUG:StateVar(48) => StateVar.eps_bus_battery_current
+2015/03/05 16:30:20:DEBUG:StateVar(49) => StateVar.eps_bat0_temp
+2015/03/05 16:30:20:DEBUG:StateVar(50) => StateVar.eps_panel_pwr
+2015/03/05 16:30:20:DEBUG:StateVar(51) => StateVar.eps_status
+2015/03/05 16:30:20:DEBUG:StateVar(52) => StateVar.eps_soc
+2015/03/05 16:30:20:DEBUG:StateVar(53) => StateVar.eps_socss
+2015/03/05 16:30:20:DEBUG:StateVar(54) => StateVar.eps_state_flag
+2015/03/05 16:30:20:DEBUG:StateVar(55) => StateVar.eps_charging
+2015/03/05 16:30:20:DEBUG:StateVar(56) => StateVar.trx_opmode
+2015/03/05 16:30:20:DEBUG:StateVar(57) => StateVar.trx_count_tm
+2015/03/05 16:30:20:DEBUG:StateVar(58) => StateVar.trx_count_tc
+2015/03/05 16:30:20:DEBUG:StateVar(59) => StateVar.trx_day_last_tc
+2015/03/05 16:30:20:DEBUG:StateVar(60) => StateVar.trx_beacon_period
+2015/03/05 16:30:20:DEBUG:StateVar(61) => StateVar.trx_beacon_bat_lvl
+2015/03/05 16:30:20:DEBUG:StateVar(62) => StateVar.trx_rx_baud
+2015/03/05 16:30:20:DEBUG:StateVar(63) => StateVar.trx_tx_baud
+2015/03/05 16:30:20:DEBUG:StateVar(64) => StateVar.pay_lagmuirProbe_state
+2015/03/05 16:30:20:DEBUG:StateVar(65) => StateVar.pay_sensTemp_state
+2015/03/05 16:30:20:DEBUG:StateVar(66) => StateVar.pay_gps_state
+2015/03/05 16:30:20:DEBUG:StateVar(67) => StateVar.pay_expFis_state
+2015/03/05 16:30:20:DEBUG:StateVar(68) => StateVar.pay_camera_state
+2015/03/05 16:30:20:DEBUG:StateVar(69) => StateVar.pay_gyro_state
+2015/03/05 16:30:20:DEBUG:StateVar(70) => StateVar.pay_tmEstado_state
+2015/03/05 16:30:20:DEBUG:StateVar(71) => StateVar.pay_battery_state
+2015/03/05 16:30:20:DEBUG:StateVar(72) => StateVar.pay_debug_state
+2015/03/05 16:30:20:DEBUG:task_dispatcher, None, False, None
+2015/03/05 16:30:20:DEBUG:task_comunications, None, False, None
+2015/03/05 16:30:20:DEBUG:task_console, None, False, None
+2015/03/05 16:30:20:DEBUG:task_flightplant, None, False, None
+2015/03/05 16:30:20:DEBUG:task_housekeeping, None, False, None
+2015/03/05 16:30:20:DEBUG:-------------------------
+2015/03/05 16:30:22:DEBUG:task_dispatcher, 25567, True, None
+2015/03/05 16:30:22:DEBUG:task_flightplant, 25570, True, None
+2015/03/05 16:30:22:DEBUG:task_comunications, 25568, True, None
+2015/03/05 16:30:22:DEBUG:task_housekeeping, 25571, True, None
+2015/03/05 16:30:22:DEBUG:task_console, 25569, True, None
+2015/03/05 16:30:24:DEBUG:-------------------------
+2015/03/05 16:30:24:DEBUG:task_dispatcher, 25567, False, 0
+2015/03/05 16:30:24:DEBUG:task_comunications, 25568, False, 0
+2015/03/05 16:30:24:DEBUG:task_console, 25569, False, 0
+2015/03/05 16:30:24:DEBUG:task_flightplant, 25570, False, 0
+2015/03/05 16:30:24:DEBUG:task_housekeeping, 25571, False, 0
+2015/03/05 16:30:24:DEBUG:Starting Suchai Sw ..
+2015/03/05 16:32:16:INFO:
+Suchai Sw: Entry point ..
+2015/03/05 16:32:16:DEBUG:core.deployment.init_state_repo calls state.StateVar.on_reset ..
+2015/03/05 16:32:16:DEBUG:StateVar(0) => StateVar.RTC_isAlive
+2015/03/05 16:32:16:DEBUG:StateVar(1) => StateVar.TRX_isAlive
+2015/03/05 16:32:16:DEBUG:StateVar(2) => StateVar.EPS_isAlive
+2015/03/05 16:32:16:DEBUG:StateVar(3) => StateVar.MemEEPROM_isAlive
+2015/03/05 16:32:16:DEBUG:StateVar(4) => StateVar.MemSD_isAlive
+2015/03/05 16:32:16:DEBUG:StateVar(5) => StateVar.AntSwitch_isOpen
+2015/03/05 16:32:16:DEBUG:StateVar(6) => StateVar.pay_lagmuirProbe_isAlive
+2015/03/05 16:32:16:DEBUG:StateVar(7) => StateVar.pay_sensTemp_isAlive
+2015/03/05 16:32:16:DEBUG:StateVar(8) => StateVar.pay_gps_isAlive
+2015/03/05 16:32:16:DEBUG:StateVar(9) => StateVar.pay_expFis_isAlive
+2015/03/05 16:32:16:DEBUG:StateVar(10) => StateVar.pay_camera_isAlive
+2015/03/05 16:32:16:DEBUG:StateVar(11) => StateVar.pay_gyro_isAlive
+2015/03/05 16:32:16:DEBUG:StateVar(12) => StateVar.pay_tmEstado_isAlive
+2015/03/05 16:32:16:DEBUG:StateVar(13) => StateVar.pay_battery_isAlive
+2015/03/05 16:32:16:DEBUG:StateVar(14) => StateVar.pay_debug_isAlive
+2015/03/05 16:32:16:DEBUG:StateVar(15) => StateVar.pay_lagmuirProbe_isDeployed
+2015/03/05 16:32:16:DEBUG:StateVar(16) => StateVar.fpl_index
+2015/03/05 16:32:16:DEBUG:StateVar(17) => StateVar.ppc_opMode
+2015/03/05 16:32:16:DEBUG:StateVar(18) => StateVar.ppc_lastResetSource
+2015/03/05 16:32:16:DEBUG:StateVar(19) => StateVar.ppc_hoursAlive
+2015/03/05 16:32:16:DEBUG:StateVar(20) => StateVar.ppc_hoursWithoutReset
+2015/03/05 16:32:16:DEBUG:StateVar(21) => StateVar.ppc_resetCounter
+2015/03/05 16:32:16:DEBUG:StateVar(22) => StateVar.ppc_wdt
+2015/03/05 16:32:16:DEBUG:StateVar(23) => StateVar.ppc_osc
+2015/03/05 16:32:16:DEBUG:StateVar(24) => StateVar.ppc_MB_nOE_USB_nINT_stat
+2015/03/05 16:32:16:DEBUG:StateVar(25) => StateVar.ppc_MB_nOE_MHX_stat
+2015/03/05 16:32:16:DEBUG:StateVar(26) => StateVar.ppc_MB_nON_MHX_stat
+2015/03/05 16:32:16:DEBUG:StateVar(27) => StateVar.ppc_MB_nON_SD_stat
+2015/03/05 16:32:16:DEBUG:StateVar(28) => StateVar.dep_ant_deployed
+2015/03/05 16:32:16:DEBUG:StateVar(29) => StateVar.dep_ant_tries
+2015/03/05 16:32:16:DEBUG:StateVar(30) => StateVar.dep_year
+2015/03/05 16:32:16:DEBUG:StateVar(31) => StateVar.dep_month
+2015/03/05 16:32:16:DEBUG:StateVar(32) => StateVar.dep_week_day
+2015/03/05 16:32:16:DEBUG:StateVar(33) => StateVar.dep_day_number
+2015/03/05 16:32:16:DEBUG:StateVar(34) => StateVar.dep_hours
+2015/03/05 16:32:16:DEBUG:StateVar(35) => StateVar.dep_minutes
+2015/03/05 16:32:16:DEBUG:StateVar(36) => StateVar.dep_seconds
+2015/03/05 16:32:16:DEBUG:StateVar(37) => StateVar.rtc_year
+2015/03/05 16:32:16:DEBUG:StateVar(38) => StateVar.rtc_month
+2015/03/05 16:32:16:DEBUG:StateVar(39) => StateVar.rtc_week_day
+2015/03/05 16:32:16:DEBUG:StateVar(40) => StateVar.rtc_day_number
+2015/03/05 16:32:16:DEBUG:StateVar(41) => StateVar.rtc_hours
+2015/03/05 16:32:16:DEBUG:StateVar(42) => StateVar.rtc_minutes
+2015/03/05 16:32:16:DEBUG:StateVar(43) => StateVar.rtc_seconds
+2015/03/05 16:32:16:DEBUG:StateVar(44) => StateVar.eps_bat0_voltage
+2015/03/05 16:32:16:DEBUG:StateVar(45) => StateVar.eps_bat0_current
+2015/03/05 16:32:16:DEBUG:StateVar(46) => StateVar.eps_bus5V_current
+2015/03/05 16:32:16:DEBUG:StateVar(47) => StateVar.eps_bus3V_current
+2015/03/05 16:32:16:DEBUG:StateVar(48) => StateVar.eps_bus_battery_current
+2015/03/05 16:32:16:DEBUG:StateVar(49) => StateVar.eps_bat0_temp
+2015/03/05 16:32:16:DEBUG:StateVar(50) => StateVar.eps_panel_pwr
+2015/03/05 16:32:16:DEBUG:StateVar(51) => StateVar.eps_status
+2015/03/05 16:32:16:DEBUG:StateVar(52) => StateVar.eps_soc
+2015/03/05 16:32:16:DEBUG:StateVar(53) => StateVar.eps_socss
+2015/03/05 16:32:16:DEBUG:StateVar(54) => StateVar.eps_state_flag
+2015/03/05 16:32:16:DEBUG:StateVar(55) => StateVar.eps_charging
+2015/03/05 16:32:16:DEBUG:StateVar(56) => StateVar.trx_opmode
+2015/03/05 16:32:16:DEBUG:StateVar(57) => StateVar.trx_count_tm
+2015/03/05 16:32:16:DEBUG:StateVar(58) => StateVar.trx_count_tc
+2015/03/05 16:32:16:DEBUG:StateVar(59) => StateVar.trx_day_last_tc
+2015/03/05 16:32:16:DEBUG:StateVar(60) => StateVar.trx_beacon_period
+2015/03/05 16:32:16:DEBUG:StateVar(61) => StateVar.trx_beacon_bat_lvl
+2015/03/05 16:32:16:DEBUG:StateVar(62) => StateVar.trx_rx_baud
+2015/03/05 16:32:16:DEBUG:StateVar(63) => StateVar.trx_tx_baud
+2015/03/05 16:32:16:DEBUG:StateVar(64) => StateVar.pay_lagmuirProbe_state
+2015/03/05 16:32:16:DEBUG:StateVar(65) => StateVar.pay_sensTemp_state
+2015/03/05 16:32:16:DEBUG:StateVar(66) => StateVar.pay_gps_state
+2015/03/05 16:32:16:DEBUG:StateVar(67) => StateVar.pay_expFis_state
+2015/03/05 16:32:16:DEBUG:StateVar(68) => StateVar.pay_camera_state
+2015/03/05 16:32:16:DEBUG:StateVar(69) => StateVar.pay_gyro_state
+2015/03/05 16:32:16:DEBUG:StateVar(70) => StateVar.pay_tmEstado_state
+2015/03/05 16:32:16:DEBUG:StateVar(71) => StateVar.pay_battery_state
+2015/03/05 16:32:16:DEBUG:StateVar(72) => StateVar.pay_debug_state
+2015/03/05 16:32:16:DEBUG:task_dispatcher, None, False, None
+2015/03/05 16:32:16:DEBUG:task_comunications, None, False, None
+2015/03/05 16:32:16:DEBUG:task_console, None, False, None
+2015/03/05 16:32:16:DEBUG:task_flightplant, None, False, None
+2015/03/05 16:32:16:DEBUG:task_housekeeping, None, False, None
+2015/03/05 16:32:16:DEBUG:-------------------------
+2015/03/05 16:32:18:DEBUG:task_dispatcher, 25650, True, None
+2015/03/05 16:32:19:DEBUG:task_comunications, 25651, True, None
+2015/03/05 16:32:19:DEBUG:task_flightplant, 25653, True, None
+2015/03/05 16:32:19:DEBUG:task_console, 25652, True, None
+2015/03/05 16:32:19:DEBUG:task_housekeeping, 25654, True, None
+2015/03/05 16:32:21:DEBUG:-------------------------
+2015/03/05 16:32:21:DEBUG:task_dispatcher, 25650, False, 0
+2015/03/05 16:32:21:DEBUG:task_comunications, 25651, False, 0
+2015/03/05 16:32:21:DEBUG:task_console, 25652, False, 0
+2015/03/05 16:32:21:DEBUG:task_flightplant, 25653, False, 0
+2015/03/05 16:32:21:DEBUG:task_housekeeping, 25654, False, 0
+2015/03/05 16:32:21:INFO:Suchai Sw: Starting nominal operations ..
+2015/03/05 16:32:36:INFO:
+
+Suchai Sw: Entry point ..
+2015/03/05 16:32:36:DEBUG:core.deployment.init_state_repo calls state.StateVar.on_reset ..
+2015/03/05 16:32:36:DEBUG:StateVar(0) => StateVar.RTC_isAlive
+2015/03/05 16:32:36:DEBUG:StateVar(1) => StateVar.TRX_isAlive
+2015/03/05 16:32:36:DEBUG:StateVar(2) => StateVar.EPS_isAlive
+2015/03/05 16:32:36:DEBUG:StateVar(3) => StateVar.MemEEPROM_isAlive
+2015/03/05 16:32:36:DEBUG:StateVar(4) => StateVar.MemSD_isAlive
+2015/03/05 16:32:36:DEBUG:StateVar(5) => StateVar.AntSwitch_isOpen
+2015/03/05 16:32:36:DEBUG:StateVar(6) => StateVar.pay_lagmuirProbe_isAlive
+2015/03/05 16:32:36:DEBUG:StateVar(7) => StateVar.pay_sensTemp_isAlive
+2015/03/05 16:32:36:DEBUG:StateVar(8) => StateVar.pay_gps_isAlive
+2015/03/05 16:32:36:DEBUG:StateVar(9) => StateVar.pay_expFis_isAlive
+2015/03/05 16:32:36:DEBUG:StateVar(10) => StateVar.pay_camera_isAlive
+2015/03/05 16:32:36:DEBUG:StateVar(11) => StateVar.pay_gyro_isAlive
+2015/03/05 16:32:36:DEBUG:StateVar(12) => StateVar.pay_tmEstado_isAlive
+2015/03/05 16:32:36:DEBUG:StateVar(13) => StateVar.pay_battery_isAlive
+2015/03/05 16:32:36:DEBUG:StateVar(14) => StateVar.pay_debug_isAlive
+2015/03/05 16:32:36:DEBUG:StateVar(15) => StateVar.pay_lagmuirProbe_isDeployed
+2015/03/05 16:32:36:DEBUG:StateVar(16) => StateVar.fpl_index
+2015/03/05 16:32:36:DEBUG:StateVar(17) => StateVar.ppc_opMode
+2015/03/05 16:32:36:DEBUG:StateVar(18) => StateVar.ppc_lastResetSource
+2015/03/05 16:32:36:DEBUG:StateVar(19) => StateVar.ppc_hoursAlive
+2015/03/05 16:32:36:DEBUG:StateVar(20) => StateVar.ppc_hoursWithoutReset
+2015/03/05 16:32:36:DEBUG:StateVar(21) => StateVar.ppc_resetCounter
+2015/03/05 16:32:36:DEBUG:StateVar(22) => StateVar.ppc_wdt
+2015/03/05 16:32:36:DEBUG:StateVar(23) => StateVar.ppc_osc
+2015/03/05 16:32:36:DEBUG:StateVar(24) => StateVar.ppc_MB_nOE_USB_nINT_stat
+2015/03/05 16:32:36:DEBUG:StateVar(25) => StateVar.ppc_MB_nOE_MHX_stat
+2015/03/05 16:32:36:DEBUG:StateVar(26) => StateVar.ppc_MB_nON_MHX_stat
+2015/03/05 16:32:36:DEBUG:StateVar(27) => StateVar.ppc_MB_nON_SD_stat
+2015/03/05 16:32:36:DEBUG:StateVar(28) => StateVar.dep_ant_deployed
+2015/03/05 16:32:36:DEBUG:StateVar(29) => StateVar.dep_ant_tries
+2015/03/05 16:32:36:DEBUG:StateVar(30) => StateVar.dep_year
+2015/03/05 16:32:36:DEBUG:StateVar(31) => StateVar.dep_month
+2015/03/05 16:32:36:DEBUG:StateVar(32) => StateVar.dep_week_day
+2015/03/05 16:32:36:DEBUG:StateVar(33) => StateVar.dep_day_number
+2015/03/05 16:32:36:DEBUG:StateVar(34) => StateVar.dep_hours
+2015/03/05 16:32:36:DEBUG:StateVar(35) => StateVar.dep_minutes
+2015/03/05 16:32:36:DEBUG:StateVar(36) => StateVar.dep_seconds
+2015/03/05 16:32:36:DEBUG:StateVar(37) => StateVar.rtc_year
+2015/03/05 16:32:36:DEBUG:StateVar(38) => StateVar.rtc_month
+2015/03/05 16:32:36:DEBUG:StateVar(39) => StateVar.rtc_week_day
+2015/03/05 16:32:36:DEBUG:StateVar(40) => StateVar.rtc_day_number
+2015/03/05 16:32:36:DEBUG:StateVar(41) => StateVar.rtc_hours
+2015/03/05 16:32:36:DEBUG:StateVar(42) => StateVar.rtc_minutes
+2015/03/05 16:32:36:DEBUG:StateVar(43) => StateVar.rtc_seconds
+2015/03/05 16:32:36:DEBUG:StateVar(44) => StateVar.eps_bat0_voltage
+2015/03/05 16:32:36:DEBUG:StateVar(45) => StateVar.eps_bat0_current
+2015/03/05 16:32:36:DEBUG:StateVar(46) => StateVar.eps_bus5V_current
+2015/03/05 16:32:36:DEBUG:StateVar(47) => StateVar.eps_bus3V_current
+2015/03/05 16:32:36:DEBUG:StateVar(48) => StateVar.eps_bus_battery_current
+2015/03/05 16:32:36:DEBUG:StateVar(49) => StateVar.eps_bat0_temp
+2015/03/05 16:32:36:DEBUG:StateVar(50) => StateVar.eps_panel_pwr
+2015/03/05 16:32:36:DEBUG:StateVar(51) => StateVar.eps_status
+2015/03/05 16:32:36:DEBUG:StateVar(52) => StateVar.eps_soc
+2015/03/05 16:32:36:DEBUG:StateVar(53) => StateVar.eps_socss
+2015/03/05 16:32:36:DEBUG:StateVar(54) => StateVar.eps_state_flag
+2015/03/05 16:32:36:DEBUG:StateVar(55) => StateVar.eps_charging
+2015/03/05 16:32:36:DEBUG:StateVar(56) => StateVar.trx_opmode
+2015/03/05 16:32:36:DEBUG:StateVar(57) => StateVar.trx_count_tm
+2015/03/05 16:32:36:DEBUG:StateVar(58) => StateVar.trx_count_tc
+2015/03/05 16:32:36:DEBUG:StateVar(59) => StateVar.trx_day_last_tc
+2015/03/05 16:32:36:DEBUG:StateVar(60) => StateVar.trx_beacon_period
+2015/03/05 16:32:36:DEBUG:StateVar(61) => StateVar.trx_beacon_bat_lvl
+2015/03/05 16:32:36:DEBUG:StateVar(62) => StateVar.trx_rx_baud
+2015/03/05 16:32:36:DEBUG:StateVar(63) => StateVar.trx_tx_baud
+2015/03/05 16:32:36:DEBUG:StateVar(64) => StateVar.pay_lagmuirProbe_state
+2015/03/05 16:32:36:DEBUG:StateVar(65) => StateVar.pay_sensTemp_state
+2015/03/05 16:32:36:DEBUG:StateVar(66) => StateVar.pay_gps_state
+2015/03/05 16:32:36:DEBUG:StateVar(67) => StateVar.pay_expFis_state
+2015/03/05 16:32:36:DEBUG:StateVar(68) => StateVar.pay_camera_state
+2015/03/05 16:32:36:DEBUG:StateVar(69) => StateVar.pay_gyro_state
+2015/03/05 16:32:36:DEBUG:StateVar(70) => StateVar.pay_tmEstado_state
+2015/03/05 16:32:36:DEBUG:StateVar(71) => StateVar.pay_battery_state
+2015/03/05 16:32:36:DEBUG:StateVar(72) => StateVar.pay_debug_state
+2015/03/05 16:32:36:DEBUG:task_dispatcher, None, False, None
+2015/03/05 16:32:36:DEBUG:task_comunications, None, False, None
+2015/03/05 16:32:36:DEBUG:task_console, None, False, None
+2015/03/05 16:32:36:DEBUG:task_flightplant, None, False, None
+2015/03/05 16:32:36:DEBUG:task_housekeeping, None, False, None
+2015/03/05 16:32:36:DEBUG:-------------------------
+2015/03/05 16:32:38:DEBUG:task_dispatcher, 25667, True, None
+2015/03/05 16:32:38:DEBUG:task_flightplant, 25670, True, None
+2015/03/05 16:32:38:DEBUG:task_console, 25669, True, None
+2015/03/05 16:32:38:DEBUG:task_comunications, 25668, True, None
+2015/03/05 16:32:38:DEBUG:task_housekeeping, 25671, True, None
+2015/03/05 16:32:40:DEBUG:-------------------------
+2015/03/05 16:32:40:DEBUG:task_dispatcher, 25667, False, 0
+2015/03/05 16:32:40:DEBUG:task_comunications, 25668, False, 0
+2015/03/05 16:32:40:DEBUG:task_console, 25669, False, 0
+2015/03/05 16:32:40:DEBUG:task_flightplant, 25670, False, 0
+2015/03/05 16:32:40:DEBUG:task_housekeeping, 25671, False, 0
+2015/03/05 16:32:40:INFO:Suchai Sw: Starting nominal operations ..
+2015/03/05 16:34:57:INFO:
+
+Suchai Sw: Entry point ..
+2015/03/05 16:34:57:DEBUG:core.deployment.init_state_repo calls state.StateVar.on_reset ..
+2015/03/05 16:34:57:DEBUG:task_dispatcher, None, False, None
+2015/03/05 16:34:57:DEBUG:task_comunications, None, False, None
+2015/03/05 16:34:57:DEBUG:task_console, None, False, None
+2015/03/05 16:34:57:DEBUG:task_flightplant, None, False, None
+2015/03/05 16:34:57:DEBUG:task_housekeeping, None, False, None
+2015/03/05 16:34:57:DEBUG:-------------------------
+2015/03/05 16:34:59:DEBUG:task_dispatcher, 25734, True, None
+2015/03/05 16:34:59:DEBUG:task_comunications, 25735, True, None
+2015/03/05 16:34:59:DEBUG:task_console, 25736, True, None
+2015/03/05 16:34:59:DEBUG:task_flightplant, 25737, True, None
+2015/03/05 16:34:59:DEBUG:task_housekeeping, 25738, True, None
+2015/03/05 16:35:01:DEBUG:-------------------------
+2015/03/05 16:35:01:DEBUG:task_dispatcher, 25734, False, 0
+2015/03/05 16:35:01:DEBUG:task_comunications, 25735, False, 0
+2015/03/05 16:35:01:DEBUG:task_console, 25736, False, 0
+2015/03/05 16:35:01:DEBUG:task_flightplant, 25737, False, 0
+2015/03/05 16:35:01:DEBUG:task_housekeeping, 25738, False, 0
+2015/03/05 16:35:01:INFO:Suchai Sw: Starting nominal operations ..
+2015/03/05 16:52:22:INFO:
+
+Suchai Sw: Entry point ..
+2015/03/05 16:52:22:DEBUG:core.deployment.init_state_repo calls state.StateVar.on_reset ..
+2015/03/05 16:52:22:DEBUG:task_dispatcher, None, False, None
+2015/03/05 16:52:22:DEBUG:task_comunications, None, False, None
+2015/03/05 16:52:22:DEBUG:task_console, None, False, None
+2015/03/05 16:52:22:DEBUG:task_flightplant, None, False, None
+2015/03/05 16:52:22:DEBUG:task_housekeeping, None, False, None
+2015/03/05 16:52:22:DEBUG:-------------------------
+2015/03/05 16:52:24:DEBUG:task_dispatcher, 25989, True, None
+2015/03/05 16:52:24:DEBUG:task_console, 25991, True, None
+2015/03/05 16:52:24:DEBUG:task_flightplant, 25992, True, None
+2015/03/05 16:52:24:DEBUG:task_comunications, 25990, True, None
+2015/03/05 16:52:24:DEBUG:task_housekeeping, 25993, True, None
+2015/03/05 16:52:26:DEBUG:-------------------------
+2015/03/05 16:52:26:DEBUG:task_dispatcher, 25989, False, 0
+2015/03/05 16:52:26:DEBUG:task_comunications, 25990, False, 0
+2015/03/05 16:52:26:DEBUG:task_console, 25991, False, 0
+2015/03/05 16:52:26:DEBUG:task_flightplant, 25992, False, 0
+2015/03/05 16:52:26:DEBUG:task_housekeeping, 25993, False, 0
+2015/03/05 16:52:26:INFO:Suchai Sw: Starting nominal operations ..
+INFO:root:
+
+Suchai Sw: Entry point ..
+DEBUG:root:core.deployment.init_state_repo calls state.StateVar.on_reset ..
+DEBUG:root:task_dispatcher, None, False, None
+DEBUG:root:task_comunications, None, False, None
+DEBUG:root:task_console, None, False, None
+DEBUG:root:task_flightplant, None, False, None
+DEBUG:root:task_housekeeping, None, False, None
+DEBUG:root:-------------------------
+DEBUG:root:task_dispatcher, 26117, True, None
+DEBUG:root:task_console, 26119, True, None
+DEBUG:root:task_comunications, 26118, True, None
+DEBUG:root:task_flightplant, 26120, True, None
+DEBUG:root:task_housekeeping, 26121, True, None
+DEBUG:root:-------------------------
+DEBUG:root:task_dispatcher, 26117, False, 0
+DEBUG:root:task_comunications, 26118, False, 0
+DEBUG:root:task_console, 26119, False, 0
+DEBUG:root:task_flightplant, 26120, False, 0
+DEBUG:root:task_housekeeping, 26121, False, 0
+INFO:root:Suchai Sw: Starting nominal operations ..
+INFO:root:
+
+Suchai Sw: Entry point ..
+DEBUG:root:core.deployment.init_state_repo calls state.StateVar.on_reset ..
+DEBUG:root:task_dispatcher, None, False, None
+DEBUG:root:task_comunications, None, False, None
+DEBUG:root:task_console, None, False, None
+DEBUG:root:task_flightplant, None, False, None
+DEBUG:root:task_housekeeping, None, False, None
+DEBUG:root:-------------------------
+DEBUG:root:task_dispatcher, 26146, True, None
+DEBUG:root:task_flightplant, 26149, True, None
+DEBUG:root:task_console, 26148, True, None
+DEBUG:root:task_comunications, 26147, True, None
+DEBUG:root:task_housekeeping, 26150, True, None
+DEBUG:root:-------------------------
+DEBUG:root:task_dispatcher, 26146, False, 0
+DEBUG:root:task_comunications, 26147, False, 0
+DEBUG:root:task_console, 26148, False, 0
+DEBUG:root:task_flightplant, 26149, False, 0
+DEBUG:root:task_housekeeping, 26150, False, 0
+INFO:root:Suchai Sw: Starting nominal operations ..
+2015/03/05 17:01:14:INFO:
+
+Suchai Sw: Entry point ..
+2015/03/05 17:01:14:DEBUG:core.deployment.init_state_repo calls state.StateVar.on_reset ..
+2015/03/05 17:01:14:DEBUG:task_dispatcher, None, False, None
+2015/03/05 17:01:14:DEBUG:task_comunications, None, False, None
+2015/03/05 17:01:14:DEBUG:task_console, None, False, None
+2015/03/05 17:01:14:DEBUG:task_flightplant, None, False, None
+2015/03/05 17:01:14:DEBUG:task_housekeeping, None, False, None
+2015/03/05 17:01:14:DEBUG:-------------------------
+2015/03/05 17:01:16:DEBUG:task_dispatcher, 26170, True, None
+2015/03/05 17:01:16:DEBUG:task_comunications, 26171, True, None
+2015/03/05 17:01:16:DEBUG:task_flightplant, 26173, True, None
+2015/03/05 17:01:16:DEBUG:task_housekeeping, 26174, True, None
+2015/03/05 17:01:16:DEBUG:task_console, 26172, True, None
+2015/03/05 17:01:18:DEBUG:-------------------------
+2015/03/05 17:01:18:DEBUG:task_dispatcher, 26170, False, 0
+2015/03/05 17:01:18:DEBUG:task_comunications, 26171, False, 0
+2015/03/05 17:01:18:DEBUG:task_console, 26172, False, 0
+2015/03/05 17:01:18:DEBUG:task_flightplant, 26173, False, 0
+2015/03/05 17:01:18:DEBUG:task_housekeeping, 26174, False, 0
+2015/03/05 17:01:18:INFO:Suchai Sw: Starting nominal operations ..
+2015/03/05 17:04:08:INFO:
+
+Suchai Sw: Entry point ..
+2015/03/05 17:04:08:DEBUG:core.deployment.init_state_repo calls state.StateVar.on_reset ..
+2015/03/05 17:04:08:DEBUG:task_dispatcher, None, False, None
+2015/03/05 17:04:08:DEBUG:task_comunications, None, False, None
+2015/03/05 17:04:08:DEBUG:task_console, None, False, None
+2015/03/05 17:04:08:DEBUG:task_flightplant, None, False, None
+2015/03/05 17:04:08:DEBUG:task_housekeeping, None, False, None
+2015/03/05 17:04:08:DEBUG:-------------------------
+2015/03/05 17:04:10:DEBUG:task_dispatcher, 26240, True, None
+2015/03/05 17:04:10:DEBUG:task_comunications, 26241, True, None
+2015/03/05 17:04:10:DEBUG:task_console, 26242, True, None
+2015/03/05 17:04:10:DEBUG:task_flightplant, 26243, True, None
+2015/03/05 17:04:10:DEBUG:task_housekeeping, 26244, True, None
+2015/03/05 17:04:12:DEBUG:-------------------------
+2015/03/05 17:04:12:DEBUG:task_dispatcher, 26240, False, 0
+2015/03/05 17:04:12:DEBUG:task_comunications, 26241, False, 0
+2015/03/05 17:04:12:DEBUG:task_console, 26242, False, 0
+2015/03/05 17:04:12:DEBUG:task_flightplant, 26243, False, 0
+2015/03/05 17:04:12:DEBUG:task_housekeeping, 26244, False, 0
+2015/03/05 17:04:12:INFO:Suchai Sw: Starting nominal operations ..
+2015/03/05 17:08:28:
+
+Suchai Sw: Entry point ..
+2015/03/05 17:08:28:core.deployment.init_state_repo calls state.StateVar.on_reset ..
+2015/03/05 17:08:28:task_dispatcher, None, False, None
+2015/03/05 17:08:28:task_comunications, None, False, None
+2015/03/05 17:08:28:task_console, None, False, None
+2015/03/05 17:08:28:task_flightplant, None, False, None
+2015/03/05 17:08:28:task_housekeeping, None, False, None
+2015/03/05 17:08:28:-------------------------
+2015/03/05 17:08:30:task_dispatcher, 26338, True, None
+2015/03/05 17:08:30:task_console, 26340, True, None
+2015/03/05 17:08:30:task_comunications, 26339, True, None
+2015/03/05 17:08:30:task_housekeeping, 26342, True, None
+2015/03/05 17:08:30:task_flightplant, 26341, True, None
+2015/03/05 17:08:32:-------------------------
+2015/03/05 17:08:32:task_dispatcher, 26338, False, 0
+2015/03/05 17:08:32:task_comunications, 26339, False, 0
+2015/03/05 17:08:32:task_console, 26340, False, 0
+2015/03/05 17:08:32:task_flightplant, 26341, False, 0
+2015/03/05 17:08:32:task_housekeeping, 26342, False, 0
+2015/03/05 17:08:32:Suchai Sw: Starting nominal operations ..
+2015/03/05 17:09:07:root:INFO:
+
+Suchai Sw: Entry point ..
+2015/03/05 17:09:07:root:DEBUG:core.deployment.init_state_repo calls state.StateVar.on_reset ..
+2015/03/05 17:09:07:root:DEBUG:task_dispatcher, None, False, None
+2015/03/05 17:09:07:root:DEBUG:task_comunications, None, False, None
+2015/03/05 17:09:07:root:DEBUG:task_console, None, False, None
+2015/03/05 17:09:07:root:DEBUG:task_flightplant, None, False, None
+2015/03/05 17:09:07:root:DEBUG:task_housekeeping, None, False, None
+2015/03/05 17:09:07:root:DEBUG:-------------------------
+2015/03/05 17:09:09:root:DEBUG:task_dispatcher, 26365, True, None
+2015/03/05 17:09:09:root:DEBUG:task_comunications, 26366, True, None
+2015/03/05 17:09:09:root:DEBUG:task_housekeeping, 26369, True, None
+2015/03/05 17:09:09:root:DEBUG:task_console, 26367, True, None
+2015/03/05 17:09:09:root:DEBUG:task_flightplant, 26368, True, None
+2015/03/05 17:09:11:root:DEBUG:-------------------------
+2015/03/05 17:09:11:root:DEBUG:task_dispatcher, 26365, False, 0
+2015/03/05 17:09:11:root:DEBUG:task_comunications, 26366, False, 0
+2015/03/05 17:09:11:root:DEBUG:task_console, 26367, False, 0
+2015/03/05 17:09:11:root:DEBUG:task_flightplant, 26368, False, 0
+2015/03/05 17:09:11:root:DEBUG:task_housekeeping, 26369, False, 0
+2015/03/05 17:09:11:root:INFO:Suchai Sw: Starting nominal operations ..
+2015/03/05 17:10:38:__main__:INFO:
+
+Suchai Sw: Entry point ..
+2015/03/05 17:10:38:root:DEBUG:core.deployment.init_state_repo calls state.StateVar.on_reset ..
+2015/03/05 17:10:38:root:DEBUG:task_dispatcher, None, False, None
+2015/03/05 17:10:38:root:DEBUG:task_comunications, None, False, None
+2015/03/05 17:10:38:root:DEBUG:task_console, None, False, None
+2015/03/05 17:10:38:root:DEBUG:task_flightplant, None, False, None
+2015/03/05 17:10:38:root:DEBUG:task_housekeeping, None, False, None
+2015/03/05 17:10:38:root:DEBUG:-------------------------
+2015/03/05 17:10:40:root:DEBUG:task_dispatcher, 26397, True, None
+2015/03/05 17:10:40:root:DEBUG:task_flightplant, 26400, True, None
+2015/03/05 17:10:40:root:DEBUG:task_comunications, 26398, True, None
+2015/03/05 17:10:40:root:DEBUG:task_console, 26399, True, None
+2015/03/05 17:10:40:root:DEBUG:task_housekeeping, 26401, True, None
+2015/03/05 17:10:42:root:DEBUG:-------------------------
+2015/03/05 17:10:42:root:DEBUG:task_dispatcher, 26397, False, 0
+2015/03/05 17:10:42:root:DEBUG:task_comunications, 26398, False, 0
+2015/03/05 17:10:42:root:DEBUG:task_console, 26399, False, 0
+2015/03/05 17:10:42:root:DEBUG:task_flightplant, 26400, False, 0
+2015/03/05 17:10:42:root:DEBUG:task_housekeeping, 26401, False, 0
+2015/03/05 17:10:42:root:INFO:Suchai Sw: Starting nominal operations ..
+2015/03/05 17:16:29:__main__:INFO:
+
+Suchai Sw: Entry point ..
+2015/03/05 17:16:29:core.deployment:DEBUG:core.deployment.init_state_repo calls state.StateVar.on_reset ..
+2015/03/05 17:16:29:core.deployment:DEBUG:task_dispatcher, None, False, None
+2015/03/05 17:16:29:core.deployment:DEBUG:task_comunications, None, False, None
+2015/03/05 17:16:29:core.deployment:DEBUG:task_console, None, False, None
+2015/03/05 17:16:29:core.deployment:DEBUG:task_flightplant, None, False, None
+2015/03/05 17:16:29:core.deployment:DEBUG:task_housekeeping, None, False, None
+2015/03/05 17:16:29:core.deployment:DEBUG:-------------------------
+2015/03/05 17:16:31:tasks.dispatcher:DEBUG:task_dispatcher, 26631, True, None
+2015/03/05 17:16:31:tasks.console:DEBUG:task_console, 26633, True, None
+2015/03/05 17:16:31:tasks.comunications:DEBUG:task_comunications, 26632, True, None
+2015/03/05 17:16:31:tasks.flightplan:DEBUG:task_flightplant, 26634, True, None
+2015/03/05 17:16:31:tasks.housekeeping:DEBUG:task_housekeeping, 26635, True, None
+2015/03/05 17:16:33:core.deployment:DEBUG:-------------------------
+2015/03/05 17:16:33:core.deployment:DEBUG:task_dispatcher, 26631, False, 0
+2015/03/05 17:16:33:core.deployment:DEBUG:task_comunications, 26632, False, 0
+2015/03/05 17:16:33:core.deployment:DEBUG:task_console, 26633, False, 0
+2015/03/05 17:16:33:core.deployment:DEBUG:task_flightplant, 26634, False, 0
+2015/03/05 17:16:33:core.deployment:DEBUG:task_housekeeping, 26635, False, 0
+2015/03/05 17:16:33:core.deployment:INFO:Suchai Sw: Starting nominal operations ..
+2015/03/05 17:16:58 - __main__ - INFO - 
+
+Suchai Sw: Entry point ..
+2015/03/05 17:16:58 - core.deployment - DEBUG - core.deployment.init_state_repo calls state.StateVar.on_reset ..
+2015/03/05 17:16:58 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/05 17:16:58 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/05 17:16:58 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/05 17:16:58 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/05 17:16:58 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/05 17:16:58 - core.deployment - DEBUG - -------------------------
+2015/03/05 17:17:00 - tasks.comunications - DEBUG - task_comunications, 26659, True, None
+2015/03/05 17:17:00 - tasks.dispatcher - DEBUG - task_dispatcher, 26658, True, None
+2015/03/05 17:17:00 - tasks.flightplan - DEBUG - task_flightplant, 26661, True, None
+2015/03/05 17:17:00 - tasks.console - DEBUG - task_console, 26660, True, None
+2015/03/05 17:17:00 - tasks.housekeeping - DEBUG - task_housekeeping, 26662, True, None
+2015/03/05 17:17:02 - core.deployment - DEBUG - -------------------------
+2015/03/05 17:17:02 - core.deployment - DEBUG - task_dispatcher, 26658, False, 0
+2015/03/05 17:17:02 - core.deployment - DEBUG - task_comunications, 26659, False, 0
+2015/03/05 17:17:02 - core.deployment - DEBUG - task_console, 26660, False, 0
+2015/03/05 17:17:02 - core.deployment - DEBUG - task_flightplant, 26661, False, 0
+2015/03/05 17:17:02 - core.deployment - DEBUG - task_housekeeping, 26662, False, 0
+2015/03/05 17:17:02 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/05 17:18:16 - __main__ - INFO - 
+
+Suchai Sw: Entry point ..
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(0) => StateVar.RTC_isAlive
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(1) => StateVar.TRX_isAlive
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(2) => StateVar.EPS_isAlive
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(3) => StateVar.MemEEPROM_isAlive
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(4) => StateVar.MemSD_isAlive
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(5) => StateVar.AntSwitch_isOpen
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(6) => StateVar.pay_lagmuirProbe_isAlive
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(7) => StateVar.pay_sensTemp_isAlive
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(8) => StateVar.pay_gps_isAlive
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(9) => StateVar.pay_expFis_isAlive
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(10) => StateVar.pay_camera_isAlive
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(11) => StateVar.pay_gyro_isAlive
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(12) => StateVar.pay_tmEstado_isAlive
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(13) => StateVar.pay_battery_isAlive
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(14) => StateVar.pay_debug_isAlive
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(15) => StateVar.pay_lagmuirProbe_isDeployed
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(16) => StateVar.fpl_index
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(17) => StateVar.ppc_opMode
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(18) => StateVar.ppc_lastResetSource
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(19) => StateVar.ppc_hoursAlive
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(20) => StateVar.ppc_hoursWithoutReset
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(21) => StateVar.ppc_resetCounter
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(22) => StateVar.ppc_wdt
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(23) => StateVar.ppc_osc
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(24) => StateVar.ppc_MB_nOE_USB_nINT_stat
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(25) => StateVar.ppc_MB_nOE_MHX_stat
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(26) => StateVar.ppc_MB_nON_MHX_stat
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(27) => StateVar.ppc_MB_nON_SD_stat
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(28) => StateVar.dep_ant_deployed
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(29) => StateVar.dep_ant_tries
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(30) => StateVar.dep_year
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(31) => StateVar.dep_month
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(32) => StateVar.dep_week_day
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(33) => StateVar.dep_day_number
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(34) => StateVar.dep_hours
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(35) => StateVar.dep_minutes
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(36) => StateVar.dep_seconds
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(37) => StateVar.rtc_year
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(38) => StateVar.rtc_month
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(39) => StateVar.rtc_week_day
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(40) => StateVar.rtc_day_number
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(41) => StateVar.rtc_hours
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(42) => StateVar.rtc_minutes
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(43) => StateVar.rtc_seconds
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(44) => StateVar.eps_bat0_voltage
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(45) => StateVar.eps_bat0_current
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(46) => StateVar.eps_bus5V_current
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(47) => StateVar.eps_bus3V_current
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(48) => StateVar.eps_bus_battery_current
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(49) => StateVar.eps_bat0_temp
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(50) => StateVar.eps_panel_pwr
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(51) => StateVar.eps_status
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(52) => StateVar.eps_soc
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(53) => StateVar.eps_socss
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(54) => StateVar.eps_state_flag
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(55) => StateVar.eps_charging
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(56) => StateVar.trx_opmode
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(57) => StateVar.trx_count_tm
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(58) => StateVar.trx_count_tc
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(59) => StateVar.trx_day_last_tc
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(60) => StateVar.trx_beacon_period
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(61) => StateVar.trx_beacon_bat_lvl
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(62) => StateVar.trx_rx_baud
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(63) => StateVar.trx_tx_baud
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(64) => StateVar.pay_lagmuirProbe_state
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(65) => StateVar.pay_sensTemp_state
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(66) => StateVar.pay_gps_state
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(67) => StateVar.pay_expFis_state
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(68) => StateVar.pay_camera_state
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(69) => StateVar.pay_gyro_state
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(70) => StateVar.pay_tmEstado_state
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(71) => StateVar.pay_battery_state
+2015/03/05 17:18:16 - repos.state - DEBUG - StateVar(72) => StateVar.pay_debug_state
+2015/03/05 17:18:16 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/05 17:18:16 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/05 17:18:16 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/05 17:18:16 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/05 17:18:16 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/05 17:18:16 - core.deployment - DEBUG - -------------------------
+2015/03/05 17:18:18 - tasks.dispatcher - DEBUG - task_dispatcher, 26707, True, None
+2015/03/05 17:18:18 - tasks.comunications - DEBUG - task_comunications, 26708, True, None
+2015/03/05 17:18:18 - tasks.console - DEBUG - task_console, 26709, True, None
+2015/03/05 17:18:18 - tasks.flightplan - DEBUG - task_flightplant, 26710, True, None
+2015/03/05 17:18:18 - tasks.housekeeping - DEBUG - task_housekeeping, 26711, True, None
+2015/03/05 17:18:20 - core.deployment - DEBUG - -------------------------
+2015/03/05 17:18:20 - core.deployment - DEBUG - task_dispatcher, 26707, False, 0
+2015/03/05 17:18:20 - core.deployment - DEBUG - task_comunications, 26708, False, 0
+2015/03/05 17:18:20 - core.deployment - DEBUG - task_console, 26709, False, 0
+2015/03/05 17:18:20 - core.deployment - DEBUG - task_flightplant, 26710, False, 0
+2015/03/05 17:18:20 - core.deployment - DEBUG - task_housekeeping, 26711, False, 0
+2015/03/05 17:18:20 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/05 17:19:23 - __main__ - INFO - 
+
+
+2015/03/05 17:19:23 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(0) => StateVar.RTC_isAlive
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(1) => StateVar.TRX_isAlive
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(2) => StateVar.EPS_isAlive
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(3) => StateVar.MemEEPROM_isAlive
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(4) => StateVar.MemSD_isAlive
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(5) => StateVar.AntSwitch_isOpen
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(6) => StateVar.pay_lagmuirProbe_isAlive
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(7) => StateVar.pay_sensTemp_isAlive
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(8) => StateVar.pay_gps_isAlive
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(9) => StateVar.pay_expFis_isAlive
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(10) => StateVar.pay_camera_isAlive
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(11) => StateVar.pay_gyro_isAlive
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(12) => StateVar.pay_tmEstado_isAlive
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(13) => StateVar.pay_battery_isAlive
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(14) => StateVar.pay_debug_isAlive
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(15) => StateVar.pay_lagmuirProbe_isDeployed
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(16) => StateVar.fpl_index
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(17) => StateVar.ppc_opMode
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(18) => StateVar.ppc_lastResetSource
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(19) => StateVar.ppc_hoursAlive
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(20) => StateVar.ppc_hoursWithoutReset
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(21) => StateVar.ppc_resetCounter
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(22) => StateVar.ppc_wdt
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(23) => StateVar.ppc_osc
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(24) => StateVar.ppc_MB_nOE_USB_nINT_stat
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(25) => StateVar.ppc_MB_nOE_MHX_stat
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(26) => StateVar.ppc_MB_nON_MHX_stat
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(27) => StateVar.ppc_MB_nON_SD_stat
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(28) => StateVar.dep_ant_deployed
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(29) => StateVar.dep_ant_tries
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(30) => StateVar.dep_year
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(31) => StateVar.dep_month
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(32) => StateVar.dep_week_day
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(33) => StateVar.dep_day_number
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(34) => StateVar.dep_hours
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(35) => StateVar.dep_minutes
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(36) => StateVar.dep_seconds
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(37) => StateVar.rtc_year
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(38) => StateVar.rtc_month
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(39) => StateVar.rtc_week_day
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(40) => StateVar.rtc_day_number
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(41) => StateVar.rtc_hours
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(42) => StateVar.rtc_minutes
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(43) => StateVar.rtc_seconds
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(44) => StateVar.eps_bat0_voltage
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(45) => StateVar.eps_bat0_current
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(46) => StateVar.eps_bus5V_current
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(47) => StateVar.eps_bus3V_current
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(48) => StateVar.eps_bus_battery_current
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(49) => StateVar.eps_bat0_temp
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(50) => StateVar.eps_panel_pwr
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(51) => StateVar.eps_status
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(52) => StateVar.eps_soc
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(53) => StateVar.eps_socss
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(54) => StateVar.eps_state_flag
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(55) => StateVar.eps_charging
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(56) => StateVar.trx_opmode
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(57) => StateVar.trx_count_tm
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(58) => StateVar.trx_count_tc
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(59) => StateVar.trx_day_last_tc
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(60) => StateVar.trx_beacon_period
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(61) => StateVar.trx_beacon_bat_lvl
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(62) => StateVar.trx_rx_baud
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(63) => StateVar.trx_tx_baud
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(64) => StateVar.pay_lagmuirProbe_state
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(65) => StateVar.pay_sensTemp_state
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(66) => StateVar.pay_gps_state
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(67) => StateVar.pay_expFis_state
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(68) => StateVar.pay_camera_state
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(69) => StateVar.pay_gyro_state
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(70) => StateVar.pay_tmEstado_state
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(71) => StateVar.pay_battery_state
+2015/03/05 17:19:23 - repos.state - DEBUG - StateVar(72) => StateVar.pay_debug_state
+2015/03/05 17:19:23 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/05 17:19:23 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/05 17:19:23 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/05 17:19:23 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/05 17:19:23 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/05 17:19:23 - core.deployment - DEBUG - -------------------------
+2015/03/05 17:19:25 - tasks.dispatcher - DEBUG - task_dispatcher, 26737, True, None
+2015/03/05 17:19:25 - tasks.console - DEBUG - task_console, 26739, True, None
+2015/03/05 17:19:25 - tasks.comunications - DEBUG - task_comunications, 26738, True, None
+2015/03/05 17:19:25 - tasks.flightplan - DEBUG - task_flightplant, 26740, True, None
+2015/03/05 17:19:25 - tasks.housekeeping - DEBUG - task_housekeeping, 26741, True, None
+2015/03/05 17:19:27 - core.deployment - DEBUG - -------------------------
+2015/03/05 17:19:27 - core.deployment - DEBUG - task_dispatcher, 26737, False, 0
+2015/03/05 17:19:27 - core.deployment - DEBUG - task_comunications, 26738, False, 0
+2015/03/05 17:19:27 - core.deployment - DEBUG - task_console, 26739, False, 0
+2015/03/05 17:19:27 - core.deployment - DEBUG - task_flightplant, 26740, False, 0
+2015/03/05 17:19:27 - core.deployment - DEBUG - task_housekeeping, 26741, False, 0
+2015/03/05 17:19:27 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/05 18:42:54 - __main__ - INFO - 
+
+
+2015/03/05 18:42:54 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/05 18:43:12 - __main__ - INFO - 
+
+
+2015/03/05 18:43:12 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/05 18:43:14 - __main__ - INFO - 
+
+
+2015/03/05 18:43:14 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/05 18:43:26 - __main__ - INFO - 
+
+
+2015/03/05 18:43:26 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/05 18:43:26 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/05 18:43:26 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/05 18:43:26 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/05 18:43:26 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/05 18:43:26 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/05 18:43:26 - core.deployment - DEBUG - -------------------------
+2015/03/05 18:43:28 - tasks.dispatcher - DEBUG - task_dispatcher, 28548, True, None
+2015/03/05 18:43:28 - tasks.comunications - DEBUG - task_comunications, 28549, True, None
+2015/03/05 18:43:28 - tasks.console - DEBUG - task_console, 28550, True, None
+2015/03/05 18:43:28 - tasks.flightplan - DEBUG - task_flightplant, 28551, True, None
+2015/03/05 18:43:28 - tasks.housekeeping - DEBUG - task_housekeeping, 28552, True, None
+2015/03/05 18:43:30 - core.deployment - DEBUG - -------------------------
+2015/03/05 18:43:30 - core.deployment - DEBUG - task_dispatcher, 28548, False, 0
+2015/03/05 18:43:30 - core.deployment - DEBUG - task_comunications, 28549, False, 0
+2015/03/05 18:43:30 - core.deployment - DEBUG - task_console, 28550, False, 0
+2015/03/05 18:43:30 - core.deployment - DEBUG - task_flightplant, 28551, False, 0
+2015/03/05 18:43:30 - core.deployment - DEBUG - task_housekeeping, 28552, False, 0
+2015/03/05 18:43:30 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/05 18:45:35 - __main__ - INFO - 
+
+
+2015/03/05 18:45:35 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/05 18:45:35 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/05 18:45:35 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/05 18:45:35 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/05 18:45:35 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/05 18:45:35 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/05 18:45:35 - core.deployment - DEBUG - -------------------------
+2015/03/05 18:45:37 - tasks.dispatcher - DEBUG - task_dispatcher, 28616, True, None
+2015/03/05 18:45:37 - tasks.console - DEBUG - task_console, 28618, True, None
+2015/03/05 18:45:37 - tasks.comunications - DEBUG - task_comunications, 28617, True, None
+2015/03/05 18:45:37 - tasks.flightplan - DEBUG - task_flightplant, 28619, True, None
+2015/03/05 18:45:37 - tasks.housekeeping - DEBUG - task_housekeeping, 28620, True, None
+2015/03/05 18:45:39 - core.deployment - DEBUG - -------------------------
+2015/03/05 18:45:39 - core.deployment - DEBUG - task_dispatcher, 28616, False, 0
+2015/03/05 18:45:39 - core.deployment - DEBUG - task_comunications, 28617, False, 0
+2015/03/05 18:45:39 - core.deployment - DEBUG - task_console, 28618, False, 0
+2015/03/05 18:45:39 - core.deployment - DEBUG - task_flightplant, 28619, False, 0
+2015/03/05 18:45:39 - core.deployment - DEBUG - task_housekeeping, 28620, False, 0
+2015/03/05 18:45:39 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/05 18:59:29 - __main__ - INFO - 
+
+
+2015/03/05 18:59:29 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/05 18:59:29 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/05 18:59:29 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/05 18:59:29 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/05 18:59:29 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/05 18:59:29 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/05 18:59:29 - core.deployment - DEBUG - -------------------------
+2015/03/05 18:59:31 - tasks.dispatcher - DEBUG - task_dispatcher, 29003, True, None
+2015/03/05 18:59:31 - tasks.comunications - DEBUG - task_comunications, 29004, True, None
+2015/03/05 18:59:31 - tasks.console - DEBUG - task_console, 29005, True, None
+2015/03/05 18:59:31 - tasks.flightplan - DEBUG - task_flightplant, 29006, True, None
+2015/03/05 18:59:31 - tasks.housekeeping - DEBUG - task_housekeeping, 29007, True, None
+2015/03/05 18:59:33 - core.deployment - DEBUG - -------------------------
+2015/03/05 18:59:33 - core.deployment - DEBUG - task_dispatcher, 29003, False, 0
+2015/03/05 18:59:33 - core.deployment - DEBUG - task_comunications, 29004, False, 0
+2015/03/05 18:59:33 - core.deployment - DEBUG - task_console, 29005, False, 0
+2015/03/05 18:59:33 - core.deployment - DEBUG - task_flightplant, 29006, False, 0
+2015/03/05 18:59:33 - core.deployment - DEBUG - task_housekeeping, 29007, False, 0
+2015/03/05 18:59:33 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/05 18:59:40 - __main__ - INFO - 
+
+
+2015/03/05 18:59:40 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/05 18:59:40 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/05 18:59:40 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/05 18:59:40 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/05 18:59:40 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/05 18:59:40 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/05 18:59:40 - core.deployment - DEBUG - -------------------------
+2015/03/05 18:59:42 - tasks.dispatcher - DEBUG - task_dispatcher, 29016, True, None
+2015/03/05 18:59:42 - tasks.comunications - DEBUG - task_comunications, 29017, True, None
+2015/03/05 18:59:42 - tasks.console - DEBUG - task_console, 29018, True, None
+2015/03/05 18:59:42 - tasks.flightplan - DEBUG - task_flightplant, 29019, True, None
+2015/03/05 18:59:42 - tasks.housekeeping - DEBUG - task_housekeeping, 29020, True, None
+2015/03/05 18:59:44 - core.deployment - DEBUG - -------------------------
+2015/03/05 18:59:44 - core.deployment - DEBUG - task_dispatcher, 29016, False, 0
+2015/03/05 18:59:44 - core.deployment - DEBUG - task_comunications, 29017, False, 0
+2015/03/05 18:59:44 - core.deployment - DEBUG - task_console, 29018, False, 0
+2015/03/05 18:59:44 - core.deployment - DEBUG - task_flightplant, 29019, False, 0
+2015/03/05 18:59:44 - core.deployment - DEBUG - task_housekeeping, 29020, False, 0
+2015/03/05 18:59:44 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/05 19:03:01 - __main__ - INFO - 
+
+
+2015/03/05 19:03:01 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/05 19:03:01 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/05 19:03:01 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/05 19:03:01 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/05 19:03:01 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/05 19:03:01 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/05 19:03:01 - core.deployment - DEBUG - -------------------------
+2015/03/05 19:03:03 - tasks.dispatcher - DEBUG - task_dispatcher, 29133, True, None
+2015/03/05 19:03:03 - tasks.console - DEBUG - task_console, 29135, True, None
+2015/03/05 19:03:03 - tasks.housekeeping - DEBUG - task_housekeeping, 29137, True, None
+2015/03/05 19:03:03 - tasks.comunications - DEBUG - task_comunications, 29134, True, None
+2015/03/05 19:03:03 - tasks.flightplan - DEBUG - task_flightplant, 29136, True, None
+2015/03/05 19:03:05 - core.deployment - DEBUG - -------------------------
+2015/03/05 19:03:05 - core.deployment - DEBUG - task_dispatcher, 29133, False, 0
+2015/03/05 19:03:05 - core.deployment - DEBUG - task_comunications, 29134, False, 0
+2015/03/05 19:03:05 - core.deployment - DEBUG - task_console, 29135, False, 0
+2015/03/05 19:03:05 - core.deployment - DEBUG - task_flightplant, 29136, False, 0
+2015/03/05 19:03:05 - core.deployment - DEBUG - task_housekeeping, 29137, False, 0
+2015/03/05 19:03:05 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/05 19:03:20 - __main__ - INFO - 
+
+
+2015/03/05 19:03:20 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/05 19:03:20 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/05 19:03:20 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/05 19:03:20 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/05 19:03:20 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/05 19:03:20 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/05 19:03:20 - core.deployment - DEBUG - -------------------------
+2015/03/05 19:03:22 - tasks.dispatcher - DEBUG - task_dispatcher, 29151, True, None
+2015/03/05 19:03:22 - tasks.comunications - DEBUG - task_comunications, 29152, True, None
+2015/03/05 19:03:22 - tasks.console - DEBUG - task_console, 29153, True, None
+2015/03/05 19:03:22 - tasks.flightplan - DEBUG - task_flightplant, 29154, True, None
+2015/03/05 19:03:22 - tasks.housekeeping - DEBUG - task_housekeeping, 29155, True, None
+2015/03/05 19:03:24 - core.deployment - DEBUG - -------------------------
+2015/03/05 19:03:24 - core.deployment - DEBUG - task_dispatcher, 29151, False, 0
+2015/03/05 19:03:24 - core.deployment - DEBUG - task_comunications, 29152, False, 0
+2015/03/05 19:03:24 - core.deployment - DEBUG - task_console, 29153, False, 0
+2015/03/05 19:03:24 - core.deployment - DEBUG - task_flightplant, 29154, False, 0
+2015/03/05 19:03:24 - core.deployment - DEBUG - task_housekeeping, 29155, False, 0
+2015/03/05 19:03:24 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/05 19:03:44 - __main__ - INFO - 
+
+
+2015/03/05 19:03:44 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/05 19:03:44 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/05 19:03:44 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/05 19:03:44 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/05 19:03:44 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/05 19:03:44 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/05 19:03:44 - core.deployment - DEBUG - -------------------------
+2015/03/05 19:03:46 - tasks.dispatcher - DEBUG - task_dispatcher, 29176, True, None
+2015/03/05 19:03:46 - tasks.console - DEBUG - task_console, 29178, True, None
+2015/03/05 19:03:46 - tasks.comunications - DEBUG - task_comunications, 29177, True, None
+2015/03/05 19:03:46 - tasks.flightplan - DEBUG - task_flightplant, 29179, True, None
+2015/03/05 19:03:46 - tasks.housekeeping - DEBUG - task_housekeeping, 29180, True, None
+2015/03/05 19:03:48 - core.deployment - DEBUG - -------------------------
+2015/03/05 19:03:48 - core.deployment - DEBUG - task_dispatcher, 29176, False, 0
+2015/03/05 19:03:48 - core.deployment - DEBUG - task_comunications, 29177, False, 0
+2015/03/05 19:03:48 - core.deployment - DEBUG - task_console, 29178, False, 0
+2015/03/05 19:03:48 - core.deployment - DEBUG - task_flightplant, 29179, False, 0
+2015/03/05 19:03:48 - core.deployment - DEBUG - task_housekeeping, 29180, False, 0
+2015/03/05 19:03:48 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/05 19:05:35 - __main__ - INFO - 
+
+
+2015/03/05 19:05:35 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/05 19:05:35 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/05 19:05:35 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/05 19:05:35 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/05 19:05:35 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/05 19:05:35 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/05 19:05:35 - core.deployment - DEBUG - -------------------------
+2015/03/05 19:05:37 - tasks.dispatcher - DEBUG - task_dispatcher, 29253, True, None
+2015/03/05 19:05:37 - tasks.flightplan - DEBUG - task_flightplant, 29256, True, None
+2015/03/05 19:05:37 - tasks.console - DEBUG - task_console, 29255, True, None
+2015/03/05 19:05:37 - tasks.comunications - DEBUG - task_comunications, 29254, True, None
+2015/03/05 19:05:37 - tasks.housekeeping - DEBUG - task_housekeeping, 29257, True, None
+2015/03/05 19:05:39 - core.deployment - DEBUG - -------------------------
+2015/03/05 19:05:39 - core.deployment - DEBUG - task_dispatcher, 29253, False, 0
+2015/03/05 19:05:39 - core.deployment - DEBUG - task_comunications, 29254, False, 0
+2015/03/05 19:05:39 - core.deployment - DEBUG - task_console, 29255, False, 0
+2015/03/05 19:05:39 - core.deployment - DEBUG - task_flightplant, 29256, False, 0
+2015/03/05 19:05:39 - core.deployment - DEBUG - task_housekeeping, 29257, False, 0
+2015/03/05 19:05:39 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/05 19:06:43 - __main__ - INFO - 
+
+
+2015/03/05 19:06:43 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/05 19:06:43 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/05 19:06:43 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/05 19:06:43 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/05 19:06:43 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/05 19:06:43 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/05 19:06:43 - core.deployment - DEBUG - -------------------------
+2015/03/05 19:06:45 - tasks.dispatcher - DEBUG - task_dispatcher, 29298, True, None
+2015/03/05 19:06:45 - tasks.flightplan - DEBUG - task_flightplant, 29301, True, None
+2015/03/05 19:06:45 - tasks.console - DEBUG - task_console, 29300, True, None
+2015/03/05 19:06:45 - tasks.comunications - DEBUG - task_comunications, 29299, True, None
+2015/03/05 19:06:45 - tasks.housekeeping - DEBUG - task_housekeeping, 29302, True, None
+2015/03/05 19:06:47 - core.deployment - DEBUG - -------------------------
+2015/03/05 19:06:47 - core.deployment - DEBUG - task_dispatcher, 29298, False, 0
+2015/03/05 19:06:47 - core.deployment - DEBUG - task_comunications, 29299, False, 0
+2015/03/05 19:06:47 - core.deployment - DEBUG - task_console, 29300, False, 0
+2015/03/05 19:06:47 - core.deployment - DEBUG - task_flightplant, 29301, False, 0
+2015/03/05 19:06:47 - core.deployment - DEBUG - task_housekeeping, 29302, False, 0
+2015/03/05 19:06:47 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/05 19:07:08 - __main__ - INFO - 
+
+
+2015/03/05 19:07:08 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/05 19:07:09 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/05 19:07:09 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/05 19:07:09 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/05 19:07:09 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/05 19:07:09 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/05 19:07:09 - core.deployment - DEBUG - -------------------------
+2015/03/05 19:07:11 - tasks.dispatcher - DEBUG - task_dispatcher, 29320, True, None
+2015/03/05 19:07:11 - tasks.flightplan - DEBUG - task_flightplant, 29323, True, None
+2015/03/05 19:07:11 - tasks.comunications - DEBUG - task_comunications, 29321, True, None
+2015/03/05 19:07:11 - tasks.console - DEBUG - task_console, 29322, True, None
+2015/03/05 19:07:11 - tasks.housekeeping - DEBUG - task_housekeeping, 29324, True, None
+2015/03/05 19:07:13 - core.deployment - DEBUG - -------------------------
+2015/03/05 19:07:13 - core.deployment - DEBUG - task_dispatcher, 29320, False, 0
+2015/03/05 19:07:13 - core.deployment - DEBUG - task_comunications, 29321, False, 0
+2015/03/05 19:07:13 - core.deployment - DEBUG - task_console, 29322, False, 0
+2015/03/05 19:07:13 - core.deployment - DEBUG - task_flightplant, 29323, False, 0
+2015/03/05 19:07:13 - core.deployment - DEBUG - task_housekeeping, 29324, False, 0
+2015/03/05 19:07:13 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/05 19:08:01 - __main__ - INFO - 
+
+
+2015/03/05 19:08:01 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/05 19:08:01 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/05 19:08:01 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/05 19:08:01 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/05 19:08:01 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/05 19:08:01 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/05 19:08:01 - core.deployment - DEBUG - -------------------------
+2015/03/05 19:08:03 - tasks.dispatcher - DEBUG - task_dispatcher, 29369, True, None
+2015/03/05 19:08:03 - tasks.flightplan - DEBUG - task_flightplant, 29372, True, None
+2015/03/05 19:08:03 - tasks.comunications - DEBUG - task_comunications, 29370, True, None
+2015/03/05 19:08:03 - tasks.console - DEBUG - task_console, 29371, True, None
+2015/03/05 19:08:03 - tasks.housekeeping - DEBUG - task_housekeeping, 29373, True, None
+2015/03/05 19:08:05 - core.deployment - DEBUG - -------------------------
+2015/03/05 19:08:05 - core.deployment - DEBUG - task_dispatcher, 29369, False, 0
+2015/03/05 19:08:05 - core.deployment - DEBUG - task_comunications, 29370, False, 0
+2015/03/05 19:08:05 - core.deployment - DEBUG - task_console, 29371, False, 0
+2015/03/05 19:08:05 - core.deployment - DEBUG - task_flightplant, 29372, False, 0
+2015/03/05 19:08:05 - core.deployment - DEBUG - task_housekeeping, 29373, False, 0
+2015/03/05 19:08:05 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/05 19:17:48 - __main__ - INFO - 
+
+
+2015/03/05 19:17:48 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/05 19:17:48 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/05 19:17:48 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/05 19:17:48 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/05 19:17:48 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/05 19:17:48 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/05 19:17:48 - core.deployment - DEBUG - -------------------------
+2015/03/05 19:17:50 - tasks.dispatcher - DEBUG - task_dispatcher, 29603, True, None
+2015/03/05 19:17:50 - tasks.comunications - DEBUG - task_comunications, 29604, True, None
+2015/03/05 19:17:50 - tasks.housekeeping - DEBUG - task_housekeeping, 29607, True, None
+2015/03/05 19:17:50 - tasks.console - DEBUG - task_console, 29605, True, None
+2015/03/05 19:17:50 - tasks.flightplan - DEBUG - task_flightplant, 29606, True, None
+2015/03/05 19:17:52 - core.deployment - DEBUG - -------------------------
+2015/03/05 19:17:52 - core.deployment - DEBUG - task_dispatcher, 29603, False, 0
+2015/03/05 19:17:52 - core.deployment - DEBUG - task_comunications, 29604, False, 0
+2015/03/05 19:17:52 - core.deployment - DEBUG - task_console, 29605, False, 0
+2015/03/05 19:17:52 - core.deployment - DEBUG - task_flightplant, 29606, False, 0
+2015/03/05 19:17:52 - core.deployment - DEBUG - task_housekeeping, 29607, False, 0
+2015/03/05 19:17:52 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/05 19:18:26 - __main__ - INFO - 
+
+
+2015/03/05 19:18:26 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/05 19:18:26 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/05 19:18:26 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/05 19:18:26 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/05 19:18:26 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/05 19:18:26 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/05 19:18:26 - core.deployment - DEBUG - -------------------------
+2015/03/05 19:18:28 - tasks.dispatcher - DEBUG - task_dispatcher, 29644, True, None
+2015/03/05 19:18:28 - tasks.comunications - DEBUG - task_comunications, 29645, True, None
+2015/03/05 19:18:28 - tasks.console - DEBUG - task_console, 29646, True, None
+2015/03/05 19:18:28 - tasks.flightplan - DEBUG - task_flightplant, 29647, True, None
+2015/03/05 19:18:28 - tasks.housekeeping - DEBUG - task_housekeeping, 29648, True, None
+2015/03/05 19:18:30 - core.deployment - DEBUG - -------------------------
+2015/03/05 19:18:30 - core.deployment - DEBUG - task_dispatcher, 29644, False, 0
+2015/03/05 19:18:30 - core.deployment - DEBUG - task_comunications, 29645, False, 0
+2015/03/05 19:18:30 - core.deployment - DEBUG - task_console, 29646, False, 0
+2015/03/05 19:18:30 - core.deployment - DEBUG - task_flightplant, 29647, False, 0
+2015/03/05 19:18:30 - core.deployment - DEBUG - task_housekeeping, 29648, False, 0
+2015/03/05 19:18:30 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/05 19:18:32 - __main__ - INFO - 
+
+
+2015/03/05 19:18:32 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/05 19:18:32 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/05 19:18:32 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/05 19:18:32 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/05 19:18:32 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/05 19:18:32 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/05 19:18:32 - core.deployment - DEBUG - -------------------------
+2015/03/05 19:18:34 - tasks.dispatcher - DEBUG - task_dispatcher, 29654, True, None
+2015/03/05 19:18:34 - tasks.console - DEBUG - task_console, 29656, True, None
+2015/03/05 19:18:34 - tasks.comunications - DEBUG - task_comunications, 29655, True, None
+2015/03/05 19:18:34 - tasks.housekeeping - DEBUG - task_housekeeping, 29658, True, None
+2015/03/05 19:18:34 - tasks.flightplan - DEBUG - task_flightplant, 29657, True, None
+2015/03/05 19:18:36 - core.deployment - DEBUG - -------------------------
+2015/03/05 19:18:36 - core.deployment - DEBUG - task_dispatcher, 29654, False, 0
+2015/03/05 19:18:36 - core.deployment - DEBUG - task_comunications, 29655, False, 0
+2015/03/05 19:18:36 - core.deployment - DEBUG - task_console, 29656, False, 0
+2015/03/05 19:18:36 - core.deployment - DEBUG - task_flightplant, 29657, False, 0
+2015/03/05 19:18:36 - core.deployment - DEBUG - task_housekeeping, 29658, False, 0
+2015/03/05 19:18:36 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/05 19:19:32 - __main__ - INFO - 
+
+
+2015/03/05 19:19:32 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/05 19:19:32 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/05 19:19:32 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/05 19:19:32 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/05 19:19:32 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/05 19:19:32 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/05 19:19:32 - core.deployment - DEBUG - -------------------------
+2015/03/05 19:19:34 - tasks.dispatcher - DEBUG - task_dispatcher, 29682, True, None
+2015/03/05 19:19:34 - tasks.comunications - DEBUG - task_comunications, 29683, True, None
+2015/03/05 19:19:34 - tasks.flightplan - DEBUG - task_flightplant, 29685, True, None
+2015/03/05 19:19:34 - tasks.housekeeping - DEBUG - task_housekeeping, 29686, True, None
+2015/03/05 19:19:34 - tasks.console - DEBUG - task_console, 29684, True, None
+2015/03/05 19:19:36 - core.deployment - DEBUG - -------------------------
+2015/03/05 19:19:36 - core.deployment - DEBUG - task_dispatcher, 29682, False, 0
+2015/03/05 19:19:36 - core.deployment - DEBUG - task_comunications, 29683, False, 0
+2015/03/05 19:19:36 - core.deployment - DEBUG - task_console, 29684, False, 0
+2015/03/05 19:19:36 - core.deployment - DEBUG - task_flightplant, 29685, False, 0
+2015/03/05 19:19:36 - core.deployment - DEBUG - task_housekeeping, 29686, False, 0
+2015/03/05 19:19:36 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/05 19:20:43 - __main__ - INFO - 
+
+
+2015/03/05 19:20:43 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/05 19:20:43 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/05 19:20:43 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/05 19:20:43 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/05 19:20:43 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/05 19:20:43 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/05 19:20:43 - core.deployment - DEBUG - -------------------------
+2015/03/05 19:20:45 - tasks.dispatcher - DEBUG - task_dispatcher, 29715, True, None
+2015/03/05 19:20:45 - tasks.console - DEBUG - task_console, 29717, True, None
+2015/03/05 19:20:45 - tasks.comunications - DEBUG - task_comunications, 29716, True, None
+2015/03/05 19:20:45 - tasks.housekeeping - DEBUG - task_housekeeping, 29719, True, None
+2015/03/05 19:20:45 - tasks.flightplan - DEBUG - task_flightplant, 29718, True, None
+2015/03/05 19:20:47 - core.deployment - DEBUG - -------------------------
+2015/03/05 19:20:47 - core.deployment - DEBUG - task_dispatcher, 29715, False, 0
+2015/03/05 19:20:47 - core.deployment - DEBUG - task_comunications, 29716, False, 0
+2015/03/05 19:20:47 - core.deployment - DEBUG - task_console, 29717, False, 0
+2015/03/05 19:20:47 - core.deployment - DEBUG - task_flightplant, 29718, False, 0
+2015/03/05 19:20:47 - core.deployment - DEBUG - task_housekeeping, 29719, False, 0
+2015/03/05 19:20:47 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/05 19:20:58 - __main__ - INFO - 
+
+
+2015/03/05 19:20:58 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/05 19:20:58 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/05 19:20:58 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/05 19:20:58 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/05 19:20:58 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/05 19:20:58 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/05 19:20:58 - core.deployment - DEBUG - -------------------------
+2015/03/05 19:21:00 - tasks.dispatcher - DEBUG - task_dispatcher, 29733, True, None
+2015/03/05 19:21:00 - tasks.comunications - DEBUG - task_comunications, 29734, True, None
+2015/03/05 19:21:00 - tasks.housekeeping - DEBUG - task_housekeeping, 29737, True, None
+2015/03/05 19:21:00 - tasks.flightplan - DEBUG - task_flightplant, 29736, True, None
+2015/03/05 19:21:00 - tasks.console - DEBUG - task_console, 29735, True, None
+2015/03/05 19:21:02 - core.deployment - DEBUG - -------------------------
+2015/03/05 19:21:02 - core.deployment - DEBUG - task_dispatcher, 29733, False, 0
+2015/03/05 19:21:02 - core.deployment - DEBUG - task_comunications, 29734, False, 0
+2015/03/05 19:21:02 - core.deployment - DEBUG - task_console, 29735, False, 0
+2015/03/05 19:21:02 - core.deployment - DEBUG - task_flightplant, 29736, False, 0
+2015/03/05 19:21:02 - core.deployment - DEBUG - task_housekeeping, 29737, False, 0
+2015/03/05 19:21:02 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/05 19:21:08 - __main__ - INFO - 
+
+
+2015/03/05 19:21:08 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/05 19:21:08 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/05 19:21:08 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/05 19:21:08 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/05 19:21:08 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/05 19:21:08 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/05 19:21:08 - core.deployment - DEBUG - -------------------------
+2015/03/05 19:21:10 - tasks.dispatcher - DEBUG - task_dispatcher, 29749, True, None
+2015/03/05 19:21:10 - tasks.console - DEBUG - task_console, 29751, True, None
+2015/03/05 19:21:10 - tasks.flightplan - DEBUG - task_flightplant, 29752, True, None
+2015/03/05 19:21:10 - tasks.comunications - DEBUG - task_comunications, 29750, True, None
+2015/03/05 19:21:10 - tasks.housekeeping - DEBUG - task_housekeeping, 29753, True, None
+2015/03/05 19:21:12 - core.deployment - DEBUG - -------------------------
+2015/03/05 19:21:12 - core.deployment - DEBUG - task_dispatcher, 29749, False, 0
+2015/03/05 19:21:12 - core.deployment - DEBUG - task_comunications, 29750, False, 0
+2015/03/05 19:21:12 - core.deployment - DEBUG - task_console, 29751, False, 0
+2015/03/05 19:21:12 - core.deployment - DEBUG - task_flightplant, 29752, False, 0
+2015/03/05 19:21:12 - core.deployment - DEBUG - task_housekeeping, 29753, False, 0
+2015/03/05 19:21:12 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/05 19:21:45 - __main__ - INFO - 
+
+
+2015/03/05 19:21:45 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/05 19:21:45 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/05 19:21:45 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/05 19:21:45 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/05 19:21:45 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/05 19:21:45 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/05 19:21:45 - core.deployment - DEBUG - -------------------------
+2015/03/05 19:21:47 - tasks.dispatcher - DEBUG - task_dispatcher, 29775, True, None
+2015/03/05 19:21:47 - tasks.flightplan - DEBUG - task_flightplant, 29778, True, None
+2015/03/05 19:21:47 - tasks.housekeeping - DEBUG - task_housekeeping, 29779, True, None
+2015/03/05 19:21:47 - tasks.console - DEBUG - task_console, 29777, True, None
+2015/03/05 19:21:47 - tasks.comunications - DEBUG - task_comunications, 29776, True, None
+2015/03/05 19:21:49 - core.deployment - DEBUG - -------------------------
+2015/03/05 19:21:49 - core.deployment - DEBUG - task_dispatcher, 29775, False, 0
+2015/03/05 19:21:49 - core.deployment - DEBUG - task_comunications, 29776, False, 0
+2015/03/05 19:21:49 - core.deployment - DEBUG - task_console, 29777, False, 0
+2015/03/05 19:21:49 - core.deployment - DEBUG - task_flightplant, 29778, False, 0
+2015/03/05 19:21:49 - core.deployment - DEBUG - task_housekeeping, 29779, False, 0
+2015/03/05 19:21:49 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/05 19:23:19 - __main__ - INFO - 
+
+
+2015/03/05 19:23:19 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/05 19:23:19 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/05 19:23:19 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/05 19:23:19 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/05 19:23:19 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/05 19:23:19 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/05 19:23:19 - core.deployment - DEBUG - -------------------------
+2015/03/05 19:23:21 - tasks.dispatcher - DEBUG - task_dispatcher, 29831, True, None
+2015/03/05 19:23:21 - tasks.console - DEBUG - task_console, 29833, True, None
+2015/03/05 19:23:21 - tasks.flightplan - DEBUG - task_flightplant, 29834, True, None
+2015/03/05 19:23:21 - tasks.housekeeping - DEBUG - task_housekeeping, 29835, True, None
+2015/03/05 19:23:21 - tasks.comunications - DEBUG - task_comunications, 29832, True, None
+2015/03/05 19:23:23 - core.deployment - DEBUG - -------------------------
+2015/03/05 19:23:23 - core.deployment - DEBUG - task_dispatcher, 29831, False, 0
+2015/03/05 19:23:23 - core.deployment - DEBUG - task_comunications, 29832, False, 0
+2015/03/05 19:23:23 - core.deployment - DEBUG - task_console, 29833, False, 0
+2015/03/05 19:23:23 - core.deployment - DEBUG - task_flightplant, 29834, False, 0
+2015/03/05 19:23:23 - core.deployment - DEBUG - task_housekeeping, 29835, False, 0
+2015/03/05 19:23:23 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/05 19:23:51 - __main__ - INFO - 
+
+
+2015/03/05 19:23:51 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/05 19:23:51 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/05 19:23:51 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/05 19:23:51 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/05 19:23:51 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/05 19:23:51 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/05 19:23:51 - core.deployment - DEBUG - -------------------------
+2015/03/05 19:23:53 - tasks.dispatcher - DEBUG - task_dispatcher, 29867, True, None
+2015/03/05 19:23:53 - tasks.comunications - DEBUG - task_comunications, 29868, True, None
+2015/03/05 19:23:53 - tasks.console - DEBUG - task_console, 29869, True, None
+2015/03/05 19:23:53 - tasks.flightplan - DEBUG - task_flightplant, 29870, True, None
+2015/03/05 19:23:53 - tasks.housekeeping - DEBUG - task_housekeeping, 29871, True, None
+2015/03/05 19:23:55 - core.deployment - DEBUG - -------------------------
+2015/03/05 19:23:55 - core.deployment - DEBUG - task_dispatcher, 29867, False, 0
+2015/03/05 19:23:55 - core.deployment - DEBUG - task_comunications, 29868, False, 0
+2015/03/05 19:23:55 - core.deployment - DEBUG - task_console, 29869, False, 0
+2015/03/05 19:23:55 - core.deployment - DEBUG - task_flightplant, 29870, False, 0
+2015/03/05 19:23:55 - core.deployment - DEBUG - task_housekeeping, 29871, False, 0
+2015/03/05 19:23:55 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/05 19:26:01 - __main__ - INFO - 
+
+
+2015/03/05 19:26:01 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/05 19:26:01 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/05 19:26:01 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/05 19:26:01 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/05 19:26:01 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/05 19:26:01 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/05 19:26:01 - core.deployment - DEBUG - -------------------------
+2015/03/05 19:26:03 - tasks.dispatcher - DEBUG - task_dispatcher, 29945, True, None
+2015/03/05 19:26:03 - tasks.console - DEBUG - task_console, 29947, True, None
+2015/03/05 19:26:03 - tasks.comunications - DEBUG - task_comunications, 29946, True, None
+2015/03/05 19:26:03 - tasks.housekeeping - DEBUG - task_housekeeping, 29949, True, None
+2015/03/05 19:26:03 - tasks.flightplan - DEBUG - task_flightplant, 29948, True, None
+2015/03/05 19:26:05 - core.deployment - DEBUG - -------------------------
+2015/03/05 19:26:05 - core.deployment - DEBUG - task_dispatcher, 29945, False, 0
+2015/03/05 19:26:05 - core.deployment - DEBUG - task_comunications, 29946, False, 0
+2015/03/05 19:26:05 - core.deployment - DEBUG - task_console, 29947, False, 0
+2015/03/05 19:26:05 - core.deployment - DEBUG - task_flightplant, 29948, False, 0
+2015/03/05 19:26:05 - core.deployment - DEBUG - task_housekeeping, 29949, False, 0
+2015/03/05 19:26:05 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/05 19:26:07 - __main__ - INFO - 
+
+
+2015/03/05 19:26:07 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/05 19:26:07 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/05 19:26:07 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/05 19:26:07 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/05 19:26:07 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/05 19:26:07 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/05 19:26:07 - core.deployment - DEBUG - -------------------------
+2015/03/05 19:26:09 - tasks.dispatcher - DEBUG - task_dispatcher, 29959, True, None
+2015/03/05 19:26:09 - tasks.console - DEBUG - task_console, 29961, True, None
+2015/03/05 19:26:09 - tasks.comunications - DEBUG - task_comunications, 29960, True, None
+2015/03/05 19:26:09 - tasks.flightplan - DEBUG - task_flightplant, 29962, True, None
+2015/03/05 19:26:09 - tasks.housekeeping - DEBUG - task_housekeeping, 29963, True, None
+2015/03/05 19:26:11 - core.deployment - DEBUG - -------------------------
+2015/03/05 19:26:11 - core.deployment - DEBUG - task_dispatcher, 29959, False, 0
+2015/03/05 19:26:11 - core.deployment - DEBUG - task_comunications, 29960, False, 0
+2015/03/05 19:26:11 - core.deployment - DEBUG - task_console, 29961, False, 0
+2015/03/05 19:26:11 - core.deployment - DEBUG - task_flightplant, 29962, False, 0
+2015/03/05 19:26:11 - core.deployment - DEBUG - task_housekeeping, 29963, False, 0
+2015/03/05 19:26:11 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/05 19:26:21 - __main__ - INFO - 
+
+
+2015/03/05 19:26:21 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/05 19:26:21 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/05 19:26:21 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/05 19:26:21 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/05 19:26:21 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/05 19:26:21 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/05 19:26:21 - core.deployment - DEBUG - -------------------------
+2015/03/05 19:26:23 - tasks.dispatcher - DEBUG - task_dispatcher, 29978, True, None
+2015/03/05 19:26:23 - tasks.comunications - DEBUG - task_comunications, 29979, True, None
+2015/03/05 19:26:23 - tasks.console - DEBUG - task_console, 29980, True, None
+2015/03/05 19:26:23 - tasks.flightplan - DEBUG - task_flightplant, 29981, True, None
+2015/03/05 19:26:23 - tasks.housekeeping - DEBUG - task_housekeeping, 29982, True, None
+2015/03/05 19:26:25 - core.deployment - DEBUG - -------------------------
+2015/03/05 19:26:25 - core.deployment - DEBUG - task_dispatcher, 29978, False, 0
+2015/03/05 19:26:25 - core.deployment - DEBUG - task_comunications, 29979, False, 0
+2015/03/05 19:26:25 - core.deployment - DEBUG - task_console, 29980, False, 0
+2015/03/05 19:26:25 - core.deployment - DEBUG - task_flightplant, 29981, False, 0
+2015/03/05 19:26:25 - core.deployment - DEBUG - task_housekeeping, 29982, False, 0
+2015/03/05 19:26:25 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/05 19:27:10 - __main__ - INFO - 
+
+
+2015/03/05 19:27:10 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/05 19:27:10 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/05 19:27:10 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/05 19:27:10 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/05 19:27:10 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/05 19:27:10 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/05 19:27:10 - core.deployment - DEBUG - -------------------------
+2015/03/05 19:27:12 - tasks.dispatcher - DEBUG - task_dispatcher, 30012, True, None
+2015/03/05 19:27:12 - tasks.flightplan - DEBUG - task_flightplant, 30015, True, None
+2015/03/05 19:27:12 - tasks.housekeeping - DEBUG - task_housekeeping, 30016, True, None
+2015/03/05 19:27:12 - tasks.console - DEBUG - task_console, 30014, True, None
+2015/03/05 19:27:12 - tasks.comunications - DEBUG - task_comunications, 30013, True, None
+2015/03/05 19:27:14 - core.deployment - DEBUG - -------------------------
+2015/03/05 19:27:14 - core.deployment - DEBUG - task_dispatcher, 30012, False, 0
+2015/03/05 19:27:14 - core.deployment - DEBUG - task_comunications, 30013, False, 0
+2015/03/05 19:27:14 - core.deployment - DEBUG - task_console, 30014, False, 0
+2015/03/05 19:27:14 - core.deployment - DEBUG - task_flightplant, 30015, False, 0
+2015/03/05 19:27:14 - core.deployment - DEBUG - task_housekeeping, 30016, False, 0
+2015/03/05 19:27:14 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/05 19:27:28 - __main__ - INFO - 
+
+
+2015/03/05 19:27:28 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/05 19:27:28 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/05 19:27:28 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/05 19:27:28 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/05 19:27:28 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/05 19:27:28 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/05 19:27:28 - core.deployment - DEBUG - -------------------------
+2015/03/05 19:27:30 - tasks.dispatcher - DEBUG - task_dispatcher, 30029, True, None
+2015/03/05 19:27:30 - tasks.console - DEBUG - task_console, 30031, True, None
+2015/03/05 19:27:30 - tasks.flightplan - DEBUG - task_flightplant, 30032, True, None
+2015/03/05 19:27:30 - tasks.housekeeping - DEBUG - task_housekeeping, 30033, True, None
+2015/03/05 19:27:30 - tasks.comunications - DEBUG - task_comunications, 30030, True, None
+2015/03/05 19:27:32 - core.deployment - DEBUG - -------------------------
+2015/03/05 19:27:32 - core.deployment - DEBUG - task_dispatcher, 30029, False, 0
+2015/03/05 19:27:32 - core.deployment - DEBUG - task_comunications, 30030, False, 0
+2015/03/05 19:27:32 - core.deployment - DEBUG - task_console, 30031, False, 0
+2015/03/05 19:27:32 - core.deployment - DEBUG - task_flightplant, 30032, False, 0
+2015/03/05 19:27:32 - core.deployment - DEBUG - task_housekeeping, 30033, False, 0
+2015/03/05 19:27:32 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/05 19:27:44 - __main__ - INFO - 
+
+
+2015/03/05 19:27:44 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/05 19:27:45 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/05 19:27:45 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/05 19:27:45 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/05 19:27:45 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/05 19:27:45 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/05 19:27:45 - core.deployment - DEBUG - -------------------------
+2015/03/05 19:27:47 - tasks.dispatcher - DEBUG - task_dispatcher, 30051, True, None
+2015/03/05 19:27:47 - tasks.flightplan - DEBUG - task_flightplant, 30054, True, None
+2015/03/05 19:27:47 - tasks.comunications - DEBUG - task_comunications, 30052, True, None
+2015/03/05 19:27:47 - tasks.housekeeping - DEBUG - task_housekeeping, 30055, True, None
+2015/03/05 19:27:47 - tasks.console - DEBUG - task_console, 30053, True, None
+2015/03/05 19:27:49 - core.deployment - DEBUG - -------------------------
+2015/03/05 19:27:49 - core.deployment - DEBUG - task_dispatcher, 30051, False, 0
+2015/03/05 19:27:49 - core.deployment - DEBUG - task_comunications, 30052, False, 0
+2015/03/05 19:27:49 - core.deployment - DEBUG - task_console, 30053, False, 0
+2015/03/05 19:27:49 - core.deployment - DEBUG - task_flightplant, 30054, False, 0
+2015/03/05 19:27:49 - core.deployment - DEBUG - task_housekeeping, 30055, False, 0
+2015/03/05 19:27:49 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/05 19:27:59 - __main__ - INFO - 
+
+
+2015/03/05 19:27:59 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/05 19:27:59 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/05 19:27:59 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/05 19:27:59 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/05 19:27:59 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/05 19:27:59 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/05 19:27:59 - core.deployment - DEBUG - -------------------------
+2015/03/05 19:28:01 - tasks.dispatcher - DEBUG - task_dispatcher, 30069, True, None
+2015/03/05 19:28:01 - tasks.console - DEBUG - task_console, 30071, True, None
+2015/03/05 19:28:01 - tasks.comunications - DEBUG - task_comunications, 30070, True, None
+2015/03/05 19:28:01 - tasks.housekeeping - DEBUG - task_housekeeping, 30073, True, None
+2015/03/05 19:28:01 - tasks.flightplan - DEBUG - task_flightplant, 30072, True, None
+2015/03/05 19:28:03 - core.deployment - DEBUG - -------------------------
+2015/03/05 19:28:03 - core.deployment - DEBUG - task_dispatcher, 30069, False, 0
+2015/03/05 19:28:03 - core.deployment - DEBUG - task_comunications, 30070, False, 0
+2015/03/05 19:28:03 - core.deployment - DEBUG - task_console, 30071, False, 0
+2015/03/05 19:28:03 - core.deployment - DEBUG - task_flightplant, 30072, False, 0
+2015/03/05 19:28:03 - core.deployment - DEBUG - task_housekeeping, 30073, False, 0
+2015/03/05 19:28:03 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/05 19:28:11 - __main__ - INFO - 
+
+
+2015/03/05 19:28:11 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/05 19:28:11 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/05 19:28:11 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/05 19:28:11 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/05 19:28:11 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/05 19:28:11 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/05 19:28:11 - core.deployment - DEBUG - -------------------------
+2015/03/05 19:28:13 - tasks.dispatcher - DEBUG - task_dispatcher, 30084, True, None
+2015/03/05 19:28:13 - tasks.console - DEBUG - task_console, 30086, True, None
+2015/03/05 19:28:13 - tasks.comunications - DEBUG - task_comunications, 30085, True, None
+2015/03/05 19:28:13 - tasks.flightplan - DEBUG - task_flightplant, 30087, True, None
+2015/03/05 19:28:13 - tasks.housekeeping - DEBUG - task_housekeeping, 30088, True, None
+2015/03/05 19:28:15 - core.deployment - DEBUG - -------------------------
+2015/03/05 19:28:15 - core.deployment - DEBUG - task_dispatcher, 30084, False, 0
+2015/03/05 19:28:15 - core.deployment - DEBUG - task_comunications, 30085, False, 0
+2015/03/05 19:28:15 - core.deployment - DEBUG - task_console, 30086, False, 0
+2015/03/05 19:28:15 - core.deployment - DEBUG - task_flightplant, 30087, False, 0
+2015/03/05 19:28:15 - core.deployment - DEBUG - task_housekeeping, 30088, False, 0
+2015/03/05 19:28:15 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/05 19:28:19 - __main__ - INFO - 
+
+
+2015/03/05 19:28:19 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/05 19:28:19 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/05 19:28:19 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/05 19:28:19 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/05 19:28:19 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/05 19:28:19 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/05 19:28:19 - core.deployment - DEBUG - -------------------------
+2015/03/05 19:28:21 - tasks.dispatcher - DEBUG - task_dispatcher, 30095, True, None
+2015/03/05 19:28:21 - tasks.flightplan - DEBUG - task_flightplant, 30098, True, None
+2015/03/05 19:28:21 - tasks.console - DEBUG - task_console, 30097, True, None
+2015/03/05 19:28:21 - tasks.comunications - DEBUG - task_comunications, 30096, True, None
+2015/03/05 19:28:21 - tasks.housekeeping - DEBUG - task_housekeeping, 30099, True, None
+2015/03/05 19:28:23 - core.deployment - DEBUG - -------------------------
+2015/03/05 19:28:23 - core.deployment - DEBUG - task_dispatcher, 30095, False, 0
+2015/03/05 19:28:23 - core.deployment - DEBUG - task_comunications, 30096, False, 0
+2015/03/05 19:28:23 - core.deployment - DEBUG - task_console, 30097, False, 0
+2015/03/05 19:28:23 - core.deployment - DEBUG - task_flightplant, 30098, False, 0
+2015/03/05 19:28:23 - core.deployment - DEBUG - task_housekeeping, 30099, False, 0
+2015/03/05 19:28:23 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..

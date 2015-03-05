@@ -2,11 +2,14 @@
 # -*- coding: utf-8 -*-
 __author__ = 'toopazo'
 
+from core import shared_resources # for access to deployment.statusRepositorySem
 from enum import Enum, unique
+import logging
+logger = logging.getLogger(__name__)
 
 
 @unique
-class StateVariable(Enum):
+class StateVar(Enum):
     # // Bus Hw status (connected trough the PC/104 to the OBC -PIC24-)
     RTC_isAlive = 0
     TRX_isAlive = 1
@@ -103,18 +106,68 @@ class StateVariable(Enum):
     # //*************
     # stateVar_last_one = 73    # //Elemento sin sentido =  solo se utiliza para marcar el largo del arreglo
 
+    @staticmethod
+    def get_index(state_var):
+        if hasattr(state_var, "value"):
+            return state_var.value
+        else:
+            return -1
+
+    @staticmethod
+    def get_string(state_var):
+        if hasattr(state_var, "name"):
+            return state_var.name
+        else:
+            return -1
+
+    # int sta_get_stateVar(STA_StateVar indxVar);
+    @staticmethod
+    def get_value(state_var):
+        shared_resources.statusRepositorySem.acquire()
+
+        value = 0
+        if state_var == StateVar.RTC_isAlive:
+            value = -1
+        if state_var == StateVar.AntSwitch_isOpen:
+            value = -1
+
+        shared_resources.statusRepositorySem.release()
+        return value
+
+    # void sta_onReset_stateRepo(void);
+    @staticmethod
+    def on_reset(verbose):
+        # print("%s" % StateVar.on_reset.__name__)
+
+        if verbose:
+            for j in range(0, len(StateVar)):
+                logger.debug("%s(%s) => %s" % (StateVar.__name__, j, StateVar(j)))
+
 
 if __name__ == "__main__":
-    print("testing StateVariable enum class ..")
-    print("StateVariable.AntSwitch_isOpen => ", StateVariable.AntSwitch_isOpen)
-    print("StateVariable.AntSwitch_isOpen.name => ", StateVariable.AntSwitch_isOpen.name)
-    print("StateVariable.AntSwitch_isOpen.value => ", StateVariable.AntSwitch_isOpen.value)
-    print("StateVariable(5) => ", StateVariable(5))
-    print("list(StateVariable) => ", list(StateVariable))
-    print("len(StateVariable) => ", len(StateVariable))
-    for i in range(0, len(StateVariable)):
-        print("StateVariable(%s) => %s" % (i, StateVariable(i)))
+    # print("testing StateVar enum class ..")
+    # print("StateVar.AntSwitch_isOpen => ", StateVar.AntSwitch_isOpen)
+    # print("StateVar.AntSwitch_isOpen.name => ", StateVar.AntSwitch_isOpen.name)
+    # print("StateVar.AntSwitch_isOpen.value => ", StateVar.AntSwitch_isOpen.value)
+    # print("StateVar(5) => ", StateVar(5))
 
-    # print(StateVariable(0))
-    # print(StateVariable(1))
-    # print(StateVariable(73))
+    for i in range(0, len(StateVar)):
+        print("StateVar(%s) => %s" % (i, StateVar(i)))
+    print()
+
+    print("list(StateVar) => ", list(StateVar))
+    print("len(StateVar) => ", len(StateVar))
+    print("hasattr(StateVar, pay_debug_state) =>", hasattr(StateVar, "pay_debug_state"))
+    print("getattr(StateVar, pay_debug_state) =>", getattr(StateVar, "pay_debug_state"))
+    print("dir(StateVar) =>", dir(StateVar.AntSwitch_isOpen))
+    print("dir(StateVar.get_value) =>", dir(StateVar.get_value))
+    print()
+
+    print("StateVar.get_string(StateVar.AntSwitch_isOpen) =>", StateVar.get_string(StateVar.AntSwitch_isOpen))
+    print("StateVar.get_index(StateVar.AntSwitch_isOpen) =>", StateVar.get_index(StateVar.AntSwitch_isOpen))
+    print("StateVar.get_value(StateVar.AntSwitch_isOpen) =>", StateVar.get_value(StateVar.AntSwitch_isOpen))
+    print()
+
+    # print(StateVar(0))
+    # print(StateVar(1))
+    # print(StateVar(73))

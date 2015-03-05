@@ -9,13 +9,32 @@ from tasks import flightplan
 from tasks import housekeeping
 import time
 
+from repos import state
+from repos import command
+
+import logging
+logger = logging.getLogger(__name__)
+
 
 def init_state_repo():
-    pass
+    # logger.debug("")
+    state.StateVar.on_reset(False)
 
 
 def init_command_repo():
-    pass
+    # add cmds to cmdRepo
+    con_handler = command.CmdHandler(name="CmdCON", cmd_own=1, n_cmd=2,
+                                     b_function=['function1', 'function2', print],
+                                     b_sys_req=[], on_reset_function=None)
+    command.CmdRepo.add_commands(con_handler)
+    arg = "get_function(con_handler.name, 0) => %s", command.CmdRepo.get_function(con_handler.name, 0)    # debug
+    print(arg)
+    arg = "get_function(con_handler.name, 1) => %s", command.CmdRepo.get_function(con_handler.name, 1)    # debug
+    print(arg)
+    arg = "get_function(con_handler.name, 2) => %s", command.CmdRepo.get_function(con_handler.name, 2)    # debug
+    print(arg)
+    command.CmdRepo.get_function(con_handler.name, 2)("aca ejecuto la funcion que llame con get_function")    # debug
+    #pass
 
 
 def init_data_repo():
@@ -31,16 +50,21 @@ def init_suchai_repos():
 
 def launch_tasks():
     handler = dispatcher.taskHandler
-    print(handler.name, handler.pid, handler.is_alive(), handler.exitcode)
+    arg = "%s, %s, %s, %s" % (handler.name, handler.pid, handler.is_alive(), handler.exitcode)
+    logger.debug(arg)
     handler = comunications.taskHandler
-    print(handler.name, handler.pid, handler.is_alive(), handler.exitcode)
+    arg = "%s, %s, %s, %s" % (handler.name, handler.pid, handler.is_alive(), handler.exitcode)
+    logger.debug(arg)
     handler = console.taskHandler
-    print(handler.name, handler.pid, handler.is_alive(), handler.exitcode)
+    arg = "%s, %s, %s, %s" % (handler.name, handler.pid, handler.is_alive(), handler.exitcode)
+    logger.debug(arg)
     handler = flightplan.taskHandler
-    print(handler.name, handler.pid, handler.is_alive(), handler.exitcode)
+    arg = "%s, %s, %s, %s" % (handler.name, handler.pid, handler.is_alive(), handler.exitcode)
+    logger.debug(arg)
     handler = housekeeping.taskHandler
-    print(handler.name, handler.pid, handler.is_alive(), handler.exitcode)
-    print("-------------------------")
+    arg = "%s, %s, %s, %s" % (handler.name, handler.pid, handler.is_alive(), handler.exitcode)
+    logger.debug(arg)
+    logger.debug("-------------------------")
 
     time.sleep(2)
 
@@ -58,27 +82,22 @@ def launch_tasks():
     flightplan.taskHandler.join()
     housekeeping.taskHandler.join()
 
-    print("-------------------------")
+    logger.debug("-------------------------")
     handler = dispatcher.taskHandler
-    print(handler.name, handler.pid, handler.is_alive(), handler.exitcode)
+    arg = "%s, %s, %s, %s" % (handler.name, handler.pid, handler.is_alive(), handler.exitcode)
+    logger.debug(arg)
     handler = comunications.taskHandler
-    print(handler.name, handler.pid, handler.is_alive(), handler.exitcode)
+    arg = "%s, %s, %s, %s" % (handler.name, handler.pid, handler.is_alive(), handler.exitcode)
+    logger.debug(arg)
     handler = console.taskHandler
-    print(handler.name, handler.pid, handler.is_alive(), handler.exitcode)
+    arg = "%s, %s, %s, %s" % (handler.name, handler.pid, handler.is_alive(), handler.exitcode)
+    logger.debug(arg)
     handler = flightplan.taskHandler
-    print(handler.name, handler.pid, handler.is_alive(), handler.exitcode)
+    arg = "%s, %s, %s, %s" % (handler.name, handler.pid, handler.is_alive(), handler.exitcode)
+    logger.debug(arg)
     handler = housekeeping.taskHandler
-    print(handler.name, handler.pid, handler.is_alive(), handler.exitcode)
+    arg = "%s, %s, %s, %s" % (handler.name, handler.pid, handler.is_alive(), handler.exitcode)
+    logger.debug(arg)
 
-    print("\nStarting Suchai Sw ..\n")
+    logger.info("Suchai Sw: Starting nominal operations ..")
 
-
-# xQueueHandle dispatcherQueue, i2cRxQueue, executerCmdQueue, executerStatQueue;
-# xSemaphoreHandle statusRepositorySem, consolePrintfSem, rtcPrintSem;
-dispatcherQueue = None  # must be initialized using queue.Queue(maxsize=x)
-i2cRxQueue = None  # must be initialized using queue.Queue(maxsize=x)
-executerCmdQueue = None  # must be initialized using queue.Queue(maxsize=x)
-executerStatQueue = None  # must be initialized using queue.Queue(maxsize=x)
-statusRepositorySem = None  # must be initialized using multiprocessing.Lock()
-consolePrintfSem = None  # must be initialized using multiprocessing.Lock()
-rtcPrintSem = None  # must be initialized using multiprocessing.Lock()

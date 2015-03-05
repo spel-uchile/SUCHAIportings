@@ -28,6 +28,7 @@ from hwconfigs import externalconfigs
 # include "suchaiDeployment.h" # reemplazable por: dep_init_suchai_hw(); (hw externo a la Raspberry)
 #  dep_init_suchai_repos(); (state, data y cmd repos) dep_init_suchai_tasks(); (lanzar task/threads)
 from core import deployment
+from core import shared_resources
 
 # /* Command Includes */
 # include "cmdIncludes.h" # reemplazable por clases con definicion de los comandos "DispCmd" y "ExeCmd"
@@ -47,25 +48,46 @@ import SUCHAI_config
 # xTaskHandle taskDeploymentHandle, taskDispatcherHandle;
 # xTaskHandle taskComunicationsHandle, taskConsoleHandle, taskFlightPlanHandle,
 #             taskFlightPlan2Handle, taskFlightPlan3Handle, taskHouskeepingHandle;
+import logging
+logger = logging.getLogger(__name__)
 
 
 def main():
+    logging.basicConfig(level=logging.DEBUG,
+                        #format='%(asctime)s:%(name)s:%(levelname)s:%(message)s',
+                        format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+                        #format="%(asctime)-15s:%(message)s",
+                        datefmt='%Y/%m/%d %H:%M:%S',
+                        filename='suchai.log',
+                        filemode='a',
+                        #disable_existing_loggers=False
+                        )
+    # logger.info('\n')
+    # logger.debug('Hello World')
+    # logger.info('You should note this')
+    # logger.warning('be warned')
+    # logger.error("an normal error arose")
+    # logger.critical("a critical error arose")
+
+    logger.info("\n\n")
+    logger.info("Suchai Sw: Entry point ..")
+
     # /* Initializing shared Queues */
-    deployment.dispatcherQueue = multiprocessing.Queue(maxsize=25)    # xQueueCreate(25, sizeof(DispCmd));
+    shared_resources.dispatcherQueue = multiprocessing.Queue(maxsize=25)    # xQueueCreate(25, sizeof(DispCmd));
     if SUCHAI_config.SCH_TASKEXECUTER_INSIDE_TASKDISPATCHER == 1:
         # no Queue creation
         pass
     else:
-        deployment.executerCmdQueue = multiprocessing.Queue(maxsize=1)    # xQueueCreate(1,sizeof(ExeCmd));
-        deployment.executerStatQueue = multiprocessing.Queue(maxsize=1)    # xQueueCreate(1,sizeof(int));
+        shared_resources.executerCmdQueue = multiprocessing.Queue(maxsize=1)    # xQueueCreate(1,sizeof(ExeCmd));
+        shared_resources.executerStatQueue = multiprocessing.Queue(maxsize=1)    # xQueueCreate(1,sizeof(int));
     #endif
     # i2cRxQueue se usa para pasar datos desde TRX Gomspace CSP a taskComunications. Para este porting no se usara
     # deployment.i2cRxQueue = queue.Queue(maxsize=I2C_MTU)   # xQueueCreate(I2C_MTU, sizeof(char));   //TRX_GOMSPACE
 
     # /* Initializing shared Semaphore */
-    deployment.statusRepositorySem = multiprocessing.Lock()  # xSemaphoreCreateMutex();
-    deployment.consolePrintfSem = multiprocessing.Lock()  # xSemaphoreCreateMutex();
-    deployment.rtcPrintSem = multiprocessing.Lock()  # xSemaphoreCreateMutex();
+    shared_resources.statusRepositorySem = multiprocessing.Lock()  # xSemaphoreCreateMutex();
+    shared_resources.consolePrintfSem = multiprocessing.Lock()  # xSemaphoreCreateMutex();
+    shared_resources.rtcPrintSem = multiprocessing.Lock()  # xSemaphoreCreateMutex();
 
     # /* Configure Peripherals */
     # /* NOTA: EL TIMER 1 Y SU INTERRUPCION ESTAN CONFIGURADOS POR EL S.0. (FreeRTOS) */
