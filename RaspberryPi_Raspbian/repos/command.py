@@ -16,32 +16,26 @@ class CmdHandler():
     #     onResetFunction xxx_onReset;
     #
     # }CmdRepo_cmdXXX_handler;
-    def __init__(self, name, cmd_own, n_cmd, b_function, b_sys_req, on_reset_function):
-        self.name = name
-        self.cmdOwn = cmd_own
-        self.nCmd = n_cmd
-        self.bFunction = b_function     # buffer of functions
-        self.bSysReq = b_sys_req        # buffer of sysReq
-        self.onResetFunction = on_reset_function
+    # def __init__(self, name, cmd_own, n_cmd, b_function, b_sys_req, on_reset):
+    # def __init__(self):
+    #     self.name = name
+    #     self.cmdOwn = cmd_own
+    #     self.nCmd = n_cmd
+    #     self.bFunction = b_function     # buffer of functions
+    #     self.bSysReq = b_sys_req        # buffer of sysReq
+    #     self.onResetFunction = on_reset_function
+    pass
 
 
 #base class for CmdCON, CmdPPC, etc
 #@unique
 #class CmdXXX(Enum):
 class CmdXXX():
-    @staticmethod
-    def get_index(state_var):
-        if hasattr(state_var, "value"):
-            return state_var.value
-        else:
-            return -1
-
-    @staticmethod
-    def get_string(state_var):
-        if hasattr(state_var, "name"):
-            return state_var.name
-        else:
-            return -1
+    def __init__(self, cmdown, ncmd):  # , cmd_function_repo):
+        self.cmdOwn = cmdown
+        self.nCmd = ncmd
+        self.cmdFunction = []          # buffer of functions
+        self.cmdSysReq = []            # buffer of sysReq
 
     @staticmethod
     def on_reset(verbose):
@@ -50,14 +44,29 @@ class CmdXXX():
 
 class CmdRepo():
     # #define CMD_BUFF_CMDXX_LEN SCH_NUM_CMDXXX
-    b_cmdHandler = []
+    b_cmd_repo = []
 
     # void repo_set_cmdXXX_hanlder(CmdRepo_cmdXXX_handler cmdPPC_handler);
     @staticmethod
-    def add_commands(cmd_handler):
-        if hasattr(cmd_handler, "bFunction"):
-            CmdRepo.b_cmdHandler.append(cmd_handler)
-            print("cmd_handler.name =>", cmd_handler.name)  # debug
+    def add_cmdrepo(cmd_handler):
+        # if hasattr(cmd_handler, "cmdFunction"):
+        #     CmdRepo.b_cmd_repo.append(cmd_handler)
+        #     print("cmd_handler.name =>", cmd_handler.name)  # debug
+        try:
+            CmdRepo.b_cmd_repo.append(cmd_handler)
+            # print("cmd_handler.name =>", cmd_handler.name)  # debug
+        except AttributeError:
+            pass
+
+    @staticmethod
+    def get_ncmds(cmd_name):
+        for i in range(0, len(CmdRepo.b_cmd_repo)):
+            if CmdRepo.b_cmd_repo[i].name == cmd_name:
+                try:
+                    nc = CmdRepo.b_cmd_repo[i].get_ncmds()
+                    return nc
+                except AttributeError:
+                    return -1
 
     # cmdFunction repo_getFunction(int cmdID);
     @staticmethod
@@ -66,16 +75,17 @@ class CmdRepo():
         #and then, from inside this CmdHandler and using the rest of cmd_id get the
         #corresponding "function and return it"
         res = None
-        for i in range(0, len(CmdRepo.b_cmdHandler)):
-            if CmdRepo.b_cmdHandler[i].name == cmd_name:
+        for i in range(0, len(CmdRepo.b_cmd_repo)):
+            #print("CmdRepo.b_cmd_repo[i].name => %s" % CmdRepo.b_cmd_repo[i].name)
+            if CmdRepo.b_cmd_repo[i].name == cmd_name:
                 try:
-                    res = CmdRepo.b_cmdHandler[i].bFunction[cmd_id]
+                    res = CmdRepo.b_cmd_repo[i].cmdFunction[cmd_id]
                 except IndexError:
                     res = None
 
-        # print("list(CmdRepo.b_cmdHandler)", list(CmdRepo.b_cmdHandler))         # debug
-        # print("CmdRepo.b_cmdHandler[0] =>", CmdRepo.b_cmdHandler[0])            # debug
-        # print("CmdRepo.b_cmdHandler[0].name =>", CmdRepo.b_cmdHandler[0].name)  # debug
+        # print("list(CmdRepo.b_cmd_repo)", list(CmdRepo.b_cmd_repo))         # debug
+        # print("CmdRepo.b_cmd_repo[0] =>", CmdRepo.b_cmd_repo[0])            # debug
+        # print("CmdRepo.b_cmd_repo[0].name =>", CmdRepo.b_cmd_repo[0].name)  # debug
 
         return res
 

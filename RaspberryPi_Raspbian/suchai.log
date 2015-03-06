@@ -1780,3 +1780,335 @@ Suchai Sw: Entry point ..
 2015/03/05 19:28:23 - core.deployment - DEBUG - task_flightplant, 30098, False, 0
 2015/03/05 19:28:23 - core.deployment - DEBUG - task_housekeeping, 30099, False, 0
 2015/03/05 19:28:23 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 17:22:05 - __main__ - INFO - 
+
+
+2015/03/06 17:22:05 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 17:25:52 - __main__ - INFO - 
+
+
+2015/03/06 17:25:52 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 17:27:56 - __main__ - INFO - 
+
+
+2015/03/06 17:27:56 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 17:29:08 - __main__ - INFO - 
+
+
+2015/03/06 17:29:08 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 17:29:36 - __main__ - INFO - 
+
+
+2015/03/06 17:29:36 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 17:29:46 - __main__ - INFO - 
+
+
+2015/03/06 17:29:46 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 17:29:48 - __main__ - INFO - 
+
+
+2015/03/06 17:29:48 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 17:30:01 - __main__ - INFO - 
+
+
+2015/03/06 17:30:01 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 17:31:45 - __main__ - INFO - 
+
+
+2015/03/06 17:31:45 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 17:32:33 - __main__ - INFO - 
+
+
+2015/03/06 17:32:33 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 17:34:22 - __main__ - INFO - 
+
+
+2015/03/06 17:34:22 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 17:37:21 - __main__ - INFO - 
+
+
+2015/03/06 17:37:21 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 17:37:21 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 17:37:21 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 17:37:21 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 17:37:21 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 17:37:21 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 17:37:21 - core.deployment - DEBUG - -------------------------
+2015/03/06 17:37:23 - tasks.dispatcher - DEBUG - task_dispatcher, 9331, True, None
+2015/03/06 17:37:23 - tasks.console - DEBUG - task_console, 9333, True, None
+2015/03/06 17:37:23 - tasks.comunications - DEBUG - task_comunications, 9332, True, None
+2015/03/06 17:37:23 - tasks.flightplan - DEBUG - task_flightplant, 9334, True, None
+2015/03/06 17:37:23 - tasks.housekeeping - DEBUG - task_housekeeping, 9335, True, None
+2015/03/06 17:37:25 - core.deployment - DEBUG - -------------------------
+2015/03/06 17:37:25 - core.deployment - DEBUG - task_dispatcher, 9331, False, 0
+2015/03/06 17:37:25 - core.deployment - DEBUG - task_comunications, 9332, False, 0
+2015/03/06 17:37:25 - core.deployment - DEBUG - task_console, 9333, False, 0
+2015/03/06 17:37:25 - core.deployment - DEBUG - task_flightplant, 9334, False, 0
+2015/03/06 17:37:25 - core.deployment - DEBUG - task_housekeeping, 9335, False, 0
+2015/03/06 17:37:25 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 17:38:11 - __main__ - INFO - 
+
+
+2015/03/06 17:38:11 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 17:38:11 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 17:38:11 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 17:38:11 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 17:38:11 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 17:38:11 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 17:38:11 - core.deployment - DEBUG - -------------------------
+2015/03/06 17:38:13 - tasks.dispatcher - DEBUG - task_dispatcher, 9359, True, None
+2015/03/06 17:38:13 - tasks.console - DEBUG - task_console, 9361, True, None
+2015/03/06 17:38:13 - tasks.housekeeping - DEBUG - task_housekeeping, 9363, True, None
+2015/03/06 17:38:13 - tasks.flightplan - DEBUG - task_flightplant, 9362, True, None
+2015/03/06 17:38:13 - tasks.comunications - DEBUG - task_comunications, 9360, True, None
+2015/03/06 17:38:15 - core.deployment - DEBUG - -------------------------
+2015/03/06 17:38:15 - core.deployment - DEBUG - task_dispatcher, 9359, False, 0
+2015/03/06 17:38:15 - core.deployment - DEBUG - task_comunications, 9360, False, 0
+2015/03/06 17:38:15 - core.deployment - DEBUG - task_console, 9361, False, 0
+2015/03/06 17:38:15 - core.deployment - DEBUG - task_flightplant, 9362, False, 0
+2015/03/06 17:38:15 - core.deployment - DEBUG - task_housekeeping, 9363, False, 0
+2015/03/06 17:38:15 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 17:38:57 - __main__ - INFO - 
+
+
+2015/03/06 17:38:57 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 17:38:57 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 17:38:57 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 17:38:57 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 17:38:57 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 17:38:57 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 17:38:57 - core.deployment - DEBUG - -------------------------
+2015/03/06 17:38:59 - tasks.dispatcher - DEBUG - task_dispatcher, 9397, True, None
+2015/03/06 17:38:59 - tasks.flightplan - DEBUG - task_flightplant, 9400, True, None
+2015/03/06 17:38:59 - tasks.comunications - DEBUG - task_comunications, 9398, True, None
+2015/03/06 17:38:59 - tasks.console - DEBUG - task_console, 9399, True, None
+2015/03/06 17:38:59 - tasks.housekeeping - DEBUG - task_housekeeping, 9401, True, None
+2015/03/06 17:39:01 - core.deployment - DEBUG - -------------------------
+2015/03/06 17:39:01 - core.deployment - DEBUG - task_dispatcher, 9397, False, 0
+2015/03/06 17:39:01 - core.deployment - DEBUG - task_comunications, 9398, False, 0
+2015/03/06 17:39:01 - core.deployment - DEBUG - task_console, 9399, False, 0
+2015/03/06 17:39:01 - core.deployment - DEBUG - task_flightplant, 9400, False, 0
+2015/03/06 17:39:01 - core.deployment - DEBUG - task_housekeeping, 9401, False, 0
+2015/03/06 17:39:01 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 17:39:18 - __main__ - INFO - 
+
+
+2015/03/06 17:39:18 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 17:39:18 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 17:39:18 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 17:39:18 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 17:39:18 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 17:39:18 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 17:39:18 - core.deployment - DEBUG - -------------------------
+2015/03/06 17:39:20 - tasks.dispatcher - DEBUG - task_dispatcher, 9413, True, None
+2015/03/06 17:39:20 - tasks.comunications - DEBUG - task_comunications, 9414, True, None
+2015/03/06 17:39:20 - tasks.flightplan - DEBUG - task_flightplant, 9416, True, None
+2015/03/06 17:39:20 - tasks.housekeeping - DEBUG - task_housekeeping, 9417, True, None
+2015/03/06 17:39:20 - tasks.console - DEBUG - task_console, 9415, True, None
+2015/03/06 17:39:22 - core.deployment - DEBUG - -------------------------
+2015/03/06 17:39:22 - core.deployment - DEBUG - task_dispatcher, 9413, False, 0
+2015/03/06 17:39:22 - core.deployment - DEBUG - task_comunications, 9414, False, 0
+2015/03/06 17:39:22 - core.deployment - DEBUG - task_console, 9415, False, 0
+2015/03/06 17:39:22 - core.deployment - DEBUG - task_flightplant, 9416, False, 0
+2015/03/06 17:39:22 - core.deployment - DEBUG - task_housekeeping, 9417, False, 0
+2015/03/06 17:39:22 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 17:42:05 - __main__ - INFO - 
+
+
+2015/03/06 17:42:05 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 17:42:32 - __main__ - INFO - 
+
+
+2015/03/06 17:42:32 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 17:42:46 - __main__ - INFO - 
+
+
+2015/03/06 17:42:46 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 17:43:10 - __main__ - INFO - 
+
+
+2015/03/06 17:43:10 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 17:43:10 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 17:43:10 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 17:43:10 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 17:43:10 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 17:43:10 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 17:43:10 - core.deployment - DEBUG - -------------------------
+2015/03/06 17:43:12 - tasks.dispatcher - DEBUG - task_dispatcher, 9533, True, None
+2015/03/06 17:43:12 - tasks.console - DEBUG - task_console, 9535, True, None
+2015/03/06 17:43:12 - tasks.housekeeping - DEBUG - task_housekeeping, 9537, True, None
+2015/03/06 17:43:12 - tasks.comunications - DEBUG - task_comunications, 9534, True, None
+2015/03/06 17:43:12 - tasks.flightplan - DEBUG - task_flightplant, 9536, True, None
+2015/03/06 17:43:14 - core.deployment - DEBUG - -------------------------
+2015/03/06 17:43:14 - core.deployment - DEBUG - task_dispatcher, 9533, False, 0
+2015/03/06 17:43:14 - core.deployment - DEBUG - task_comunications, 9534, False, 0
+2015/03/06 17:43:14 - core.deployment - DEBUG - task_console, 9535, False, 0
+2015/03/06 17:43:14 - core.deployment - DEBUG - task_flightplant, 9536, False, 0
+2015/03/06 17:43:14 - core.deployment - DEBUG - task_housekeeping, 9537, False, 0
+2015/03/06 17:43:14 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 17:45:29 - __main__ - INFO - 
+
+
+2015/03/06 17:45:29 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 17:45:29 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 17:45:29 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 17:45:29 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 17:45:29 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 17:45:29 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 17:45:29 - core.deployment - DEBUG - -------------------------
+2015/03/06 17:45:31 - tasks.dispatcher - DEBUG - task_dispatcher, 9594, True, None
+2015/03/06 17:45:31 - tasks.comunications - DEBUG - task_comunications, 9595, True, None
+2015/03/06 17:45:31 - tasks.console - DEBUG - task_console, 9596, True, None
+2015/03/06 17:45:31 - tasks.housekeeping - DEBUG - task_housekeeping, 9598, True, None
+2015/03/06 17:45:31 - tasks.flightplan - DEBUG - task_flightplant, 9597, True, None
+2015/03/06 17:45:33 - core.deployment - DEBUG - -------------------------
+2015/03/06 17:45:33 - core.deployment - DEBUG - task_dispatcher, 9594, False, 0
+2015/03/06 17:45:33 - core.deployment - DEBUG - task_comunications, 9595, False, 0
+2015/03/06 17:45:33 - core.deployment - DEBUG - task_console, 9596, False, 0
+2015/03/06 17:45:33 - core.deployment - DEBUG - task_flightplant, 9597, False, 0
+2015/03/06 17:45:33 - core.deployment - DEBUG - task_housekeeping, 9598, False, 0
+2015/03/06 17:45:33 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 17:49:17 - __main__ - INFO - 
+
+
+2015/03/06 17:49:17 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 17:51:32 - __main__ - INFO - 
+
+
+2015/03/06 17:51:32 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 17:51:32 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 17:51:32 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 17:51:32 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 17:51:32 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 17:51:32 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 17:51:32 - core.deployment - DEBUG - -------------------------
+2015/03/06 17:51:34 - tasks.dispatcher - DEBUG - task_dispatcher, 9830, True, None
+2015/03/06 17:51:34 - tasks.console - DEBUG - task_console, 9832, True, None
+2015/03/06 17:51:34 - tasks.comunications - DEBUG - task_comunications, 9831, True, None
+2015/03/06 17:51:34 - tasks.housekeeping - DEBUG - task_housekeeping, 9834, True, None
+2015/03/06 17:51:34 - tasks.flightplan - DEBUG - task_flightplant, 9833, True, None
+2015/03/06 17:51:36 - core.deployment - DEBUG - -------------------------
+2015/03/06 17:51:36 - core.deployment - DEBUG - task_dispatcher, 9830, False, 0
+2015/03/06 17:51:36 - core.deployment - DEBUG - task_comunications, 9831, False, 0
+2015/03/06 17:51:36 - core.deployment - DEBUG - task_console, 9832, False, 0
+2015/03/06 17:51:36 - core.deployment - DEBUG - task_flightplant, 9833, False, 0
+2015/03/06 17:51:36 - core.deployment - DEBUG - task_housekeeping, 9834, False, 0
+2015/03/06 17:51:36 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 17:52:08 - __main__ - INFO - 
+
+
+2015/03/06 17:52:08 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 17:52:08 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 17:52:08 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 17:52:08 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 17:52:08 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 17:52:08 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 17:52:08 - core.deployment - DEBUG - -------------------------
+2015/03/06 17:52:10 - tasks.dispatcher - DEBUG - task_dispatcher, 9854, True, None
+2015/03/06 17:52:10 - tasks.console - DEBUG - task_console, 9856, True, None
+2015/03/06 17:52:10 - tasks.comunications - DEBUG - task_comunications, 9855, True, None
+2015/03/06 17:52:10 - tasks.flightplan - DEBUG - task_flightplant, 9857, True, None
+2015/03/06 17:52:10 - tasks.housekeeping - DEBUG - task_housekeeping, 9858, True, None
+2015/03/06 17:52:12 - core.deployment - DEBUG - -------------------------
+2015/03/06 17:52:12 - core.deployment - DEBUG - task_dispatcher, 9854, False, 0
+2015/03/06 17:52:12 - core.deployment - DEBUG - task_comunications, 9855, False, 0
+2015/03/06 17:52:12 - core.deployment - DEBUG - task_console, 9856, False, 0
+2015/03/06 17:52:12 - core.deployment - DEBUG - task_flightplant, 9857, False, 0
+2015/03/06 17:52:12 - core.deployment - DEBUG - task_housekeeping, 9858, False, 0
+2015/03/06 17:52:12 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 17:53:08 - __main__ - INFO - 
+
+
+2015/03/06 17:53:08 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 17:53:08 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 17:53:08 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 17:53:08 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 17:53:08 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 17:53:08 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 17:53:08 - core.deployment - DEBUG - -------------------------
+2015/03/06 17:53:10 - tasks.dispatcher - DEBUG - task_dispatcher, 9883, True, None
+2015/03/06 17:53:10 - tasks.console - DEBUG - task_console, 9885, True, None
+2015/03/06 17:53:10 - tasks.comunications - DEBUG - task_comunications, 9884, True, None
+2015/03/06 17:53:10 - tasks.flightplan - DEBUG - task_flightplant, 9886, True, None
+2015/03/06 17:53:10 - tasks.housekeeping - DEBUG - task_housekeeping, 9887, True, None
+2015/03/06 17:53:12 - core.deployment - DEBUG - -------------------------
+2015/03/06 17:53:12 - core.deployment - DEBUG - task_dispatcher, 9883, False, 0
+2015/03/06 17:53:12 - core.deployment - DEBUG - task_comunications, 9884, False, 0
+2015/03/06 17:53:12 - core.deployment - DEBUG - task_console, 9885, False, 0
+2015/03/06 17:53:12 - core.deployment - DEBUG - task_flightplant, 9886, False, 0
+2015/03/06 17:53:12 - core.deployment - DEBUG - task_housekeeping, 9887, False, 0
+2015/03/06 17:53:12 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 17:54:23 - __main__ - INFO - 
+
+
+2015/03/06 17:54:23 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 17:54:23 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 17:54:23 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 17:54:23 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 17:54:23 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 17:54:23 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 17:54:23 - core.deployment - DEBUG - -------------------------
+2015/03/06 17:54:25 - tasks.dispatcher - DEBUG - task_dispatcher, 9920, True, None
+2015/03/06 17:54:25 - tasks.console - DEBUG - task_console, 9922, True, None
+2015/03/06 17:54:25 - tasks.comunications - DEBUG - task_comunications, 9921, True, None
+2015/03/06 17:54:25 - tasks.flightplan - DEBUG - task_flightplant, 9923, True, None
+2015/03/06 17:54:25 - tasks.housekeeping - DEBUG - task_housekeeping, 9924, True, None
+2015/03/06 17:54:27 - core.deployment - DEBUG - -------------------------
+2015/03/06 17:54:27 - core.deployment - DEBUG - task_dispatcher, 9920, False, 0
+2015/03/06 17:54:27 - core.deployment - DEBUG - task_comunications, 9921, False, 0
+2015/03/06 17:54:27 - core.deployment - DEBUG - task_console, 9922, False, 0
+2015/03/06 17:54:27 - core.deployment - DEBUG - task_flightplant, 9923, False, 0
+2015/03/06 17:54:27 - core.deployment - DEBUG - task_housekeeping, 9924, False, 0
+2015/03/06 17:54:27 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 17:55:29 - __main__ - INFO - 
+
+
+2015/03/06 17:55:29 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 17:55:29 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 17:55:29 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 17:55:29 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 17:55:29 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 17:55:29 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 17:55:29 - core.deployment - DEBUG - -------------------------
+2015/03/06 17:55:31 - tasks.dispatcher - DEBUG - task_dispatcher, 9952, True, None
+2015/03/06 17:55:31 - tasks.comunications - DEBUG - task_comunications, 9953, True, None
+2015/03/06 17:55:31 - tasks.flightplan - DEBUG - task_flightplant, 9955, True, None
+2015/03/06 17:55:31 - tasks.housekeeping - DEBUG - task_housekeeping, 9956, True, None
+2015/03/06 17:55:31 - tasks.console - DEBUG - task_console, 9954, True, None
+2015/03/06 17:55:33 - core.deployment - DEBUG - -------------------------
+2015/03/06 17:55:33 - core.deployment - DEBUG - task_dispatcher, 9952, False, 0
+2015/03/06 17:55:33 - core.deployment - DEBUG - task_comunications, 9953, False, 0
+2015/03/06 17:55:33 - core.deployment - DEBUG - task_console, 9954, False, 0
+2015/03/06 17:55:33 - core.deployment - DEBUG - task_flightplant, 9955, False, 0
+2015/03/06 17:55:33 - core.deployment - DEBUG - task_housekeeping, 9956, False, 0
+2015/03/06 17:55:33 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 17:59:30 - __main__ - INFO - 
+
+
+2015/03/06 17:59:30 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 17:59:58 - __main__ - INFO - 
+
+
+2015/03/06 17:59:58 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 18:00:23 - __main__ - INFO - 
+
+
+2015/03/06 18:00:23 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 18:00:23 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 18:00:23 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 18:00:23 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 18:00:23 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 18:00:23 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 18:00:23 - core.deployment - DEBUG - -------------------------
+2015/03/06 18:00:25 - tasks.dispatcher - DEBUG - task_dispatcher, 10086, True, None
+2015/03/06 18:00:25 - tasks.console - DEBUG - task_console, 10088, True, None
+2015/03/06 18:00:25 - tasks.comunications - DEBUG - task_comunications, 10087, True, None
+2015/03/06 18:00:25 - tasks.flightplan - DEBUG - task_flightplant, 10089, True, None
+2015/03/06 18:00:25 - tasks.housekeeping - DEBUG - task_housekeeping, 10090, True, None
+2015/03/06 18:00:27 - core.deployment - DEBUG - -------------------------
+2015/03/06 18:00:27 - core.deployment - DEBUG - task_dispatcher, 10086, False, 0
+2015/03/06 18:00:27 - core.deployment - DEBUG - task_comunications, 10087, False, 0
+2015/03/06 18:00:27 - core.deployment - DEBUG - task_console, 10088, False, 0
+2015/03/06 18:00:27 - core.deployment - DEBUG - task_flightplant, 10089, False, 0
+2015/03/06 18:00:27 - core.deployment - DEBUG - task_housekeeping, 10090, False, 0
+2015/03/06 18:00:27 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..

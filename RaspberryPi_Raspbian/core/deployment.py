@@ -11,6 +11,7 @@ import time
 
 from repos import state
 from repos import command
+from repos.cmds import cmdconsole
 
 import logging
 logger = logging.getLogger(__name__)
@@ -23,17 +24,16 @@ def init_state_repo():
 
 def init_command_repo():
     # add cmds to cmdRepo
-    con_handler = command.CmdHandler(name="CmdCON", cmd_own=1, n_cmd=2,
-                                     b_function=['function1', 'function2', print],
-                                     b_sys_req=[], on_reset_function=None)
-    command.CmdRepo.add_commands(con_handler)
-    arg = "get_function(con_handler.name, 0) => %s", command.CmdRepo.get_function(con_handler.name, 0)    # debug
-    print(arg)
-    arg = "get_function(con_handler.name, 1) => %s", command.CmdRepo.get_function(con_handler.name, 1)    # debug
-    print(arg)
-    arg = "get_function(con_handler.name, 2) => %s", command.CmdRepo.get_function(con_handler.name, 2)    # debug
-    print(arg)
-    command.CmdRepo.get_function(con_handler.name, 2)("aca ejecuto la funcion que llame con get_function")    # debug
+    console_repo = cmdconsole.CmdCON(cmdown=1, ncmd=2)
+    command.CmdRepo.add_cmdrepo(console_repo)
+    print("    * Attaching %s to CmdRepo" % console_repo.name)
+
+    # debug
+    for i in range(0, command.CmdRepo.get_ncmds(console_repo.name)):
+        arg = "get_function(%s, %s) => %s" % (console_repo.name, i, command.CmdRepo.get_function(console_repo.name, i))
+        print(arg)
+
+    command.CmdRepo.get_function(console_repo.name, 0)(None)    # debug
     #pass
 
 

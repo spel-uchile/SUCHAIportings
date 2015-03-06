@@ -85,7 +85,11 @@ class IdOrigs():
     #define CMD_IDORIG_TDEPLOYMENT      (0x1107)
     CMD_IDORIG_TDEPLOYMENT = 0x1107
 
+
 #define CMD_SYSREQ_MIN      (1)     ///< Min energy level possible
 #define CMD_SYSREQ_MAX      (9)     ///< Max energy level possible
+class SysReqs():
+    SYSREQ_MIN = 1
+    SYSREQ_MAX = 10
 
 #endif /* CMD_INCLUDES_H */
