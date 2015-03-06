@@ -2,68 +2,77 @@
 # -*- coding: utf-8 -*-
 __author__ = 'toopazo'
 
-from enum import Enum, unique
+from core import gnrluse
 import logging
 logger = logging.getLogger(__name__)
 
 
-class CmdHandler():
-    # typedef struct{
-    #     unsigned char cmdOwn;
-    #     unsigned int nCmd;
-    #     cmdFunction *p_xxxFunction;
-    #     int *p_xxxSysReq;
-    #     onResetFunction xxx_onReset;
-    #
-    # }CmdRepo_cmdXXX_handler;
-    # def __init__(self, name, cmd_own, n_cmd, b_function, b_sys_req, on_reset):
-    # def __init__(self):
-    #     self.name = name
-    #     self.cmdOwn = cmd_own
-    #     self.nCmd = n_cmd
-    #     self.bFunction = b_function     # buffer of functions
-    #     self.bSysReq = b_sys_req        # buffer of sysReq
-    #     self.onResetFunction = on_reset_function
-    pass
+# class CmdHandler():
+#     def __init__(self, cmdxxx):     # , name, cmdown, onreset_funct):  # , cmd_function_repo):
+#         self.cmdxxx = cmdxxx
+#         self.name = cmdxxx.name
+#         self.cmdOwn = cmdxxx.cmdOwn
+#
+#         # self.nCmd = 0
+#         self.cmdFunction = []          # buffer of functions
+#         self.cmdSysReq = []            # buffer of sysReq
+#
+#     def get_ncmds(self):
+#         return len(self.cmdFunction)
+#
+#     def on_reset(self):
+#         self.cmdxxx.on_reset()    # after this call cmdFunction and cmdSysReq are ready/loaded
+#         self.cmdFunction = self.cmdxxx.cmdFunction
+#         self.cmdSysReq = self.cmdxxx.cmdSysReq
 
 
 #base class for CmdCON, CmdPPC, etc
-#@unique
-#class CmdXXX(Enum):
 class CmdXXX():
-    def __init__(self, cmdown, ncmd):  # , cmd_function_repo):
-        self.cmdOwn = cmdown
-        self.nCmd = ncmd
-        self.cmdFunction = []          # buffer of functions
-        self.cmdSysReq = []            # buffer of sysReq
 
-    @staticmethod
-    def on_reset(verbose):
+    def __init__(self):
+        self.name = __name__
+        self.cmdOwn = 0
+        self.cmdFunction = []        # buffer of functions
+        self.cmdSysReq = []          # buffer of functions
+
+    #@staticmethod
+    def on_reset(self):
         raise NotImplementedError
 
+    #@staticmethod
+    def get_ncmds(self):
+        #raise NotImplementedError
+        return len(self.cmdFunction)
 
+
+# manages acces to te cmdRepo
 class CmdRepo():
     # #define CMD_BUFF_CMDXX_LEN SCH_NUM_CMDXXX
     b_cmd_repo = []
 
     # void repo_set_cmdXXX_hanlder(CmdRepo_cmdXXX_handler cmdPPC_handler);
     @staticmethod
-    def add_cmdrepo(cmd_handler):
-        # if hasattr(cmd_handler, "cmdFunction"):
-        #     CmdRepo.b_cmd_repo.append(cmd_handler)
-        #     print("cmd_handler.name =>", cmd_handler.name)  # debug
+    def add_cmd_xxx(cmd_xxx):
+        # if hasattr(cmd_xxx, "cmdFunction"):
+        #     CmdRepo.b_cmd_repo.append(cmd_xxx)
+        #     print("cmd_xxx.name =>", cmd_xxx.name)  # debug
         try:
-            CmdRepo.b_cmd_repo.append(cmd_handler)
-            # print("cmd_handler.name =>", cmd_handler.name)  # debug
+            CmdRepo.b_cmd_repo.append(cmd_xxx)
+            # print("cmd_xxx.name =>", cmd_xxx.name)  # debug
+            print(CmdRepo.b_cmd_repo)
+
+            #execute onReset of added cmd_xxx
+            cmd_xxx.on_reset()
         except AttributeError:
             pass
 
     @staticmethod
     def get_ncmds(cmd_name):
         for i in range(0, len(CmdRepo.b_cmd_repo)):
-            if CmdRepo.b_cmd_repo[i].name == cmd_name:
+            cmd_xxx = CmdRepo.b_cmd_repo[i]
+            if cmd_xxx.name == cmd_name:
                 try:
-                    nc = CmdRepo.b_cmd_repo[i].get_ncmds()
+                    nc = cmd_xxx.get_ncmds()
                     return nc
                 except AttributeError:
                     return -1
@@ -76,12 +85,14 @@ class CmdRepo():
         #corresponding "function and return it"
         res = None
         for i in range(0, len(CmdRepo.b_cmd_repo)):
+            cmd_xxx = CmdRepo.b_cmd_repo[i]
             #print("CmdRepo.b_cmd_repo[i].name => %s" % CmdRepo.b_cmd_repo[i].name)
-            if CmdRepo.b_cmd_repo[i].name == cmd_name:
+            if cmd_xxx.name == cmd_name:
                 try:
-                    res = CmdRepo.b_cmd_repo[i].cmdFunction[cmd_id]
+                    res = cmd_xxx.cmdFunction[cmd_id]
+                    #print(cmd_xxx.name)
                 except IndexError:
-                    res = None
+                    res = CmdRepo.cmdnull
 
         # print("list(CmdRepo.b_cmd_repo)", list(CmdRepo.b_cmd_repo))         # debug
         # print("CmdRepo.b_cmd_repo[0] =>", CmdRepo.b_cmd_repo[0])            # debug
@@ -91,16 +102,33 @@ class CmdRepo():
 
     # int repo_getsysReq(int cmdID);
     @staticmethod
-    def get_sysreq(cmd_id):
+    def get_sysreq(cmd_name, cmd_id):
         #from cmd_id get "cmdOwn" and get bFunction from the corresponding CmdHandler
         #and then, from inside this CmdHandler and using the rest of cmd_id get the
         #corresponding "sysreq and return it"
-        return 0
+        res = None
+        for i in range(0, len(CmdRepo.b_cmd_repo)):
+            cmd_xxx = CmdRepo.b_cmd_repo[i]
+            #print("CmdRepo.b_cmd_repo[i].name => %s" % CmdRepo.b_cmd_repo[i].name)
+            if cmd_xxx.name == cmd_name:
+                try:
+                    res = cmd_xxx.cmdSysReq[cmd_id]
+                    #print(cmd_xxx.name)
+                except IndexError:
+                    res = gnrluse.SysReqs.SYSREQ_MAX
+
+        # print("list(CmdRepo.b_cmd_repo)", list(CmdRepo.b_cmd_repo))         # debug
+        # print("CmdRepo.b_cmd_repo[0] =>", CmdRepo.b_cmd_repo[0])            # debug
+        # print("CmdRepo.b_cmd_repo[0].name =>", CmdRepo.b_cmd_repo[0].name)  # debug
+
+        return res
 
     # int cmdNULL(void *param);
     @staticmethod
     def cmdnull(param):
-        logger.debug("cmdnull used with param %s", param)
+        arg = "cmdnull used with param: %s" % param
+        logger.debug(arg)
+        print(arg)
         return True
 
 #

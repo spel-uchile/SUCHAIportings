@@ -12,6 +12,7 @@ import time
 from repos import state
 from repos import command
 from repos.cmds import cmdconsole
+from repos.cmds import cmdrtc
 
 import logging
 logger = logging.getLogger(__name__)
@@ -24,17 +25,32 @@ def init_state_repo():
 
 def init_command_repo():
     # add cmds to cmdRepo
-    console_repo = cmdconsole.CmdCON(cmdown=1, ncmd=2)
-    command.CmdRepo.add_cmdrepo(console_repo)
-    print("    * Attaching %s to CmdRepo" % console_repo.name)
+    cmd_con = cmdconsole.CmdCON()
+    command.CmdRepo.add_cmd_xxx(cmd_con)
+    arg = "    * Attaching %s to CmdRepo" % cmd_con.name
+    logger.debug(arg)
 
-    # debug
-    for i in range(0, command.CmdRepo.get_ncmds(console_repo.name)):
-        arg = "get_function(%s, %s) => %s" % (console_repo.name, i, command.CmdRepo.get_function(console_repo.name, i))
+    # debug section
+    for i in range(0, command.CmdRepo.get_ncmds(cmd_con.name)):
+        arg = "get_function(%s, %s) => %s" % (cmd_con.name, i, command.CmdRepo.get_function(cmd_con.name, i))
         print(arg)
+    command.CmdRepo.get_function(cmd_con.name, 0)(None)
 
-    command.CmdRepo.get_function(console_repo.name, 0)(None)    # debug
-    #pass
+    cmd_rtc = cmdrtc.CmdRTC()
+    command.CmdRepo.add_cmd_xxx(cmd_rtc)
+    arg = "    * Attaching %s to CmdRepo" % cmd_rtc.name
+    logger.debug(arg)
+
+    # debug section
+    for i in range(0, command.CmdRepo.get_ncmds(cmd_rtc.name)):
+        arg = "get_function(%s, %s) => %s" % (cmd_rtc.name, i, command.CmdRepo.get_function(cmd_rtc.name, i))
+        print(arg)
+        arg = "get_sysreq(%s, %s) => %s" % (cmd_rtc.name, i, command.CmdRepo.get_sysreq(cmd_rtc.name, i))
+        print(arg)
+    command.CmdRepo.get_function(cmd_rtc.name, 1)(None)
+    command.CmdRepo.get_function(cmd_rtc.name, 121)(None)
+    print(command.CmdRepo.get_sysreq(cmd_rtc.name, 121))
+
 
 
 def init_data_repo():

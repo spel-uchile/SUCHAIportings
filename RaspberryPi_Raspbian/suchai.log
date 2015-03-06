@@ -2112,3 +2112,1427 @@ Suchai Sw: Entry point ..
 2015/03/06 18:00:27 - core.deployment - DEBUG - task_flightplant, 10089, False, 0
 2015/03/06 18:00:27 - core.deployment - DEBUG - task_housekeeping, 10090, False, 0
 2015/03/06 18:00:27 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 18:15:02 - __main__ - INFO - 
+
+
+2015/03/06 18:15:02 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 18:15:02 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 18:15:02 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 18:15:02 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 18:15:02 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 18:15:02 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 18:15:02 - core.deployment - DEBUG - -------------------------
+2015/03/06 18:15:04 - tasks.dispatcher - DEBUG - task_dispatcher, 3212, True, None
+2015/03/06 18:15:04 - tasks.console - DEBUG - task_console, 3214, True, None
+2015/03/06 18:15:04 - tasks.housekeeping - DEBUG - task_housekeeping, 3216, True, None
+2015/03/06 18:15:04 - tasks.flightplan - DEBUG - task_flightplant, 3215, True, None
+2015/03/06 18:15:04 - tasks.comunications - DEBUG - task_comunications, 3213, True, None
+2015/03/06 18:15:06 - core.deployment - DEBUG - -------------------------
+2015/03/06 18:15:06 - core.deployment - DEBUG - task_dispatcher, 3212, False, 0
+2015/03/06 18:15:06 - core.deployment - DEBUG - task_comunications, 3213, False, 0
+2015/03/06 18:15:06 - core.deployment - DEBUG - task_console, 3214, False, 0
+2015/03/06 18:15:06 - core.deployment - DEBUG - task_flightplant, 3215, False, 0
+2015/03/06 18:15:06 - core.deployment - DEBUG - task_housekeeping, 3216, False, 0
+2015/03/06 18:15:06 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 18:15:29 - __main__ - INFO - 
+
+
+2015/03/06 18:15:29 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 18:15:29 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 18:15:29 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 18:15:29 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 18:15:29 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 18:15:29 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 18:15:29 - core.deployment - DEBUG - -------------------------
+2015/03/06 18:15:31 - tasks.dispatcher - DEBUG - task_dispatcher, 3252, True, None
+2015/03/06 18:15:31 - tasks.flightplan - DEBUG - task_flightplant, 3255, True, None
+2015/03/06 18:15:31 - tasks.comunications - DEBUG - task_comunications, 3253, True, None
+2015/03/06 18:15:31 - tasks.console - DEBUG - task_console, 3254, True, None
+2015/03/06 18:15:31 - tasks.housekeeping - DEBUG - task_housekeeping, 3256, True, None
+2015/03/06 18:15:33 - core.deployment - DEBUG - -------------------------
+2015/03/06 18:15:33 - core.deployment - DEBUG - task_dispatcher, 3252, False, 0
+2015/03/06 18:15:33 - core.deployment - DEBUG - task_comunications, 3253, False, 0
+2015/03/06 18:15:33 - core.deployment - DEBUG - task_console, 3254, False, 0
+2015/03/06 18:15:33 - core.deployment - DEBUG - task_flightplant, 3255, False, 0
+2015/03/06 18:15:33 - core.deployment - DEBUG - task_housekeeping, 3256, False, 0
+2015/03/06 18:15:33 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 18:16:04 - __main__ - INFO - 
+
+
+2015/03/06 18:16:04 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 18:16:22 - __main__ - INFO - 
+
+
+2015/03/06 18:16:22 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 18:16:22 - core.deployment - DEBUG -     * Attaching CmdCON to CmdRepo
+2015/03/06 18:16:22 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 18:16:22 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 18:16:22 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 18:16:22 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 18:16:22 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 18:16:22 - core.deployment - DEBUG - -------------------------
+2015/03/06 18:16:24 - tasks.comunications - DEBUG - task_comunications, 3315, True, None
+2015/03/06 18:16:24 - tasks.flightplan - DEBUG - task_flightplant, 3317, True, None
+2015/03/06 18:16:24 - tasks.dispatcher - DEBUG - task_dispatcher, 3314, True, None
+2015/03/06 18:16:24 - tasks.console - DEBUG - task_console, 3316, True, None
+2015/03/06 18:16:24 - tasks.housekeeping - DEBUG - task_housekeeping, 3318, True, None
+2015/03/06 18:16:26 - core.deployment - DEBUG - -------------------------
+2015/03/06 18:16:26 - core.deployment - DEBUG - task_dispatcher, 3314, False, 0
+2015/03/06 18:16:26 - core.deployment - DEBUG - task_comunications, 3315, False, 0
+2015/03/06 18:16:26 - core.deployment - DEBUG - task_console, 3316, False, 0
+2015/03/06 18:16:26 - core.deployment - DEBUG - task_flightplant, 3317, False, 0
+2015/03/06 18:16:26 - core.deployment - DEBUG - task_housekeeping, 3318, False, 0
+2015/03/06 18:16:26 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 18:18:36 - __main__ - INFO - 
+
+
+2015/03/06 18:18:36 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 18:18:36 - core.deployment - DEBUG -     * Attaching CmdCON to CmdRepo
+2015/03/06 18:18:36 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 18:18:36 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 18:18:36 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 18:18:36 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 18:18:36 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 18:18:36 - core.deployment - DEBUG - -------------------------
+2015/03/06 18:18:38 - tasks.dispatcher - DEBUG - task_dispatcher, 3422, True, None
+2015/03/06 18:18:38 - tasks.console - DEBUG - task_console, 3424, True, None
+2015/03/06 18:18:38 - tasks.comunications - DEBUG - task_comunications, 3423, True, None
+2015/03/06 18:18:38 - tasks.flightplan - DEBUG - task_flightplant, 3425, True, None
+2015/03/06 18:18:38 - tasks.housekeeping - DEBUG - task_housekeeping, 3426, True, None
+2015/03/06 18:18:40 - core.deployment - DEBUG - -------------------------
+2015/03/06 18:18:40 - core.deployment - DEBUG - task_dispatcher, 3422, False, 0
+2015/03/06 18:18:40 - core.deployment - DEBUG - task_comunications, 3423, False, 0
+2015/03/06 18:18:40 - core.deployment - DEBUG - task_console, 3424, False, 0
+2015/03/06 18:18:40 - core.deployment - DEBUG - task_flightplant, 3425, False, 0
+2015/03/06 18:18:40 - core.deployment - DEBUG - task_housekeeping, 3426, False, 0
+2015/03/06 18:18:40 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 18:29:38 - __main__ - INFO - 
+
+
+2015/03/06 18:29:38 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 18:30:33 - __main__ - INFO - 
+
+
+2015/03/06 18:30:33 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 18:31:02 - __main__ - INFO - 
+
+
+2015/03/06 18:31:02 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 18:31:18 - __main__ - INFO - 
+
+
+2015/03/06 18:31:18 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 18:31:18 - core.deployment - DEBUG -     * Attaching CmdCON to CmdRepo
+2015/03/06 18:32:12 - __main__ - INFO - 
+
+
+2015/03/06 18:32:12 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 18:32:12 - core.deployment - DEBUG -     * Attaching CmdCON to CmdRepo
+2015/03/06 18:32:12 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 18:32:12 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 18:32:12 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 18:32:12 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 18:32:12 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 18:32:12 - core.deployment - DEBUG - -------------------------
+2015/03/06 18:32:14 - tasks.dispatcher - DEBUG - task_dispatcher, 3915, True, None
+2015/03/06 18:32:14 - tasks.console - DEBUG - task_console, 3917, True, None
+2015/03/06 18:32:14 - tasks.comunications - DEBUG - task_comunications, 3916, True, None
+2015/03/06 18:32:14 - tasks.housekeeping - DEBUG - task_housekeeping, 3919, True, None
+2015/03/06 18:32:14 - tasks.flightplan - DEBUG - task_flightplant, 3918, True, None
+2015/03/06 18:32:16 - core.deployment - DEBUG - -------------------------
+2015/03/06 18:32:16 - core.deployment - DEBUG - task_dispatcher, 3915, False, 0
+2015/03/06 18:32:16 - core.deployment - DEBUG - task_comunications, 3916, False, 0
+2015/03/06 18:32:16 - core.deployment - DEBUG - task_console, 3917, False, 0
+2015/03/06 18:32:16 - core.deployment - DEBUG - task_flightplant, 3918, False, 0
+2015/03/06 18:32:16 - core.deployment - DEBUG - task_housekeeping, 3919, False, 0
+2015/03/06 18:32:16 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 18:34:16 - __main__ - INFO - 
+
+
+2015/03/06 18:34:16 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 18:34:44 - __main__ - INFO - 
+
+
+2015/03/06 18:34:44 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 18:35:03 - __main__ - INFO - 
+
+
+2015/03/06 18:35:03 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 18:35:03 - core.deployment - DEBUG -     * Attaching CmdCON to CmdRepo
+2015/03/06 18:35:03 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 18:35:03 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 18:35:03 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 18:35:03 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 18:35:03 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 18:35:03 - core.deployment - DEBUG - -------------------------
+2015/03/06 18:35:05 - tasks.dispatcher - DEBUG - task_dispatcher, 4056, True, None
+2015/03/06 18:35:05 - tasks.console - DEBUG - task_console, 4058, True, None
+2015/03/06 18:35:05 - tasks.comunications - DEBUG - task_comunications, 4057, True, None
+2015/03/06 18:35:05 - tasks.flightplan - DEBUG - task_flightplant, 4059, True, None
+2015/03/06 18:35:05 - tasks.housekeeping - DEBUG - task_housekeeping, 4060, True, None
+2015/03/06 18:35:07 - core.deployment - DEBUG - -------------------------
+2015/03/06 18:35:07 - core.deployment - DEBUG - task_dispatcher, 4056, False, 0
+2015/03/06 18:35:07 - core.deployment - DEBUG - task_comunications, 4057, False, 0
+2015/03/06 18:35:07 - core.deployment - DEBUG - task_console, 4058, False, 0
+2015/03/06 18:35:07 - core.deployment - DEBUG - task_flightplant, 4059, False, 0
+2015/03/06 18:35:07 - core.deployment - DEBUG - task_housekeeping, 4060, False, 0
+2015/03/06 18:35:07 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 18:40:22 - __main__ - INFO - 
+
+
+2015/03/06 18:40:22 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 18:40:43 - __main__ - INFO - 
+
+
+2015/03/06 18:40:43 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 18:40:43 - core.deployment - DEBUG -     * Attaching CmdCON to CmdRepo
+2015/03/06 18:40:43 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 18:40:43 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 18:40:43 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 18:40:43 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 18:40:43 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 18:40:43 - core.deployment - DEBUG - -------------------------
+2015/03/06 18:40:45 - tasks.dispatcher - DEBUG - task_dispatcher, 4238, True, None
+2015/03/06 18:40:45 - tasks.comunications - DEBUG - task_comunications, 4239, True, None
+2015/03/06 18:40:45 - tasks.console - DEBUG - task_console, 4240, True, None
+2015/03/06 18:40:45 - tasks.flightplan - DEBUG - task_flightplant, 4241, True, None
+2015/03/06 18:40:45 - tasks.housekeeping - DEBUG - task_housekeeping, 4242, True, None
+2015/03/06 18:40:48 - core.deployment - DEBUG - -------------------------
+2015/03/06 18:40:48 - core.deployment - DEBUG - task_dispatcher, 4238, False, 0
+2015/03/06 18:40:48 - core.deployment - DEBUG - task_comunications, 4239, False, 0
+2015/03/06 18:40:48 - core.deployment - DEBUG - task_console, 4240, False, 0
+2015/03/06 18:40:48 - core.deployment - DEBUG - task_flightplant, 4241, False, 0
+2015/03/06 18:40:48 - core.deployment - DEBUG - task_housekeeping, 4242, False, 0
+2015/03/06 18:40:48 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 18:43:08 - __main__ - INFO - 
+
+
+2015/03/06 18:43:08 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 18:43:08 - core.deployment - DEBUG -     * Attaching CmdCON to CmdRepo
+2015/03/06 18:43:08 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 18:43:08 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 18:43:08 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 18:43:08 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 18:43:08 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 18:43:08 - core.deployment - DEBUG - -------------------------
+2015/03/06 18:43:10 - tasks.dispatcher - DEBUG - task_dispatcher, 4309, True, None
+2015/03/06 18:43:10 - tasks.console - DEBUG - task_console, 4311, True, None
+2015/03/06 18:43:10 - tasks.comunications - DEBUG - task_comunications, 4310, True, None
+2015/03/06 18:43:10 - tasks.flightplan - DEBUG - task_flightplant, 4312, True, None
+2015/03/06 18:43:10 - tasks.housekeeping - DEBUG - task_housekeeping, 4313, True, None
+2015/03/06 18:43:12 - core.deployment - DEBUG - -------------------------
+2015/03/06 18:43:12 - core.deployment - DEBUG - task_dispatcher, 4309, False, 0
+2015/03/06 18:43:12 - core.deployment - DEBUG - task_comunications, 4310, False, 0
+2015/03/06 18:43:12 - core.deployment - DEBUG - task_console, 4311, False, 0
+2015/03/06 18:43:12 - core.deployment - DEBUG - task_flightplant, 4312, False, 0
+2015/03/06 18:43:12 - core.deployment - DEBUG - task_housekeeping, 4313, False, 0
+2015/03/06 18:43:12 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 18:43:32 - __main__ - INFO - 
+
+
+2015/03/06 18:43:32 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 18:43:32 - core.deployment - DEBUG -     * Attaching CmdCON to CmdRepo
+2015/03/06 18:43:32 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 18:43:32 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 18:43:32 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 18:43:32 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 18:43:32 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 18:43:32 - core.deployment - DEBUG - -------------------------
+2015/03/06 18:43:34 - tasks.dispatcher - DEBUG - task_dispatcher, 4331, True, None
+2015/03/06 18:43:34 - tasks.console - DEBUG - task_console, 4333, True, None
+2015/03/06 18:43:34 - tasks.comunications - DEBUG - task_comunications, 4332, True, None
+2015/03/06 18:43:34 - tasks.housekeeping - DEBUG - task_housekeeping, 4335, True, None
+2015/03/06 18:43:34 - tasks.flightplan - DEBUG - task_flightplant, 4334, True, None
+2015/03/06 18:43:36 - core.deployment - DEBUG - -------------------------
+2015/03/06 18:43:36 - core.deployment - DEBUG - task_dispatcher, 4331, False, 0
+2015/03/06 18:43:36 - core.deployment - DEBUG - task_comunications, 4332, False, 0
+2015/03/06 18:43:36 - core.deployment - DEBUG - task_console, 4333, False, 0
+2015/03/06 18:43:36 - core.deployment - DEBUG - task_flightplant, 4334, False, 0
+2015/03/06 18:43:36 - core.deployment - DEBUG - task_housekeeping, 4335, False, 0
+2015/03/06 18:43:36 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 18:44:42 - __main__ - INFO - 
+
+
+2015/03/06 18:44:42 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 18:44:42 - core.deployment - DEBUG -     * Attaching CmdCON to CmdRepo
+2015/03/06 18:44:42 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 18:44:42 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 18:44:42 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 18:44:42 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 18:44:42 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 18:44:42 - core.deployment - DEBUG - -------------------------
+2015/03/06 18:44:44 - tasks.dispatcher - DEBUG - task_dispatcher, 4387, True, None
+2015/03/06 18:44:44 - tasks.flightplan - DEBUG - task_flightplant, 4390, True, None
+2015/03/06 18:44:44 - tasks.comunications - DEBUG - task_comunications, 4388, True, None
+2015/03/06 18:44:44 - tasks.housekeeping - DEBUG - task_housekeeping, 4391, True, None
+2015/03/06 18:44:44 - tasks.console - DEBUG - task_console, 4389, True, None
+2015/03/06 18:44:46 - core.deployment - DEBUG - -------------------------
+2015/03/06 18:44:46 - core.deployment - DEBUG - task_dispatcher, 4387, False, 0
+2015/03/06 18:44:46 - core.deployment - DEBUG - task_comunications, 4388, False, 0
+2015/03/06 18:44:46 - core.deployment - DEBUG - task_console, 4389, False, 0
+2015/03/06 18:44:46 - core.deployment - DEBUG - task_flightplant, 4390, False, 0
+2015/03/06 18:44:46 - core.deployment - DEBUG - task_housekeeping, 4391, False, 0
+2015/03/06 18:44:46 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 18:45:26 - __main__ - INFO - 
+
+
+2015/03/06 18:45:26 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 18:45:26 - core.deployment - DEBUG -     * Attaching CmdCON to CmdRepo
+2015/03/06 18:45:26 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 18:45:26 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 18:45:26 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 18:45:26 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 18:45:26 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 18:45:26 - core.deployment - DEBUG - -------------------------
+2015/03/06 18:45:28 - tasks.dispatcher - DEBUG - task_dispatcher, 4415, True, None
+2015/03/06 18:45:28 - tasks.console - DEBUG - task_console, 4417, True, None
+2015/03/06 18:45:28 - tasks.comunications - DEBUG - task_comunications, 4416, True, None
+2015/03/06 18:45:28 - tasks.housekeeping - DEBUG - task_housekeeping, 4419, True, None
+2015/03/06 18:45:28 - tasks.flightplan - DEBUG - task_flightplant, 4418, True, None
+2015/03/06 18:45:30 - core.deployment - DEBUG - -------------------------
+2015/03/06 18:45:30 - core.deployment - DEBUG - task_dispatcher, 4415, False, 0
+2015/03/06 18:45:30 - core.deployment - DEBUG - task_comunications, 4416, False, 0
+2015/03/06 18:45:30 - core.deployment - DEBUG - task_console, 4417, False, 0
+2015/03/06 18:45:30 - core.deployment - DEBUG - task_flightplant, 4418, False, 0
+2015/03/06 18:45:30 - core.deployment - DEBUG - task_housekeeping, 4419, False, 0
+2015/03/06 18:45:30 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 18:52:58 - __main__ - INFO - 
+
+
+2015/03/06 18:52:58 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 18:52:58 - core.deployment - DEBUG -     * Attaching CmdCON to CmdRepo
+2015/03/06 18:52:58 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 18:52:58 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 18:52:58 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 18:52:58 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 18:52:58 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 18:52:58 - core.deployment - DEBUG - -------------------------
+2015/03/06 18:53:00 - tasks.dispatcher - DEBUG - task_dispatcher, 4637, True, None
+2015/03/06 18:53:00 - tasks.console - DEBUG - task_console, 4639, True, None
+2015/03/06 18:53:00 - tasks.comunications - DEBUG - task_comunications, 4638, True, None
+2015/03/06 18:53:00 - tasks.housekeeping - DEBUG - task_housekeeping, 4641, True, None
+2015/03/06 18:53:00 - tasks.flightplan - DEBUG - task_flightplant, 4640, True, None
+2015/03/06 18:53:02 - core.deployment - DEBUG - -------------------------
+2015/03/06 18:53:02 - core.deployment - DEBUG - task_dispatcher, 4637, False, 0
+2015/03/06 18:53:02 - core.deployment - DEBUG - task_comunications, 4638, False, 0
+2015/03/06 18:53:02 - core.deployment - DEBUG - task_console, 4639, False, 0
+2015/03/06 18:53:02 - core.deployment - DEBUG - task_flightplant, 4640, False, 0
+2015/03/06 18:53:02 - core.deployment - DEBUG - task_housekeeping, 4641, False, 0
+2015/03/06 18:53:02 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 18:54:13 - __main__ - INFO - 
+
+
+2015/03/06 18:54:13 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 18:54:13 - core.deployment - DEBUG -     * Attaching CmdCON to CmdRepo
+2015/03/06 18:54:13 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 18:54:13 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 18:54:13 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 18:54:13 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 18:54:13 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 18:54:13 - core.deployment - DEBUG - -------------------------
+2015/03/06 18:54:15 - tasks.dispatcher - DEBUG - task_dispatcher, 4662, True, None
+2015/03/06 18:54:15 - tasks.flightplan - DEBUG - task_flightplant, 4665, True, None
+2015/03/06 18:54:15 - tasks.console - DEBUG - task_console, 4664, True, None
+2015/03/06 18:54:15 - tasks.comunications - DEBUG - task_comunications, 4663, True, None
+2015/03/06 18:54:15 - tasks.housekeeping - DEBUG - task_housekeeping, 4666, True, None
+2015/03/06 18:54:17 - core.deployment - DEBUG - -------------------------
+2015/03/06 18:54:17 - core.deployment - DEBUG - task_dispatcher, 4662, False, 0
+2015/03/06 18:54:17 - core.deployment - DEBUG - task_comunications, 4663, False, 0
+2015/03/06 18:54:17 - core.deployment - DEBUG - task_console, 4664, False, 0
+2015/03/06 18:54:17 - core.deployment - DEBUG - task_flightplant, 4665, False, 0
+2015/03/06 18:54:17 - core.deployment - DEBUG - task_housekeeping, 4666, False, 0
+2015/03/06 18:54:17 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 18:56:16 - __main__ - INFO - 
+
+
+2015/03/06 18:56:16 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 18:56:16 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdconsole to CmdRepo
+2015/03/06 18:56:16 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 18:56:16 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 18:56:16 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 18:56:16 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 18:56:16 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 18:56:16 - core.deployment - DEBUG - -------------------------
+2015/03/06 18:56:18 - tasks.dispatcher - DEBUG - task_dispatcher, 4745, True, None
+2015/03/06 18:56:18 - tasks.comunications - DEBUG - task_comunications, 4746, True, None
+2015/03/06 18:56:18 - tasks.console - DEBUG - task_console, 4747, True, None
+2015/03/06 18:56:18 - tasks.housekeeping - DEBUG - task_housekeeping, 4749, True, None
+2015/03/06 18:56:18 - tasks.flightplan - DEBUG - task_flightplant, 4748, True, None
+2015/03/06 18:56:20 - core.deployment - DEBUG - -------------------------
+2015/03/06 18:56:20 - core.deployment - DEBUG - task_dispatcher, 4745, False, 0
+2015/03/06 18:56:20 - core.deployment - DEBUG - task_comunications, 4746, False, 0
+2015/03/06 18:56:20 - core.deployment - DEBUG - task_console, 4747, False, 0
+2015/03/06 18:56:20 - core.deployment - DEBUG - task_flightplant, 4748, False, 0
+2015/03/06 18:56:20 - core.deployment - DEBUG - task_housekeeping, 4749, False, 0
+2015/03/06 18:56:20 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 18:56:43 - __main__ - INFO - 
+
+
+2015/03/06 18:56:43 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 18:56:43 - core.deployment - DEBUG -     * Attaching repos.command to CmdRepo
+2015/03/06 18:56:43 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 18:56:43 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 18:56:43 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 18:56:43 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 18:56:43 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 18:56:43 - core.deployment - DEBUG - -------------------------
+2015/03/06 18:56:45 - tasks.dispatcher - DEBUG - task_dispatcher, 4771, True, None
+2015/03/06 18:56:45 - tasks.flightplan - DEBUG - task_flightplant, 4774, True, None
+2015/03/06 18:56:45 - tasks.comunications - DEBUG - task_comunications, 4772, True, None
+2015/03/06 18:56:45 - tasks.housekeeping - DEBUG - task_housekeeping, 4775, True, None
+2015/03/06 18:56:45 - tasks.console - DEBUG - task_console, 4773, True, None
+2015/03/06 18:56:47 - core.deployment - DEBUG - -------------------------
+2015/03/06 18:56:47 - core.deployment - DEBUG - task_dispatcher, 4771, False, 0
+2015/03/06 18:56:47 - core.deployment - DEBUG - task_comunications, 4772, False, 0
+2015/03/06 18:56:47 - core.deployment - DEBUG - task_console, 4773, False, 0
+2015/03/06 18:56:47 - core.deployment - DEBUG - task_flightplant, 4774, False, 0
+2015/03/06 18:56:47 - core.deployment - DEBUG - task_housekeeping, 4775, False, 0
+2015/03/06 18:56:47 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 18:57:04 - __main__ - INFO - 
+
+
+2015/03/06 18:57:04 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 18:57:04 - core.deployment - DEBUG -     * Attaching repos.command to CmdRepo
+2015/03/06 18:57:04 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 18:57:04 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 18:57:04 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 18:57:04 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 18:57:04 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 18:57:04 - core.deployment - DEBUG - -------------------------
+2015/03/06 18:57:06 - tasks.dispatcher - DEBUG - task_dispatcher, 4783, True, None
+2015/03/06 18:57:06 - tasks.console - DEBUG - task_console, 4785, True, None
+2015/03/06 18:57:06 - tasks.comunications - DEBUG - task_comunications, 4784, True, None
+2015/03/06 18:57:06 - tasks.flightplan - DEBUG - task_flightplant, 4786, True, None
+2015/03/06 18:57:06 - tasks.housekeeping - DEBUG - task_housekeeping, 4787, True, None
+2015/03/06 18:57:08 - core.deployment - DEBUG - -------------------------
+2015/03/06 18:57:08 - core.deployment - DEBUG - task_dispatcher, 4783, False, 0
+2015/03/06 18:57:08 - core.deployment - DEBUG - task_comunications, 4784, False, 0
+2015/03/06 18:57:08 - core.deployment - DEBUG - task_console, 4785, False, 0
+2015/03/06 18:57:08 - core.deployment - DEBUG - task_flightplant, 4786, False, 0
+2015/03/06 18:57:08 - core.deployment - DEBUG - task_housekeeping, 4787, False, 0
+2015/03/06 18:57:08 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 19:00:00 - __main__ - INFO - 
+
+
+2015/03/06 19:00:00 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 19:00:00 - core.deployment - DEBUG -     * Attaching repos.command to CmdRepo
+2015/03/06 19:00:00 - core.deployment - DEBUG -     * Attaching repos.command to CmdRepo
+2015/03/06 19:00:00 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 19:00:00 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 19:00:00 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 19:00:00 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 19:00:00 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 19:00:00 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:00:02 - tasks.dispatcher - DEBUG - task_dispatcher, 4908, True, None
+2015/03/06 19:00:02 - tasks.housekeeping - DEBUG - task_housekeeping, 4912, True, None
+2015/03/06 19:00:02 - tasks.comunications - DEBUG - task_comunications, 4909, True, None
+2015/03/06 19:00:02 - tasks.flightplan - DEBUG - task_flightplant, 4911, True, None
+2015/03/06 19:00:02 - tasks.console - DEBUG - task_console, 4910, True, None
+2015/03/06 19:00:04 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:00:04 - core.deployment - DEBUG - task_dispatcher, 4908, False, 0
+2015/03/06 19:00:04 - core.deployment - DEBUG - task_comunications, 4909, False, 0
+2015/03/06 19:00:04 - core.deployment - DEBUG - task_console, 4910, False, 0
+2015/03/06 19:00:04 - core.deployment - DEBUG - task_flightplant, 4911, False, 0
+2015/03/06 19:00:04 - core.deployment - DEBUG - task_housekeeping, 4912, False, 0
+2015/03/06 19:00:04 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 19:01:01 - __main__ - INFO - 
+
+
+2015/03/06 19:01:01 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 19:01:01 - core.deployment - DEBUG -     * Attaching repos.command to CmdRepo
+2015/03/06 19:01:01 - core.deployment - DEBUG -     * Attaching repos.command to CmdRepo
+2015/03/06 19:01:01 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 19:01:01 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 19:01:01 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 19:01:01 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 19:01:01 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 19:01:01 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:01:03 - tasks.dispatcher - DEBUG - task_dispatcher, 4960, True, None
+2015/03/06 19:01:03 - tasks.console - DEBUG - task_console, 4962, True, None
+2015/03/06 19:01:03 - tasks.comunications - DEBUG - task_comunications, 4961, True, None
+2015/03/06 19:01:03 - tasks.flightplan - DEBUG - task_flightplant, 4963, True, None
+2015/03/06 19:01:03 - tasks.housekeeping - DEBUG - task_housekeeping, 4964, True, None
+2015/03/06 19:01:05 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:01:05 - core.deployment - DEBUG - task_dispatcher, 4960, False, 0
+2015/03/06 19:01:05 - core.deployment - DEBUG - task_comunications, 4961, False, 0
+2015/03/06 19:01:05 - core.deployment - DEBUG - task_console, 4962, False, 0
+2015/03/06 19:01:05 - core.deployment - DEBUG - task_flightplant, 4963, False, 0
+2015/03/06 19:01:05 - core.deployment - DEBUG - task_housekeeping, 4964, False, 0
+2015/03/06 19:01:05 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 19:02:57 - __main__ - INFO - 
+
+
+2015/03/06 19:02:57 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 19:02:57 - core.deployment - DEBUG -     * Attaching repos.command to CmdRepo
+2015/03/06 19:02:57 - core.deployment - DEBUG -     * Attaching repos.command to CmdRepo
+2015/03/06 19:02:57 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 19:02:57 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 19:02:57 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 19:02:57 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 19:02:57 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 19:02:57 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:02:59 - tasks.dispatcher - DEBUG - task_dispatcher, 5005, True, None
+2015/03/06 19:02:59 - tasks.comunications - DEBUG - task_comunications, 5006, True, None
+2015/03/06 19:02:59 - tasks.flightplan - DEBUG - task_flightplant, 5008, True, None
+2015/03/06 19:02:59 - tasks.console - DEBUG - task_console, 5007, True, None
+2015/03/06 19:02:59 - tasks.housekeeping - DEBUG - task_housekeeping, 5009, True, None
+2015/03/06 19:03:01 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:03:01 - core.deployment - DEBUG - task_dispatcher, 5005, False, 0
+2015/03/06 19:03:01 - core.deployment - DEBUG - task_comunications, 5006, False, 0
+2015/03/06 19:03:01 - core.deployment - DEBUG - task_console, 5007, False, 0
+2015/03/06 19:03:01 - core.deployment - DEBUG - task_flightplant, 5008, False, 0
+2015/03/06 19:03:01 - core.deployment - DEBUG - task_housekeeping, 5009, False, 0
+2015/03/06 19:03:01 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 19:04:59 - __main__ - INFO - 
+
+
+2015/03/06 19:04:59 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 19:04:59 - core.deployment - DEBUG -     * Attaching repos.command to CmdRepo
+2015/03/06 19:05:38 - __main__ - INFO - 
+
+
+2015/03/06 19:05:38 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 19:05:38 - core.deployment - DEBUG -     * Attaching repos.command to CmdRepo
+2015/03/06 19:06:10 - __main__ - INFO - 
+
+
+2015/03/06 19:06:10 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 19:06:10 - core.deployment - DEBUG -     * Attaching repos.command to CmdRepo
+2015/03/06 19:06:10 - core.deployment - DEBUG -     * Attaching repos.command to CmdRepo
+2015/03/06 19:06:10 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 19:06:10 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 19:06:10 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 19:06:10 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 19:06:10 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 19:06:10 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:06:12 - tasks.comunications - DEBUG - task_comunications, 5109, True, None
+2015/03/06 19:06:12 - tasks.console - DEBUG - task_console, 5110, True, None
+2015/03/06 19:06:12 - tasks.dispatcher - DEBUG - task_dispatcher, 5108, True, None
+2015/03/06 19:06:12 - tasks.flightplan - DEBUG - task_flightplant, 5111, True, None
+2015/03/06 19:06:12 - tasks.housekeeping - DEBUG - task_housekeeping, 5112, True, None
+2015/03/06 19:06:14 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:06:14 - core.deployment - DEBUG - task_dispatcher, 5108, False, 0
+2015/03/06 19:06:14 - core.deployment - DEBUG - task_comunications, 5109, False, 0
+2015/03/06 19:06:14 - core.deployment - DEBUG - task_console, 5110, False, 0
+2015/03/06 19:06:14 - core.deployment - DEBUG - task_flightplant, 5111, False, 0
+2015/03/06 19:06:14 - core.deployment - DEBUG - task_housekeeping, 5112, False, 0
+2015/03/06 19:06:14 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 19:07:58 - __main__ - INFO - 
+
+
+2015/03/06 19:07:58 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 19:07:58 - core.deployment - DEBUG -     * Attaching repos.command to CmdRepo
+2015/03/06 19:07:58 - core.deployment - DEBUG -     * Attaching repos.command to CmdRepo
+2015/03/06 19:07:58 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 19:07:58 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 19:07:58 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 19:07:58 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 19:07:58 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 19:07:58 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:08:00 - tasks.dispatcher - DEBUG - task_dispatcher, 5145, True, None
+2015/03/06 19:08:00 - tasks.console - DEBUG - task_console, 5147, True, None
+2015/03/06 19:08:00 - tasks.comunications - DEBUG - task_comunications, 5146, True, None
+2015/03/06 19:08:00 - tasks.flightplan - DEBUG - task_flightplant, 5148, True, None
+2015/03/06 19:08:00 - tasks.housekeeping - DEBUG - task_housekeeping, 5149, True, None
+2015/03/06 19:08:02 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:08:02 - core.deployment - DEBUG - task_dispatcher, 5145, False, 0
+2015/03/06 19:08:02 - core.deployment - DEBUG - task_comunications, 5146, False, 0
+2015/03/06 19:08:02 - core.deployment - DEBUG - task_console, 5147, False, 0
+2015/03/06 19:08:02 - core.deployment - DEBUG - task_flightplant, 5148, False, 0
+2015/03/06 19:08:02 - core.deployment - DEBUG - task_housekeeping, 5149, False, 0
+2015/03/06 19:08:02 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 19:09:16 - __main__ - INFO - 
+
+
+2015/03/06 19:09:16 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 19:09:16 - core.deployment - DEBUG -     * Attaching repos.command to CmdRepo
+2015/03/06 19:09:16 - core.deployment - DEBUG -     * Attaching repos.command to CmdRepo
+2015/03/06 19:09:16 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 19:09:16 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 19:09:16 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 19:09:16 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 19:09:16 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 19:09:16 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:09:18 - tasks.dispatcher - DEBUG - task_dispatcher, 5195, True, None
+2015/03/06 19:09:18 - tasks.console - DEBUG - task_console, 5197, True, None
+2015/03/06 19:09:18 - tasks.comunications - DEBUG - task_comunications, 5196, True, None
+2015/03/06 19:09:18 - tasks.flightplan - DEBUG - task_flightplant, 5198, True, None
+2015/03/06 19:09:18 - tasks.housekeeping - DEBUG - task_housekeeping, 5199, True, None
+2015/03/06 19:09:20 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:09:20 - core.deployment - DEBUG - task_dispatcher, 5195, False, 0
+2015/03/06 19:09:20 - core.deployment - DEBUG - task_comunications, 5196, False, 0
+2015/03/06 19:09:20 - core.deployment - DEBUG - task_console, 5197, False, 0
+2015/03/06 19:09:20 - core.deployment - DEBUG - task_flightplant, 5198, False, 0
+2015/03/06 19:09:20 - core.deployment - DEBUG - task_housekeeping, 5199, False, 0
+2015/03/06 19:09:20 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 19:09:46 - __main__ - INFO - 
+
+
+2015/03/06 19:09:46 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 19:09:46 - core.deployment - DEBUG -     * Attaching repos.command to CmdRepo
+2015/03/06 19:09:46 - core.deployment - DEBUG -     * Attaching repos.command to CmdRepo
+2015/03/06 19:09:46 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 19:09:46 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 19:09:46 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 19:09:46 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 19:09:46 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 19:09:46 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:09:48 - tasks.dispatcher - DEBUG - task_dispatcher, 5218, True, None
+2015/03/06 19:09:48 - tasks.flightplan - DEBUG - task_flightplant, 5221, True, None
+2015/03/06 19:09:48 - tasks.comunications - DEBUG - task_comunications, 5219, True, None
+2015/03/06 19:09:48 - tasks.housekeeping - DEBUG - task_housekeeping, 5222, True, None
+2015/03/06 19:09:48 - tasks.console - DEBUG - task_console, 5220, True, None
+2015/03/06 19:09:50 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:09:50 - core.deployment - DEBUG - task_dispatcher, 5218, False, 0
+2015/03/06 19:09:50 - core.deployment - DEBUG - task_comunications, 5219, False, 0
+2015/03/06 19:09:50 - core.deployment - DEBUG - task_console, 5220, False, 0
+2015/03/06 19:09:50 - core.deployment - DEBUG - task_flightplant, 5221, False, 0
+2015/03/06 19:09:50 - core.deployment - DEBUG - task_housekeeping, 5222, False, 0
+2015/03/06 19:09:50 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 19:11:44 - __main__ - INFO - 
+
+
+2015/03/06 19:11:44 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 19:11:44 - core.deployment - DEBUG -     * Attaching repos.command to CmdRepo
+2015/03/06 19:11:44 - core.deployment - DEBUG -     * Attaching repos.command to CmdRepo
+2015/03/06 19:11:44 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 19:11:44 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 19:11:44 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 19:11:44 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 19:11:44 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 19:11:44 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:11:46 - tasks.dispatcher - DEBUG - task_dispatcher, 5305, True, None
+2015/03/06 19:11:46 - tasks.console - DEBUG - task_console, 5307, True, None
+2015/03/06 19:11:46 - tasks.comunications - DEBUG - task_comunications, 5306, True, None
+2015/03/06 19:11:46 - tasks.flightplan - DEBUG - task_flightplant, 5308, True, None
+2015/03/06 19:11:46 - tasks.housekeeping - DEBUG - task_housekeeping, 5309, True, None
+2015/03/06 19:11:48 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:11:48 - core.deployment - DEBUG - task_dispatcher, 5305, False, 0
+2015/03/06 19:11:48 - core.deployment - DEBUG - task_comunications, 5306, False, 0
+2015/03/06 19:11:48 - core.deployment - DEBUG - task_console, 5307, False, 0
+2015/03/06 19:11:48 - core.deployment - DEBUG - task_flightplant, 5308, False, 0
+2015/03/06 19:11:48 - core.deployment - DEBUG - task_housekeeping, 5309, False, 0
+2015/03/06 19:11:48 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 19:13:02 - __main__ - INFO - 
+
+
+2015/03/06 19:13:02 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 19:13:02 - core.deployment - DEBUG -     * Attaching repos.command to CmdRepo
+2015/03/06 19:13:02 - core.deployment - DEBUG -     * Attaching repos.command to CmdRepo
+2015/03/06 19:13:02 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 19:13:02 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 19:13:02 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 19:13:02 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 19:13:02 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 19:13:02 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:13:04 - tasks.dispatcher - DEBUG - task_dispatcher, 5344, True, None
+2015/03/06 19:13:04 - tasks.flightplan - DEBUG - task_flightplant, 5347, True, None
+2015/03/06 19:13:04 - tasks.comunications - DEBUG - task_comunications, 5345, True, None
+2015/03/06 19:13:04 - tasks.console - DEBUG - task_console, 5346, True, None
+2015/03/06 19:13:04 - tasks.housekeeping - DEBUG - task_housekeeping, 5348, True, None
+2015/03/06 19:13:06 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:13:06 - core.deployment - DEBUG - task_dispatcher, 5344, False, 0
+2015/03/06 19:13:06 - core.deployment - DEBUG - task_comunications, 5345, False, 0
+2015/03/06 19:13:06 - core.deployment - DEBUG - task_console, 5346, False, 0
+2015/03/06 19:13:06 - core.deployment - DEBUG - task_flightplant, 5347, False, 0
+2015/03/06 19:13:06 - core.deployment - DEBUG - task_housekeeping, 5348, False, 0
+2015/03/06 19:13:06 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 19:13:38 - __main__ - INFO - 
+
+
+2015/03/06 19:13:38 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 19:13:38 - core.deployment - DEBUG -     * Attaching repos.command to CmdRepo
+2015/03/06 19:13:38 - core.deployment - DEBUG -     * Attaching repos.command to CmdRepo
+2015/03/06 19:13:38 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 19:13:38 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 19:13:38 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 19:13:38 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 19:13:38 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 19:13:38 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:13:40 - tasks.dispatcher - DEBUG - task_dispatcher, 5363, True, None
+2015/03/06 19:13:40 - tasks.console - DEBUG - task_console, 5365, True, None
+2015/03/06 19:13:40 - tasks.flightplan - DEBUG - task_flightplant, 5366, True, None
+2015/03/06 19:13:40 - tasks.comunications - DEBUG - task_comunications, 5364, True, None
+2015/03/06 19:13:40 - tasks.housekeeping - DEBUG - task_housekeeping, 5367, True, None
+2015/03/06 19:13:42 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:13:42 - core.deployment - DEBUG - task_dispatcher, 5363, False, 0
+2015/03/06 19:13:42 - core.deployment - DEBUG - task_comunications, 5364, False, 0
+2015/03/06 19:13:42 - core.deployment - DEBUG - task_console, 5365, False, 0
+2015/03/06 19:13:42 - core.deployment - DEBUG - task_flightplant, 5366, False, 0
+2015/03/06 19:13:42 - core.deployment - DEBUG - task_housekeeping, 5367, False, 0
+2015/03/06 19:13:42 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 19:14:22 - __main__ - INFO - 
+
+
+2015/03/06 19:14:22 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 19:14:22 - core.deployment - DEBUG -     * Attaching repos.command to CmdRepo
+2015/03/06 19:14:22 - core.deployment - DEBUG -     * Attaching repos.command to CmdRepo
+2015/03/06 19:14:22 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 19:14:22 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 19:14:22 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 19:14:22 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 19:14:22 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 19:14:22 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:14:24 - tasks.dispatcher - DEBUG - task_dispatcher, 5384, True, None
+2015/03/06 19:14:24 - tasks.comunications - DEBUG - task_comunications, 5385, True, None
+2015/03/06 19:14:24 - tasks.console - DEBUG - task_console, 5386, True, None
+2015/03/06 19:14:24 - tasks.flightplan - DEBUG - task_flightplant, 5387, True, None
+2015/03/06 19:14:24 - tasks.housekeeping - DEBUG - task_housekeeping, 5388, True, None
+2015/03/06 19:14:26 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:14:26 - core.deployment - DEBUG - task_dispatcher, 5384, False, 0
+2015/03/06 19:14:26 - core.deployment - DEBUG - task_comunications, 5385, False, 0
+2015/03/06 19:14:26 - core.deployment - DEBUG - task_console, 5386, False, 0
+2015/03/06 19:14:26 - core.deployment - DEBUG - task_flightplant, 5387, False, 0
+2015/03/06 19:14:26 - core.deployment - DEBUG - task_housekeeping, 5388, False, 0
+2015/03/06 19:14:26 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 19:16:35 - __main__ - INFO - 
+
+
+2015/03/06 19:16:35 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 19:16:35 - core.deployment - DEBUG -     * Attaching repos.command to CmdRepo
+2015/03/06 19:16:35 - core.deployment - DEBUG -     * Attaching repos.command to CmdRepo
+2015/03/06 19:16:35 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 19:16:35 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 19:16:35 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 19:16:35 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 19:16:35 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 19:16:35 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:16:37 - tasks.dispatcher - DEBUG - task_dispatcher, 5463, True, None
+2015/03/06 19:16:37 - tasks.comunications - DEBUG - task_comunications, 5464, True, None
+2015/03/06 19:16:37 - tasks.flightplan - DEBUG - task_flightplant, 5466, True, None
+2015/03/06 19:16:37 - tasks.console - DEBUG - task_console, 5465, True, None
+2015/03/06 19:16:37 - tasks.housekeeping - DEBUG - task_housekeeping, 5467, True, None
+2015/03/06 19:16:39 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:16:39 - core.deployment - DEBUG - task_dispatcher, 5463, False, 0
+2015/03/06 19:16:39 - core.deployment - DEBUG - task_comunications, 5464, False, 0
+2015/03/06 19:16:39 - core.deployment - DEBUG - task_console, 5465, False, 0
+2015/03/06 19:16:39 - core.deployment - DEBUG - task_flightplant, 5466, False, 0
+2015/03/06 19:16:39 - core.deployment - DEBUG - task_housekeeping, 5467, False, 0
+2015/03/06 19:16:39 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 19:16:49 - __main__ - INFO - 
+
+
+2015/03/06 19:16:49 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 19:16:49 - core.deployment - DEBUG -     * Attaching repos.command to CmdRepo
+2015/03/06 19:16:49 - core.deployment - DEBUG -     * Attaching repos.command to CmdRepo
+2015/03/06 19:16:49 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 19:16:49 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 19:16:49 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 19:16:49 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 19:16:49 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 19:16:49 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:16:51 - tasks.dispatcher - DEBUG - task_dispatcher, 5482, True, None
+2015/03/06 19:16:51 - tasks.comunications - DEBUG - task_comunications, 5483, True, None
+2015/03/06 19:16:51 - tasks.console - DEBUG - task_console, 5484, True, None
+2015/03/06 19:16:51 - tasks.flightplan - DEBUG - task_flightplant, 5485, True, None
+2015/03/06 19:16:51 - tasks.housekeeping - DEBUG - task_housekeeping, 5486, True, None
+2015/03/06 19:16:53 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:16:53 - core.deployment - DEBUG - task_dispatcher, 5482, False, 0
+2015/03/06 19:16:53 - core.deployment - DEBUG - task_comunications, 5483, False, 0
+2015/03/06 19:16:53 - core.deployment - DEBUG - task_console, 5484, False, 0
+2015/03/06 19:16:53 - core.deployment - DEBUG - task_flightplant, 5485, False, 0
+2015/03/06 19:16:53 - core.deployment - DEBUG - task_housekeeping, 5486, False, 0
+2015/03/06 19:16:53 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 19:17:04 - __main__ - INFO - 
+
+
+2015/03/06 19:17:04 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 19:17:04 - core.deployment - DEBUG -     * Attaching repos.command to CmdRepo
+2015/03/06 19:17:04 - core.deployment - DEBUG -     * Attaching repos.command to CmdRepo
+2015/03/06 19:17:04 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 19:17:04 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 19:17:04 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 19:17:04 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 19:17:04 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 19:17:04 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:17:06 - tasks.dispatcher - DEBUG - task_dispatcher, 5500, True, None
+2015/03/06 19:17:06 - tasks.console - DEBUG - task_console, 5502, True, None
+2015/03/06 19:17:06 - tasks.flightplan - DEBUG - task_flightplant, 5503, True, None
+2015/03/06 19:17:06 - tasks.comunications - DEBUG - task_comunications, 5501, True, None
+2015/03/06 19:17:06 - tasks.housekeeping - DEBUG - task_housekeeping, 5504, True, None
+2015/03/06 19:17:08 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:17:08 - core.deployment - DEBUG - task_dispatcher, 5500, False, 0
+2015/03/06 19:17:08 - core.deployment - DEBUG - task_comunications, 5501, False, 0
+2015/03/06 19:17:08 - core.deployment - DEBUG - task_console, 5502, False, 0
+2015/03/06 19:17:08 - core.deployment - DEBUG - task_flightplant, 5503, False, 0
+2015/03/06 19:17:08 - core.deployment - DEBUG - task_housekeeping, 5504, False, 0
+2015/03/06 19:17:08 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 19:18:30 - __main__ - INFO - 
+
+
+2015/03/06 19:18:30 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 19:18:30 - core.deployment - DEBUG -     * Attaching repos.command to CmdRepo
+2015/03/06 19:18:30 - core.deployment - DEBUG -     * Attaching repos.command to CmdRepo
+2015/03/06 19:18:30 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 19:18:30 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 19:18:30 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 19:18:30 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 19:18:30 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 19:18:30 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:18:32 - tasks.dispatcher - DEBUG - task_dispatcher, 5533, True, None
+2015/03/06 19:18:32 - tasks.comunications - DEBUG - task_comunications, 5534, True, None
+2015/03/06 19:18:32 - tasks.console - DEBUG - task_console, 5535, True, None
+2015/03/06 19:18:32 - tasks.flightplan - DEBUG - task_flightplant, 5536, True, None
+2015/03/06 19:18:32 - tasks.housekeeping - DEBUG - task_housekeeping, 5537, True, None
+2015/03/06 19:18:34 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:18:34 - core.deployment - DEBUG - task_dispatcher, 5533, False, 0
+2015/03/06 19:18:34 - core.deployment - DEBUG - task_comunications, 5534, False, 0
+2015/03/06 19:18:34 - core.deployment - DEBUG - task_console, 5535, False, 0
+2015/03/06 19:18:34 - core.deployment - DEBUG - task_flightplant, 5536, False, 0
+2015/03/06 19:18:34 - core.deployment - DEBUG - task_housekeeping, 5537, False, 0
+2015/03/06 19:18:34 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 19:18:53 - __main__ - INFO - 
+
+
+2015/03/06 19:18:53 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 19:18:53 - core.deployment - DEBUG -     * Attaching repos.command to CmdRepo
+2015/03/06 19:18:53 - core.deployment - DEBUG -     * Attaching repos.command to CmdRepo
+2015/03/06 19:18:53 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 19:18:53 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 19:18:53 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 19:18:53 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 19:18:53 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 19:18:53 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:18:55 - tasks.dispatcher - DEBUG - task_dispatcher, 5551, True, None
+2015/03/06 19:18:55 - tasks.flightplan - DEBUG - task_flightplant, 5554, True, None
+2015/03/06 19:18:55 - tasks.console - DEBUG - task_console, 5553, True, None
+2015/03/06 19:18:55 - tasks.comunications - DEBUG - task_comunications, 5552, True, None
+2015/03/06 19:18:55 - tasks.housekeeping - DEBUG - task_housekeeping, 5555, True, None
+2015/03/06 19:18:57 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:18:57 - core.deployment - DEBUG - task_dispatcher, 5551, False, 0
+2015/03/06 19:18:57 - core.deployment - DEBUG - task_comunications, 5552, False, 0
+2015/03/06 19:18:57 - core.deployment - DEBUG - task_console, 5553, False, 0
+2015/03/06 19:18:57 - core.deployment - DEBUG - task_flightplant, 5554, False, 0
+2015/03/06 19:18:57 - core.deployment - DEBUG - task_housekeeping, 5555, False, 0
+2015/03/06 19:18:57 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 19:20:04 - __main__ - INFO - 
+
+
+2015/03/06 19:20:04 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 19:20:04 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdconsole to CmdRepo
+2015/03/06 19:20:04 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdrtc to CmdRepo
+2015/03/06 19:20:04 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 19:20:04 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 19:20:04 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 19:20:04 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 19:20:04 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 19:20:04 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:20:06 - tasks.dispatcher - DEBUG - task_dispatcher, 5605, True, None
+2015/03/06 19:20:06 - tasks.comunications - DEBUG - task_comunications, 5606, True, None
+2015/03/06 19:20:06 - tasks.housekeeping - DEBUG - task_housekeeping, 5609, True, None
+2015/03/06 19:20:06 - tasks.flightplan - DEBUG - task_flightplant, 5608, True, None
+2015/03/06 19:20:06 - tasks.console - DEBUG - task_console, 5607, True, None
+2015/03/06 19:20:08 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:20:08 - core.deployment - DEBUG - task_dispatcher, 5605, False, 0
+2015/03/06 19:20:08 - core.deployment - DEBUG - task_comunications, 5606, False, 0
+2015/03/06 19:20:08 - core.deployment - DEBUG - task_console, 5607, False, 0
+2015/03/06 19:20:08 - core.deployment - DEBUG - task_flightplant, 5608, False, 0
+2015/03/06 19:20:08 - core.deployment - DEBUG - task_housekeeping, 5609, False, 0
+2015/03/06 19:20:08 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 19:20:28 - __main__ - INFO - 
+
+
+2015/03/06 19:20:28 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 19:20:28 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdconsole to CmdRepo
+2015/03/06 19:20:28 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdrtc to CmdRepo
+2015/03/06 19:20:28 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 19:20:28 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 19:20:28 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 19:20:28 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 19:20:28 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 19:20:28 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:20:30 - tasks.dispatcher - DEBUG - task_dispatcher, 5623, True, None
+2015/03/06 19:20:30 - tasks.comunications - DEBUG - task_comunications, 5624, True, None
+2015/03/06 19:20:30 - tasks.console - DEBUG - task_console, 5625, True, None
+2015/03/06 19:20:30 - tasks.flightplan - DEBUG - task_flightplant, 5626, True, None
+2015/03/06 19:20:30 - tasks.housekeeping - DEBUG - task_housekeeping, 5627, True, None
+2015/03/06 19:20:32 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:20:32 - core.deployment - DEBUG - task_dispatcher, 5623, False, 0
+2015/03/06 19:20:32 - core.deployment - DEBUG - task_comunications, 5624, False, 0
+2015/03/06 19:20:32 - core.deployment - DEBUG - task_console, 5625, False, 0
+2015/03/06 19:20:32 - core.deployment - DEBUG - task_flightplant, 5626, False, 0
+2015/03/06 19:20:32 - core.deployment - DEBUG - task_housekeeping, 5627, False, 0
+2015/03/06 19:20:32 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 19:22:02 - __main__ - INFO - 
+
+
+2015/03/06 19:22:02 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 19:22:02 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdconsole to CmdRepo
+2015/03/06 19:22:02 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdrtc to CmdRepo
+2015/03/06 19:22:02 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 19:22:02 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 19:22:02 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 19:22:02 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 19:22:02 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 19:22:02 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:22:04 - tasks.dispatcher - DEBUG - task_dispatcher, 5693, True, None
+2015/03/06 19:22:04 - tasks.console - DEBUG - task_console, 5695, True, None
+2015/03/06 19:22:04 - tasks.comunications - DEBUG - task_comunications, 5694, True, None
+2015/03/06 19:22:04 - tasks.flightplan - DEBUG - task_flightplant, 5696, True, None
+2015/03/06 19:22:04 - tasks.housekeeping - DEBUG - task_housekeeping, 5697, True, None
+2015/03/06 19:22:06 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:22:06 - core.deployment - DEBUG - task_dispatcher, 5693, False, 0
+2015/03/06 19:22:06 - core.deployment - DEBUG - task_comunications, 5694, False, 0
+2015/03/06 19:22:06 - core.deployment - DEBUG - task_console, 5695, False, 0
+2015/03/06 19:22:06 - core.deployment - DEBUG - task_flightplant, 5696, False, 0
+2015/03/06 19:22:06 - core.deployment - DEBUG - task_housekeeping, 5697, False, 0
+2015/03/06 19:22:06 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 19:22:27 - __main__ - INFO - 
+
+
+2015/03/06 19:22:27 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 19:22:27 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdconsole to CmdRepo
+2015/03/06 19:22:27 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdrtc to CmdRepo
+2015/03/06 19:22:27 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 19:22:27 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 19:22:27 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 19:22:27 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 19:22:27 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 19:22:27 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:22:29 - tasks.dispatcher - DEBUG - task_dispatcher, 5714, True, None
+2015/03/06 19:22:29 - tasks.comunications - DEBUG - task_comunications, 5715, True, None
+2015/03/06 19:22:29 - tasks.console - DEBUG - task_console, 5716, True, None
+2015/03/06 19:22:29 - tasks.flightplan - DEBUG - task_flightplant, 5717, True, None
+2015/03/06 19:22:29 - tasks.housekeeping - DEBUG - task_housekeeping, 5718, True, None
+2015/03/06 19:22:31 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:22:31 - core.deployment - DEBUG - task_dispatcher, 5714, False, 0
+2015/03/06 19:22:31 - core.deployment - DEBUG - task_comunications, 5715, False, 0
+2015/03/06 19:22:31 - core.deployment - DEBUG - task_console, 5716, False, 0
+2015/03/06 19:22:31 - core.deployment - DEBUG - task_flightplant, 5717, False, 0
+2015/03/06 19:22:31 - core.deployment - DEBUG - task_housekeeping, 5718, False, 0
+2015/03/06 19:22:31 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 19:24:14 - __main__ - INFO - 
+
+
+2015/03/06 19:24:14 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 19:24:14 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdconsole to CmdRepo
+2015/03/06 19:24:14 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdrtc to CmdRepo
+2015/03/06 19:24:14 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 19:24:14 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 19:24:14 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 19:24:14 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 19:24:14 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 19:24:14 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:24:16 - tasks.dispatcher - DEBUG - task_dispatcher, 5757, True, None
+2015/03/06 19:24:16 - tasks.console - DEBUG - task_console, 5759, True, None
+2015/03/06 19:24:16 - tasks.housekeeping - DEBUG - task_housekeeping, 5761, True, None
+2015/03/06 19:24:16 - tasks.flightplan - DEBUG - task_flightplant, 5760, True, None
+2015/03/06 19:24:16 - tasks.comunications - DEBUG - task_comunications, 5758, True, None
+2015/03/06 19:24:18 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:24:18 - core.deployment - DEBUG - task_dispatcher, 5757, False, 0
+2015/03/06 19:24:18 - core.deployment - DEBUG - task_comunications, 5758, False, 0
+2015/03/06 19:24:18 - core.deployment - DEBUG - task_console, 5759, False, 0
+2015/03/06 19:24:18 - core.deployment - DEBUG - task_flightplant, 5760, False, 0
+2015/03/06 19:24:18 - core.deployment - DEBUG - task_housekeeping, 5761, False, 0
+2015/03/06 19:24:18 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 19:25:35 - __main__ - INFO - 
+
+
+2015/03/06 19:25:35 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 19:25:35 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdconsole to CmdRepo
+2015/03/06 19:25:35 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdrtc to CmdRepo
+2015/03/06 19:25:35 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 19:25:35 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 19:25:35 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 19:25:35 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 19:25:35 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 19:25:35 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:25:37 - tasks.dispatcher - DEBUG - task_dispatcher, 5792, True, None
+2015/03/06 19:25:37 - tasks.console - DEBUG - task_console, 5794, True, None
+2015/03/06 19:25:37 - tasks.comunications - DEBUG - task_comunications, 5793, True, None
+2015/03/06 19:25:37 - tasks.housekeeping - DEBUG - task_housekeeping, 5796, True, None
+2015/03/06 19:25:37 - tasks.flightplan - DEBUG - task_flightplant, 5795, True, None
+2015/03/06 19:25:39 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:25:39 - core.deployment - DEBUG - task_dispatcher, 5792, False, 0
+2015/03/06 19:25:39 - core.deployment - DEBUG - task_comunications, 5793, False, 0
+2015/03/06 19:25:39 - core.deployment - DEBUG - task_console, 5794, False, 0
+2015/03/06 19:25:39 - core.deployment - DEBUG - task_flightplant, 5795, False, 0
+2015/03/06 19:25:39 - core.deployment - DEBUG - task_housekeeping, 5796, False, 0
+2015/03/06 19:25:39 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 19:27:45 - __main__ - INFO - 
+
+
+2015/03/06 19:27:45 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 19:27:45 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdconsole to CmdRepo
+2015/03/06 19:27:45 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdrtc to CmdRepo
+2015/03/06 19:27:45 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 19:27:45 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 19:27:45 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 19:27:45 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 19:27:45 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 19:27:45 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:27:47 - tasks.dispatcher - DEBUG - task_dispatcher, 5874, True, None
+2015/03/06 19:27:47 - tasks.comunications - DEBUG - task_comunications, 5875, True, None
+2015/03/06 19:27:47 - tasks.console - DEBUG - task_console, 5876, True, None
+2015/03/06 19:27:47 - tasks.flightplan - DEBUG - task_flightplant, 5877, True, None
+2015/03/06 19:27:47 - tasks.housekeeping - DEBUG - task_housekeeping, 5878, True, None
+2015/03/06 19:27:49 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:27:49 - core.deployment - DEBUG - task_dispatcher, 5874, False, 0
+2015/03/06 19:27:49 - core.deployment - DEBUG - task_comunications, 5875, False, 0
+2015/03/06 19:27:49 - core.deployment - DEBUG - task_console, 5876, False, 0
+2015/03/06 19:27:49 - core.deployment - DEBUG - task_flightplant, 5877, False, 0
+2015/03/06 19:27:49 - core.deployment - DEBUG - task_housekeeping, 5878, False, 0
+2015/03/06 19:27:49 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 19:28:01 - __main__ - INFO - 
+
+
+2015/03/06 19:28:01 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 19:28:01 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdconsole to CmdRepo
+2015/03/06 19:28:01 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdrtc to CmdRepo
+2015/03/06 19:28:01 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 19:28:01 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 19:28:01 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 19:28:01 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 19:28:01 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 19:28:01 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:28:03 - tasks.dispatcher - DEBUG - task_dispatcher, 5884, True, None
+2015/03/06 19:28:03 - tasks.comunications - DEBUG - task_comunications, 5885, True, None
+2015/03/06 19:28:03 - tasks.flightplan - DEBUG - task_flightplant, 5887, True, None
+2015/03/06 19:28:03 - tasks.housekeeping - DEBUG - task_housekeeping, 5888, True, None
+2015/03/06 19:28:03 - tasks.console - DEBUG - task_console, 5886, True, None
+2015/03/06 19:28:05 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:28:05 - core.deployment - DEBUG - task_dispatcher, 5884, False, 0
+2015/03/06 19:28:05 - core.deployment - DEBUG - task_comunications, 5885, False, 0
+2015/03/06 19:28:05 - core.deployment - DEBUG - task_console, 5886, False, 0
+2015/03/06 19:28:05 - core.deployment - DEBUG - task_flightplant, 5887, False, 0
+2015/03/06 19:28:05 - core.deployment - DEBUG - task_housekeeping, 5888, False, 0
+2015/03/06 19:28:05 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 19:28:53 - __main__ - INFO - 
+
+
+2015/03/06 19:28:53 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 19:28:53 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdconsole to CmdRepo
+2015/03/06 19:28:53 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdrtc to CmdRepo
+2015/03/06 19:28:53 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 19:28:53 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 19:28:53 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 19:28:53 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 19:28:53 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 19:28:53 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:28:55 - tasks.dispatcher - DEBUG - task_dispatcher, 5935, True, None
+2015/03/06 19:28:55 - tasks.flightplan - DEBUG - task_flightplant, 5938, True, None
+2015/03/06 19:28:55 - tasks.console - DEBUG - task_console, 5937, True, None
+2015/03/06 19:28:55 - tasks.comunications - DEBUG - task_comunications, 5936, True, None
+2015/03/06 19:28:55 - tasks.housekeeping - DEBUG - task_housekeeping, 5939, True, None
+2015/03/06 19:28:57 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:28:57 - core.deployment - DEBUG - task_dispatcher, 5935, False, 0
+2015/03/06 19:28:57 - core.deployment - DEBUG - task_comunications, 5936, False, 0
+2015/03/06 19:28:57 - core.deployment - DEBUG - task_console, 5937, False, 0
+2015/03/06 19:28:57 - core.deployment - DEBUG - task_flightplant, 5938, False, 0
+2015/03/06 19:28:57 - core.deployment - DEBUG - task_housekeeping, 5939, False, 0
+2015/03/06 19:28:57 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 19:33:32 - __main__ - INFO - 
+
+
+2015/03/06 19:33:32 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 19:33:32 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdconsole to CmdRepo
+2015/03/06 19:33:32 - core.deployment - DEBUG -     * Attaching repos.command to CmdRepo
+2015/03/06 19:34:53 - __main__ - INFO - 
+
+
+2015/03/06 19:34:53 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 19:34:53 - core.deployment - DEBUG -     * Attaching repos.command to CmdRepo
+2015/03/06 19:34:53 - core.deployment - DEBUG -     * Attaching repos.command to CmdRepo
+2015/03/06 19:34:53 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 19:34:53 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 19:34:53 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 19:34:53 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 19:34:53 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 19:34:53 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:34:55 - tasks.dispatcher - DEBUG - task_dispatcher, 6155, True, None
+2015/03/06 19:34:55 - tasks.flightplan - DEBUG - task_flightplant, 6158, True, None
+2015/03/06 19:34:55 - tasks.comunications - DEBUG - task_comunications, 6156, True, None
+2015/03/06 19:34:55 - tasks.console - DEBUG - task_console, 6157, True, None
+2015/03/06 19:34:55 - tasks.housekeeping - DEBUG - task_housekeeping, 6159, True, None
+2015/03/06 19:34:57 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:34:57 - core.deployment - DEBUG - task_dispatcher, 6155, False, 0
+2015/03/06 19:34:57 - core.deployment - DEBUG - task_comunications, 6156, False, 0
+2015/03/06 19:34:57 - core.deployment - DEBUG - task_console, 6157, False, 0
+2015/03/06 19:34:57 - core.deployment - DEBUG - task_flightplant, 6158, False, 0
+2015/03/06 19:34:57 - core.deployment - DEBUG - task_housekeeping, 6159, False, 0
+2015/03/06 19:34:57 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 19:35:43 - __main__ - INFO - 
+
+
+2015/03/06 19:35:43 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 19:35:43 - core.deployment - DEBUG -     * Attaching repos.command to CmdRepo
+2015/03/06 19:35:43 - core.deployment - DEBUG -     * Attaching repos.command to CmdRepo
+2015/03/06 19:35:43 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 19:35:43 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 19:35:43 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 19:35:43 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 19:35:43 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 19:35:43 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:35:45 - tasks.dispatcher - DEBUG - task_dispatcher, 6183, True, None
+2015/03/06 19:35:45 - tasks.comunications - DEBUG - task_comunications, 6184, True, None
+2015/03/06 19:35:45 - tasks.flightplan - DEBUG - task_flightplant, 6186, True, None
+2015/03/06 19:35:45 - tasks.console - DEBUG - task_console, 6185, True, None
+2015/03/06 19:35:45 - tasks.housekeeping - DEBUG - task_housekeeping, 6187, True, None
+2015/03/06 19:35:47 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:35:47 - core.deployment - DEBUG - task_dispatcher, 6183, False, 0
+2015/03/06 19:35:47 - core.deployment - DEBUG - task_comunications, 6184, False, 0
+2015/03/06 19:35:47 - core.deployment - DEBUG - task_console, 6185, False, 0
+2015/03/06 19:35:47 - core.deployment - DEBUG - task_flightplant, 6186, False, 0
+2015/03/06 19:35:47 - core.deployment - DEBUG - task_housekeeping, 6187, False, 0
+2015/03/06 19:35:47 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 19:36:47 - __main__ - INFO - 
+
+
+2015/03/06 19:36:47 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 19:36:47 - core.deployment - DEBUG -     * Attaching repos.command to CmdRepo
+2015/03/06 19:36:47 - core.deployment - DEBUG -     * Attaching repos.command to CmdRepo
+2015/03/06 19:36:47 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 19:36:47 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 19:36:47 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 19:36:47 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 19:36:47 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 19:36:47 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:36:49 - tasks.dispatcher - DEBUG - task_dispatcher, 6241, True, None
+2015/03/06 19:36:49 - tasks.flightplan - DEBUG - task_flightplant, 6244, True, None
+2015/03/06 19:36:49 - tasks.comunications - DEBUG - task_comunications, 6242, True, None
+2015/03/06 19:36:49 - tasks.housekeeping - DEBUG - task_housekeeping, 6245, True, None
+2015/03/06 19:36:49 - tasks.console - DEBUG - task_console, 6243, True, None
+2015/03/06 19:36:51 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:36:51 - core.deployment - DEBUG - task_dispatcher, 6241, False, 0
+2015/03/06 19:36:51 - core.deployment - DEBUG - task_comunications, 6242, False, 0
+2015/03/06 19:36:51 - core.deployment - DEBUG - task_console, 6243, False, 0
+2015/03/06 19:36:51 - core.deployment - DEBUG - task_flightplant, 6244, False, 0
+2015/03/06 19:36:51 - core.deployment - DEBUG - task_housekeeping, 6245, False, 0
+2015/03/06 19:36:51 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 19:37:59 - __main__ - INFO - 
+
+
+2015/03/06 19:37:59 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 19:37:59 - core.deployment - DEBUG -     * Attaching repos.command to CmdRepo
+2015/03/06 19:37:59 - core.deployment - DEBUG -     * Attaching repos.command to CmdRepo
+2015/03/06 19:37:59 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 19:37:59 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 19:37:59 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 19:37:59 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 19:37:59 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 19:37:59 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:38:01 - tasks.dispatcher - DEBUG - task_dispatcher, 6280, True, None
+2015/03/06 19:38:01 - tasks.flightplan - DEBUG - task_flightplant, 6283, True, None
+2015/03/06 19:38:01 - tasks.console - DEBUG - task_console, 6282, True, None
+2015/03/06 19:38:01 - tasks.comunications - DEBUG - task_comunications, 6281, True, None
+2015/03/06 19:38:01 - tasks.housekeeping - DEBUG - task_housekeeping, 6284, True, None
+2015/03/06 19:38:03 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:38:03 - core.deployment - DEBUG - task_dispatcher, 6280, False, 0
+2015/03/06 19:38:03 - core.deployment - DEBUG - task_comunications, 6281, False, 0
+2015/03/06 19:38:03 - core.deployment - DEBUG - task_console, 6282, False, 0
+2015/03/06 19:38:03 - core.deployment - DEBUG - task_flightplant, 6283, False, 0
+2015/03/06 19:38:03 - core.deployment - DEBUG - task_housekeeping, 6284, False, 0
+2015/03/06 19:38:03 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 19:38:57 - __main__ - INFO - 
+
+
+2015/03/06 19:38:57 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 19:38:57 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdconsole to CmdRepo
+2015/03/06 19:38:57 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdrtc to CmdRepo
+2015/03/06 19:38:57 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 19:38:57 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 19:38:57 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 19:38:57 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 19:38:57 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 19:38:57 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:38:59 - tasks.dispatcher - DEBUG - task_dispatcher, 6312, True, None
+2015/03/06 19:38:59 - tasks.console - DEBUG - task_console, 6314, True, None
+2015/03/06 19:38:59 - tasks.comunications - DEBUG - task_comunications, 6313, True, None
+2015/03/06 19:38:59 - tasks.housekeeping - DEBUG - task_housekeeping, 6316, True, None
+2015/03/06 19:38:59 - tasks.flightplan - DEBUG - task_flightplant, 6315, True, None
+2015/03/06 19:39:01 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:39:01 - core.deployment - DEBUG - task_dispatcher, 6312, False, 0
+2015/03/06 19:39:01 - core.deployment - DEBUG - task_comunications, 6313, False, 0
+2015/03/06 19:39:01 - core.deployment - DEBUG - task_console, 6314, False, 0
+2015/03/06 19:39:01 - core.deployment - DEBUG - task_flightplant, 6315, False, 0
+2015/03/06 19:39:01 - core.deployment - DEBUG - task_housekeeping, 6316, False, 0
+2015/03/06 19:39:01 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 19:39:34 - __main__ - INFO - 
+
+
+2015/03/06 19:39:34 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 19:39:34 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdconsole to CmdRepo
+2015/03/06 19:39:34 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdrtc to CmdRepo
+2015/03/06 19:39:34 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 19:39:34 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 19:39:34 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 19:39:34 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 19:39:34 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 19:39:34 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:39:36 - tasks.dispatcher - DEBUG - task_dispatcher, 6330, True, None
+2015/03/06 19:39:36 - tasks.console - DEBUG - task_console, 6332, True, None
+2015/03/06 19:39:36 - tasks.comunications - DEBUG - task_comunications, 6331, True, None
+2015/03/06 19:39:36 - tasks.housekeeping - DEBUG - task_housekeeping, 6334, True, None
+2015/03/06 19:39:36 - tasks.flightplan - DEBUG - task_flightplant, 6333, True, None
+2015/03/06 19:39:38 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:39:38 - core.deployment - DEBUG - task_dispatcher, 6330, False, 0
+2015/03/06 19:39:38 - core.deployment - DEBUG - task_comunications, 6331, False, 0
+2015/03/06 19:39:38 - core.deployment - DEBUG - task_console, 6332, False, 0
+2015/03/06 19:39:38 - core.deployment - DEBUG - task_flightplant, 6333, False, 0
+2015/03/06 19:39:38 - core.deployment - DEBUG - task_housekeeping, 6334, False, 0
+2015/03/06 19:39:38 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 19:41:12 - __main__ - INFO - 
+
+
+2015/03/06 19:41:12 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 19:41:12 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdconsole to CmdRepo
+2015/03/06 19:41:12 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdrtc to CmdRepo
+2015/03/06 19:41:12 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 19:41:12 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 19:41:12 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 19:41:12 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 19:41:12 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 19:41:12 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:41:14 - tasks.dispatcher - DEBUG - task_dispatcher, 6389, True, None
+2015/03/06 19:41:14 - tasks.console - DEBUG - task_console, 6391, True, None
+2015/03/06 19:41:14 - tasks.comunications - DEBUG - task_comunications, 6390, True, None
+2015/03/06 19:41:14 - tasks.flightplan - DEBUG - task_flightplant, 6392, True, None
+2015/03/06 19:41:14 - tasks.housekeeping - DEBUG - task_housekeeping, 6393, True, None
+2015/03/06 19:41:16 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:41:16 - core.deployment - DEBUG - task_dispatcher, 6389, False, 0
+2015/03/06 19:41:16 - core.deployment - DEBUG - task_comunications, 6390, False, 0
+2015/03/06 19:41:16 - core.deployment - DEBUG - task_console, 6391, False, 0
+2015/03/06 19:41:16 - core.deployment - DEBUG - task_flightplant, 6392, False, 0
+2015/03/06 19:41:16 - core.deployment - DEBUG - task_housekeeping, 6393, False, 0
+2015/03/06 19:41:16 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 19:41:28 - __main__ - INFO - 
+
+
+2015/03/06 19:41:28 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 19:41:28 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdconsole to CmdRepo
+2015/03/06 19:41:28 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdrtc to CmdRepo
+2015/03/06 19:41:28 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 19:41:28 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 19:41:28 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 19:41:28 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 19:41:28 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 19:41:28 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:41:30 - tasks.dispatcher - DEBUG - task_dispatcher, 6408, True, None
+2015/03/06 19:41:30 - tasks.console - DEBUG - task_console, 6410, True, None
+2015/03/06 19:41:30 - tasks.flightplan - DEBUG - task_flightplant, 6411, True, None
+2015/03/06 19:41:30 - tasks.comunications - DEBUG - task_comunications, 6409, True, None
+2015/03/06 19:41:30 - tasks.housekeeping - DEBUG - task_housekeeping, 6412, True, None
+2015/03/06 19:41:32 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:41:32 - core.deployment - DEBUG - task_dispatcher, 6408, False, 0
+2015/03/06 19:41:32 - core.deployment - DEBUG - task_comunications, 6409, False, 0
+2015/03/06 19:41:32 - core.deployment - DEBUG - task_console, 6410, False, 0
+2015/03/06 19:41:32 - core.deployment - DEBUG - task_flightplant, 6411, False, 0
+2015/03/06 19:41:32 - core.deployment - DEBUG - task_housekeeping, 6412, False, 0
+2015/03/06 19:41:32 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 19:41:37 - __main__ - INFO - 
+
+
+2015/03/06 19:41:37 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 19:41:37 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdconsole to CmdRepo
+2015/03/06 19:41:37 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdrtc to CmdRepo
+2015/03/06 19:41:37 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 19:41:37 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 19:41:37 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 19:41:37 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 19:41:37 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 19:41:37 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:41:39 - tasks.dispatcher - DEBUG - task_dispatcher, 6420, True, None
+2015/03/06 19:41:39 - tasks.flightplan - DEBUG - task_flightplant, 6423, True, None
+2015/03/06 19:41:39 - tasks.comunications - DEBUG - task_comunications, 6421, True, None
+2015/03/06 19:41:39 - tasks.console - DEBUG - task_console, 6422, True, None
+2015/03/06 19:41:39 - tasks.housekeeping - DEBUG - task_housekeeping, 6424, True, None
+2015/03/06 19:41:41 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:41:41 - core.deployment - DEBUG - task_dispatcher, 6420, False, 0
+2015/03/06 19:41:41 - core.deployment - DEBUG - task_comunications, 6421, False, 0
+2015/03/06 19:41:41 - core.deployment - DEBUG - task_console, 6422, False, 0
+2015/03/06 19:41:41 - core.deployment - DEBUG - task_flightplant, 6423, False, 0
+2015/03/06 19:41:41 - core.deployment - DEBUG - task_housekeeping, 6424, False, 0
+2015/03/06 19:41:41 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 19:42:02 - __main__ - INFO - 
+
+
+2015/03/06 19:42:02 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 19:42:02 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdconsole to CmdRepo
+2015/03/06 19:42:02 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdrtc to CmdRepo
+2015/03/06 19:42:02 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 19:42:02 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 19:42:02 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 19:42:02 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 19:42:02 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 19:42:02 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:42:04 - tasks.dispatcher - DEBUG - task_dispatcher, 6463, True, None
+2015/03/06 19:42:04 - tasks.console - DEBUG - task_console, 6465, True, None
+2015/03/06 19:42:04 - tasks.comunications - DEBUG - task_comunications, 6464, True, None
+2015/03/06 19:42:04 - tasks.flightplan - DEBUG - task_flightplant, 6466, True, None
+2015/03/06 19:42:04 - tasks.housekeeping - DEBUG - task_housekeeping, 6467, True, None
+2015/03/06 19:42:06 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:42:06 - core.deployment - DEBUG - task_dispatcher, 6463, False, 0
+2015/03/06 19:42:06 - core.deployment - DEBUG - task_comunications, 6464, False, 0
+2015/03/06 19:42:06 - core.deployment - DEBUG - task_console, 6465, False, 0
+2015/03/06 19:42:06 - core.deployment - DEBUG - task_flightplant, 6466, False, 0
+2015/03/06 19:42:06 - core.deployment - DEBUG - task_housekeeping, 6467, False, 0
+2015/03/06 19:42:06 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 19:42:11 - __main__ - INFO - 
+
+
+2015/03/06 19:42:11 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 19:42:11 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdconsole to CmdRepo
+2015/03/06 19:42:11 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdrtc to CmdRepo
+2015/03/06 19:43:04 - __main__ - INFO - 
+
+
+2015/03/06 19:43:04 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 19:43:04 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdconsole to CmdRepo
+2015/03/06 19:43:04 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdrtc to CmdRepo
+2015/03/06 19:43:04 - repos.command - DEBUG - cmdnull used with param None
+2015/03/06 19:43:04 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 19:43:04 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 19:43:04 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 19:43:04 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 19:43:04 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 19:43:04 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:43:06 - tasks.dispatcher - DEBUG - task_dispatcher, 6514, True, None
+2015/03/06 19:43:06 - tasks.comunications - DEBUG - task_comunications, 6515, True, None
+2015/03/06 19:43:06 - tasks.console - DEBUG - task_console, 6516, True, None
+2015/03/06 19:43:06 - tasks.housekeeping - DEBUG - task_housekeeping, 6518, True, None
+2015/03/06 19:43:06 - tasks.flightplan - DEBUG - task_flightplant, 6517, True, None
+2015/03/06 19:43:08 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:43:08 - core.deployment - DEBUG - task_dispatcher, 6514, False, 0
+2015/03/06 19:43:08 - core.deployment - DEBUG - task_comunications, 6515, False, 0
+2015/03/06 19:43:08 - core.deployment - DEBUG - task_console, 6516, False, 0
+2015/03/06 19:43:08 - core.deployment - DEBUG - task_flightplant, 6517, False, 0
+2015/03/06 19:43:08 - core.deployment - DEBUG - task_housekeeping, 6518, False, 0
+2015/03/06 19:43:08 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 19:43:26 - __main__ - INFO - 
+
+
+2015/03/06 19:43:26 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 19:43:26 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdconsole to CmdRepo
+2015/03/06 19:43:26 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdrtc to CmdRepo
+2015/03/06 19:43:26 - repos.command - DEBUG - cmdnull used with param None
+2015/03/06 19:43:26 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 19:43:26 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 19:43:26 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 19:43:26 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 19:43:26 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 19:43:26 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:43:28 - tasks.dispatcher - DEBUG - task_dispatcher, 6540, True, None
+2015/03/06 19:43:28 - tasks.flightplan - DEBUG - task_flightplant, 6543, True, None
+2015/03/06 19:43:28 - tasks.console - DEBUG - task_console, 6542, True, None
+2015/03/06 19:43:28 - tasks.housekeeping - DEBUG - task_housekeeping, 6544, True, None
+2015/03/06 19:43:28 - tasks.comunications - DEBUG - task_comunications, 6541, True, None
+2015/03/06 19:43:30 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:43:30 - core.deployment - DEBUG - task_dispatcher, 6540, False, 0
+2015/03/06 19:43:30 - core.deployment - DEBUG - task_comunications, 6541, False, 0
+2015/03/06 19:43:30 - core.deployment - DEBUG - task_console, 6542, False, 0
+2015/03/06 19:43:30 - core.deployment - DEBUG - task_flightplant, 6543, False, 0
+2015/03/06 19:43:30 - core.deployment - DEBUG - task_housekeeping, 6544, False, 0
+2015/03/06 19:43:30 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 19:43:35 - __main__ - INFO - 
+
+
+2015/03/06 19:43:35 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 19:43:35 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdconsole to CmdRepo
+2015/03/06 19:43:35 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdrtc to CmdRepo
+2015/03/06 19:43:35 - repos.command - DEBUG - cmdnull used with param: None
+2015/03/06 19:43:35 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 19:43:35 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 19:43:35 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 19:43:35 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 19:43:35 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 19:43:35 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:43:37 - tasks.dispatcher - DEBUG - task_dispatcher, 6554, True, None
+2015/03/06 19:43:37 - tasks.comunications - DEBUG - task_comunications, 6555, True, None
+2015/03/06 19:43:37 - tasks.console - DEBUG - task_console, 6556, True, None
+2015/03/06 19:43:37 - tasks.flightplan - DEBUG - task_flightplant, 6557, True, None
+2015/03/06 19:43:37 - tasks.housekeeping - DEBUG - task_housekeeping, 6558, True, None
+2015/03/06 19:43:39 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:43:39 - core.deployment - DEBUG - task_dispatcher, 6554, False, 0
+2015/03/06 19:43:39 - core.deployment - DEBUG - task_comunications, 6555, False, 0
+2015/03/06 19:43:39 - core.deployment - DEBUG - task_console, 6556, False, 0
+2015/03/06 19:43:39 - core.deployment - DEBUG - task_flightplant, 6557, False, 0
+2015/03/06 19:43:39 - core.deployment - DEBUG - task_housekeeping, 6558, False, 0
+2015/03/06 19:43:39 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 19:45:18 - __main__ - INFO - 
+
+
+2015/03/06 19:45:18 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 19:45:18 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdconsole to CmdRepo
+2015/03/06 19:45:18 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdrtc to CmdRepo
+2015/03/06 19:45:18 - repos.command - DEBUG - cmdnull used with param: None
+2015/03/06 19:45:18 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 19:45:18 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 19:45:18 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 19:45:18 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 19:45:18 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 19:45:18 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:45:20 - tasks.dispatcher - DEBUG - task_dispatcher, 6606, True, None
+2015/03/06 19:45:20 - tasks.flightplan - DEBUG - task_flightplant, 6609, True, None
+2015/03/06 19:45:20 - tasks.comunications - DEBUG - task_comunications, 6607, True, None
+2015/03/06 19:45:20 - tasks.housekeeping - DEBUG - task_housekeeping, 6610, True, None
+2015/03/06 19:45:20 - tasks.console - DEBUG - task_console, 6608, True, None
+2015/03/06 19:45:22 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:45:22 - core.deployment - DEBUG - task_dispatcher, 6606, False, 0
+2015/03/06 19:45:22 - core.deployment - DEBUG - task_comunications, 6607, False, 0
+2015/03/06 19:45:22 - core.deployment - DEBUG - task_console, 6608, False, 0
+2015/03/06 19:45:22 - core.deployment - DEBUG - task_flightplant, 6609, False, 0
+2015/03/06 19:45:22 - core.deployment - DEBUG - task_housekeeping, 6610, False, 0
+2015/03/06 19:45:22 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 19:45:34 - __main__ - INFO - 
+
+
+2015/03/06 19:45:34 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 19:45:34 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdconsole to CmdRepo
+2015/03/06 19:45:34 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdrtc to CmdRepo
+2015/03/06 19:45:34 - repos.command - DEBUG - cmdnull used with param: None
+2015/03/06 19:45:34 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 19:45:34 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 19:45:34 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 19:45:34 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 19:45:34 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 19:45:34 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:45:36 - tasks.dispatcher - DEBUG - task_dispatcher, 6623, True, None
+2015/03/06 19:45:36 - tasks.comunications - DEBUG - task_comunications, 6624, True, None
+2015/03/06 19:45:36 - tasks.console - DEBUG - task_console, 6625, True, None
+2015/03/06 19:45:36 - tasks.flightplan - DEBUG - task_flightplant, 6626, True, None
+2015/03/06 19:45:36 - tasks.housekeeping - DEBUG - task_housekeeping, 6627, True, None
+2015/03/06 19:45:38 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:45:38 - core.deployment - DEBUG - task_dispatcher, 6623, False, 0
+2015/03/06 19:45:38 - core.deployment - DEBUG - task_comunications, 6624, False, 0
+2015/03/06 19:45:38 - core.deployment - DEBUG - task_console, 6625, False, 0
+2015/03/06 19:45:38 - core.deployment - DEBUG - task_flightplant, 6626, False, 0
+2015/03/06 19:45:38 - core.deployment - DEBUG - task_housekeeping, 6627, False, 0
+2015/03/06 19:45:38 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/06 19:46:20 - __main__ - INFO - 
+
+
+2015/03/06 19:46:20 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 19:46:20 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdconsole to CmdRepo
+2015/03/06 19:46:20 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdrtc to CmdRepo
+2015/03/06 19:46:49 - __main__ - INFO - 
+
+
+2015/03/06 19:46:49 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 19:46:49 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdconsole to CmdRepo
+2015/03/06 19:46:49 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdrtc to CmdRepo
+2015/03/06 19:46:49 - repos.command - DEBUG - cmdnull used with param: None
+2015/03/06 19:47:03 - __main__ - INFO - 
+
+
+2015/03/06 19:47:03 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/06 19:47:03 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdconsole to CmdRepo
+2015/03/06 19:47:03 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdrtc to CmdRepo
+2015/03/06 19:47:03 - repos.command - DEBUG - cmdnull used with param: None
+2015/03/06 19:47:03 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/06 19:47:03 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/06 19:47:03 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/06 19:47:03 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/06 19:47:03 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/06 19:47:03 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:47:05 - tasks.dispatcher - DEBUG - task_dispatcher, 6713, True, None
+2015/03/06 19:47:05 - tasks.comunications - DEBUG - task_comunications, 6714, True, None
+2015/03/06 19:47:05 - tasks.console - DEBUG - task_console, 6715, True, None
+2015/03/06 19:47:05 - tasks.flightplan - DEBUG - task_flightplant, 6716, True, None
+2015/03/06 19:47:05 - tasks.housekeeping - DEBUG - task_housekeeping, 6717, True, None
+2015/03/06 19:47:07 - core.deployment - DEBUG - -------------------------
+2015/03/06 19:47:07 - core.deployment - DEBUG - task_dispatcher, 6713, False, 0
+2015/03/06 19:47:07 - core.deployment - DEBUG - task_comunications, 6714, False, 0
+2015/03/06 19:47:07 - core.deployment - DEBUG - task_console, 6715, False, 0
+2015/03/06 19:47:07 - core.deployment - DEBUG - task_flightplant, 6716, False, 0
+2015/03/06 19:47:07 - core.deployment - DEBUG - task_housekeeping, 6717, False, 0
+2015/03/06 19:47:07 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
