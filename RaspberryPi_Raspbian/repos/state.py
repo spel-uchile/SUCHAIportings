@@ -147,7 +147,7 @@ class StateVar(Enum):
 if __name__ == "__main__":
     # print("testing StateVar enum class ..")
     # print("StateVar.AntSwitch_isOpen => ", StateVar.AntSwitch_isOpen)
-    # print("StateVar.AntSwitch_isOpen.name => ", StateVar.AntSwitch_isOpen.name)
+    # print("StateVar.AntSwitch_isOpen.groupName => ", StateVar.AntSwitch_isOpen.groupName)
     # print("StateVar.AntSwitch_isOpen.value => ", StateVar.AntSwitch_isOpen.value)
     # print("StateVar(5) => ", StateVar(5))
 

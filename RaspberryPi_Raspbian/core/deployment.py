@@ -24,33 +24,35 @@ def init_state_repo():
 
 
 def init_command_repo():
+
     # add cmds to cmdRepo
-    cmd_con = cmdconsole.CmdCON()
-    command.CmdRepo.add_cmd_xxx(cmd_con)
-    arg = "    * Attaching %s to CmdRepo" % cmd_con.name
+    cmd_con = cmdconsole.CmdGroupCON()
+    command.CmdRepo.add_cmd_group(cmd_con)
+    arg = "    * Attaching %s to CmdRepo" % cmd_con.groupName
     logger.debug(arg)
 
     # debug section
-    for i in range(0, command.CmdRepo.get_ncmds(cmd_con.name)):
-        arg = "get_function(%s, %s) => %s" % (cmd_con.name, i, command.CmdRepo.get_function(cmd_con.name, i))
-        print(arg)
-    command.CmdRepo.get_function(cmd_con.name, 0)(None)
+    for i in range(0, command.CmdRepo.get_ncmds(cmd_con.groupName)):
+        arg = "get_function_byid(%s, %s) => %s" % (cmd_con.groupName, i, command.CmdRepo.get_function_byid(cmd_con.groupName, i))
+        # print(arg)
+        logger.debug(arg)
+        arg = "get_sysreq_byid(%s, %s) => %s" % (cmd_con.groupName, i, command.CmdRepo.get_sysreq_byid(cmd_con.groupName, i))
+        # print(arg)
+        logger.debug(arg)
 
-    cmd_rtc = cmdrtc.CmdRTC()
-    command.CmdRepo.add_cmd_xxx(cmd_rtc)
-    arg = "    * Attaching %s to CmdRepo" % cmd_rtc.name
-    logger.debug(arg)
-
-    # debug section
-    for i in range(0, command.CmdRepo.get_ncmds(cmd_rtc.name)):
-        arg = "get_function(%s, %s) => %s" % (cmd_rtc.name, i, command.CmdRepo.get_function(cmd_rtc.name, i))
-        print(arg)
-        arg = "get_sysreq(%s, %s) => %s" % (cmd_rtc.name, i, command.CmdRepo.get_sysreq(cmd_rtc.name, i))
-        print(arg)
-    command.CmdRepo.get_function(cmd_rtc.name, 1)(None)
-    command.CmdRepo.get_function(cmd_rtc.name, 121)(None)
-    print(command.CmdRepo.get_sysreq(cmd_rtc.name, 121))
-
+    # cmd_rtc = cmdrtc.CmdRTC()
+    # command.CmdRepo.add_cmd_group(cmd_rtc)
+    # arg = "    * Attaching %s to CmdRepo" % cmd_rtc.groupName
+    # logger.debug(arg)
+    #
+    # # debug section
+    # for i in range(0, command.CmdRepo.get_ncmds(cmd_rtc.groupName)):
+    #     arg = "get_function_byid(%s, %s) => %s" % (cmd_rtc.groupName, i, command.CmdRepo.get_function_byid(cmd_rtc.groupName, i))
+    #     # print(arg)
+    #     logger.debug(arg)
+    #     arg = "get_sysreq_byid(%s, %s) => %s" % (cmd_rtc.groupName, i, command.CmdRepo.get_sysreq_byid(cmd_rtc.groupName, i))
+    #     # print(arg)
+    #     logger.debug(arg)
 
 
 def init_data_repo():

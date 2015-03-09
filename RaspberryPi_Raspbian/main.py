@@ -73,21 +73,10 @@ def main():
     logger.info("Suchai Sw: Entry point ..")
 
     # /* Initializing shared Queues */
-    shared_resources.dispatcherQueue = multiprocessing.Queue(maxsize=25)    # xQueueCreate(25, sizeof(DispCmd));
-    if SUCHAI_config.SCH_TASKEXECUTER_INSIDE_TASKDISPATCHER == 1:
-        # no Queue creation
-        pass
-    else:
-        shared_resources.executerCmdQueue = multiprocessing.Queue(maxsize=1)    # xQueueCreate(1,sizeof(ExeCmd));
-        shared_resources.executerStatQueue = multiprocessing.Queue(maxsize=1)    # xQueueCreate(1,sizeof(int));
-    #endif
-    # i2cRxQueue se usa para pasar datos desde TRX Gomspace CSP a taskComunications. Para este porting no se usara
-    # deployment.i2cRxQueue = queue.Queue(maxsize=I2C_MTU)   # xQueueCreate(I2C_MTU, sizeof(char));   //TRX_GOMSPACE
+    # see shared_resources module
 
     # /* Initializing shared Semaphore */
-    shared_resources.statusRepositorySem = multiprocessing.Lock()  # xSemaphoreCreateMutex();
-    shared_resources.consolePrintfSem = multiprocessing.Lock()  # xSemaphoreCreateMutex();
-    shared_resources.rtcPrintSem = multiprocessing.Lock()  # xSemaphoreCreateMutex();
+    # see shared_resources module
 
     # /* Configure Peripherals */
     # /* NOTA: EL TIMER 1 Y SU INTERRUPCION ESTAN CONFIGURADOS POR EL S.0. (FreeRTOS) */

@@ -58,16 +58,26 @@ __author__ = 'toopazo'
 #define SCH_PAY_DEBUG_ONBOARD               (1)  ///< 1 = Onboard 0 = Offboard
 
 # /* Command Repo configs */
-#define SCH_CMD_PPC         (0x10)  ///< Indicates the belonging of a certain CmdId. E.g. (cmdId = 0x0A01 and cmdBar=0x0A) => command 0x01 belongs to cmdBar
-#define SCH_CMD_CON         (0x20)  ///< Indicates the belonging of a certain CmdId. E.g. (cmdId = 0x0A01 and cmdBar=0x0A) => command 0x01 belongs to cmdBar
-#define SCH_CMD_TRX         (0x30)  ///< Indicates the belonging of a certain CmdId. E.g. (cmdId = 0x0A01 and cmdBar=0x0A) => command 0x01 belongs to cmdBar
-#define SCH_CMD_EPS         (0x40)  ///< Indicates the belonging of a certain CmdId. E.g. (cmdId = 0x0A01 and cmdBar=0x0A) => command 0x01 belongs to cmdBar
-#define SCH_CMD_DRP         (0x50)  ///< Indicates the belonging of a certain CmdId. E.g. (cmdId = 0x0A01 and cmdBar=0x0A) => command 0x01 belongs to cmdBar
-#define SCH_CMD_PAY         (0x60)  ///< Indicates the belonging of a certain CmdId. E.g. (cmdId = 0x0A01 and cmdBar=0x0A) => command 0x01 belongs to cmdBar
-#define SCH_CMD_RTC         (0x70)  ///< Indicates the belonging of a certain CmdId. E.g. (cmdId = 0x0A01 and cmdBar=0x0A) => command 0x01 belongs to cmdBar
-#define SCH_CMD_TCM         (0x80)  ///< Indicates the belonging of a certain CmdId. E.g. (cmdId = 0x0A01 and cmdBar=0x0A) => command 0x01 belongs to cmdBar
-#define SCH_CMD_SRP         (0x90)  ///< Indicates the belonging of a certain CmdId. E.g. (cmdId = 0x0A01 and cmdBar=0x0A) => command 0x01 belongs to cmdBar
-#define SCH_CMD_THK         (0xA0)  ///< Indicates the belonging of a certain CmdId. E.g. (cmdId = 0x0A01 and cmdBar=0x0A) => command 0x01 belongs to cmdBar
+SCH_GID_PPC = 0x10          # ///< Indicates the belonging of a certain CmdId. E.g. (cmdId = 0x0A01 and cmdBar=0x0A) => command 0x01 belongs to cmdBar
+SCH_GNM_PPC = "CmdPPC"
+SCH_GID_CON = 0x20          # ///< Indicates the belonging of a certain CmdId. E.g. (cmdId = 0x0A01 and cmdBar=0x0A) => command 0x01 belongs to cmdBar
+SCH_GNM_CON = "CmdCON"
+SCH_GID_TRX = 0x30          # ///< Indicates the belonging of a certain CmdId. E.g. (cmdId = 0x0A01 and cmdBar=0x0A) => command 0x01 belongs to cmdBar
+SCH_GNM_TRX = "CmdTRX"
+SCH_GID_EPS = 0x40          # ///< Indicates the belonging of a certain CmdId. E.g. (cmdId = 0x0A01 and cmdBar=0x0A) => command 0x01 belongs to cmdBar
+SCH_GNM_EPS = "CmdEPS"
+SCH_GID_DRP = 0x50          # ///< Indicates the belonging of a certain CmdId. E.g. (cmdId = 0x0A01 and cmdBar=0x0A) => command 0x01 belongs to cmdBar
+SCH_GNM_DRP = "CmdDRP"
+SCH_GID_PAY = 0x60          # ///< Indicates the belonging of a certain CmdId. E.g. (cmdId = 0x0A01 and cmdBar=0x0A) => command 0x01 belongs to cmdBar
+SCH_GNM_PAY = "CmdPAY"
+SCH_GID_RTC = 0x70          # ///< Indicates the belonging of a certain CmdId. E.g. (cmdId = 0x0A01 and cmdBar=0x0A) => command 0x01 belongs to cmdBar
+SCH_GNM_RTC = "CmdRTC"
+SCH_GID_TCM = 0x80          # ///< Indicates the belonging of a certain CmdId. E.g. (cmdId = 0x0A01 and cmdBar=0x0A) => command 0x01 belongs to cmdBar
+SCH_GNM_TCM = "CmdTCM"
+SCH_GID_SRP = 0x90          # ///< Indicates the belonging of a certain CmdId. E.g. (cmdId = 0x0A01 and cmdBar=0x0A) => command 0x01 belongs to cmdBar
+SCH_GNM_SRP = "CmdSRP"
+SCH_GID_THK = 0xA0          # ///< Indicates the belonging of a certain CmdId. E.g. (cmdId = 0x0A01 and cmdBar=0x0A) => command 0x01 belongs to cmdBar
+SCH_GNM_THL = "CmdTHK"
 
 # /* TRX and COMM configs */
 #define SCH_TRX_BEACON_PERIOD              (4*60)   ///< [s] Periodo del beacon en segundos (UINT16)

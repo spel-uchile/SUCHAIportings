@@ -3536,3 +3536,1279 @@ Suchai Sw: Entry point ..
 2015/03/06 19:47:07 - core.deployment - DEBUG - task_flightplant, 6716, False, 0
 2015/03/06 19:47:07 - core.deployment - DEBUG - task_housekeeping, 6717, False, 0
 2015/03/06 19:47:07 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/09 14:19:37 - __main__ - INFO - 
+
+
+2015/03/09 14:19:37 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/09 14:19:37 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdconsole to CmdRepo
+2015/03/09 14:19:37 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdrtc to CmdRepo
+2015/03/09 14:19:37 - repos.command - DEBUG - cmdnull used with param: None
+2015/03/09 14:19:37 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/09 14:19:37 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/09 14:19:37 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/09 14:19:37 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/09 14:19:37 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/09 14:19:37 - core.deployment - DEBUG - -------------------------
+2015/03/09 14:19:39 - tasks.dispatcher - DEBUG - task_dispatcher, 4815, True, None
+2015/03/09 14:19:39 - tasks.comunications - DEBUG - task_comunications, 4816, True, None
+2015/03/09 14:19:39 - tasks.flightplan - DEBUG - task_flightplant, 4818, True, None
+2015/03/09 14:19:39 - tasks.housekeeping - DEBUG - task_housekeeping, 4819, True, None
+2015/03/09 14:19:39 - tasks.console - DEBUG - task_console, 4817, True, None
+2015/03/09 14:19:41 - core.deployment - DEBUG - -------------------------
+2015/03/09 14:19:41 - core.deployment - DEBUG - task_dispatcher, 4815, False, 0
+2015/03/09 14:19:41 - core.deployment - DEBUG - task_comunications, 4816, False, 0
+2015/03/09 14:19:41 - core.deployment - DEBUG - task_console, 4817, False, 0
+2015/03/09 14:19:41 - core.deployment - DEBUG - task_flightplant, 4818, False, 0
+2015/03/09 14:19:41 - core.deployment - DEBUG - task_housekeeping, 4819, False, 0
+2015/03/09 14:19:41 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/09 14:25:05 - __main__ - INFO - 
+
+
+2015/03/09 14:25:05 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/09 14:25:05 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdconsole to CmdRepo
+2015/03/09 14:25:05 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdrtc to CmdRepo
+2015/03/09 14:25:05 - repos.command - DEBUG - cmdnull used with param: None
+2015/03/09 14:25:05 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/09 14:25:05 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/09 14:25:05 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/09 14:25:05 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/09 14:25:05 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/09 14:25:05 - core.deployment - DEBUG - -------------------------
+2015/03/09 14:25:07 - tasks.dispatcher - DEBUG - task_dispatcher, 4904, True, None
+2015/03/09 14:25:07 - tasks.console - DEBUG - task_console, 4906, True, None
+2015/03/09 14:25:07 - tasks.flightplan - DEBUG - task_flightplant, 4907, True, None
+2015/03/09 14:25:07 - tasks.comunications - DEBUG - task_comunications, 4905, True, None
+2015/03/09 14:25:07 - tasks.housekeeping - DEBUG - task_housekeeping, 4908, True, None
+2015/03/09 14:25:09 - core.deployment - DEBUG - -------------------------
+2015/03/09 14:25:09 - core.deployment - DEBUG - task_dispatcher, 4904, False, 0
+2015/03/09 14:25:09 - core.deployment - DEBUG - task_comunications, 4905, False, 0
+2015/03/09 14:25:09 - core.deployment - DEBUG - task_console, 4906, False, 0
+2015/03/09 14:25:09 - core.deployment - DEBUG - task_flightplant, 4907, False, 0
+2015/03/09 14:25:09 - core.deployment - DEBUG - task_housekeeping, 4908, False, 0
+2015/03/09 14:25:09 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/09 14:25:21 - __main__ - INFO - 
+
+
+2015/03/09 14:25:21 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/09 14:25:21 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdconsole to CmdRepo
+2015/03/09 14:25:21 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdrtc to CmdRepo
+2015/03/09 14:25:21 - repos.command - DEBUG - cmdnull used with param: None
+2015/03/09 14:25:21 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/09 14:25:21 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/09 14:25:21 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/09 14:25:21 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/09 14:25:21 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/09 14:25:21 - core.deployment - DEBUG - -------------------------
+2015/03/09 14:25:23 - tasks.dispatcher - DEBUG - task_dispatcher, 4914, True, None
+2015/03/09 14:25:23 - tasks.console - DEBUG - task_console, 4916, True, None
+2015/03/09 14:25:23 - tasks.comunications - DEBUG - task_comunications, 4915, True, None
+2015/03/09 14:25:23 - tasks.flightplan - DEBUG - task_flightplant, 4917, True, None
+2015/03/09 14:25:23 - tasks.housekeeping - DEBUG - task_housekeeping, 4918, True, None
+2015/03/09 14:25:25 - core.deployment - DEBUG - -------------------------
+2015/03/09 14:25:25 - core.deployment - DEBUG - task_dispatcher, 4914, False, 0
+2015/03/09 14:25:25 - core.deployment - DEBUG - task_comunications, 4915, False, 0
+2015/03/09 14:25:25 - core.deployment - DEBUG - task_console, 4916, False, 0
+2015/03/09 14:25:25 - core.deployment - DEBUG - task_flightplant, 4917, False, 0
+2015/03/09 14:25:25 - core.deployment - DEBUG - task_housekeeping, 4918, False, 0
+2015/03/09 14:25:25 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/09 14:27:43 - __main__ - INFO - 
+
+
+2015/03/09 14:27:43 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/09 14:27:43 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdconsole to CmdRepo
+2015/03/09 14:27:43 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdrtc to CmdRepo
+2015/03/09 14:27:43 - repos.command - DEBUG - cmdnull used with param: None
+2015/03/09 14:27:43 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/09 14:27:43 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/09 14:27:43 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/09 14:27:43 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/09 14:27:43 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/09 14:27:43 - core.deployment - DEBUG - -------------------------
+2015/03/09 14:27:45 - tasks.dispatcher - DEBUG - task_dispatcher, 4969, True, None
+2015/03/09 14:27:45 - tasks.console - DEBUG - task_console, 4971, True, None
+2015/03/09 14:27:45 - tasks.comunications - DEBUG - task_comunications, 4970, True, None
+2015/03/09 14:27:45 - tasks.housekeeping - DEBUG - task_housekeeping, 4973, True, None
+2015/03/09 14:27:45 - tasks.flightplan - DEBUG - task_flightplant, 4972, True, None
+2015/03/09 14:27:47 - core.deployment - DEBUG - -------------------------
+2015/03/09 14:27:47 - core.deployment - DEBUG - task_dispatcher, 4969, False, 0
+2015/03/09 14:27:47 - core.deployment - DEBUG - task_comunications, 4970, False, 0
+2015/03/09 14:27:47 - core.deployment - DEBUG - task_console, 4971, False, 0
+2015/03/09 14:27:47 - core.deployment - DEBUG - task_flightplant, 4972, False, 0
+2015/03/09 14:27:47 - core.deployment - DEBUG - task_housekeeping, 4973, False, 0
+2015/03/09 14:27:47 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/09 14:28:53 - __main__ - INFO - 
+
+
+2015/03/09 14:28:53 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/09 14:28:53 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdconsole to CmdRepo
+2015/03/09 14:28:53 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdrtc to CmdRepo
+2015/03/09 14:28:53 - repos.command - DEBUG - cmdnull used with param: None
+2015/03/09 14:28:53 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/09 14:28:53 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/09 14:28:53 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/09 14:28:53 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/09 14:28:53 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/09 14:28:53 - core.deployment - DEBUG - -------------------------
+2015/03/09 14:28:55 - tasks.dispatcher - DEBUG - task_dispatcher, 4999, True, None
+2015/03/09 14:28:55 - tasks.comunications - DEBUG - task_comunications, 5000, True, None
+2015/03/09 14:28:55 - tasks.housekeeping - DEBUG - task_housekeeping, 5003, True, None
+2015/03/09 14:28:55 - tasks.console - DEBUG - task_console, 5001, True, None
+2015/03/09 14:28:55 - tasks.flightplan - DEBUG - task_flightplant, 5002, True, None
+2015/03/09 14:28:57 - core.deployment - DEBUG - -------------------------
+2015/03/09 14:28:57 - core.deployment - DEBUG - task_dispatcher, 4999, False, 0
+2015/03/09 14:28:57 - core.deployment - DEBUG - task_comunications, 5000, False, 0
+2015/03/09 14:28:57 - core.deployment - DEBUG - task_console, 5001, False, 0
+2015/03/09 14:28:57 - core.deployment - DEBUG - task_flightplant, 5002, False, 0
+2015/03/09 14:28:57 - core.deployment - DEBUG - task_housekeeping, 5003, False, 0
+2015/03/09 14:28:57 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/09 15:03:31 - __main__ - INFO - 
+
+
+2015/03/09 15:03:31 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/09 15:03:31 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdconsole to CmdRepo
+2015/03/09 15:03:31 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 0) => <function CmdCON.help at 0x7f6d14264840>
+2015/03/09 15:03:31 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 0) => 1
+2015/03/09 15:03:31 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 1) => <function CmdCON.promt at 0x7f6d142648c8>
+2015/03/09 15:03:31 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 1) => 1
+2015/03/09 15:03:31 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 2) => <function CmdCON.error_cmd_toolong at 0x7f6d14264950>
+2015/03/09 15:03:31 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 2) => 1
+2015/03/09 15:03:31 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 3) => <function CmdCON.error_count_ar at 0x7f6d14264b70>
+2015/03/09 15:03:31 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 3) => 1
+2015/03/09 15:03:31 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 4) => <function CmdCON.error_invalid_arg at 0x7f6d14264ae8>
+2015/03/09 15:03:31 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 4) => 1
+2015/03/09 15:03:31 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 5) => <function CmdCON.error_unknown_cmd at 0x7f6d14264a60>
+2015/03/09 15:03:31 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 5) => 1
+2015/03/09 15:03:31 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 6) => <function CmdCON.debug_msg at 0x7f6d142649d8>
+2015/03/09 15:03:31 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 6) => 1
+2015/03/09 15:03:31 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdrtc to CmdRepo
+2015/03/09 15:03:31 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdrtc, 0) => <function CmdRTC.debug at 0x7f6d14264d08>
+2015/03/09 15:03:31 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdrtc, 0) => 1
+2015/03/09 15:03:31 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdrtc, 1) => <function CmdRTC.time at 0x7f6d142812f0>
+2015/03/09 15:03:31 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdrtc, 1) => 1
+2015/03/09 15:03:31 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/09 15:03:31 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/09 15:03:31 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/09 15:03:31 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/09 15:03:31 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/09 15:03:31 - core.deployment - DEBUG - -------------------------
+2015/03/09 15:03:33 - tasks.dispatcher - DEBUG - task_dispatcher, 6356, True, None
+2015/03/09 15:03:33 - tasks.comunications - DEBUG - task_comunications, 6357, True, None
+2015/03/09 15:03:33 - tasks.flightplan - DEBUG - task_flightplant, 6359, True, None
+2015/03/09 15:03:33 - tasks.console - DEBUG - task_console, 6358, True, None
+2015/03/09 15:03:33 - tasks.housekeeping - DEBUG - task_housekeeping, 6360, True, None
+2015/03/09 15:03:35 - core.deployment - DEBUG - -------------------------
+2015/03/09 15:03:35 - core.deployment - DEBUG - task_dispatcher, 6356, False, 0
+2015/03/09 15:03:35 - core.deployment - DEBUG - task_comunications, 6357, False, 0
+2015/03/09 15:03:35 - core.deployment - DEBUG - task_console, 6358, False, 0
+2015/03/09 15:03:35 - core.deployment - DEBUG - task_flightplant, 6359, False, 0
+2015/03/09 15:03:35 - core.deployment - DEBUG - task_housekeeping, 6360, False, 1
+2015/03/09 15:03:35 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/09 15:05:07 - __main__ - INFO - 
+
+
+2015/03/09 15:05:07 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/09 15:05:07 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdconsole to CmdRepo
+2015/03/09 15:05:07 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 0) => <function CmdCON.help at 0x7fea02aec8c8>
+2015/03/09 15:05:07 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 0) => 1
+2015/03/09 15:05:07 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 1) => <function CmdCON.promt at 0x7fea02aec950>
+2015/03/09 15:05:07 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 1) => 1
+2015/03/09 15:05:07 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 2) => <function CmdCON.error_cmd_toolong at 0x7fea02aec9d8>
+2015/03/09 15:05:07 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 2) => 1
+2015/03/09 15:05:07 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 3) => <function CmdCON.error_count_ar at 0x7fea02aecbf8>
+2015/03/09 15:05:07 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 3) => 1
+2015/03/09 15:05:07 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 4) => <function CmdCON.error_invalid_arg at 0x7fea02aecb70>
+2015/03/09 15:05:07 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 4) => 1
+2015/03/09 15:05:07 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 5) => <function CmdCON.error_unknown_cmd at 0x7fea02aecae8>
+2015/03/09 15:05:07 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 5) => 1
+2015/03/09 15:05:07 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 6) => <function CmdCON.debug_msg at 0x7fea02aeca60>
+2015/03/09 15:05:07 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 6) => 1
+2015/03/09 15:05:07 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdrtc to CmdRepo
+2015/03/09 15:05:07 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdrtc, 0) => <function CmdRTC.debug at 0x7fea02aecd90>
+2015/03/09 15:05:07 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdrtc, 0) => 1
+2015/03/09 15:05:07 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdrtc, 1) => <function CmdRTC.time at 0x7fea02a9a378>
+2015/03/09 15:05:07 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdrtc, 1) => 1
+2015/03/09 15:05:07 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/09 15:05:07 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/09 15:05:07 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/09 15:05:07 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/09 15:05:07 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/09 15:05:07 - core.deployment - DEBUG - -------------------------
+2015/03/09 15:05:09 - tasks.dispatcher - DEBUG - task_dispatcher, 6419, True, None
+2015/03/09 15:05:09 - tasks.comunications - DEBUG - task_comunications, 6420, True, None
+2015/03/09 15:05:09 - tasks.console - DEBUG - task_console, 6421, True, None
+2015/03/09 15:05:09 - tasks.housekeeping - DEBUG - task_housekeeping, 6423, True, None
+2015/03/09 15:05:09 - tasks.flightplan - DEBUG - task_flightplant, 6422, True, None
+2015/03/09 15:05:11 - repos.command - DEBUG - cmdnull used with param: None
+2015/03/09 15:05:13 - repos.command - DEBUG - cmdnull used with param: None
+2015/03/09 15:05:15 - repos.command - DEBUG - cmdnull used with param: None
+2015/03/09 15:05:17 - repos.command - DEBUG - cmdnull used with param: None
+2015/03/09 15:05:19 - repos.command - DEBUG - cmdnull used with param: None
+2015/03/09 15:05:19 - core.deployment - DEBUG - -------------------------
+2015/03/09 15:05:19 - core.deployment - DEBUG - task_dispatcher, 6419, False, 0
+2015/03/09 15:05:19 - core.deployment - DEBUG - task_comunications, 6420, False, 0
+2015/03/09 15:05:19 - core.deployment - DEBUG - task_console, 6421, False, 0
+2015/03/09 15:05:19 - core.deployment - DEBUG - task_flightplant, 6422, False, 0
+2015/03/09 15:05:19 - core.deployment - DEBUG - task_housekeeping, 6423, False, 0
+2015/03/09 15:05:19 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/09 15:05:32 - __main__ - INFO - 
+
+
+2015/03/09 15:05:32 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/09 15:05:32 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdconsole to CmdRepo
+2015/03/09 15:05:32 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 0) => <function CmdCON.help at 0x7f26894a08c8>
+2015/03/09 15:05:32 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 0) => 1
+2015/03/09 15:05:32 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 1) => <function CmdCON.promt at 0x7f26894a0950>
+2015/03/09 15:05:32 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 1) => 1
+2015/03/09 15:05:32 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 2) => <function CmdCON.error_cmd_toolong at 0x7f26894a09d8>
+2015/03/09 15:05:32 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 2) => 1
+2015/03/09 15:05:32 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 3) => <function CmdCON.error_count_ar at 0x7f26894a0bf8>
+2015/03/09 15:05:32 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 3) => 1
+2015/03/09 15:05:32 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 4) => <function CmdCON.error_invalid_arg at 0x7f26894a0b70>
+2015/03/09 15:05:32 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 4) => 1
+2015/03/09 15:05:32 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 5) => <function CmdCON.error_unknown_cmd at 0x7f26894a0ae8>
+2015/03/09 15:05:32 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 5) => 1
+2015/03/09 15:05:32 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 6) => <function CmdCON.debug_msg at 0x7f26894a0a60>
+2015/03/09 15:05:32 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 6) => 1
+2015/03/09 15:05:32 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdrtc to CmdRepo
+2015/03/09 15:05:32 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdrtc, 0) => <function CmdRTC.debug at 0x7f26894a0d90>
+2015/03/09 15:05:32 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdrtc, 0) => 1
+2015/03/09 15:05:32 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdrtc, 1) => <function CmdRTC.time at 0x7f268944e378>
+2015/03/09 15:05:32 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdrtc, 1) => 1
+2015/03/09 15:05:32 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/09 15:05:32 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/09 15:05:32 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/09 15:05:32 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/09 15:05:32 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/09 15:05:32 - core.deployment - DEBUG - -------------------------
+2015/03/09 15:05:34 - tasks.dispatcher - DEBUG - task_dispatcher, 6459, True, None
+2015/03/09 15:05:34 - tasks.console - DEBUG - task_console, 6461, True, None
+2015/03/09 15:05:34 - tasks.comunications - DEBUG - task_comunications, 6460, True, None
+2015/03/09 15:05:34 - tasks.flightplan - DEBUG - task_flightplant, 6462, True, None
+2015/03/09 15:05:34 - tasks.housekeeping - DEBUG - task_housekeeping, 6463, True, None
+2015/03/09 15:05:36 - repos.command - DEBUG - cmdnull used with param: None
+2015/03/09 15:05:38 - repos.command - DEBUG - cmdnull used with param: None
+2015/03/09 15:05:40 - repos.command - DEBUG - cmdnull used with param: None
+2015/03/09 15:05:42 - repos.command - DEBUG - cmdnull used with param: None
+2015/03/09 15:05:44 - repos.command - DEBUG - cmdnull used with param: None
+2015/03/09 15:05:44 - core.deployment - DEBUG - -------------------------
+2015/03/09 15:05:44 - core.deployment - DEBUG - task_dispatcher, 6459, False, 0
+2015/03/09 15:05:44 - core.deployment - DEBUG - task_comunications, 6460, False, 0
+2015/03/09 15:05:44 - core.deployment - DEBUG - task_console, 6461, False, 0
+2015/03/09 15:05:44 - core.deployment - DEBUG - task_flightplant, 6462, False, 0
+2015/03/09 15:05:44 - core.deployment - DEBUG - task_housekeeping, 6463, False, 0
+2015/03/09 15:05:44 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/09 15:06:14 - __main__ - INFO - 
+
+
+2015/03/09 15:06:14 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/09 15:06:14 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdconsole to CmdRepo
+2015/03/09 15:06:14 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 0) => <function CmdCON.help at 0x7f43c243e8c8>
+2015/03/09 15:06:14 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 0) => 1
+2015/03/09 15:06:14 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 1) => <function CmdCON.promt at 0x7f43c243e950>
+2015/03/09 15:06:14 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 1) => 1
+2015/03/09 15:06:14 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 2) => <function CmdCON.error_cmd_toolong at 0x7f43c243e9d8>
+2015/03/09 15:06:14 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 2) => 1
+2015/03/09 15:06:14 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 3) => <function CmdCON.error_count_ar at 0x7f43c243ebf8>
+2015/03/09 15:06:14 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 3) => 1
+2015/03/09 15:06:14 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 4) => <function CmdCON.error_invalid_arg at 0x7f43c243eb70>
+2015/03/09 15:06:14 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 4) => 1
+2015/03/09 15:06:14 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 5) => <function CmdCON.error_unknown_cmd at 0x7f43c243eae8>
+2015/03/09 15:06:14 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 5) => 1
+2015/03/09 15:06:14 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 6) => <function CmdCON.debug_msg at 0x7f43c243ea60>
+2015/03/09 15:06:14 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 6) => 1
+2015/03/09 15:06:14 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdrtc to CmdRepo
+2015/03/09 15:06:14 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdrtc, 0) => <function CmdRTC.debug at 0x7f43c243ed90>
+2015/03/09 15:06:14 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdrtc, 0) => 1
+2015/03/09 15:06:14 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdrtc, 1) => <function CmdRTC.time at 0x7f43c245a378>
+2015/03/09 15:06:14 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdrtc, 1) => 1
+2015/03/09 15:06:14 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/09 15:06:14 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/09 15:06:14 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/09 15:06:14 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/09 15:06:14 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/09 15:06:14 - core.deployment - DEBUG - -------------------------
+2015/03/09 15:06:16 - tasks.dispatcher - DEBUG - task_dispatcher, 6493, True, None
+2015/03/09 15:06:16 - tasks.flightplan - DEBUG - task_flightplant, 6496, True, None
+2015/03/09 15:06:16 - tasks.console - DEBUG - task_console, 6495, True, None
+2015/03/09 15:06:16 - tasks.comunications - DEBUG - task_comunications, 6494, True, None
+2015/03/09 15:06:16 - tasks.housekeeping - DEBUG - task_housekeeping, 6497, True, None
+2015/03/09 15:06:18 - repos.command - DEBUG - cmdnull used with param: None
+2015/03/09 15:06:20 - repos.command - DEBUG - cmdnull used with param: None
+2015/03/09 15:06:22 - repos.command - DEBUG - cmdnull used with param: None
+2015/03/09 15:06:24 - repos.command - DEBUG - cmdnull used with param: None
+2015/03/09 15:06:26 - repos.command - DEBUG - cmdnull used with param: None
+2015/03/09 15:06:26 - core.deployment - DEBUG - -------------------------
+2015/03/09 15:06:26 - core.deployment - DEBUG - task_dispatcher, 6493, False, 0
+2015/03/09 15:06:26 - core.deployment - DEBUG - task_comunications, 6494, False, 0
+2015/03/09 15:06:26 - core.deployment - DEBUG - task_console, 6495, False, 0
+2015/03/09 15:06:26 - core.deployment - DEBUG - task_flightplant, 6496, False, 0
+2015/03/09 15:06:26 - core.deployment - DEBUG - task_housekeeping, 6497, False, 0
+2015/03/09 15:06:26 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/09 15:16:57 - __main__ - INFO - 
+
+
+2015/03/09 15:16:57 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/09 15:16:57 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdconsole to CmdRepo
+2015/03/09 15:16:57 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 0) => <function CmdCON.help at 0x7f3789ec8950>
+2015/03/09 15:16:57 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 0) => 1
+2015/03/09 15:16:57 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 1) => <function CmdCON.promt at 0x7f3789ec89d8>
+2015/03/09 15:16:57 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 1) => 1
+2015/03/09 15:16:57 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 2) => <function CmdCON.error_cmd_toolong at 0x7f3789ec8a60>
+2015/03/09 15:16:57 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 2) => 1
+2015/03/09 15:16:57 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 3) => <function CmdCON.error_count_ar at 0x7f3789ec8c80>
+2015/03/09 15:16:57 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 3) => 1
+2015/03/09 15:16:57 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 4) => <function CmdCON.error_invalid_arg at 0x7f3789ec8bf8>
+2015/03/09 15:16:57 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 4) => 1
+2015/03/09 15:16:57 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 5) => <function CmdCON.error_unknown_cmd at 0x7f3789ec8b70>
+2015/03/09 15:16:57 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 5) => 1
+2015/03/09 15:16:57 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 6) => <function CmdCON.debug_msg at 0x7f3789ec8ae8>
+2015/03/09 15:16:57 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 6) => 1
+2015/03/09 15:16:57 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdrtc to CmdRepo
+2015/03/09 15:16:57 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdrtc, 0) => <function CmdRTC.debug at 0x7f3789ec8e18>
+2015/03/09 15:16:57 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdrtc, 0) => 1
+2015/03/09 15:16:57 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdrtc, 1) => <function CmdRTC.time at 0x7f3789e6f400>
+2015/03/09 15:16:57 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdrtc, 1) => 1
+2015/03/09 15:16:57 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/09 15:16:57 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/09 15:16:57 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/09 15:16:57 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/09 15:16:57 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/09 15:16:57 - core.deployment - DEBUG - -------------------------
+2015/03/09 15:16:59 - tasks.dispatcher - DEBUG - task_dispatcher, 6850, True, None
+2015/03/09 15:16:59 - tasks.flightplan - DEBUG - task_flightplant, 6853, True, None
+2015/03/09 15:16:59 - tasks.console - DEBUG - task_console, 6852, True, None
+2015/03/09 15:16:59 - tasks.comunications - DEBUG - task_comunications, 6851, True, None
+2015/03/09 15:16:59 - tasks.housekeeping - DEBUG - task_housekeeping, 6854, True, None
+2015/03/09 15:17:09 - core.deployment - DEBUG - -------------------------
+2015/03/09 15:17:09 - core.deployment - DEBUG - task_dispatcher, 6850, False, 0
+2015/03/09 15:17:09 - core.deployment - DEBUG - task_comunications, 6851, False, 0
+2015/03/09 15:17:09 - core.deployment - DEBUG - task_console, 6852, False, 0
+2015/03/09 15:17:09 - core.deployment - DEBUG - task_flightplant, 6853, False, 0
+2015/03/09 15:17:09 - core.deployment - DEBUG - task_housekeeping, 6854, False, 0
+2015/03/09 15:17:09 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/09 15:18:37 - __main__ - INFO - 
+
+
+2015/03/09 15:18:37 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/09 15:18:37 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdconsole to CmdRepo
+2015/03/09 15:18:37 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 0) => <function CmdCON.help at 0x7fe37ebc3950>
+2015/03/09 15:18:37 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 0) => 1
+2015/03/09 15:18:37 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 1) => <function CmdCON.promt at 0x7fe37ebc39d8>
+2015/03/09 15:18:37 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 1) => 1
+2015/03/09 15:18:37 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 2) => <function CmdCON.error_cmd_toolong at 0x7fe37ebc3a60>
+2015/03/09 15:18:37 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 2) => 1
+2015/03/09 15:18:37 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 3) => <function CmdCON.error_count_ar at 0x7fe37ebc3c80>
+2015/03/09 15:18:37 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 3) => 1
+2015/03/09 15:18:37 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 4) => <function CmdCON.error_invalid_arg at 0x7fe37ebc3bf8>
+2015/03/09 15:18:37 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 4) => 1
+2015/03/09 15:18:37 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 5) => <function CmdCON.error_unknown_cmd at 0x7fe37ebc3b70>
+2015/03/09 15:18:37 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 5) => 1
+2015/03/09 15:18:37 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 6) => <function CmdCON.debug_msg at 0x7fe37ebc3ae8>
+2015/03/09 15:18:37 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 6) => 1
+2015/03/09 15:18:37 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdrtc to CmdRepo
+2015/03/09 15:18:37 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdrtc, 0) => <function CmdRTC.debug at 0x7fe37ebc3e18>
+2015/03/09 15:18:37 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdrtc, 0) => 1
+2015/03/09 15:18:37 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdrtc, 1) => <function CmdRTC.time at 0x7fe37eb69400>
+2015/03/09 15:18:37 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdrtc, 1) => 1
+2015/03/09 15:18:37 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/09 15:18:37 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/09 15:18:37 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/09 15:18:37 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/09 15:18:37 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/09 15:18:37 - core.deployment - DEBUG - -------------------------
+2015/03/09 15:18:39 - tasks.dispatcher - DEBUG - task_dispatcher, 6889, True, None
+2015/03/09 15:18:39 - tasks.console - DEBUG - task_console, 6891, True, None
+2015/03/09 15:18:39 - tasks.flightplan - DEBUG - task_flightplant, 6892, True, None
+2015/03/09 15:18:39 - tasks.comunications - DEBUG - task_comunications, 6890, True, None
+2015/03/09 15:18:39 - tasks.housekeeping - DEBUG - task_housekeeping, 6893, True, None
+2015/03/09 15:18:49 - core.deployment - DEBUG - -------------------------
+2015/03/09 15:18:49 - core.deployment - DEBUG - task_dispatcher, 6889, False, 0
+2015/03/09 15:18:49 - core.deployment - DEBUG - task_comunications, 6890, False, 0
+2015/03/09 15:18:49 - core.deployment - DEBUG - task_console, 6891, False, 0
+2015/03/09 15:18:49 - core.deployment - DEBUG - task_flightplant, 6892, False, 0
+2015/03/09 15:18:49 - core.deployment - DEBUG - task_housekeeping, 6893, False, 0
+2015/03/09 15:18:49 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/09 15:19:18 - __main__ - INFO - 
+
+
+2015/03/09 15:19:18 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/09 15:19:18 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdconsole to CmdRepo
+2015/03/09 15:19:18 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 0) => <function CmdCON.help at 0x7f376022c950>
+2015/03/09 15:19:18 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 0) => 1
+2015/03/09 15:19:18 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 1) => <function CmdCON.promt at 0x7f376022c9d8>
+2015/03/09 15:19:18 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 1) => 1
+2015/03/09 15:19:18 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 2) => <function CmdCON.error_cmd_toolong at 0x7f376022ca60>
+2015/03/09 15:19:18 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 2) => 1
+2015/03/09 15:19:18 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 3) => <function CmdCON.error_count_ar at 0x7f376022cc80>
+2015/03/09 15:19:18 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 3) => 1
+2015/03/09 15:19:18 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 4) => <function CmdCON.error_invalid_arg at 0x7f376022cbf8>
+2015/03/09 15:19:18 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 4) => 1
+2015/03/09 15:19:18 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 5) => <function CmdCON.error_unknown_cmd at 0x7f376022cb70>
+2015/03/09 15:19:18 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 5) => 1
+2015/03/09 15:19:18 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 6) => <function CmdCON.debug_msg at 0x7f376022cae8>
+2015/03/09 15:19:18 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 6) => 1
+2015/03/09 15:19:18 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdrtc to CmdRepo
+2015/03/09 15:19:18 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdrtc, 0) => <function CmdRTC.debug at 0x7f376022ce18>
+2015/03/09 15:19:18 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdrtc, 0) => 1
+2015/03/09 15:19:18 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdrtc, 1) => <function CmdRTC.time at 0x7f37601d6400>
+2015/03/09 15:19:18 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdrtc, 1) => 1
+2015/03/09 15:19:18 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/09 15:19:18 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/09 15:19:18 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/09 15:19:18 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/09 15:19:18 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/09 15:19:18 - core.deployment - DEBUG - -------------------------
+2015/03/09 15:19:20 - tasks.comunications - DEBUG - task_comunications, 6921, True, None
+2015/03/09 15:19:20 - tasks.console - DEBUG - task_console, 6922, True, None
+2015/03/09 15:19:20 - tasks.dispatcher - DEBUG - task_dispatcher, 6920, True, None
+2015/03/09 15:19:20 - tasks.housekeeping - DEBUG - task_housekeeping, 6924, True, None
+2015/03/09 15:19:20 - tasks.flightplan - DEBUG - task_flightplant, 6923, True, None
+2015/03/09 15:19:30 - core.deployment - DEBUG - -------------------------
+2015/03/09 15:19:30 - core.deployment - DEBUG - task_dispatcher, 6920, False, 0
+2015/03/09 15:19:30 - core.deployment - DEBUG - task_comunications, 6921, False, 0
+2015/03/09 15:19:30 - core.deployment - DEBUG - task_console, 6922, False, 0
+2015/03/09 15:19:30 - core.deployment - DEBUG - task_flightplant, 6923, False, 0
+2015/03/09 15:19:30 - core.deployment - DEBUG - task_housekeeping, 6924, False, 0
+2015/03/09 15:19:30 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/09 15:20:40 - __main__ - INFO - 
+
+
+2015/03/09 15:20:40 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/09 15:20:40 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdconsole to CmdRepo
+2015/03/09 15:20:40 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 0) => <function CmdCON.help at 0x7f6d7f695950>
+2015/03/09 15:20:40 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 0) => 1
+2015/03/09 15:20:40 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 1) => <function CmdCON.promt at 0x7f6d7f6959d8>
+2015/03/09 15:20:40 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 1) => 1
+2015/03/09 15:20:40 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 2) => <function CmdCON.error_cmd_toolong at 0x7f6d7f695a60>
+2015/03/09 15:20:40 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 2) => 1
+2015/03/09 15:20:40 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 3) => <function CmdCON.error_count_ar at 0x7f6d7f695c80>
+2015/03/09 15:20:40 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 3) => 1
+2015/03/09 15:20:40 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 4) => <function CmdCON.error_invalid_arg at 0x7f6d7f695bf8>
+2015/03/09 15:20:40 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 4) => 1
+2015/03/09 15:20:40 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 5) => <function CmdCON.error_unknown_cmd at 0x7f6d7f695b70>
+2015/03/09 15:20:40 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 5) => 1
+2015/03/09 15:20:40 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 6) => <function CmdCON.debug_msg at 0x7f6d7f695ae8>
+2015/03/09 15:20:40 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 6) => 1
+2015/03/09 15:20:40 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdrtc to CmdRepo
+2015/03/09 15:20:40 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdrtc, 0) => <function CmdRTC.debug at 0x7f6d7f695e18>
+2015/03/09 15:20:40 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdrtc, 0) => 1
+2015/03/09 15:20:40 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdrtc, 1) => <function CmdRTC.time at 0x7f6d7f6ab400>
+2015/03/09 15:20:40 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdrtc, 1) => 1
+2015/03/09 15:20:40 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/09 15:20:40 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/09 15:20:40 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/09 15:20:40 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/09 15:20:40 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/09 15:20:40 - core.deployment - DEBUG - -------------------------
+2015/03/09 15:20:42 - tasks.dispatcher - DEBUG - task_dispatcher, 6965, True, None
+2015/03/09 15:20:42 - tasks.flightplan - DEBUG - task_flightplant, 6968, True, None
+2015/03/09 15:20:42 - tasks.console - DEBUG - task_console, 6967, True, None
+2015/03/09 15:20:42 - tasks.comunications - DEBUG - task_comunications, 6966, True, None
+2015/03/09 15:20:42 - tasks.housekeeping - DEBUG - task_housekeeping, 6969, True, None
+2015/03/09 15:20:52 - core.deployment - DEBUG - -------------------------
+2015/03/09 15:20:52 - core.deployment - DEBUG - task_dispatcher, 6965, False, 0
+2015/03/09 15:20:52 - core.deployment - DEBUG - task_comunications, 6966, False, 0
+2015/03/09 15:20:52 - core.deployment - DEBUG - task_console, 6967, False, 0
+2015/03/09 15:20:52 - core.deployment - DEBUG - task_flightplant, 6968, False, 0
+2015/03/09 15:20:52 - core.deployment - DEBUG - task_housekeeping, 6969, False, 0
+2015/03/09 15:20:52 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/09 15:21:29 - __main__ - INFO - 
+
+
+2015/03/09 15:21:29 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/09 15:21:29 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdconsole to CmdRepo
+2015/03/09 15:21:29 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 0) => <function CmdCON.help at 0x7fb86a9938c8>
+2015/03/09 15:21:29 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 0) => 1
+2015/03/09 15:21:29 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 1) => <function CmdCON.promt at 0x7fb86a993950>
+2015/03/09 15:21:29 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 1) => 1
+2015/03/09 15:21:29 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 2) => <function CmdCON.error_cmd_toolong at 0x7fb86a9939d8>
+2015/03/09 15:21:29 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 2) => 1
+2015/03/09 15:21:29 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 3) => <function CmdCON.error_count_ar at 0x7fb86a993bf8>
+2015/03/09 15:21:29 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 3) => 1
+2015/03/09 15:21:29 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 4) => <function CmdCON.error_invalid_arg at 0x7fb86a993b70>
+2015/03/09 15:21:29 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 4) => 1
+2015/03/09 15:21:29 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 5) => <function CmdCON.error_unknown_cmd at 0x7fb86a993ae8>
+2015/03/09 15:21:29 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 5) => 1
+2015/03/09 15:21:29 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 6) => <function CmdCON.debug_msg at 0x7fb86a993a60>
+2015/03/09 15:21:29 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 6) => 1
+2015/03/09 15:21:29 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdrtc to CmdRepo
+2015/03/09 15:21:29 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdrtc, 0) => <function CmdRTC.debug at 0x7fb86a993d90>
+2015/03/09 15:21:29 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdrtc, 0) => 1
+2015/03/09 15:21:29 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdrtc, 1) => <function CmdRTC.time at 0x7fb86a942378>
+2015/03/09 15:21:29 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdrtc, 1) => 1
+2015/03/09 15:21:29 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/09 15:21:29 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/09 15:21:29 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/09 15:21:29 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/09 15:21:29 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/09 15:21:29 - core.deployment - DEBUG - -------------------------
+2015/03/09 15:21:31 - tasks.dispatcher - DEBUG - task_dispatcher, 7011, True, None
+2015/03/09 15:21:31 - tasks.housekeeping - DEBUG - task_housekeeping, 7015, True, None
+2015/03/09 15:21:31 - tasks.comunications - DEBUG - task_comunications, 7012, True, None
+2015/03/09 15:21:31 - tasks.flightplan - DEBUG - task_flightplant, 7014, True, None
+2015/03/09 15:21:31 - tasks.console - DEBUG - task_console, 7013, True, None
+2015/03/09 15:21:42 - core.deployment - DEBUG - -------------------------
+2015/03/09 15:21:42 - core.deployment - DEBUG - task_dispatcher, 7011, False, 0
+2015/03/09 15:21:42 - core.deployment - DEBUG - task_comunications, 7012, False, 0
+2015/03/09 15:21:42 - core.deployment - DEBUG - task_console, 7013, False, 0
+2015/03/09 15:21:42 - core.deployment - DEBUG - task_flightplant, 7014, False, 0
+2015/03/09 15:21:42 - core.deployment - DEBUG - task_housekeeping, 7015, False, 0
+2015/03/09 15:21:42 - core.deployment - INFO - Suchai Sw: Starting nominal operations ..
+2015/03/09 16:17:24 - __main__ - INFO - 
+
+
+2015/03/09 16:17:24 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/09 16:17:24 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdconsole to CmdRepo
+2015/03/09 16:17:24 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 0) => <function CmdCON.help at 0x7fc2d60ab598>
+2015/03/09 16:17:24 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 0) => 1
+2015/03/09 16:17:24 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 1) => <function CmdCON.promt at 0x7fc2d60ab620>
+2015/03/09 16:17:24 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 1) => 1
+2015/03/09 16:17:24 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 2) => <function CmdCON.error_cmd_toolong at 0x7fc2d60ab6a8>
+2015/03/09 16:17:24 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 2) => 1
+2015/03/09 16:17:24 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 3) => <function CmdCON.error_count_ar at 0x7fc2d60ab8c8>
+2015/03/09 16:17:24 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 3) => 1
+2015/03/09 16:17:24 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 4) => <function CmdCON.error_invalid_arg at 0x7fc2d60ab840>
+2015/03/09 16:17:24 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 4) => 1
+2015/03/09 16:17:24 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 5) => <function CmdCON.error_unknown_cmd at 0x7fc2d60ab7b8>
+2015/03/09 16:17:24 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 5) => 1
+2015/03/09 16:17:24 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 6) => <function CmdCON.debug_msg at 0x7fc2d60ab730>
+2015/03/09 16:17:24 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 6) => 1
+2015/03/09 16:17:24 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdrtc to CmdRepo
+2015/03/09 16:17:24 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdrtc, 0) => <function CmdRTC.debug at 0x7fc2d60aba60>
+2015/03/09 16:17:24 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdrtc, 0) => 1
+2015/03/09 16:17:24 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdrtc, 1) => <function CmdRTC.time at 0x7fc2d60abf28>
+2015/03/09 16:17:24 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdrtc, 1) => 1
+2015/03/09 16:17:24 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/09 16:17:24 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/09 16:17:24 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/09 16:17:24 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/09 16:17:24 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/09 16:17:24 - core.deployment - DEBUG - -------------------------
+2015/03/09 16:17:26 - tasks.dispatcher - DEBUG - task_dispatcher, 8773, True, None
+2015/03/09 16:17:26 - tasks.comunications - DEBUG - task_comunications, 8774, True, None
+2015/03/09 16:17:26 - tasks.flightplan - DEBUG - task_flightplant, 8776, True, None
+2015/03/09 16:17:26 - tasks.console - DEBUG - task_console, 8775, True, None
+2015/03/09 16:17:26 - tasks.housekeeping - DEBUG - task_housekeeping, 8777, True, None
+2015/03/09 16:17:48 - __main__ - INFO - 
+
+
+2015/03/09 16:17:48 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/09 16:17:48 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdconsole to CmdRepo
+2015/03/09 16:17:48 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 0) => <function CmdCON.help at 0x7fc68340f598>
+2015/03/09 16:17:48 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 0) => 1
+2015/03/09 16:17:48 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 1) => <function CmdCON.promt at 0x7fc68340f620>
+2015/03/09 16:17:48 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 1) => 1
+2015/03/09 16:17:48 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 2) => <function CmdCON.error_cmd_toolong at 0x7fc68340f6a8>
+2015/03/09 16:17:48 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 2) => 1
+2015/03/09 16:17:48 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 3) => <function CmdCON.error_count_ar at 0x7fc68340f8c8>
+2015/03/09 16:17:48 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 3) => 1
+2015/03/09 16:17:48 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 4) => <function CmdCON.error_invalid_arg at 0x7fc68340f840>
+2015/03/09 16:17:48 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 4) => 1
+2015/03/09 16:17:48 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 5) => <function CmdCON.error_unknown_cmd at 0x7fc68340f7b8>
+2015/03/09 16:17:48 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 5) => 1
+2015/03/09 16:17:48 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 6) => <function CmdCON.debug_msg at 0x7fc68340f730>
+2015/03/09 16:17:48 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 6) => 1
+2015/03/09 16:17:48 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdrtc to CmdRepo
+2015/03/09 16:17:48 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdrtc, 0) => <function CmdRTC.debug at 0x7fc68340fa60>
+2015/03/09 16:17:48 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdrtc, 0) => 1
+2015/03/09 16:17:48 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdrtc, 1) => <function CmdRTC.time at 0x7fc68340ff28>
+2015/03/09 16:17:48 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdrtc, 1) => 1
+2015/03/09 16:17:48 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/09 16:17:48 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/09 16:17:48 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/09 16:17:48 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/09 16:17:48 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/09 16:17:48 - core.deployment - DEBUG - -------------------------
+2015/03/09 16:17:50 - tasks.dispatcher - DEBUG - task_dispatcher, 8788, True, None
+2015/03/09 16:17:50 - tasks.console - DEBUG - task_console, 8790, True, None
+2015/03/09 16:17:50 - tasks.flightplan - DEBUG - task_flightplant, 8791, True, None
+2015/03/09 16:17:50 - tasks.comunications - DEBUG - task_comunications, 8789, True, None
+2015/03/09 16:17:50 - tasks.housekeeping - DEBUG - task_housekeeping, 8792, True, None
+2015/03/09 16:18:36 - __main__ - INFO - 
+
+
+2015/03/09 16:18:36 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/09 16:18:36 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdconsole to CmdRepo
+2015/03/09 16:18:36 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 0) => <function CmdCON.help at 0x7fd50fe19598>
+2015/03/09 16:18:36 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 0) => 1
+2015/03/09 16:18:36 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 1) => <function CmdCON.promt at 0x7fd50fe19620>
+2015/03/09 16:18:36 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 1) => 1
+2015/03/09 16:18:36 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 2) => <function CmdCON.error_cmd_toolong at 0x7fd50fe196a8>
+2015/03/09 16:18:36 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 2) => 1
+2015/03/09 16:18:36 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 3) => <function CmdCON.error_count_ar at 0x7fd50fe198c8>
+2015/03/09 16:18:36 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 3) => 1
+2015/03/09 16:18:36 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 4) => <function CmdCON.error_invalid_arg at 0x7fd50fe19840>
+2015/03/09 16:18:36 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 4) => 1
+2015/03/09 16:18:36 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 5) => <function CmdCON.error_unknown_cmd at 0x7fd50fe197b8>
+2015/03/09 16:18:36 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 5) => 1
+2015/03/09 16:18:36 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdconsole, 6) => <function CmdCON.debug_msg at 0x7fd50fe19730>
+2015/03/09 16:18:36 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdconsole, 6) => 1
+2015/03/09 16:18:36 - core.deployment - DEBUG -     * Attaching repos.cmds.cmdrtc to CmdRepo
+2015/03/09 16:18:36 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdrtc, 0) => <function CmdRTC.debug at 0x7fd50fe19a60>
+2015/03/09 16:18:36 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdrtc, 0) => 1
+2015/03/09 16:18:36 - core.deployment - DEBUG - get_function_byid(repos.cmds.cmdrtc, 1) => <function CmdRTC.time at 0x7fd50fe19f28>
+2015/03/09 16:18:36 - core.deployment - DEBUG - get_sysreq_byid(repos.cmds.cmdrtc, 1) => 1
+2015/03/09 16:18:36 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/09 16:18:36 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/09 16:18:36 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/09 16:18:36 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/09 16:18:36 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/09 16:18:36 - core.deployment - DEBUG - -------------------------
+2015/03/09 16:18:38 - tasks.dispatcher - DEBUG - task_dispatcher, 8817, True, None
+2015/03/09 16:18:38 - tasks.console - DEBUG - task_console, 8819, True, None
+2015/03/09 16:18:38 - tasks.comunications - DEBUG - task_comunications, 8818, True, None
+2015/03/09 16:18:38 - tasks.housekeeping - DEBUG - task_housekeeping, 8821, True, None
+2015/03/09 16:18:38 - tasks.flightplan - DEBUG - task_flightplant, 8820, True, None
+2015/03/09 17:42:04 - __main__ - INFO - 
+
+
+2015/03/09 17:42:04 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/09 17:42:04 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/09 17:42:04 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/09 17:42:04 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/09 17:42:04 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/09 17:42:04 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/09 17:42:04 - core.deployment - DEBUG - -------------------------
+2015/03/09 17:42:06 - tasks.dispatcher - DEBUG - task_dispatcher, 10684, True, None
+2015/03/09 17:42:06 - tasks.console - DEBUG - task_console, 10686, True, None
+2015/03/09 17:42:06 - tasks.comunications - DEBUG - task_comunications, 10685, True, None
+2015/03/09 17:42:06 - tasks.flightplan - DEBUG - task_flightplant, 10687, True, None
+2015/03/09 17:42:06 - tasks.housekeeping - DEBUG - task_housekeeping, 10688, True, None
+2015/03/09 17:42:30 - __main__ - INFO - 
+
+
+2015/03/09 17:42:30 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/09 17:42:30 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/09 17:42:30 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/09 17:42:30 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/09 17:42:30 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/09 17:42:30 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/09 17:42:30 - core.deployment - DEBUG - -------------------------
+2015/03/09 17:42:32 - tasks.dispatcher - DEBUG - task_dispatcher, 10704, True, None
+2015/03/09 17:42:32 - tasks.console - DEBUG - task_console, 10706, True, None
+2015/03/09 17:42:32 - tasks.comunications - DEBUG - task_comunications, 10705, True, None
+2015/03/09 17:42:32 - tasks.flightplan - DEBUG - task_flightplant, 10707, True, None
+2015/03/09 17:42:32 - tasks.housekeeping - DEBUG - task_housekeeping, 10708, True, None
+2015/03/09 17:43:26 - __main__ - INFO - 
+
+
+2015/03/09 17:43:26 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/09 17:43:26 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(0) => CmdEnumCON.help
+2015/03/09 17:43:26 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(1) => CmdEnumCON.promt
+2015/03/09 17:43:26 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(2) => CmdEnumCON.error_cmd_toolong
+2015/03/09 17:43:26 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(3) => CmdEnumCON.debug_msg
+2015/03/09 17:43:26 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(4) => CmdEnumCON.error_unknown_cmd
+2015/03/09 17:43:26 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(5) => CmdEnumCON.error_invalid_arg
+2015/03/09 17:43:26 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(6) => CmdEnumCON.error_count_ar
+2015/03/09 17:43:26 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/09 17:43:26 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/09 17:43:26 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/09 17:43:26 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/09 17:43:26 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/09 17:43:26 - core.deployment - DEBUG - -------------------------
+2015/03/09 17:43:28 - tasks.dispatcher - DEBUG - task_dispatcher, 10736, True, None
+2015/03/09 17:43:28 - tasks.console - DEBUG - task_console, 10738, True, None
+2015/03/09 17:43:28 - tasks.flightplan - DEBUG - task_flightplant, 10739, True, None
+2015/03/09 17:43:28 - tasks.housekeeping - DEBUG - task_housekeeping, 10740, True, None
+2015/03/09 17:43:28 - tasks.comunications - DEBUG - task_comunications, 10737, True, None
+2015/03/09 17:44:31 - __main__ - INFO - 
+
+
+2015/03/09 17:44:31 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/09 17:44:31 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(0) => CmdEnumCON.help
+2015/03/09 17:44:31 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(0).name => help
+2015/03/09 17:44:31 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(1) => CmdEnumCON.promt
+2015/03/09 17:44:31 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(1).name => promt
+2015/03/09 17:44:31 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(2) => CmdEnumCON.error_cmd_toolong
+2015/03/09 17:44:31 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(2).name => error_cmd_toolong
+2015/03/09 17:44:31 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(3) => CmdEnumCON.debug_msg
+2015/03/09 17:44:31 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(3).name => debug_msg
+2015/03/09 17:44:31 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(4) => CmdEnumCON.error_unknown_cmd
+2015/03/09 17:44:31 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(4).name => error_unknown_cmd
+2015/03/09 17:44:31 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(5) => CmdEnumCON.error_invalid_arg
+2015/03/09 17:44:31 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(5).name => error_invalid_arg
+2015/03/09 17:44:31 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(6) => CmdEnumCON.error_count_ar
+2015/03/09 17:44:31 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(6).name => error_count_ar
+2015/03/09 17:44:31 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/09 17:44:31 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/09 17:44:31 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/09 17:44:31 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/09 17:44:31 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/09 17:44:31 - core.deployment - DEBUG - -------------------------
+2015/03/09 17:44:33 - tasks.dispatcher - DEBUG - task_dispatcher, 10785, True, None
+2015/03/09 17:44:33 - tasks.flightplan - DEBUG - task_flightplant, 10788, True, None
+2015/03/09 17:44:33 - tasks.comunications - DEBUG - task_comunications, 10786, True, None
+2015/03/09 17:44:33 - tasks.console - DEBUG - task_console, 10787, True, None
+2015/03/09 17:44:33 - tasks.housekeeping - DEBUG - task_housekeeping, 10789, True, None
+2015/03/09 18:19:15 - __main__ - INFO - 
+
+
+2015/03/09 18:19:15 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/09 18:26:24 - __main__ - INFO - 
+
+
+2015/03/09 18:26:24 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/09 18:26:24 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(0) => CmdEnumCON.help
+2015/03/09 18:26:24 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(0).name => help
+2015/03/09 18:26:24 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(1) => CmdEnumCON.promt
+2015/03/09 18:26:24 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(1).name => promt
+2015/03/09 18:26:24 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(2) => CmdEnumCON.error_cmd_toolong
+2015/03/09 18:26:24 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(2).name => error_cmd_toolong
+2015/03/09 18:26:24 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(3) => CmdEnumCON.debug_msg
+2015/03/09 18:26:24 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(3).name => debug_msg
+2015/03/09 18:26:24 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(4) => CmdEnumCON.error_unknown_cmd
+2015/03/09 18:26:24 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(4).name => error_unknown_cmd
+2015/03/09 18:26:24 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(5) => CmdEnumCON.error_invalid_arg
+2015/03/09 18:26:24 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(5).name => error_invalid_arg
+2015/03/09 18:26:24 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(6) => CmdEnumCON.error_count_ar
+2015/03/09 18:26:24 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(6).name => error_count_ar
+2015/03/09 18:26:24 - repos.cmds.cmdconsole - CRITICAL - wrong implementation
+2015/03/09 18:48:29 - __main__ - INFO - 
+
+
+2015/03/09 18:48:29 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/09 18:48:29 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(0) => CmdEnumCON.help
+2015/03/09 18:48:29 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(0).name => help
+2015/03/09 18:48:29 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(1) => CmdEnumCON.promt
+2015/03/09 18:48:29 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(1).name => promt
+2015/03/09 18:48:29 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(2) => CmdEnumCON.error_cmd_toolong
+2015/03/09 18:48:29 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(2).name => error_cmd_toolong
+2015/03/09 18:48:29 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(3) => CmdEnumCON.debug_msg
+2015/03/09 18:48:29 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(3).name => debug_msg
+2015/03/09 18:48:29 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(4) => CmdEnumCON.error_unknown_cmd
+2015/03/09 18:48:29 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(4).name => error_unknown_cmd
+2015/03/09 18:48:29 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(5) => CmdEnumCON.error_invalid_arg
+2015/03/09 18:48:29 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(5).name => error_invalid_arg
+2015/03/09 18:48:29 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(6) => CmdEnumCON.error_count_ar
+2015/03/09 18:48:29 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(6).name => error_count_ar
+2015/03/09 18:48:29 - repos.cmds.cmdconsole - CRITICAL - wrong implementation
+2015/03/09 18:49:51 - __main__ - INFO - 
+
+
+2015/03/09 18:49:51 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/09 18:49:51 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(0) => CmdEnumCON.help
+2015/03/09 18:49:51 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[0] => <repos.command.Cmd object at 0x7fb29579ec50>
+2015/03/09 18:49:51 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(1) => CmdEnumCON.promt
+2015/03/09 18:49:51 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[1] => <repos.command.Cmd object at 0x7fb29579ec88>
+2015/03/09 18:49:51 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(2) => CmdEnumCON.error_cmd_toolong
+2015/03/09 18:49:51 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[2] => <repos.command.Cmd object at 0x7fb29579ed30>
+2015/03/09 18:49:51 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(3) => CmdEnumCON.debug_msg
+2015/03/09 18:49:51 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[3] => <repos.command.Cmd object at 0x7fb2949bf128>
+2015/03/09 18:49:51 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(4) => CmdEnumCON.error_unknown_cmd
+2015/03/09 18:49:51 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[4] => <repos.command.Cmd object at 0x7fb29496b080>
+2015/03/09 18:49:51 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(5) => CmdEnumCON.error_invalid_arg
+2015/03/09 18:49:51 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[5] => <repos.command.Cmd object at 0x7fb29496b0b8>
+2015/03/09 18:49:51 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(6) => CmdEnumCON.error_count_ar
+2015/03/09 18:50:22 - __main__ - INFO - 
+
+
+2015/03/09 18:50:22 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/09 18:50:22 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(0) => CmdEnumCON.help
+2015/03/09 18:50:22 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[0] => <repos.command.Cmd object at 0x7fd56149ac50>
+2015/03/09 18:50:22 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[0].name => CmdCON
+2015/03/09 18:50:22 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(1) => CmdEnumCON.promt
+2015/03/09 18:50:22 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[1] => <repos.command.Cmd object at 0x7fd56149ac88>
+2015/03/09 18:50:22 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[1].name => CmdCON
+2015/03/09 18:50:22 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(2) => CmdEnumCON.error_cmd_toolong
+2015/03/09 18:50:22 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[2] => <repos.command.Cmd object at 0x7fd56149ad30>
+2015/03/09 18:50:22 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[2].name => CmdCON
+2015/03/09 18:50:22 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(3) => CmdEnumCON.debug_msg
+2015/03/09 18:50:22 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[3] => <repos.command.Cmd object at 0x7fd5606ba128>
+2015/03/09 18:50:22 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[3].name => CmdCON
+2015/03/09 18:50:22 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(4) => CmdEnumCON.error_unknown_cmd
+2015/03/09 18:50:22 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[4] => <repos.command.Cmd object at 0x7fd560667080>
+2015/03/09 18:50:22 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[4].name => CmdCON
+2015/03/09 18:50:22 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(5) => CmdEnumCON.error_invalid_arg
+2015/03/09 18:50:22 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[5] => <repos.command.Cmd object at 0x7fd5606670b8>
+2015/03/09 18:50:22 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[5].name => CmdCON
+2015/03/09 18:50:22 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(6) => CmdEnumCON.error_count_ar
+2015/03/09 18:51:24 - __main__ - INFO - 
+
+
+2015/03/09 18:51:24 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/09 18:51:24 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(0) => CmdEnumCON.help
+2015/03/09 18:51:24 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[0] => <repos.command.Cmd object at 0x7f23a187dc50>
+2015/03/09 18:51:24 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[0].name => CmdCON
+2015/03/09 18:51:24 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(1) => CmdEnumCON.promt
+2015/03/09 18:51:24 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[1] => <repos.command.Cmd object at 0x7f23a187dc88>
+2015/03/09 18:51:24 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[1].name => CmdCON
+2015/03/09 18:51:24 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(2) => CmdEnumCON.error_cmd_toolong
+2015/03/09 18:51:24 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[2] => <repos.command.Cmd object at 0x7f23a187dd30>
+2015/03/09 18:51:24 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[2].name => CmdCON
+2015/03/09 18:51:24 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(3) => CmdEnumCON.debug_msg
+2015/03/09 18:51:24 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[3] => <repos.command.Cmd object at 0x7f23a0a9d128>
+2015/03/09 18:51:24 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[3].name => CmdCON
+2015/03/09 18:51:24 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(4) => CmdEnumCON.error_unknown_cmd
+2015/03/09 18:51:24 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[4] => <repos.command.Cmd object at 0x7f23a0a4a080>
+2015/03/09 18:51:24 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[4].name => CmdCON
+2015/03/09 18:51:24 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(5) => CmdEnumCON.error_invalid_arg
+2015/03/09 18:51:24 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[5] => <repos.command.Cmd object at 0x7f23a0a4a0b8>
+2015/03/09 18:51:24 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[5].name => CmdCON
+2015/03/09 18:51:24 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(6) => CmdEnumCON.error_count_ar
+2015/03/09 18:51:24 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[6] => <repos.command.Cmd object at 0x7f23a0a4a0f0>
+2015/03/09 18:51:24 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[6].name => CmdCON
+2015/03/09 18:51:24 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/09 18:51:24 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/09 18:51:24 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/09 18:51:24 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/09 18:51:24 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/09 18:51:24 - core.deployment - DEBUG - -------------------------
+2015/03/09 18:51:26 - tasks.dispatcher - DEBUG - task_dispatcher, 11843, True, None
+2015/03/09 18:51:26 - tasks.console - DEBUG - task_console, 11845, True, None
+2015/03/09 18:51:26 - tasks.comunications - DEBUG - task_comunications, 11844, True, None
+2015/03/09 18:51:26 - tasks.housekeeping - DEBUG - task_housekeeping, 11847, True, None
+2015/03/09 18:51:26 - tasks.flightplan - DEBUG - task_flightplant, 11846, True, None
+2015/03/09 19:00:36 - __main__ - INFO - 
+
+
+2015/03/09 19:00:36 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/09 19:00:36 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(0) => CmdEnumCON.help
+2015/03/09 19:00:36 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[0] => <repos.command.Cmd object at 0x7fb93c069c88>
+2015/03/09 19:00:36 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[0].name => CmdEnumCON.error_cmd_toolong
+2015/03/09 19:00:36 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(1) => CmdEnumCON.promt
+2015/03/09 19:00:36 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[1] => <repos.command.Cmd object at 0x7fb93c069d30>
+2015/03/09 19:00:36 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[1].name => CmdEnumCON.debug_msg
+2015/03/09 19:00:36 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(2) => CmdEnumCON.error_cmd_toolong
+2015/03/09 19:00:36 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[2] => <repos.command.Cmd object at 0x7fb93b287390>
+2015/03/09 19:00:36 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[2].name => CmdEnumCON.error_count_ar
+2015/03/09 19:00:36 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(3) => CmdEnumCON.debug_msg
+2015/03/09 19:00:36 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[3] => <repos.command.Cmd object at 0x7fb93c069c50>
+2015/03/09 19:00:36 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[3].name => CmdEnumCON.error_invalid_arg
+2015/03/09 19:00:36 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(4) => CmdEnumCON.error_unknown_cmd
+2015/03/09 19:00:36 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[4] => <repos.command.Cmd object at 0x7fb93b236320>
+2015/03/09 19:00:36 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[4].name => CmdEnumCON.error_unknown_cmd
+2015/03/09 19:00:36 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(5) => CmdEnumCON.error_invalid_arg
+2015/03/09 19:00:36 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[5] => <repos.command.Cmd object at 0x7fb93b236358>
+2015/03/09 19:00:36 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[5].name => CmdEnumCON.help
+2015/03/09 19:00:36 - repos.cmds.cmdconsole - DEBUG - CmdEnumCON(6) => CmdEnumCON.error_count_ar
+2015/03/09 19:00:36 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[6] => <repos.command.Cmd object at 0x7fb93b236390>
+2015/03/09 19:00:36 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[6].name => CmdEnumCON.promt
+2015/03/09 19:00:36 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/09 19:00:36 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/09 19:00:36 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/09 19:00:36 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/09 19:00:36 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/09 19:00:36 - core.deployment - DEBUG - -------------------------
+2015/03/09 19:00:38 - tasks.dispatcher - DEBUG - task_dispatcher, 12160, True, None
+2015/03/09 19:00:38 - tasks.comunications - DEBUG - task_comunications, 12161, True, None
+2015/03/09 19:00:38 - tasks.console - DEBUG - task_console, 12162, True, None
+2015/03/09 19:00:38 - tasks.flightplan - DEBUG - task_flightplant, 12163, True, None
+2015/03/09 19:00:38 - tasks.housekeeping - DEBUG - task_housekeeping, 12164, True, None
+2015/03/09 19:01:24 - __main__ - INFO - 
+
+
+2015/03/09 19:01:24 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/09 19:01:24 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[0] => <repos.command.Cmd object at 0x7f2f05e01c88>
+2015/03/09 19:01:24 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[0].name => CmdEnumCON.error_cmd_toolong
+2015/03/09 19:01:24 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[1] => <repos.command.Cmd object at 0x7f2f05e01d30>
+2015/03/09 19:01:24 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[1].name => CmdEnumCON.debug_msg
+2015/03/09 19:01:24 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[2] => <repos.command.Cmd object at 0x7f2f05020470>
+2015/03/09 19:01:24 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[2].name => CmdEnumCON.error_count_ar
+2015/03/09 19:01:24 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[3] => <repos.command.Cmd object at 0x7f2f05e01c50>
+2015/03/09 19:01:24 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[3].name => CmdEnumCON.error_invalid_arg
+2015/03/09 19:01:24 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[4] => <repos.command.Cmd object at 0x7f2f04fce400>
+2015/03/09 19:01:24 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[4].name => CmdEnumCON.error_unknown_cmd
+2015/03/09 19:01:24 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[5] => <repos.command.Cmd object at 0x7f2f04fce438>
+2015/03/09 19:01:24 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[5].name => CmdEnumCON.help
+2015/03/09 19:01:24 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[6] => <repos.command.Cmd object at 0x7f2f04fce470>
+2015/03/09 19:01:24 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[6].name => CmdEnumCON.promt
+2015/03/09 19:01:24 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/09 19:01:24 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/09 19:01:24 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/09 19:01:24 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/09 19:01:24 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/09 19:01:24 - core.deployment - DEBUG - -------------------------
+2015/03/09 19:01:26 - tasks.dispatcher - DEBUG - task_dispatcher, 12184, True, None
+2015/03/09 19:01:26 - tasks.comunications - DEBUG - task_comunications, 12185, True, None
+2015/03/09 19:01:26 - tasks.flightplan - DEBUG - task_flightplant, 12187, True, None
+2015/03/09 19:01:26 - tasks.housekeeping - DEBUG - task_housekeeping, 12188, True, None
+2015/03/09 19:01:26 - tasks.console - DEBUG - task_console, 12186, True, None
+2015/03/09 19:09:38 - __main__ - INFO - 
+
+
+2015/03/09 19:09:38 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/09 19:09:38 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[0] => <repos.command.Cmd object at 0x7f1196b6dc88>
+2015/03/09 19:09:38 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[0].name => CmdEnumCON.error_cmd_toolong
+2015/03/09 19:09:38 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[1] => <repos.command.Cmd object at 0x7f1196b6dd30>
+2015/03/09 19:09:38 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[1].name => CmdEnumCON.debug_msg
+2015/03/09 19:09:38 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[2] => <repos.command.Cmd object at 0x7f1195d8c550>
+2015/03/09 19:09:38 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[2].name => CmdEnumCON.error_count_ar
+2015/03/09 19:09:38 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[3] => <repos.command.Cmd object at 0x7f1196b6dc50>
+2015/03/09 19:09:38 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[3].name => CmdEnumCON.error_invalid_arg
+2015/03/09 19:09:38 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[4] => <repos.command.Cmd object at 0x7f1195d3a4e0>
+2015/03/09 19:09:38 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[4].name => CmdEnumCON.error_unknown_cmd
+2015/03/09 19:09:38 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[5] => <repos.command.Cmd object at 0x7f1195d3a518>
+2015/03/09 19:09:38 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[5].name => CmdEnumCON.help
+2015/03/09 19:09:38 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[6] => <repos.command.Cmd object at 0x7f1195d3a550>
+2015/03/09 19:09:38 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[6].name => CmdEnumCON.promt
+2015/03/09 19:09:38 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/09 19:09:38 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/09 19:09:38 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/09 19:09:38 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/09 19:09:38 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/09 19:09:38 - core.deployment - DEBUG - -------------------------
+2015/03/09 19:09:40 - tasks.dispatcher - DEBUG - task_dispatcher, 12439, True, None
+2015/03/09 19:09:40 - tasks.flightplan - DEBUG - task_flightplant, 12442, True, None
+2015/03/09 19:09:40 - tasks.comunications - DEBUG - task_comunications, 12440, True, None
+2015/03/09 19:09:40 - tasks.console - DEBUG - task_console, 12441, True, None
+2015/03/09 19:09:40 - tasks.housekeeping - DEBUG - task_housekeeping, 12443, True, None
+2015/03/09 19:11:39 - __main__ - INFO - 
+
+
+2015/03/09 19:11:39 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/09 19:11:39 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[0] => <repos.command.Cmd object at 0x7f4f6abe47f0>
+2015/03/09 19:11:39 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[0].name => CmdEnumCON.error_cmd_toolong
+2015/03/09 19:11:39 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[1] => <repos.command.Cmd object at 0x7f4f6abe4898>
+2015/03/09 19:11:39 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[1].name => CmdEnumCON.debug_msg
+2015/03/09 19:11:39 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[2] => <repos.command.Cmd object at 0x7f4f69e6c5c0>
+2015/03/09 19:11:39 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[2].name => CmdEnumCON.error_count_ar
+2015/03/09 19:11:39 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[3] => <repos.command.Cmd object at 0x7f4f6abe47b8>
+2015/03/09 19:11:39 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[3].name => CmdEnumCON.error_invalid_arg
+2015/03/09 19:11:39 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[4] => <repos.command.Cmd object at 0x7f4f69e19550>
+2015/03/09 19:11:39 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[4].name => CmdEnumCON.error_unknown_cmd
+2015/03/09 19:11:39 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[5] => <repos.command.Cmd object at 0x7f4f69e19588>
+2015/03/09 19:11:39 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[5].name => CmdEnumCON.help
+2015/03/09 19:11:39 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[6] => <repos.command.Cmd object at 0x7f4f69e195c0>
+2015/03/09 19:11:39 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[6].name => CmdEnumCON.promt
+2015/03/09 19:11:39 - core.deployment - DEBUG -     * Attaching CmdCON to CmdRepo
+2015/03/09 19:12:44 - __main__ - INFO - 
+
+
+2015/03/09 19:12:44 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/09 19:12:44 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[0] => <repos.command.Cmd object at 0x7f3babb2bc18>
+2015/03/09 19:12:44 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[0].name => CmdEnumCON.error_cmd_toolong
+2015/03/09 19:12:44 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[1] => <repos.command.Cmd object at 0x7f3babb2bcc0>
+2015/03/09 19:12:44 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[1].name => CmdEnumCON.debug_msg
+2015/03/09 19:12:44 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[2] => <repos.command.Cmd object at 0x7f3baad4a5c0>
+2015/03/09 19:12:44 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[2].name => CmdEnumCON.error_count_ar
+2015/03/09 19:12:44 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[3] => <repos.command.Cmd object at 0x7f3babb2bbe0>
+2015/03/09 19:12:44 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[3].name => CmdEnumCON.error_invalid_arg
+2015/03/09 19:12:44 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[4] => <repos.command.Cmd object at 0x7f3baacf7550>
+2015/03/09 19:12:44 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[4].name => CmdEnumCON.error_unknown_cmd
+2015/03/09 19:12:44 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[5] => <repos.command.Cmd object at 0x7f3baacf7588>
+2015/03/09 19:12:44 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[5].name => CmdEnumCON.help
+2015/03/09 19:12:44 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[6] => <repos.command.Cmd object at 0x7f3baacf75c0>
+2015/03/09 19:12:44 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[6].name => CmdEnumCON.promt
+2015/03/09 19:12:44 - core.deployment - DEBUG -     * Attaching CmdCON to CmdRepo
+2015/03/09 19:13:23 - __main__ - INFO - 
+
+
+2015/03/09 19:13:23 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/09 19:13:23 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[0] => <repos.command.Cmd object at 0x7fc96b7e0c18>
+2015/03/09 19:13:23 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[0].name => CmdEnumCON.error_cmd_toolong
+2015/03/09 19:13:23 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[1] => <repos.command.Cmd object at 0x7fc96b7e0cc0>
+2015/03/09 19:13:23 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[1].name => CmdEnumCON.debug_msg
+2015/03/09 19:13:23 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[2] => <repos.command.Cmd object at 0x7fc96a9ff588>
+2015/03/09 19:13:23 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[2].name => CmdEnumCON.error_count_ar
+2015/03/09 19:13:23 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[3] => <repos.command.Cmd object at 0x7fc96b7e0be0>
+2015/03/09 19:13:23 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[3].name => CmdEnumCON.error_invalid_arg
+2015/03/09 19:13:23 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[4] => <repos.command.Cmd object at 0x7fc96a9ac518>
+2015/03/09 19:13:23 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[4].name => CmdEnumCON.error_unknown_cmd
+2015/03/09 19:13:23 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[5] => <repos.command.Cmd object at 0x7fc96a9ac550>
+2015/03/09 19:13:23 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[5].name => CmdEnumCON.help
+2015/03/09 19:13:23 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[6] => <repos.command.Cmd object at 0x7fc96a9ac588>
+2015/03/09 19:13:23 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[6].name => CmdEnumCON.promt
+2015/03/09 19:13:23 - core.deployment - DEBUG -     * Attaching CmdCON to CmdRepo
+2015/03/09 19:14:29 - __main__ - INFO - 
+
+
+2015/03/09 19:14:29 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/09 19:14:29 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[0] => <repos.command.Cmd object at 0x7f40b326cc18>
+2015/03/09 19:14:29 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[0].name => CmdEnumCON.error_cmd_toolong
+2015/03/09 19:14:29 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[1] => <repos.command.Cmd object at 0x7f40b326ccc0>
+2015/03/09 19:14:29 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[1].name => CmdEnumCON.debug_msg
+2015/03/09 19:14:29 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[2] => <repos.command.Cmd object at 0x7f40b248b588>
+2015/03/09 19:14:29 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[2].name => CmdEnumCON.error_count_ar
+2015/03/09 19:14:29 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[3] => <repos.command.Cmd object at 0x7f40b326cbe0>
+2015/03/09 19:14:29 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[3].name => CmdEnumCON.error_invalid_arg
+2015/03/09 19:14:29 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[4] => <repos.command.Cmd object at 0x7f40b2438518>
+2015/03/09 19:14:29 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[4].name => CmdEnumCON.error_unknown_cmd
+2015/03/09 19:14:29 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[5] => <repos.command.Cmd object at 0x7f40b2438550>
+2015/03/09 19:14:29 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[5].name => CmdEnumCON.help
+2015/03/09 19:14:29 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[6] => <repos.command.Cmd object at 0x7f40b2438588>
+2015/03/09 19:14:29 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[6].name => CmdEnumCON.promt
+2015/03/09 19:14:29 - core.deployment - DEBUG -     * Attaching CmdCON to CmdRepo
+2015/03/09 19:14:58 - __main__ - INFO - 
+
+
+2015/03/09 19:14:58 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/09 19:14:58 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[0] => <repos.command.Cmd object at 0x7fc49360bc18>
+2015/03/09 19:14:58 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[0].name => CmdEnumCON.error_cmd_toolong
+2015/03/09 19:14:58 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[1] => <repos.command.Cmd object at 0x7fc49360bcc0>
+2015/03/09 19:14:58 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[1].name => CmdEnumCON.debug_msg
+2015/03/09 19:14:58 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[2] => <repos.command.Cmd object at 0x7fc49282a588>
+2015/03/09 19:14:58 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[2].name => CmdEnumCON.error_count_ar
+2015/03/09 19:14:58 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[3] => <repos.command.Cmd object at 0x7fc49360bbe0>
+2015/03/09 19:14:58 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[3].name => CmdEnumCON.error_invalid_arg
+2015/03/09 19:14:58 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[4] => <repos.command.Cmd object at 0x7fc4927d7518>
+2015/03/09 19:14:58 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[4].name => CmdEnumCON.error_unknown_cmd
+2015/03/09 19:14:58 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[5] => <repos.command.Cmd object at 0x7fc4927d7550>
+2015/03/09 19:14:58 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[5].name => CmdEnumCON.help
+2015/03/09 19:14:58 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[6] => <repos.command.Cmd object at 0x7fc4927d7588>
+2015/03/09 19:14:58 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[6].name => CmdEnumCON.promt
+2015/03/09 19:14:58 - core.deployment - DEBUG -     * Attaching CmdCON to CmdRepo
+2015/03/09 19:14:58 - core.deployment - DEBUG - get_function_byid(CmdCON, 0) => <repos.command.Cmd object at 0x7fc49360bc18>
+2015/03/09 19:16:46 - __main__ - INFO - 
+
+
+2015/03/09 19:16:46 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/09 19:16:46 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[0] => <repos.command.Cmd object at 0x7f236271ec18>
+2015/03/09 19:16:46 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[0].name => CmdEnumCON.error_cmd_toolong
+2015/03/09 19:16:46 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[1] => <repos.command.Cmd object at 0x7f236271ecc0>
+2015/03/09 19:16:46 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[1].name => CmdEnumCON.debug_msg
+2015/03/09 19:16:46 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[2] => <repos.command.Cmd object at 0x7f236193e5c0>
+2015/03/09 19:16:46 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[2].name => CmdEnumCON.error_count_ar
+2015/03/09 19:16:46 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[3] => <repos.command.Cmd object at 0x7f236271ebe0>
+2015/03/09 19:16:46 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[3].name => CmdEnumCON.error_invalid_arg
+2015/03/09 19:16:46 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[4] => <repos.command.Cmd object at 0x7f23618ea550>
+2015/03/09 19:16:46 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[4].name => CmdEnumCON.error_unknown_cmd
+2015/03/09 19:16:46 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[5] => <repos.command.Cmd object at 0x7f23618ea588>
+2015/03/09 19:16:46 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[5].name => CmdEnumCON.help
+2015/03/09 19:16:46 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[6] => <repos.command.Cmd object at 0x7f23618ea5c0>
+2015/03/09 19:16:46 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[6].name => CmdEnumCON.promt
+2015/03/09 19:16:46 - core.deployment - DEBUG -     * Attaching CmdCON to CmdRepo
+2015/03/09 19:16:46 - core.deployment - DEBUG - get_function_byid(CmdCON, 0) => <repos.command.Cmd object at 0x7f236271ec18>
+2015/03/09 19:16:46 - core.deployment - DEBUG - get_sysreq_byid(CmdCON, 0) => 1
+2015/03/09 19:16:46 - core.deployment - DEBUG - get_function_byid(CmdCON, 1) => <repos.command.Cmd object at 0x7f236271ecc0>
+2015/03/09 19:16:46 - core.deployment - DEBUG - get_sysreq_byid(CmdCON, 1) => 1
+2015/03/09 19:16:46 - core.deployment - DEBUG - get_function_byid(CmdCON, 2) => <repos.command.Cmd object at 0x7f236193e5c0>
+2015/03/09 19:16:46 - core.deployment - DEBUG - get_sysreq_byid(CmdCON, 2) => 1
+2015/03/09 19:16:46 - core.deployment - DEBUG - get_function_byid(CmdCON, 3) => <repos.command.Cmd object at 0x7f236271ebe0>
+2015/03/09 19:16:46 - core.deployment - DEBUG - get_sysreq_byid(CmdCON, 3) => 1
+2015/03/09 19:16:46 - core.deployment - DEBUG - get_function_byid(CmdCON, 4) => <repos.command.Cmd object at 0x7f23618ea550>
+2015/03/09 19:16:46 - core.deployment - DEBUG - get_sysreq_byid(CmdCON, 4) => 1
+2015/03/09 19:16:46 - core.deployment - DEBUG - get_function_byid(CmdCON, 5) => <repos.command.Cmd object at 0x7f23618ea588>
+2015/03/09 19:16:46 - core.deployment - DEBUG - get_sysreq_byid(CmdCON, 5) => 1
+2015/03/09 19:16:46 - core.deployment - DEBUG - get_function_byid(CmdCON, 6) => <repos.command.Cmd object at 0x7f23618ea5c0>
+2015/03/09 19:16:46 - core.deployment - DEBUG - get_sysreq_byid(CmdCON, 6) => 1
+2015/03/09 19:16:46 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/09 19:16:46 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/09 19:16:46 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/09 19:16:46 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/09 19:16:46 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/09 19:16:46 - core.deployment - DEBUG - -------------------------
+2015/03/09 19:16:48 - tasks.dispatcher - DEBUG - task_dispatcher, 12661, True, None
+2015/03/09 19:16:48 - tasks.comunications - DEBUG - task_comunications, 12662, True, None
+2015/03/09 19:16:48 - tasks.flightplan - DEBUG - task_flightplant, 12664, True, None
+2015/03/09 19:16:48 - tasks.console - DEBUG - task_console, 12663, True, None
+2015/03/09 19:16:48 - tasks.housekeeping - DEBUG - task_housekeeping, 12665, True, None
+2015/03/09 19:18:19 - __main__ - INFO - 
+
+
+2015/03/09 19:18:19 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/09 19:18:19 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[0] => <repos.command.Cmd object at 0x7f48ba920c18>
+2015/03/09 19:18:19 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[0].name => CmdEnumCON.error_cmd_toolong
+2015/03/09 19:18:19 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[1] => <repos.command.Cmd object at 0x7f48ba920cc0>
+2015/03/09 19:18:19 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[1].name => CmdEnumCON.debug_msg
+2015/03/09 19:18:19 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[2] => <repos.command.Cmd object at 0x7f48b9b3f5c0>
+2015/03/09 19:18:19 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[2].name => CmdEnumCON.error_count_ar
+2015/03/09 19:18:19 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[3] => <repos.command.Cmd object at 0x7f48ba920be0>
+2015/03/09 19:18:19 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[3].name => CmdEnumCON.error_invalid_arg
+2015/03/09 19:18:19 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[4] => <repos.command.Cmd object at 0x7f48b9aec550>
+2015/03/09 19:18:19 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[4].name => CmdEnumCON.error_unknown_cmd
+2015/03/09 19:18:19 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[5] => <repos.command.Cmd object at 0x7f48b9aec588>
+2015/03/09 19:18:19 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[5].name => CmdEnumCON.help
+2015/03/09 19:18:19 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[6] => <repos.command.Cmd object at 0x7f48b9aec5c0>
+2015/03/09 19:18:19 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[6].name => CmdEnumCON.promt
+2015/03/09 19:18:19 - core.deployment - DEBUG -     * Attaching CmdCON to CmdRepo
+2015/03/09 19:18:19 - core.deployment - DEBUG - get_function_byid(CmdCON, 0) => <repos.command.Cmd object at 0x7f48ba920c18>
+2015/03/09 19:18:19 - core.deployment - DEBUG - get_sysreq_byid(CmdCON, 0) => 1
+2015/03/09 19:18:19 - core.deployment - DEBUG - get_function_byid(CmdCON, 1) => <repos.command.Cmd object at 0x7f48ba920cc0>
+2015/03/09 19:18:19 - core.deployment - DEBUG - get_sysreq_byid(CmdCON, 1) => 1
+2015/03/09 19:18:19 - core.deployment - DEBUG - get_function_byid(CmdCON, 2) => <repos.command.Cmd object at 0x7f48b9b3f5c0>
+2015/03/09 19:18:19 - core.deployment - DEBUG - get_sysreq_byid(CmdCON, 2) => 1
+2015/03/09 19:18:19 - core.deployment - DEBUG - get_function_byid(CmdCON, 3) => <repos.command.Cmd object at 0x7f48ba920be0>
+2015/03/09 19:18:19 - core.deployment - DEBUG - get_sysreq_byid(CmdCON, 3) => 1
+2015/03/09 19:18:19 - core.deployment - DEBUG - get_function_byid(CmdCON, 4) => <repos.command.Cmd object at 0x7f48b9aec550>
+2015/03/09 19:18:19 - core.deployment - DEBUG - get_sysreq_byid(CmdCON, 4) => 1
+2015/03/09 19:18:19 - core.deployment - DEBUG - get_function_byid(CmdCON, 5) => <repos.command.Cmd object at 0x7f48b9aec588>
+2015/03/09 19:18:19 - core.deployment - DEBUG - get_sysreq_byid(CmdCON, 5) => 1
+2015/03/09 19:18:19 - core.deployment - DEBUG - get_function_byid(CmdCON, 6) => <repos.command.Cmd object at 0x7f48b9aec5c0>
+2015/03/09 19:18:19 - core.deployment - DEBUG - get_sysreq_byid(CmdCON, 6) => 1
+2015/03/09 19:18:19 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/09 19:18:19 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/09 19:18:19 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/09 19:18:19 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/09 19:18:19 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/09 19:18:19 - core.deployment - DEBUG - -------------------------
+2015/03/09 19:18:21 - tasks.dispatcher - DEBUG - task_dispatcher, 12702, True, None
+2015/03/09 19:18:21 - tasks.console - DEBUG - task_console, 12704, True, None
+2015/03/09 19:18:21 - tasks.comunications - DEBUG - task_comunications, 12703, True, None
+2015/03/09 19:18:21 - tasks.housekeeping - DEBUG - task_housekeeping, 12706, True, None
+2015/03/09 19:18:21 - tasks.flightplan - DEBUG - task_flightplant, 12705, True, None
+2015/03/09 19:19:16 - __main__ - INFO - 
+
+
+2015/03/09 19:19:16 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/09 19:19:16 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[0] => <repos.command.Cmd object at 0x7f8e8a66bc18>
+2015/03/09 19:19:16 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[0].name => CmdEnumCON.error_cmd_toolong
+2015/03/09 19:19:16 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[1] => <repos.command.Cmd object at 0x7f8e8a66bcc0>
+2015/03/09 19:19:16 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[1].name => CmdEnumCON.debug_msg
+2015/03/09 19:19:16 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[2] => <repos.command.Cmd object at 0x7f8e8988a5c0>
+2015/03/09 19:19:16 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[2].name => CmdEnumCON.error_count_ar
+2015/03/09 19:19:16 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[3] => <repos.command.Cmd object at 0x7f8e8a66bbe0>
+2015/03/09 19:19:16 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[3].name => CmdEnumCON.error_invalid_arg
+2015/03/09 19:19:16 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[4] => <repos.command.Cmd object at 0x7f8e89837550>
+2015/03/09 19:19:16 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[4].name => CmdEnumCON.error_unknown_cmd
+2015/03/09 19:19:16 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[5] => <repos.command.Cmd object at 0x7f8e89837588>
+2015/03/09 19:19:16 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[5].name => CmdEnumCON.help
+2015/03/09 19:19:16 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[6] => <repos.command.Cmd object at 0x7f8e898375c0>
+2015/03/09 19:19:16 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[6].name => CmdEnumCON.promt
+2015/03/09 19:19:16 - core.deployment - DEBUG -     * Attaching CmdCON to CmdRepo
+2015/03/09 19:19:16 - core.deployment - DEBUG - get_function_byid(CmdCON, 0) => <repos.command.Cmd object at 0x7f8e8a66bc18>
+2015/03/09 19:19:16 - core.deployment - DEBUG - get_sysreq_byid(CmdCON, 0) => 1
+2015/03/09 19:19:16 - core.deployment - DEBUG - get_function_byid(CmdCON, 1) => <repos.command.Cmd object at 0x7f8e8a66bcc0>
+2015/03/09 19:19:16 - core.deployment - DEBUG - get_sysreq_byid(CmdCON, 1) => 1
+2015/03/09 19:19:16 - core.deployment - DEBUG - get_function_byid(CmdCON, 2) => <repos.command.Cmd object at 0x7f8e8988a5c0>
+2015/03/09 19:19:16 - core.deployment - DEBUG - get_sysreq_byid(CmdCON, 2) => 1
+2015/03/09 19:19:16 - core.deployment - DEBUG - get_function_byid(CmdCON, 3) => <repos.command.Cmd object at 0x7f8e8a66bbe0>
+2015/03/09 19:19:16 - core.deployment - DEBUG - get_sysreq_byid(CmdCON, 3) => 1
+2015/03/09 19:19:16 - core.deployment - DEBUG - get_function_byid(CmdCON, 4) => <repos.command.Cmd object at 0x7f8e89837550>
+2015/03/09 19:19:16 - core.deployment - DEBUG - get_sysreq_byid(CmdCON, 4) => 1
+2015/03/09 19:19:16 - core.deployment - DEBUG - get_function_byid(CmdCON, 5) => <repos.command.Cmd object at 0x7f8e89837588>
+2015/03/09 19:19:16 - core.deployment - DEBUG - get_sysreq_byid(CmdCON, 5) => 1
+2015/03/09 19:19:16 - core.deployment - DEBUG - get_function_byid(CmdCON, 6) => <repos.command.Cmd object at 0x7f8e898375c0>
+2015/03/09 19:19:16 - core.deployment - DEBUG - get_sysreq_byid(CmdCON, 6) => 1
+2015/03/09 19:19:16 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/09 19:19:16 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/09 19:19:16 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/09 19:19:16 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/09 19:19:16 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/09 19:19:16 - core.deployment - DEBUG - -------------------------
+2015/03/09 19:19:18 - tasks.dispatcher - DEBUG - task_dispatcher, 12738, True, None
+2015/03/09 19:19:18 - tasks.flightplan - DEBUG - task_flightplant, 12741, True, None
+2015/03/09 19:19:18 - tasks.console - DEBUG - task_console, 12740, True, None
+2015/03/09 19:19:18 - tasks.comunications - DEBUG - task_comunications, 12739, True, None
+2015/03/09 19:19:18 - tasks.housekeeping - DEBUG - task_housekeeping, 12742, True, None
+2015/03/09 19:20:03 - __main__ - INFO - 
+
+
+2015/03/09 19:20:03 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/09 19:20:03 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[0] => <repos.command.Cmd object at 0x7f111954ac18>
+2015/03/09 19:20:03 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[0].name => CmdEnumCON.error_cmd_toolong
+2015/03/09 19:20:03 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[1] => <repos.command.Cmd object at 0x7f111954acc0>
+2015/03/09 19:20:03 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[1].name => CmdEnumCON.debug_msg
+2015/03/09 19:20:03 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[2] => <repos.command.Cmd object at 0x7f11187685f8>
+2015/03/09 19:20:03 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[2].name => CmdEnumCON.error_count_ar
+2015/03/09 19:20:03 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[3] => <repos.command.Cmd object at 0x7f111954abe0>
+2015/03/09 19:20:03 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[3].name => CmdEnumCON.error_invalid_arg
+2015/03/09 19:20:03 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[4] => <repos.command.Cmd object at 0x7f1118716588>
+2015/03/09 19:20:03 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[4].name => CmdEnumCON.error_unknown_cmd
+2015/03/09 19:20:03 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[5] => <repos.command.Cmd object at 0x7f11187165c0>
+2015/03/09 19:20:03 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[5].name => CmdEnumCON.help
+2015/03/09 19:20:03 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[6] => <repos.command.Cmd object at 0x7f11187165f8>
+2015/03/09 19:20:03 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[6].name => CmdEnumCON.promt
+2015/03/09 19:20:03 - core.deployment - DEBUG -     * Attaching CmdCON to CmdRepo
+2015/03/09 19:20:03 - core.deployment - DEBUG - get_function_byid(CmdCON, 0) => <repos.command.Cmd object at 0x7f111954ac18>
+2015/03/09 19:20:03 - core.deployment - DEBUG - get_sysreq_byid(CmdCON, 0) => 1
+2015/03/09 19:20:03 - core.deployment - DEBUG - get_function_byid(CmdCON, 1) => <repos.command.Cmd object at 0x7f111954acc0>
+2015/03/09 19:20:03 - core.deployment - DEBUG - get_sysreq_byid(CmdCON, 1) => 1
+2015/03/09 19:20:03 - core.deployment - DEBUG - get_function_byid(CmdCON, 2) => <repos.command.Cmd object at 0x7f11187685f8>
+2015/03/09 19:20:03 - core.deployment - DEBUG - get_sysreq_byid(CmdCON, 2) => 1
+2015/03/09 19:20:03 - core.deployment - DEBUG - get_function_byid(CmdCON, 3) => <repos.command.Cmd object at 0x7f111954abe0>
+2015/03/09 19:20:03 - core.deployment - DEBUG - get_sysreq_byid(CmdCON, 3) => 1
+2015/03/09 19:20:03 - core.deployment - DEBUG - get_function_byid(CmdCON, 4) => <repos.command.Cmd object at 0x7f1118716588>
+2015/03/09 19:20:03 - core.deployment - DEBUG - get_sysreq_byid(CmdCON, 4) => 1
+2015/03/09 19:20:03 - core.deployment - DEBUG - get_function_byid(CmdCON, 5) => <repos.command.Cmd object at 0x7f11187165c0>
+2015/03/09 19:20:03 - core.deployment - DEBUG - get_sysreq_byid(CmdCON, 5) => 1
+2015/03/09 19:20:03 - core.deployment - DEBUG - get_function_byid(CmdCON, 6) => <repos.command.Cmd object at 0x7f11187165f8>
+2015/03/09 19:20:03 - core.deployment - DEBUG - get_sysreq_byid(CmdCON, 6) => 1
+2015/03/09 19:20:03 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/09 19:20:03 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/09 19:20:03 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/09 19:20:03 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/09 19:20:03 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/09 19:20:03 - core.deployment - DEBUG - -------------------------
+2015/03/09 19:20:05 - tasks.dispatcher - DEBUG - task_dispatcher, 12773, True, None
+2015/03/09 19:20:05 - tasks.comunications - DEBUG - task_comunications, 12774, True, None
+2015/03/09 19:20:05 - tasks.flightplan - DEBUG - task_flightplant, 12776, True, None
+2015/03/09 19:20:05 - tasks.console - DEBUG - task_console, 12775, True, None
+2015/03/09 19:20:05 - tasks.housekeeping - DEBUG - task_housekeeping, 12777, True, None
+2015/03/09 19:24:40 - __main__ - INFO - 
+
+
+2015/03/09 19:24:40 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/09 19:24:40 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[0] => <repos.command.Cmd object at 0x7f9f5a253c18>
+2015/03/09 19:24:40 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[0].name => CmdEnumCON.error_cmd_toolong
+2015/03/09 19:24:40 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[1] => <repos.command.Cmd object at 0x7f9f5a253cc0>
+2015/03/09 19:24:40 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[1].name => CmdEnumCON.debug_msg
+2015/03/09 19:24:40 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[2] => <repos.command.Cmd object at 0x7f9f59471668>
+2015/03/09 19:24:40 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[2].name => CmdEnumCON.error_count_ar
+2015/03/09 19:24:40 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[3] => <repos.command.Cmd object at 0x7f9f5a253be0>
+2015/03/09 19:24:40 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[3].name => CmdEnumCON.error_invalid_arg
+2015/03/09 19:24:40 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[4] => <repos.command.Cmd object at 0x7f9f594205f8>
+2015/03/09 19:24:40 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[4].name => CmdEnumCON.error_unknown_cmd
+2015/03/09 19:24:40 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[5] => <repos.command.Cmd object at 0x7f9f59420630>
+2015/03/09 19:24:40 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[5].name => CmdEnumCON.help
+2015/03/09 19:24:40 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[6] => <repos.command.Cmd object at 0x7f9f59420668>
+2015/03/09 19:24:40 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[6].name => CmdEnumCON.promt
+2015/03/09 19:24:40 - core.deployment - DEBUG -     * Attaching CmdCON to CmdRepo
+2015/03/09 19:24:40 - core.deployment - DEBUG - get_function_byid(CmdCON, 0) => <repos.command.Cmd object at 0x7f9f5a253c18>
+2015/03/09 19:24:40 - core.deployment - DEBUG - get_sysreq_byid(CmdCON, 0) => 1
+2015/03/09 19:24:40 - core.deployment - DEBUG - get_function_byid(CmdCON, 1) => <repos.command.Cmd object at 0x7f9f5a253cc0>
+2015/03/09 19:24:40 - core.deployment - DEBUG - get_sysreq_byid(CmdCON, 1) => 1
+2015/03/09 19:24:40 - core.deployment - DEBUG - get_function_byid(CmdCON, 2) => <repos.command.Cmd object at 0x7f9f59471668>
+2015/03/09 19:24:40 - core.deployment - DEBUG - get_sysreq_byid(CmdCON, 2) => 1
+2015/03/09 19:24:40 - core.deployment - DEBUG - get_function_byid(CmdCON, 3) => <repos.command.Cmd object at 0x7f9f5a253be0>
+2015/03/09 19:24:40 - core.deployment - DEBUG - get_sysreq_byid(CmdCON, 3) => 1
+2015/03/09 19:24:40 - core.deployment - DEBUG - get_function_byid(CmdCON, 4) => <repos.command.Cmd object at 0x7f9f594205f8>
+2015/03/09 19:24:40 - core.deployment - DEBUG - get_sysreq_byid(CmdCON, 4) => 1
+2015/03/09 19:24:40 - core.deployment - DEBUG - get_function_byid(CmdCON, 5) => <repos.command.Cmd object at 0x7f9f59420630>
+2015/03/09 19:24:40 - core.deployment - DEBUG - get_sysreq_byid(CmdCON, 5) => 1
+2015/03/09 19:24:40 - core.deployment - DEBUG - get_function_byid(CmdCON, 6) => <repos.command.Cmd object at 0x7f9f59420668>
+2015/03/09 19:24:40 - core.deployment - DEBUG - get_sysreq_byid(CmdCON, 6) => 1
+2015/03/09 19:24:40 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/09 19:24:40 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/09 19:24:40 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/09 19:24:40 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/09 19:24:40 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/09 19:24:40 - core.deployment - DEBUG - -------------------------
+2015/03/09 19:24:42 - tasks.dispatcher - DEBUG - task_dispatcher, 12942, True, None
+2015/03/09 19:24:42 - tasks.comunications - DEBUG - task_comunications, 12943, True, None
+2015/03/09 19:24:42 - tasks.flightplan - DEBUG - task_flightplant, 12945, True, None
+2015/03/09 19:24:42 - tasks.housekeeping - DEBUG - task_housekeeping, 12946, True, None
+2015/03/09 19:24:42 - tasks.console - DEBUG - task_console, 12944, True, None
+2015/03/09 19:27:29 - __main__ - INFO - 
+
+
+2015/03/09 19:27:29 - __main__ - INFO - Suchai Sw: Entry point ..
+2015/03/09 19:27:29 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[0] => <repos.command.Cmd object at 0x7f62412cfc18>
+2015/03/09 19:27:29 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[0].name => CmdEnumCON.error_cmd_toolong
+2015/03/09 19:27:29 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[1] => <repos.command.Cmd object at 0x7f62412cfcc0>
+2015/03/09 19:27:29 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[1].name => CmdEnumCON.debug_msg
+2015/03/09 19:27:29 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[2] => <repos.command.Cmd object at 0x7f62404d7a90>
+2015/03/09 19:27:29 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[2].name => CmdEnumCON.error_count_ar
+2015/03/09 19:27:29 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[3] => <repos.command.Cmd object at 0x7f62412cfbe0>
+2015/03/09 19:27:29 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[3].name => CmdEnumCON.error_invalid_arg
+2015/03/09 19:27:29 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[4] => <repos.command.Cmd object at 0x7f6240484a20>
+2015/03/09 19:27:29 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[4].name => CmdEnumCON.error_unknown_cmd
+2015/03/09 19:27:29 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[5] => <repos.command.Cmd object at 0x7f6240484a58>
+2015/03/09 19:27:29 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[5].name => CmdEnumCON.help
+2015/03/09 19:27:29 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[6] => <repos.command.Cmd object at 0x7f6240484a90>
+2015/03/09 19:27:29 - repos.cmds.cmdconsole - DEBUG - self.cmdBuffer[6].name => CmdEnumCON.promt
+2015/03/09 19:27:29 - core.deployment - DEBUG -     * Attaching CmdCON to CmdRepo
+2015/03/09 19:27:29 - core.deployment - DEBUG - get_function_byid(CmdCON, 0) => <repos.command.Cmd object at 0x7f62412cfc18>
+2015/03/09 19:27:29 - core.deployment - DEBUG - get_sysreq_byid(CmdCON, 0) => 1
+2015/03/09 19:27:29 - core.deployment - DEBUG - get_function_byid(CmdCON, 1) => <repos.command.Cmd object at 0x7f62412cfcc0>
+2015/03/09 19:27:29 - core.deployment - DEBUG - get_sysreq_byid(CmdCON, 1) => 1
+2015/03/09 19:27:29 - core.deployment - DEBUG - get_function_byid(CmdCON, 2) => <repos.command.Cmd object at 0x7f62404d7a90>
+2015/03/09 19:27:29 - core.deployment - DEBUG - get_sysreq_byid(CmdCON, 2) => 1
+2015/03/09 19:27:29 - core.deployment - DEBUG - get_function_byid(CmdCON, 3) => <repos.command.Cmd object at 0x7f62412cfbe0>
+2015/03/09 19:27:29 - core.deployment - DEBUG - get_sysreq_byid(CmdCON, 3) => 1
+2015/03/09 19:27:29 - core.deployment - DEBUG - get_function_byid(CmdCON, 4) => <repos.command.Cmd object at 0x7f6240484a20>
+2015/03/09 19:27:29 - core.deployment - DEBUG - get_sysreq_byid(CmdCON, 4) => 1
+2015/03/09 19:27:29 - core.deployment - DEBUG - get_function_byid(CmdCON, 5) => <repos.command.Cmd object at 0x7f6240484a58>
+2015/03/09 19:27:29 - core.deployment - DEBUG - get_sysreq_byid(CmdCON, 5) => 1
+2015/03/09 19:27:29 - core.deployment - DEBUG - get_function_byid(CmdCON, 6) => <repos.command.Cmd object at 0x7f6240484a90>
+2015/03/09 19:27:29 - core.deployment - DEBUG - get_sysreq_byid(CmdCON, 6) => 1
+2015/03/09 19:27:29 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/09 19:27:29 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/09 19:27:29 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/09 19:27:29 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/09 19:27:29 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/09 19:27:29 - core.deployment - DEBUG - -------------------------
+2015/03/09 19:27:31 - tasks.dispatcher - DEBUG - task_dispatcher, 13003, True, None
+2015/03/09 19:27:31 - tasks.comunications - DEBUG - task_comunications, 13004, True, None
+2015/03/09 19:27:31 - tasks.flightplan - DEBUG - task_flightplant, 13006, True, None
+2015/03/09 19:27:31 - tasks.console - DEBUG - task_console, 13005, True, None
+2015/03/09 19:27:31 - tasks.housekeeping - DEBUG - task_housekeeping, 13007, True, None

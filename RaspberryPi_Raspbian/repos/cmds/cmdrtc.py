@@ -5,21 +5,22 @@ __author__ = 'toopazo'
 
 from repos import command
 from core import gnrluse
+import SUCHAI_config
 import datetime
 import logging
 logger = logging.getLogger(__name__)
 
 
-class CmdRTC(command.CmdXXX):
+class CmdRTC(command.CmdGroup):
 
     def __init__(self):
-        command.CmdXXX.__init__(self)
-        self.name = __name__
-        self.cmdOwn = 1
+        command.CmdGroup.__init__(self)
+        self.groupName = __name__
+        self.groupId = SUCHAI_config.SCH_GID_RTC
 
     # #@staticmethod
     # def get_ncmds(self):
-    #     return len(self.cmdFunction)
+    #     return len(self.cmdBuffer)
 
     @staticmethod
     def debug(param):
@@ -33,12 +34,12 @@ class CmdRTC(command.CmdXXX):
 
     #@staticmethod
     def on_reset(self):
-        # add every cmd and sysreq to CmdRTC.cmdFunction and CmdRTC.cmdSysReq
+        # add every cmd and sysReq to CmdRTC.cmdBuffer and CmdRTC.cmdSysReq
 
-        self.cmdFunction.append(CmdRTC.debug)
+        self.cmdBuffer.append(CmdRTC.debug)
         self.cmdSysReq.append(gnrluse.SysReqs.SYSREQ_MIN)
 
-        self.cmdFunction.append(CmdRTC.time)
+        self.cmdBuffer.append(CmdRTC.time)
         self.cmdSysReq.append(gnrluse.SysReqs.SYSREQ_MIN)
 
 
