@@ -38,18 +38,18 @@ class CmdGroup():
 # manages acces to te cmdRepo
 class CmdRepo():
     # #define CMD_BUFF_CMDXX_LEN SCH_NUM_CMDXXX
-    b_cmd_repo = []
+    cmd_group_buffer = []
 
     # void repo_set_cmdXXX_hanlder(CmdRepo_cmdXXX_handler cmdPPC_handler);
     @staticmethod
     def add_cmd_group(cmd_group):
         # if hasattr(cmd_group, "cmdBuffer"):
-        #     CmdRepo.b_cmd_repo.append(cmd_group)
+        #     CmdRepo.cmd_group_buffer.append(cmd_group)
         #     print("cmd_group.groupName =>", cmd_group.groupName)  # debug
         try:
-            CmdRepo.b_cmd_repo.append(cmd_group)
+            CmdRepo.cmd_group_buffer.append(cmd_group)
             # print("cmd_group.groupName =>", cmd_group.groupName)  # debug
-            # print(CmdRepo.b_cmd_repo)
+            # print(CmdRepo.cmd_group_buffer)
 
             #execute onReset of added cmd_group
             cmd_group.on_reset()
@@ -57,47 +57,27 @@ class CmdRepo():
             pass
 
     @staticmethod
-    def get_ncmds(cmd_name):
-        for i in range(0, len(CmdRepo.b_cmd_repo)):
-            cmd_group = CmdRepo.b_cmd_repo[i]
-            if cmd_group.groupName == cmd_name:
+    def get_ncmds(cmd_group_name):
+        for i in range(0, len(CmdRepo.cmd_group_buffer)):
+            cmd_group = CmdRepo.cmd_group_buffer[i]
+            if cmd_group.groupName == cmd_group_name:
                 try:
                     nc = cmd_group.get_ncmds()
                     return nc
                 except AttributeError:
-                    return -1
-
-    #TODO modified by toopazo to ease porting
-    @staticmethod
-    def get_function_byname(cmd_name, cmd_id_name):
-        #from cmd_id get "groupId" and get bFunction from the corresponding CmdHandler
-        #and then, from inside this CmdHandler and using the rest of cmd_id get the
-        #corresponding "function and return it"
-        res = None
-        for i in range(0, len(CmdRepo.b_cmd_repo)):
-            cmd_group = CmdRepo.b_cmd_repo[i]
-            print("cmd_group.groupName => %s" % cmd_group.groupName)
-            if cmd_group.groupName == cmd_name:
-                for j in range(0, len(cmd_group.cmdBuffer)):
-                    cmd_group_j = cmd_group.cmdBuffer[j]
-                    print("cmd_group_j.name => %s" % cmd_group_j.name)
-                    if cmd_group_j.name == cmd_id_name:
-                        res = cmd_group_j
-                        return res
-        return res
+                    return 0
 
     #TODO modified by toopazo to ease porting
     # cmdBuffer repo_getFunction(int cmdID);
     @staticmethod
-    def get_function_byid(cmd_name, cmd_id):
-        #from cmd_id get "groupId" and get bFunction from the corresponding CmdHandler
-        #and then, from inside this CmdHandler and using the rest of cmd_id get the
-        #corresponding "function and return it"
+    def get_command_byid(cmd_group_name, cmd_id):
+        """ Search inside cmd_group_buffer after the cmd_group that matches the cmd_id key,
+         then for cmd_id inside cmd_group and return the associated Cmd.funct """
         res = None
-        for i in range(0, len(CmdRepo.b_cmd_repo)):
-            cmd_group = CmdRepo.b_cmd_repo[i]
-            #print("CmdRepo.b_cmd_repo[i].groupName => %s" % CmdRepo.b_cmd_repo[i].groupName)
-            if cmd_group.groupName == cmd_name:
+        for i in range(0, len(CmdRepo.cmd_group_buffer)):
+            cmd_group = CmdRepo.cmd_group_buffer[i]
+            #print("CmdRepo.cmd_group_buffer[i].groupName => %s" % CmdRepo.cmd_group_buffer[i].groupName)
+            if cmd_group.groupName == cmd_group_name:
                 try:
                     res = cmd_group.cmdBuffer[cmd_id]
                     #print(cmd_group.groupName)
@@ -106,19 +86,73 @@ class CmdRepo():
                 return res
         return res
 
+    #TODO modified by toopazo to ease porting
+    @staticmethod
+    def get_command_byname(cmd_group_name, cmd_name):
+        """ Search inside cmd_group_buffer after the cmd_group that matches the cmd_group_name key,
+         then for cmd_name inside cmd_group and return the associated Cmd.funct """
+        res = None
+        for i in range(0, len(CmdRepo.cmd_group_buffer)):
+            cmd_group = CmdRepo.cmd_group_buffer[i]
+            # print("cmd_group.groupName => %s" % cmd_group.groupName)
+            if cmd_group.groupName == cmd_group_name:
+                for j in range(0, len(cmd_group.cmdBuffer)):
+                    cmd_j = cmd_group.cmdBuffer[j]
+                    # print("cmd_j.name => %s" % cmd_j.name)
+                    if cmd_j.name == cmd_name:
+                        res = cmd_j
+                        return res
+        return res
+
+    #TODO modified by toopazo to ease porting
+    @staticmethod
+    def get_function_byname(cmd_group_name, cmd_name):
+        """ Search inside cmd_group_buffer after the cmd_group that matches the cmd_group_name key,
+         then for cmd_id inside cmd_group and return the associated Cmd.funct """
+        res = None
+        for i in range(0, len(CmdRepo.cmd_group_buffer)):
+            cmd_group = CmdRepo.cmd_group_buffer[i]
+            # print("cmd_group.groupName => %s" % cmd_group.groupName)
+            if cmd_group.groupName == cmd_group_name:
+                for j in range(0, len(cmd_group.cmdBuffer)):
+                    cmd_j = cmd_group.cmdBuffer[j]
+                    # print("cmd_j.name => %s" % cmd_j.name)
+                    if cmd_j.name == cmd_name:
+                        res = cmd_j.funct
+                        return res
+        return res
+
+    #TODO modified by toopazo to ease porting
+    # cmdBuffer repo_getFunction(int cmdID);
+    @staticmethod
+    def get_function_byid(cmd_group_name, cmd_id):
+        """ Search inside cmd_group_buffer after the cmd_group that matches the cmd_id key,
+         then for cmd_id inside cmd_group and return the associated Cmd.funct """
+        res = None
+        for i in range(0, len(CmdRepo.cmd_group_buffer)):
+            cmd_group = CmdRepo.cmd_group_buffer[i]
+            #print("CmdRepo.cmd_group_buffer[i].groupName => %s" % CmdRepo.cmd_group_buffer[i].groupName)
+            if cmd_group.groupName == cmd_group_name:
+                try:
+                    res = cmd_group.cmdBuffer[cmd_id].funct
+                    #print(cmd_group.groupName)
+                except IndexError:
+                    res = CmdRepo.cmdnull
+                return res
+        return res
+
     # int repo_getsysReq(int cmdID);
     @staticmethod
-    def get_sysreq_byid(cmd_name, cmd_id):
-        #from cmd_id get "groupId" and get bFunction from the corresponding CmdHandler
-        #and then, from inside this CmdHandler and using the rest of cmd_id get the
-        #corresponding "sysReq and return it"
+    def get_sysreq_byid(cmd_group_name, cmd_name):
+        """ Search inside cmd_group_buffer after the cmd_group that matches the cmd_name key,
+         then for cmd_name inside cmd_group and return the associated Cmd.sysReq """
         res = None
-        for i in range(0, len(CmdRepo.b_cmd_repo)):
-            cmd_group = CmdRepo.b_cmd_repo[i]
-            #print("CmdRepo.b_cmd_repo[i].groupName => %s" % CmdRepo.b_cmd_repo[i].groupName)
-            if cmd_group.groupName == cmd_name:
+        for i in range(0, len(CmdRepo.cmd_group_buffer)):
+            cmd_group = CmdRepo.cmd_group_buffer[i]
+            #print("CmdRepo.cmd_group_buffer[i].groupName => %s" % CmdRepo.cmd_group_buffer[i].groupName)
+            if cmd_group.groupName == cmd_group_name:
                 try:
-                    res = cmd_group.cmdBuffer[cmd_id].sysReq
+                    res = cmd_group.cmdBuffer[cmd_name].sysReq
                     #print(cmd_group.groupName)
                 except IndexError:
                     res = gnrluse.SysReqs.SYSREQ_MAX
@@ -127,22 +161,21 @@ class CmdRepo():
 
     #TODO modified by toopazo to ease porting
     @staticmethod
-    def get_sysreq_byname(cmd_name, cmd_id_name):
-        #from cmd_id get "groupId" and get bFunction from the corresponding CmdHandler
-        #and then, from inside this CmdHandler and using the rest of cmd_id get the
-        #corresponding "function and return it"
+    def get_sysreq_byname(cmd_group_name, cmd_name):
+        """ Search inside cmd_group_buffer after the cmd_group that matches the cmd_group_name key,
+         then for cmd_id inside cmd_group and return the associated Cmd.sysReq """
         res = None
-        for i in range(0, len(CmdRepo.b_cmd_repo)):
-            cmd_group = CmdRepo.b_cmd_repo[i]
-            print("cmd_group.groupName => %s" % cmd_group.groupName)
-            if cmd_group.groupName == cmd_name:
+        for i in range(0, len(CmdRepo.cmd_group_buffer)):
+            cmd_group = CmdRepo.cmd_group_buffer[i]
+            # print("cmd_group.groupName => %s" % cmd_group.groupName)
+            if cmd_group.groupName == cmd_group_name:
                 for j in range(0, len(cmd_group.cmdBuffer)):
-                    cmd_group_j = cmd_group.cmdBuffer[j]
-                    cmd_group_sysreq_j = cmd_group.cmdBuffer[j].sysReq
-                    print("cmd_group_j.name => %s" % cmd_group_j.name)
-                    print("cmd_group_sysreq_j => %s" % cmd_group_sysreq_j)
-                    if cmd_group_j.name == cmd_id_name:
-                        res = cmd_group_sysreq_j
+                    cmd_j = cmd_group.cmdBuffer[j]
+                    cmd_sysreq_j = cmd_j.sysReq
+                    # print("cmd_j.name => %s" % cmd_j.name)
+                    # print("cmd_sysreq_j => %s" % cmd_sysreq_j)
+                    if cmd_j.name == cmd_name:
+                        res = cmd_sysreq_j
                         return res
         return res
 
@@ -150,10 +183,13 @@ class CmdRepo():
     @staticmethod
     def cmdnull(param):
         arg = "cmdnull used with param: %s" % param
-        logger.debug(arg)
-        print(arg)
+        logger.error(arg)
+        gnrluse.console_print(arg)
         return True
 
+    cmdnull = Cmd(name="cmdnull",
+                  sysreq=gnrluse.SysReqs.SYSREQ_MIN,
+                  funct=cmdnull)
 
 # cmdBuffer repo_getCmd(int cmdID);
 

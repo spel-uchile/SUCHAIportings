@@ -53,13 +53,13 @@ class DispCmd():
     #     int sysReq;                 ///< Metadata: Level of energy the command requires
     # }DispCmd;
     def __init__(self, cmdid, param, taskorig, sysreq, groupname, cmdname):
-        self.cmdid = cmdid
+        self.cmdId = cmdid
         self.param = param
-        self.taskorig = taskorig
-        self.sysreq = sysreq
+        self.taskOrig = taskorig
+        self.sysReq = sysreq
         #TODO modified by toopazo to ease porting
-        self.groupname = groupname        # cmd groupName (CmdCON, CmdRTC, etc)
-        self.cmdname = cmdname      # cmd name (CmdCON.help.__name, CmdRTC.debug.__name__, etc)
+        self.groupName = groupname        # cmd groupName (CmdCON, CmdRTC, etc)
+        self.cmdName = cmdname      # cmd name (CmdCON.help.__name, CmdRTC.debug.__name__, etc)
 
 
 # from core import const
@@ -95,5 +95,14 @@ class TaskOrig():
 class SysReqs():
     SYSREQ_MIN = 1
     SYSREQ_MAX = 10
+
+
+def console_print(arg):
+    print(arg)
+
+
+def console_input(arg):
+    line = input(arg)
+    return line
 
 #endif /* CMD_INCLUDES_H */

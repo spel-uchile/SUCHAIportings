@@ -125,11 +125,14 @@ class StateVar(Enum):
     def get_value(state_var):
         shared_resources.statusRepositorySem.acquire()
 
-        value = 0
         if state_var == StateVar.RTC_isAlive:
+            value = 1
+        elif state_var == StateVar.AntSwitch_isOpen:
+            value = 2
+        else:
             value = -1
-        if state_var == StateVar.AntSwitch_isOpen:
-            value = -1
+            arg = "get_value(%s) does NOT exists" % state_var
+            logger.error(arg)
 
         shared_resources.statusRepositorySem.release()
         return value
@@ -145,29 +148,30 @@ class StateVar(Enum):
 
 
 if __name__ == "__main__":
-    # print("testing StateVar enum class ..")
-    # print("StateVar.AntSwitch_isOpen => ", StateVar.AntSwitch_isOpen)
-    # print("StateVar.AntSwitch_isOpen.groupName => ", StateVar.AntSwitch_isOpen.groupName)
-    # print("StateVar.AntSwitch_isOpen.value => ", StateVar.AntSwitch_isOpen.value)
-    # print("StateVar(5) => ", StateVar(5))
-
-    for i in range(0, len(StateVar)):
-        print("StateVar(%s) => %s" % (i, StateVar(i)))
-    print()
-
-    print("list(StateVar) => ", list(StateVar))
-    print("len(StateVar) => ", len(StateVar))
-    print("hasattr(StateVar, pay_debug_state) =>", hasattr(StateVar, "pay_debug_state"))
-    print("getattr(StateVar, pay_debug_state) =>", getattr(StateVar, "pay_debug_state"))
-    print("dir(StateVar) =>", dir(StateVar.AntSwitch_isOpen))
-    print("dir(StateVar.get_value) =>", dir(StateVar.get_value))
-    print()
-
-    print("StateVar.get_string(StateVar.AntSwitch_isOpen) =>", StateVar.get_string(StateVar.AntSwitch_isOpen))
-    print("StateVar.get_index(StateVar.AntSwitch_isOpen) =>", StateVar.get_index(StateVar.AntSwitch_isOpen))
-    print("StateVar.get_value(StateVar.AntSwitch_isOpen) =>", StateVar.get_value(StateVar.AntSwitch_isOpen))
-    print()
-
-    # print(StateVar(0))
-    # print(StateVar(1))
-    # print(StateVar(73))
+    pass
+    # # print("testing StateVar enum class ..")
+    # # print("StateVar.AntSwitch_isOpen => ", StateVar.AntSwitch_isOpen)
+    # # print("StateVar.AntSwitch_isOpen.groupName => ", StateVar.AntSwitch_isOpen.groupName)
+    # # print("StateVar.AntSwitch_isOpen.value => ", StateVar.AntSwitch_isOpen.value)
+    # # print("StateVar(5) => ", StateVar(5))
+    #
+    # for i in range(0, len(StateVar)):
+    #     print("StateVar(%s) => %s" % (i, StateVar(i)))
+    # print()
+    #
+    # print("list(StateVar) => ", list(StateVar))
+    # print("len(StateVar) => ", len(StateVar))
+    # print("hasattr(StateVar, pay_debug_state) =>", hasattr(StateVar, "pay_debug_state"))
+    # print("getattr(StateVar, pay_debug_state) =>", getattr(StateVar, "pay_debug_state"))
+    # print("dir(StateVar) =>", dir(StateVar.AntSwitch_isOpen))
+    # print("dir(StateVar.get_value) =>", dir(StateVar.get_value))
+    # print()
+    #
+    # print("StateVar.get_string(StateVar.AntSwitch_isOpen) =>", StateVar.get_string(StateVar.AntSwitch_isOpen))
+    # print("StateVar.get_index(StateVar.AntSwitch_isOpen) =>", StateVar.get_index(StateVar.AntSwitch_isOpen))
+    # print("StateVar.get_value(StateVar.AntSwitch_isOpen) =>", StateVar.get_value(StateVar.AntSwitch_isOpen))
+    # print()
+    #
+    # # print(StateVar(0))
+    # # print(StateVar(1))
+    # # print(StateVar(73))

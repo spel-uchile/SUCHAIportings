@@ -97,8 +97,9 @@ SCH_GNM_THL = "CmdTHK"
 # /* Other Software configs */
 #define SCH_NUM_CMDXXX                          (10)    //< Numero maximo de repositorios de comando que pueden ser agregados (min 3)
 #define SCH_TASKDISPATCHER_CHECK_IF_EXECUTABLE  (0)     ///< 1=Activo ( EPS montada ) 0= Inactivo ( EPS no montada SOC se lleva a MAX_SOC )
+SCH_TASKDISPATCHER_CHECK_IF_EXECUTABLE = 0      # ///< 1=Activo ( EPS montada ) 0= Inactivo ( EPS no montada SOC se lleva a MAX_SOC )
 #define CMD_CMDNULL     (0xFFFF)    ///< Dummy command id. Represent a null command
-SCH_TASKEXECUTER_INSIDE_TASKDISPATCHER = 1              # ///< 0=taskExecuter como tarea separada 1=taskExecuter como parte de taskDispatcher
+SCH_TASKEXECUTER_INSIDE_TASKDISPATCHER = 1      # ///< 0=taskExecuter como tarea separada 1=taskExecuter como parte de taskDispatcher
 #define SCH_FLIGHTPLAN_RESOLUTION               (1)    ///< [MINUTES] Resolucion de tiempo del flight plan
 #define SCH_FLIGHTPLAN_N_CMD                    ((24 * 60) / SCH_FLIGHTPLAN_RESOLUTION) ///< Total de comandos en el flight plan 24[hrs]*60[min] / RES[min]
 #define SCH_FLIGHTPLAN_EXTMEMORY                (1)     ///< (0) buffer en  RAM, (1) en memoria SD

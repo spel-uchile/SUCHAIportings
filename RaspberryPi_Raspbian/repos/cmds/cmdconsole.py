@@ -83,21 +83,20 @@ class CmdGroupCON(command.CmdGroup):
                             funct=CmdFunctCON.promt)
         self.cmdBuffer.append(cmd_i)
 
-        for i in range(0, len(CmdEnumCON)):
-            # arg = "CmdEnumCON(%s) => %s" % (i, CmdEnumCON(i))
-            # print(arg)
-            # logger.debug(arg)
-            arg = "self.cmdBuffer[%s] => %s" % (i, self.cmdBuffer[i])
-            print(arg)
-            logger.debug(arg)
-            arg = "self.cmdBuffer[%s].name => %s" % (i, self.cmdBuffer[i].name)
-            print(arg)
-            logger.debug(arg)
-        print()
+        verbose = False
+        if verbose:
+            for i in range(0, len(CmdEnumCON)):
+                arg = "self.cmdBuffer[%s] => %s" % (i, self.cmdBuffer[i])
+                # print(arg)
+                logger.debug(arg)
+                arg = "self.cmdBuffer[%s].name => %s" % (i, self.cmdBuffer[i].name)
+                # print(arg)
+                logger.debug(arg)
+            # print()
 
         if len(CmdEnumCON) != self.get_ncmds():
             arg = "wrong implementation"
-            print(arg)
+            # print(arg)
             logger.critical(arg)
             raise NotImplemented
 
@@ -105,8 +104,8 @@ class CmdGroupCON(command.CmdGroup):
 class CmdFunctCON():
     @staticmethod
     def help(param):
-        print("This is the useless %s command" % CmdFunctCON.help.__name__)
-        print("Used with param %s" % param)
+        gnrluse.console_print("This is the useless %s command" % CmdFunctCON.help.__name__)
+        gnrluse.console_print("Used with param %s" % param)
         return True
 
     @staticmethod

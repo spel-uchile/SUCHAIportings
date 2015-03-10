@@ -9,7 +9,8 @@ logger = logging.getLogger(__name__)
 
 
 def task_comunications():
-    arg = "%s, %s, %s, %s" % (taskHandler.name, taskHandler.pid, taskHandler.is_alive(), taskHandler.exitcode)
+    arg = "name %s, pid %s, is_alive %s, exitcode %s" %\
+          (taskHandler.name, taskHandler.pid, taskHandler.is_alive(), taskHandler.exitcode)
     logger.debug(arg)
 
 taskHandler = multiprocessing.Process(group=None,

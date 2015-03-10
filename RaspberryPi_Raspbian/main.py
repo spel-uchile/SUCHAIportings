@@ -37,6 +37,9 @@ from core import shared_resources
 # import "SUCHAI_config.h"
 import SUCHAI_config
 
+import sys
+from core import gnrluse
+
 # /* Config Words */
 # PPC_DEFAULT_CW1();  # not necessary in this porting
 # PPC_DEFAULT_CW2();  # not necessary in this porting
@@ -70,7 +73,9 @@ def main():
     # logger.critical("a critical error arose")
 
     logger.info("\n\n")
-    logger.info("Suchai Sw: Entry point ..")
+    logger.info("[main] Entry point")
+    gnrluse.console_print("main stdin %s" % sys.stdin)
+    gnrluse.console_print("main stdout %s" % sys.stdout)
 
     # /* Initializing shared Queues */
     # see shared_resources module
