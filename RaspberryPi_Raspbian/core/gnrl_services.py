@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 __author__ = 'toopazo'
 
+import SUCHAI_config
+
 
 def console_print(arg):
     print(arg)
@@ -28,23 +30,23 @@ class PersistenMem():
     # state vars
     @staticmethod
     def read_state_var(name):
-        filepath = "runtimefiles/state/%s" % name
+        filepath = SUCHAI_config.SCH_STATE_FOLDER + name
         line = PersistenMem.__read_file(filepath)
         return line
 
     @staticmethod
     def write_state_var(name, val):
-        filepath = "runtimefiles/state/%s" % name
+        filepath = SUCHAI_config.SCH_STATE_FOLDER + name
         PersistenMem.__write_file(filepath, val)
 
     # data / payloads
     @staticmethod
     def read_data(name):
-        filepath = "runtimefiles/data/%s" % name
+        filepath = SUCHAI_config.SCH_DATA_FOLDER + name
         line = PersistenMem.__read_file(filepath)
         return line
 
     @staticmethod
-    def write_pay_var(filepath, val):
-        filepath = "runtimefiles/data/%s" % filepath
+    def write_pay_var(name, val):
+        filepath = SUCHAI_config.SCH_DATA_FOLDER + name
         PersistenMem.__write_file(filepath, val)

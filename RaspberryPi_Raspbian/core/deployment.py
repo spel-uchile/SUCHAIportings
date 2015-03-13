@@ -13,6 +13,7 @@ from repos import state
 from repos import command
 from repos.cmds import cmdcon
 from repos.cmds import cmdrtc
+from repos.cmds import cmdcam
 
 import logging
 logger = logging.getLogger(__name__)
@@ -39,6 +40,12 @@ def init_command_repo():
     gnrl_services.console_print(arg)
 
     cmd_group_xxx = cmdrtc.CmdGroupRTC()
+    command.CmdRepo.add_cmd_group(cmd_group_xxx)
+    arg = "      Attaching %s to CmdRepo .." % cmd_group_xxx.groupName
+    logger.debug(arg)
+    gnrl_services.console_print(arg)
+
+    cmd_group_xxx = cmdcam.CmdGroupCAM()
     command.CmdRepo.add_cmd_group(cmd_group_xxx)
     arg = "      Attaching %s to CmdRepo .." % cmd_group_xxx.groupName
     logger.debug(arg)

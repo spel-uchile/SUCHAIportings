@@ -68,8 +68,8 @@ SCH_GID_EPS = 0x40          # ///< Indicates the belonging of a certain CmdId. E
 SCH_GNM_EPS = "CmdEPS"
 SCH_GID_DRP = 0x50          # ///< Indicates the belonging of a certain CmdId. E.g. (cmdId = 0x0A01 and cmdBar=0x0A) => command 0x01 belongs to cmdBar
 SCH_GNM_DRP = "CmdDRP"
-SCH_GID_PAY = 0x60          # ///< Indicates the belonging of a certain CmdId. E.g. (cmdId = 0x0A01 and cmdBar=0x0A) => command 0x01 belongs to cmdBar
-SCH_GNM_PAY = "CmdPAY"
+SCH_GID_CAM = 0x60          # ///< Indicates the belonging of a certain CmdId. E.g. (cmdId = 0x0A01 and cmdBar=0x0A) => command 0x01 belongs to cmdBar
+SCH_GNM_CAM = "CmdCAM"
 SCH_GID_RTC = 0x70          # ///< Indicates the belonging of a certain CmdId. E.g. (cmdId = 0x0A01 and cmdBar=0x0A) => command 0x01 belongs to cmdBar
 SCH_GNM_RTC = "CmdRTC"
 SCH_GID_TCM = 0x80          # ///< Indicates the belonging of a certain CmdId. E.g. (cmdId = 0x0A01 and cmdBar=0x0A) => command 0x01 belongs to cmdBar
@@ -77,8 +77,11 @@ SCH_GNM_TCM = "CmdTCM"
 SCH_GID_SRP = 0x90          # ///< Indicates the belonging of a certain CmdId. E.g. (cmdId = 0x0A01 and cmdBar=0x0A) => command 0x01 belongs to cmdBar
 SCH_GNM_SRP = "CmdSRP"
 SCH_GID_THK = 0xA0          # ///< Indicates the belonging of a certain CmdId. E.g. (cmdId = 0x0A01 and cmdBar=0x0A) => command 0x01 belongs to cmdBar
-SCH_GNM_THL = "CmdTHK"
+SCH_GNM_THK = "CmdTHK"
 
+
+SCH_DATA_FOLDER = "runtimefiles/data/"
+SCH_STATE_FOLDER = "runtimefiles/state/"
 # /* TRX and COMM configs */
 #define SCH_TRX_BEACON_PERIOD              (4*60)   ///< [s] Periodo del beacon en segundos (UINT16)
 #define SCH_TRX_BEACON_WPM                 (20)     ///< Velocidad del beacon en palabras por minuto 1-255

@@ -6,15 +6,16 @@ from enum import Enum, unique
 from repos import command
 from core import suchai_types
 from core import gnrl_services
-import SUCHAI_config
 import datetime
+import SUCHAI_config
+from drivers import camera
 import logging
 logger = logging.getLogger(__name__)
 
 @unique
-class CmdEnumRTC(Enum):
-    rtc_debug = 0
-    rtc_get_time_now = 1
+class CmdEnumCAM(Enum):
+    cam_debug = 0
+    cam_take_photo = 1
 
     @staticmethod
     def get_index(var):
@@ -31,49 +32,55 @@ class CmdEnumRTC(Enum):
             return -1
 
 
-class CmdGroupRTC(command.CmdGroup):
-    groupName = SUCHAI_config.SCH_GNM_RTC
-    groupId = SUCHAI_config.SCH_GID_RTC
-    cmdEnum = CmdEnumRTC
+class CmdGroupCAM(command.CmdGroup):
+    groupName = SUCHAI_config.SCH_GNM_CAM
+    groupId = SUCHAI_config.SCH_GID_CAM
+    cmdEnum = CmdEnumCAM
 
     def __init__(self):
         command.CmdGroup.__init__(self)
-        self.groupName = CmdGroupRTC.groupName
-        self.groupId = CmdGroupRTC.groupId
+        self.groupName = CmdGroupCAM.groupName
+        self.groupId = CmdGroupCAM.groupId
 
     #@staticmethod
     def on_reset(self):
-        # create a cmd for every enum and then append it to CmdRTC.cmdBuffer
-        cmd_i = command.Cmd(name=CmdEnumRTC.rtc_debug.name,
+        # create a cmd for every enum and then append it to CmdCAM.cmdBuffer
+        cmd_i = command.Cmd(name=CmdEnumCAM.cam_debug.name,
                             sysreq=suchai_types.SysReqs.SYSREQ_MIN,
-                            funct=CmdFunctRTC.rtc_debug)
+                            funct=CmdFunctCAM.cam_debug)
         self.cmdBuffer.append(cmd_i)
 
-        cmd_i = command.Cmd(name=CmdEnumRTC.rtc_get_time_now.name,
+        cmd_i = command.Cmd(name=CmdEnumCAM.cam_take_photo.name,
                             sysreq=suchai_types.SysReqs.SYSREQ_MIN,
-                            funct=CmdFunctRTC.get_time_now)
+                            funct=CmdFunctCAM.take_photo)
         self.cmdBuffer.append(cmd_i)
 
         verbose = False
         if verbose:
-            for i in range(0, len(CmdEnumRTC)):
+            for i in range(0, len(CmdEnumCAM)):
                 arg = "self.cmdBuffer[%s] => %s" % (i, self.cmdBuffer[i])
                 logger.debug(arg)
                 arg = "self.cmdBuffer[%s].name => %s" % (i, self.cmdBuffer[i].name)
                 logger.debug(arg)
 
-        if len(CmdEnumRTC) != self.get_ncmds():
+        if len(CmdEnumCAM) != self.get_ncmds():
             arg = "wrong implementation"
             logger.critical(arg)
             raise NotImplemented
 
 
-class CmdFunctRTC():
+class CmdFunctCAM():
     @staticmethod
-    def get_time_now(param):
-        gnrl_services.console_print(datetime.datetime.now())
+    def take_photo(param):
+        name = str(datetime.datetime.now())
+        gnrl_services.console_print("name %s" % name)
+        camera.RaspiCamIf.init()
+        camera.RaspiCamIf.take_picture(SUCHAI_config.SCH_DATA_FOLDER + name)
+        camera.RaspiCamIf.stop()
+        gnrl_services.console_print("done")
         return True
 
     @staticmethod
-    def rtc_debug(param):
+    def cam_debug(param):
         return False
+
