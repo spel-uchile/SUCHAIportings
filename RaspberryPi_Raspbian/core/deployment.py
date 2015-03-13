@@ -1,4 +1,3 @@
-#!/usr/bin/Python
 # -*- coding: utf-8 -*-
 __author__ = 'toopazo'
 
@@ -7,11 +6,12 @@ from tasks import console
 from tasks import dispatcher
 from tasks import flightplan
 from tasks import housekeeping
-import time
+
+from core import gnrl_services
 
 from repos import state
 from repos import command
-from repos.cmds import cmdconsole
+from repos.cmds import cmdcon
 from repos.cmds import cmdrtc
 
 import logging
@@ -19,51 +19,54 @@ logger = logging.getLogger(__name__)
 
 
 def init_state_repo():
-    # logger.debug("")
-    logger.debug("[init_state_repo]")
-    state.StateVar.on_reset(False)
+    arg = "    [init_state_repo]"
+    logger.debug(arg)
+    gnrl_services.console_print(arg)
+
+    state.StateVar.on_reset()
 
 
 def init_command_repo():
-    logger.debug("[init_command_repo]")
+    arg = "    [init_command_repo]"
+    logger.debug(arg)
+    gnrl_services.console_print(arg)
 
     # add cmds to cmdRepo
-    cmd_group_xxx = cmdconsole.CmdGroupCON()
+    cmd_group_xxx = cmdcon.CmdGroupCON()
     command.CmdRepo.add_cmd_group(cmd_group_xxx)
-    arg = "Attaching %s to CmdRepo .." % cmd_group_xxx.groupName
+    arg = "      Attaching %s to CmdRepo .." % cmd_group_xxx.groupName
     logger.debug(arg)
-    # debug section
-    for i in range(0, command.CmdRepo.get_ncmds(cmd_group_xxx.groupName)):
-        arg = "get_function_byid(%s, %s) => %s" % (cmd_group_xxx.groupName, i,
-                                                   command.CmdRepo.get_function_byid(cmd_group_xxx.groupName, i))
-        # print(arg)
-        logger.debug(arg)
-        arg = "get_sysreq_byid(%s, %s) => %s" % (cmd_group_xxx.groupName, i,
-                                                 command.CmdRepo.get_sysreq_byid(cmd_group_xxx.groupName, i))
-        # print(arg)
-        logger.debug(arg)
+    gnrl_services.console_print(arg)
 
     cmd_group_xxx = cmdrtc.CmdGroupRTC()
     command.CmdRepo.add_cmd_group(cmd_group_xxx)
-    arg = "Attaching %s to CmdRepo .." % cmd_group_xxx.groupName
+    arg = "      Attaching %s to CmdRepo .." % cmd_group_xxx.groupName
     logger.debug(arg)
-    # debug section
-    for i in range(0, command.CmdRepo.get_ncmds(cmd_group_xxx.groupName)):
-        arg = "get_function_byid(%s, %s) => %s" % (cmd_group_xxx.groupName, i,
-                                                   command.CmdRepo.get_function_byid(cmd_group_xxx.groupName, i))
-        # print(arg)
-        logger.debug(arg)
-        arg = "get_sysreq_byid(%s, %s) => %s" % (cmd_group_xxx.groupName, i,
-                                                 command.CmdRepo.get_sysreq_byid(cmd_group_xxx.groupName, i))
-        # print(arg)
-        logger.debug(arg)
+    gnrl_services.console_print(arg)
+
+    # debug info
+    arg = "      Commands successfully loaded to CmdRepo: "
+    logger.debug(arg)
+    gnrl_services.console_print(arg)
+    for j in range(0, len(command.CmdRepo.cmd_group_buffer)):
+        cmd_group_xxx = command.CmdRepo.cmd_group_buffer[j]
+        for i in range(0, cmd_group_xxx.get_ncmds()):
+            cmd_i = command.CmdRepo.get_command_byid(cmd_group_xxx.groupName, i)
+            arg = "        get_command_byid(%s, %s).name: %s" % (cmd_group_xxx.groupName, i, cmd_i.name)
+            gnrl_services.console_print(arg)
+            logger.debug(arg)
 
 
 def init_data_repo():
-    logger.debug("[init_data_repo]")
+    arg = "    [init_data_repo]"
+    logger.debug(arg)
+    gnrl_services.console_print(arg)
 
 
 def init_suchai_repos():
+    arg = "  [init_suchai_repo]"
+    logger.debug(arg)
+    gnrl_services.console_print(arg)
     # /* Repositories */
     init_state_repo()       # modify specific reset-dependant STA_StateVar vars
     init_command_repo()     # loads cmdXXX repos to be used
@@ -71,7 +74,9 @@ def init_suchai_repos():
 
 
 def launch_tasks():
-    logger.debug("[launch_tasks]")
+    arg = "[launch_tasks]"
+    logger.debug(arg)
+    gnrl_services.console_print(arg)
 
     handler = dispatcher.taskHandler
     arg = "%s, %s, %s, %s" % (handler.name, handler.pid, handler.is_alive(), handler.exitcode)

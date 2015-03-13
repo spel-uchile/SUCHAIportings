@@ -1,8 +1,8 @@
-#!/usr/bin/Python
 # -*- coding: utf-8 -*-
 __author__ = 'toopazo'
 
-from core import gnrluse
+from core import suchai_types
+from core import gnrl_services
 import logging
 logger = logging.getLogger(__name__)
 
@@ -155,7 +155,7 @@ class CmdRepo():
                     res = cmd_group.cmdBuffer[cmd_name].sysReq
                     #print(cmd_group.groupName)
                 except IndexError:
-                    res = gnrluse.SysReqs.SYSREQ_MAX
+                    res = suchai_types.SysReqs.SYSREQ_MAX
                 return res
         return res
 
@@ -184,11 +184,11 @@ class CmdRepo():
     def cmdnull(param):
         arg = "cmdnull used with param: %s" % param
         logger.error(arg)
-        gnrluse.console_print(arg)
+        gnrl_services.console_print(arg)
         return True
 
     cmdnull = Cmd(name="cmdnull",
-                  sysreq=gnrluse.SysReqs.SYSREQ_MIN,
+                  sysreq=suchai_types.SysReqs.SYSREQ_MIN,
                   funct=cmdnull)
 
 # cmdBuffer repo_getCmd(int cmdID);

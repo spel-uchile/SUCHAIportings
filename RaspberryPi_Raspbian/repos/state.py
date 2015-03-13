@@ -3,6 +3,7 @@
 __author__ = 'toopazo'
 
 from core import shared_resources # for access to deployment.statusRepositorySem
+from core import gnrl_services
 from enum import Enum, unique
 import logging
 logger = logging.getLogger(__name__)
@@ -129,6 +130,10 @@ class StateVar(Enum):
             value = 1
         elif state_var == StateVar.AntSwitch_isOpen:
             value = 2
+        elif state_var == StateVar.eps_soc:
+            value = 2
+        elif state_var == StateVar.ppc_resetCounter:
+            value = gnrl_services.PersistenMem.read_state_var(StateVar.ppc_resetCounter.name)
         else:
             value = -1
             arg = "get_value(%s) does NOT exists" % state_var
@@ -139,12 +144,36 @@ class StateVar(Enum):
 
     # void sta_onReset_stateRepo(void);
     @staticmethod
-    def on_reset(verbose):
-        # print("%s" % StateVar.on_reset.__name__)
+    def on_reset():
+        gnrl_services.console_print("      [on_reset]")
+        gnrl_services.console_print("        Updating state vars ..")
 
+        #--------------------
+        # ppc_resetCounter
+        # read
+        val = gnrl_services.PersistenMem.read_state_var(StateVar.ppc_resetCounter.name)
+        # write new val
+        val = int(val)
+        val += 1
+        gnrl_services.PersistenMem.write_state_var(StateVar.ppc_resetCounter.name, val)
+        #check
+        val = gnrl_services.PersistenMem.read_state_var(StateVar.ppc_resetCounter.name)
+        if val == 1:
+            gnrl_services.console_print("          First time on, ppc_resetCounter = %s" % val)
+        else:
+            gnrl_services.console_print("          ppc_resetCounter = %s" % val)
+        #--------------------
+        # state_var_x
+        #--------------------
+        # state_var_y
+        #--------------------
+
+        verbose = False
         if verbose:
             for j in range(0, len(StateVar)):
-                logger.debug("%s(%s) => %s" % (StateVar.__name__, j, StateVar(j)))
+                arg = "          %s(%s) => %s" % (StateVar.__name__, j, StateVar(j))
+                gnrl_services.console_print(arg)
+                logger.debug(arg)
 
 
 if __name__ == "__main__":

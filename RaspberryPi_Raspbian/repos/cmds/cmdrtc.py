@@ -5,7 +5,8 @@ __author__ = 'toopazo'
 
 from enum import Enum, unique
 from repos import command
-from core import gnrluse
+from core import suchai_types
+from core import gnrl_services
 import SUCHAI_config
 import datetime
 import logging
@@ -13,8 +14,8 @@ logger = logging.getLogger(__name__)
 
 @unique
 class CmdEnumRTC(Enum):
-    debug = 0
-    get_time_now = 1
+    rtc_debug = 0
+    rtc_get_time_now = 1
 
     @staticmethod
     def get_index(var):
@@ -44,13 +45,13 @@ class CmdGroupRTC(command.CmdGroup):
     #@staticmethod
     def on_reset(self):
         # create a cmd for every enum and then append it to CmdRTC.cmdBuffer
-        cmd_i = command.Cmd(name=CmdEnumRTC.debug,
-                            sysreq=gnrluse.SysReqs.SYSREQ_MIN,
-                            funct=CmdFunctRTC.debug)
+        cmd_i = command.Cmd(name=CmdEnumRTC.rtc_debug.name,
+                            sysreq=suchai_types.SysReqs.SYSREQ_MIN,
+                            funct=CmdFunctRTC.rtc_debug)
         self.cmdBuffer.append(cmd_i)
 
-        cmd_i = command.Cmd(name=CmdEnumRTC.get_time_now,
-                            sysreq=gnrluse.SysReqs.SYSREQ_MIN,
+        cmd_i = command.Cmd(name=CmdEnumRTC.rtc_get_time_now.name,
+                            sysreq=suchai_types.SysReqs.SYSREQ_MIN,
                             funct=CmdFunctRTC.get_time_now)
         self.cmdBuffer.append(cmd_i)
 
@@ -71,9 +72,9 @@ class CmdGroupRTC(command.CmdGroup):
 class CmdFunctRTC():
     @staticmethod
     def get_time_now(param):
-        gnrluse.console_print(datetime.datetime.now())
+        gnrl_services.console_print(datetime.datetime.now())
         return True
 
     @staticmethod
-    def debug(param):
+    def rtc_debug(param):
         return False

@@ -1,4 +1,4 @@
-#!/usr/bin/Python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 __author__ = 'toopazo'
 
@@ -38,7 +38,8 @@ from core import shared_resources
 import SUCHAI_config
 
 import sys
-from core import gnrluse
+from core import suchai_types
+from core import gnrl_services
 
 # /* Config Words */
 # PPC_DEFAULT_CW1();  # not necessary in this porting
@@ -73,9 +74,13 @@ def main():
     # logger.critical("a critical error arose")
 
     logger.info("\n\n")
-    logger.info("[main] Entry point")
-    gnrluse.console_print("main stdin %s" % sys.stdin)
-    gnrluse.console_print("main stdout %s" % sys.stdout)
+    arg = "[main] Entry point"
+    logger.info(arg)
+    gnrl_services.console_print(arg)
+    verbose = False
+    if verbose:
+        gnrl_services.console_print("main stdin %s" % sys.stdin)
+        gnrl_services.console_print("main stdout %s" % sys.stdout)
 
     # /* Initializing shared Queues */
     # see shared_resources module

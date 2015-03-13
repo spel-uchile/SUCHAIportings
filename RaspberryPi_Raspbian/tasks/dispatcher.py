@@ -6,10 +6,11 @@ __author__ = 'toopazo'
 import multiprocessing
 from repos import command
 from core import shared_resources
+from core import suchai_types
+from core import gnrl_services
 from repos import state
 import datetime
 import SUCHAI_config
-from core import gnrluse
 import logging
 logger = logging.getLogger(__name__)
 
@@ -25,7 +26,7 @@ def task_dispatcher():
         #report received Cmd
         arg = "[task_dispatcher]"
         logger.info(arg)
-        arg = "received Cmd %s from %s CmdGroup" % (disp_cmd.cmdName, disp_cmd.groupName)
+        arg = "Cmd: %s, CmdGroup: %s, Listener: %s" % (disp_cmd.cmdName, disp_cmd.groupName, disp_cmd.taskOrig)
         logger.info(arg)
 
         #fill SysReq info
@@ -33,17 +34,17 @@ def task_dispatcher():
         # disp_cmd.sysReq = sys_req
 
         #check sysReq
-        # arg = "sys_req is %s" % sys_req
-        # logger.info(arg)
-        current_sys_req = state.StateVar.get_value(state.StateVar.eps_soc)
-        executable = check_if_executable(current_sys_req, sys_req)
+        system_soc = state.StateVar.get_value(state.StateVar.eps_soc)
+        executable = check_if_executable(system_soc, sys_req)
+        arg = "Cmd sysReq: %s, System soc: %s, executeable: %s" % (sys_req, system_soc, executable)
+        logger.info(arg)
 
         #execute
         if executable:
             i_time = datetime.datetime.now()
-            arg = "executing command"
+            arg = "command is about to be executed"
             logger.info(arg)
-            gnrluse.console_print("w>>")
+            gnrl_services.console_print("w>>")
             cmd_funct = command.CmdRepo.get_function_byname(disp_cmd.groupName, disp_cmd.cmdName)
             exitcode = cmd_funct(disp_cmd.param)
             f_time = datetime.datetime.now()
@@ -52,13 +53,13 @@ def task_dispatcher():
             d_time = f_time - i_time
             arg = "command executed"
             logger.info(arg)
-            arg = "d_time %s, exitcode %s, sys_req %s" % (d_time, exitcode, sys_req)
+            arg = "d_time: %s, exitcode: %s" % (d_time, exitcode)
             logger.info(arg)
         else:
             #report time, return status, etc
             arg = "command NOT executed (not executable)"
             logger.info(arg)
-            arg = "sys_req %s, current_sys_req %s" % (sys_req, current_sys_req)
+            arg = "Cmd sysReq: %s, System soc: %s" % (sys_req, system_soc)
             logger.info(arg)
 
 
