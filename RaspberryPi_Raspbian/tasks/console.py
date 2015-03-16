@@ -19,7 +19,8 @@ def con_cmd_handler():
     """ Search every cmdName inside cmd_group_xxx for a match/hit
     if successful returns a DispCmd containing the corresponding command  """
 
-    line = gnrl_services.console_input("r>>")
+    # line = gnrl_services.console_input("r>>")
+    line = gnrl_services.console_input("")
     # gnrluse.console_print(line)
     line = line.split()
 
@@ -41,20 +42,20 @@ def con_cmd_handler():
     user_cmd_name = line[0]
     user_cmd_param = line[1]
 
-    gnrl_services.console_print("-------------------")
-    gnrl_services.console_print(line)
-    gnrl_services.console_print("user_cmd_name = %s" % user_cmd_name)
-    gnrl_services.console_print("user_cmd_param = %s" % user_cmd_param)
-    gnrl_services.console_print("-------------------")
+    gnrl_services.console_print("[task_console]")
+    gnrl_services.console_print("  " + str(line))
+    # gnrl_services.console_print("user_cmd_name = %s" % user_cmd_name)
+    # gnrl_services.console_print("user_cmd_param = %s" % user_cmd_param)
+    # gnrl_services.console_print("-------------------")
     for j in range(0, len(command.CmdRepo.cmd_group_buffer)):
         cmd_group_xxx = command.CmdRepo.cmd_group_buffer[j]
-        gnrl_services.console_print("cmd_group_xxx.groupName => %s" % cmd_group_xxx.groupName)
+        gnrl_services.console_print("  cmd_group_xxx.groupName => %s" % cmd_group_xxx.groupName)
         cmd_i = None
         for i in range(0, command.CmdRepo.get_ncmds(cmd_group_xxx.groupName)):
             cmd_i = command.CmdRepo.get_command_byid(cmd_group_xxx.groupName, i)
-            gnrl_services.console_print("cmd_i.name = %s" % cmd_i.name)
+            gnrl_services.console_print("    cmd_i.name = %s" % cmd_i.name)
             if user_cmd_name == cmd_i.name:
-                gnrl_services.console_print(cmd_i.name)
+                # gnrl_services.console_print(cmd_i.name)
                 cmd_group_name_hit = cmd_group_xxx.groupName
                 cmd_name_hit = cmd_i.name
                 user_cmd_hit = True
@@ -65,7 +66,7 @@ def con_cmd_handler():
 
     #check for a hit
     if user_cmd_hit:
-        gnrl_services.console_print("\"%s\" identified as %s with param \"%s\"" %
+        gnrl_services.console_print("  \"%s\" identified as %s with param \"%s\"" %
                               (user_cmd_name, cmd_name_hit, user_cmd_param))
         disp_cmd = suchai_types.DispCmd(cmdid=None,
                                         param=user_cmd_param,
@@ -75,7 +76,7 @@ def con_cmd_handler():
                                         cmdname=cmd_name_hit)
         return disp_cmd
     else:
-        gnrl_services.console_print("\"%s\" was NOT identified as command" % user_cmd_name)
+        gnrl_services.console_print("  \"%s\" was NOT identified as command" % user_cmd_name)
         return disp_cmd
 
 
@@ -91,7 +92,7 @@ def task_console(fileno):
     logger.debug(arg)
 
     while True:
-        time.sleep(0.1)  # give time for short commands ( < 0.1 seg) to execute, before the promt
+        # time.sleep(0.1)  # give time for short commands ( < 0.1 seg) to execute, before the promt
 
         # /* Parsing command - return CmdDisp structure*/
         new_disp_cmd = con_cmd_handler()
@@ -99,7 +100,7 @@ def task_console(fileno):
         # /* cmdId = 0xFFFF means no new command */
         if new_disp_cmd.cmdName != command.CmdRepo.cmdnull.name:
             # /* Print the command code */
-            gnrl_services.console_print("[Console] con_cmd_handler spawns command %s" % new_disp_cmd.cmdName)
+            gnrl_services.console_print(" con_cmd_handler spawns command %s" % new_disp_cmd.cmdName)
 
             # /* Queue NewCmd - Blocking */
             #send cmd to Dispatcher (blocking call)
@@ -109,9 +110,9 @@ def task_console(fileno):
                                             sysreq=None,                    # filled by Dispatcher
                                             groupname=new_disp_cmd.groupName,
                                             cmdname=new_disp_cmd.cmdName)
-            shared_resources.dispatcherQueue.put(disp_cmd)  # blocking by default
+            shared_resources.send_to_dispatcher(disp_cmd)  # blocking by default
         else:
-            gnrl_services.console_print("[Console] con_cmd_handler error. No command was spawn")
+            gnrl_services.console_print(" con_cmd_handler error. No command was spawn")
 
 fn = sys.stdin.fileno()     # get original file descriptor (should be inside main memory scope)
 taskHandler = multiprocessing.Process(group=None,

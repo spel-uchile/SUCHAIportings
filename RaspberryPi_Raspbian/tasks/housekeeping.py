@@ -28,7 +28,7 @@ def task_housekeeping():
                                         sysreq=None,   # filled by Dispatcher
                                         groupname=cmdcon.CmdGroupCON.groupName,
                                         cmdname=cmdcon.CmdGroupCON.cmdEnum.con_help.name)
-        shared_resources.dispatcherQueue.put(disp_cmd)  # blocking by default
+        shared_resources.send_to_dispatcher(disp_cmd)  # blocking by default
 
         #send cmd to Dispatcher (blocking call)
         disp_cmd = suchai_types.DispCmd(cmdid=None,   # replaced by groupName and cmdName (cmdId = groupName + cmdName)
@@ -37,7 +37,7 @@ def task_housekeeping():
                                         sysreq=None,   # filled by Dispatcher
                                         groupname=cmdrtc.CmdGroupRTC.groupName,
                                         cmdname=cmdrtc.CmdGroupRTC.cmdEnum.rtc_get_time_now.name)
-        shared_resources.dispatcherQueue.put(disp_cmd)  # blocking by default
+        shared_resources.send_to_dispatcher(disp_cmd)  # blocking by default
 
     while True:
         pass
