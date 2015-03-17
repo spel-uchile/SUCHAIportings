@@ -8,12 +8,16 @@ from tasks import flightplan
 from tasks import housekeeping
 
 from core import gnrl_services
+import SUCHAI_config
 
 from repos import state
 from repos import command
 from repos.cmds import cmdcon
 from repos.cmds import cmdrtc
-from repos.cmds import cmdcam
+if SUCHAI_config.SCH_CAM_ONBOARD == 1:
+    from repos.cmds import cmdcam
+else:
+    pass
 
 import logging
 logger = logging.getLogger(__name__)
@@ -45,11 +49,14 @@ def init_command_repo():
     logger.debug(arg)
     gnrl_services.console_print(arg)
 
-    cmd_group_xxx = cmdcam.CmdGroupCAM()
-    command.CmdRepo.add_cmd_group(cmd_group_xxx)
-    arg = "      Attaching %s to CmdRepo .." % cmd_group_xxx.groupName
-    logger.debug(arg)
-    gnrl_services.console_print(arg)
+    if SUCHAI_config.SCH_CAM_ONBOARD == 1:
+        cmd_group_xxx = cmdcam.CmdGroupCAM()
+        command.CmdRepo.add_cmd_group(cmd_group_xxx)
+        arg = "      Attaching %s to CmdRepo .." % cmd_group_xxx.groupName
+        logger.debug(arg)
+        gnrl_services.console_print(arg)
+    else:
+        pass
 
     # debug info
     arg = "      Commands successfully loaded to CmdRepo: "

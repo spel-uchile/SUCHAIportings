@@ -1,0 +1,25 @@
+#######################################################################################################################
+date: 2015-03-17
+author: https://github.com/toopazo
+#######################################################################################################################
+
+El programa esta pensado para ejecutarse en un multiprocesador con mas de un nucleo, y asi sacar provecho
+del modulo multiprocessing. El codigo es python3 compatible, aunque se ha probado en python 2.7
+
+Librerias usadas (lista de las "menos comunes", no extensiva)
+- logging
+- enum (o enum34 para python < 3.0)
+- multiprocessing (Process, Lock, Queue)
+
+Para ejecutar en python3
+- ir a wd de main.py
+- python3 main.py
+
+Para ejecutar en python 2.7
+- descargar package python-enum34 (backport de enum de python3)
+- se debe tener cuidado con algunas diferencias como input y raw_input,  
+  en el codigo se agregan excepciones "if sys.version < 3.0: bla bla .."
+- ir a wd de main.py
+- python main.py
+
+#######################################################################################################################

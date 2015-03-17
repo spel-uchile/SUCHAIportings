@@ -19862,3 +19862,1169 @@ Suchai Sw: Entry point ..
 2015/03/13 14:29:02 - tasks.dispatcher - INFO - command is about to be executed
 2015/03/13 14:29:02 - tasks.dispatcher - INFO - command executed
 2015/03/13 14:29:02 - tasks.dispatcher - INFO - d_time: 0:00:00.000122, exitcode: True
+2015/03/17 16:29:58 - __main__ - INFO - 
+
+
+2015/03/17 16:29:58 - __main__ - INFO - [main] Entry point
+2015/03/17 16:29:58 - hwconfigs.internalconfigs - DEBUG -   [init_hw_configs]
+2015/03/17 16:29:58 - hwconfigs.externalconfigs - DEBUG -   [init_hw_configs]
+2015/03/17 16:29:58 - core.deployment - DEBUG -   [init_suchai_repo]
+2015/03/17 16:29:58 - core.deployment - DEBUG -     [init_state_repo]
+2015/03/17 16:29:58 - core.deployment - DEBUG -     [init_command_repo]
+2015/03/17 16:29:58 - core.deployment - DEBUG -       Attaching CmdCON to CmdRepo ..
+2015/03/17 16:29:58 - core.deployment - DEBUG -       Attaching CmdRTC to CmdRepo ..
+2015/03/17 16:29:58 - core.deployment - DEBUG -       Attaching CmdCAM to CmdRepo ..
+2015/03/17 16:29:58 - core.deployment - DEBUG -       Commands successfully loaded to CmdRepo: 
+2015/03/17 16:29:58 - core.deployment - DEBUG -         get_command_byid(CmdCON, 0).name: con_error_cmd_toolong
+2015/03/17 16:29:58 - core.deployment - DEBUG -         get_command_byid(CmdCON, 1).name: con_debug_msg
+2015/03/17 16:29:58 - core.deployment - DEBUG -         get_command_byid(CmdCON, 2).name: con_error_count_ar
+2015/03/17 16:29:58 - core.deployment - DEBUG -         get_command_byid(CmdCON, 3).name: con_error_invalid_arg
+2015/03/17 16:29:58 - core.deployment - DEBUG -         get_command_byid(CmdCON, 4).name: con_error_unknown_cmd
+2015/03/17 16:29:58 - core.deployment - DEBUG -         get_command_byid(CmdCON, 5).name: con_help
+2015/03/17 16:29:58 - core.deployment - DEBUG -         get_command_byid(CmdCON, 6).name: con_promt
+2015/03/17 16:29:58 - core.deployment - DEBUG -         get_command_byid(CmdRTC, 0).name: rtc_debug
+2015/03/17 16:29:58 - core.deployment - DEBUG -         get_command_byid(CmdRTC, 1).name: rtc_get_time_now
+2015/03/17 16:29:58 - core.deployment - DEBUG -         get_command_byid(CmdCAM, 0).name: cam_debug
+2015/03/17 16:29:58 - core.deployment - DEBUG -         get_command_byid(CmdCAM, 1).name: cam_take_photo
+2015/03/17 16:29:58 - core.deployment - DEBUG -     [init_data_repo]
+2015/03/17 16:29:58 - core.deployment - DEBUG - [launch_tasks]
+2015/03/17 16:29:58 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/17 16:29:58 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/17 16:29:58 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/17 16:29:58 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/17 16:29:58 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/17 16:29:58 - core.deployment - INFO - Starting nominal operations ..
+2015/03/17 16:29:58 - tasks.dispatcher - DEBUG - name task_dispatcher, pid 25524, is_alive True, exitcode None
+2015/03/17 16:29:58 - tasks.comunications - DEBUG - name task_comunications, pid 25525, is_alive True, exitcode None
+2015/03/17 16:29:58 - tasks.flightplan - DEBUG - name task_flightplant, pid 25527, is_alive True, exitcode None
+2015/03/17 16:29:58 - tasks.housekeeping - DEBUG - name task_housekeeping, pid 25528, is_alive True, exitcode None
+2015/03/17 16:29:58 - tasks.console - DEBUG - name task_console, pid 25526, is_alive True, exitcode None
+2015/03/17 16:29:58 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:29:58 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 16:29:58 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:29:58 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:29:58 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:29:58 - tasks.dispatcher - INFO -   d_time: 0:00:00.000051, exitcode: True
+2015/03/17 16:29:58 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:29:58 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:29:58 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 16:29:58 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:29:58 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:29:58 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:29:58 - tasks.dispatcher - INFO -   d_time: 0:00:00.000035, exitcode: True
+2015/03/17 16:29:58 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:29:58 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:29:58 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 16:29:58 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:29:58 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:29:58 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:29:58 - tasks.dispatcher - INFO -   d_time: 0:00:00.000025, exitcode: True
+2015/03/17 16:29:58 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:29:58 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:29:58 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 16:29:58 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:29:58 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:29:58 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:29:58 - tasks.dispatcher - INFO -   d_time: 0:00:00.000024, exitcode: True
+2015/03/17 16:29:58 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:29:58 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:29:58 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 16:29:58 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:29:58 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:29:58 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:29:58 - tasks.dispatcher - INFO -   d_time: 0:00:00.000025, exitcode: True
+2015/03/17 16:29:58 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:29:58 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:29:58 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 16:29:58 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:29:58 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:29:58 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:29:58 - tasks.dispatcher - INFO -   d_time: 0:00:00.000023, exitcode: True
+2015/03/17 16:29:58 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:29:58 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:29:58 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 16:29:58 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:29:58 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:29:58 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:29:58 - tasks.dispatcher - INFO -   d_time: 0:00:00.000042, exitcode: True
+2015/03/17 16:29:58 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:29:58 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:29:58 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 16:29:58 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:29:58 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:29:58 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:29:58 - tasks.dispatcher - INFO -   d_time: 0:00:00.000024, exitcode: True
+2015/03/17 16:29:58 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:29:58 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:29:58 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 16:29:58 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:29:58 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:29:58 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:29:58 - tasks.dispatcher - INFO -   d_time: 0:00:00.000026, exitcode: True
+2015/03/17 16:29:58 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:29:58 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:29:58 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 16:29:58 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:29:58 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:29:58 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:29:58 - tasks.dispatcher - INFO -   d_time: 0:00:00.000024, exitcode: True
+2015/03/17 16:29:58 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:30:05 - __main__ - INFO - 
+
+
+2015/03/17 16:30:05 - __main__ - INFO - [main] Entry point
+2015/03/17 16:30:05 - hwconfigs.internalconfigs - DEBUG -   [init_hw_configs]
+2015/03/17 16:30:05 - hwconfigs.externalconfigs - DEBUG -   [init_hw_configs]
+2015/03/17 16:30:05 - core.deployment - DEBUG -   [init_suchai_repo]
+2015/03/17 16:30:05 - core.deployment - DEBUG -     [init_state_repo]
+2015/03/17 16:30:05 - core.deployment - DEBUG -     [init_command_repo]
+2015/03/17 16:30:05 - core.deployment - DEBUG -       Attaching CmdCON to CmdRepo ..
+2015/03/17 16:30:05 - core.deployment - DEBUG -       Attaching CmdRTC to CmdRepo ..
+2015/03/17 16:30:05 - core.deployment - DEBUG -       Attaching CmdCAM to CmdRepo ..
+2015/03/17 16:30:05 - core.deployment - DEBUG -       Commands successfully loaded to CmdRepo: 
+2015/03/17 16:30:05 - core.deployment - DEBUG -         get_command_byid(CmdCON, 0).name: con_error_cmd_toolong
+2015/03/17 16:30:05 - core.deployment - DEBUG -         get_command_byid(CmdCON, 1).name: con_debug_msg
+2015/03/17 16:30:05 - core.deployment - DEBUG -         get_command_byid(CmdCON, 2).name: con_error_count_ar
+2015/03/17 16:30:05 - core.deployment - DEBUG -         get_command_byid(CmdCON, 3).name: con_error_invalid_arg
+2015/03/17 16:30:05 - core.deployment - DEBUG -         get_command_byid(CmdCON, 4).name: con_error_unknown_cmd
+2015/03/17 16:30:05 - core.deployment - DEBUG -         get_command_byid(CmdCON, 5).name: con_help
+2015/03/17 16:30:05 - core.deployment - DEBUG -         get_command_byid(CmdCON, 6).name: con_promt
+2015/03/17 16:30:05 - core.deployment - DEBUG -         get_command_byid(CmdRTC, 0).name: rtc_debug
+2015/03/17 16:30:05 - core.deployment - DEBUG -         get_command_byid(CmdRTC, 1).name: rtc_get_time_now
+2015/03/17 16:30:05 - core.deployment - DEBUG -         get_command_byid(CmdCAM, 0).name: cam_debug
+2015/03/17 16:30:05 - core.deployment - DEBUG -         get_command_byid(CmdCAM, 1).name: cam_take_photo
+2015/03/17 16:30:05 - core.deployment - DEBUG -     [init_data_repo]
+2015/03/17 16:30:05 - core.deployment - DEBUG - [launch_tasks]
+2015/03/17 16:30:05 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/17 16:30:05 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/17 16:30:05 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/17 16:30:05 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/17 16:30:05 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/17 16:30:05 - core.deployment - INFO - Starting nominal operations ..
+2015/03/17 16:30:05 - tasks.dispatcher - DEBUG - name task_dispatcher, pid 25538, is_alive True, exitcode None
+2015/03/17 16:30:05 - tasks.flightplan - DEBUG - name task_flightplant, pid 25541, is_alive True, exitcode None
+2015/03/17 16:30:05 - tasks.comunications - DEBUG - name task_comunications, pid 25539, is_alive True, exitcode None
+2015/03/17 16:30:05 - tasks.console - DEBUG - name task_console, pid 25540, is_alive True, exitcode None
+2015/03/17 16:30:05 - tasks.housekeeping - DEBUG - name task_housekeeping, pid 25542, is_alive True, exitcode None
+2015/03/17 16:30:05 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:30:05 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 16:30:05 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:30:05 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:30:05 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:30:05 - tasks.dispatcher - INFO -   d_time: 0:00:00.001866, exitcode: True
+2015/03/17 16:30:05 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:30:05 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:30:05 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 16:30:05 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:30:05 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:30:05 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:30:05 - tasks.dispatcher - INFO -   d_time: 0:00:00.000025, exitcode: True
+2015/03/17 16:30:05 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:30:05 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:30:05 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 16:30:05 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:30:05 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:30:05 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:30:05 - tasks.dispatcher - INFO -   d_time: 0:00:00.000018, exitcode: True
+2015/03/17 16:30:05 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:30:05 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:30:05 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 16:30:05 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:30:05 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:30:05 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:30:05 - tasks.dispatcher - INFO -   d_time: 0:00:00.000018, exitcode: True
+2015/03/17 16:30:05 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:30:05 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:30:05 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 16:30:05 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:30:05 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:30:05 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:30:05 - tasks.dispatcher - INFO -   d_time: 0:00:00.000017, exitcode: True
+2015/03/17 16:30:05 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:30:05 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:30:05 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 16:30:05 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:30:05 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:30:05 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:30:05 - tasks.dispatcher - INFO -   d_time: 0:00:00.000017, exitcode: True
+2015/03/17 16:30:05 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:30:05 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:30:05 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 16:30:05 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:30:05 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:30:05 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:30:05 - tasks.dispatcher - INFO -   d_time: 0:00:00.000022, exitcode: True
+2015/03/17 16:30:05 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:30:05 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:30:05 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 16:30:05 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:30:05 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:30:05 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:30:05 - tasks.dispatcher - INFO -   d_time: 0:00:00.000017, exitcode: True
+2015/03/17 16:30:05 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:30:05 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:30:05 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 16:30:05 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:30:05 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:30:05 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:30:05 - tasks.dispatcher - INFO -   d_time: 0:00:00.000015, exitcode: True
+2015/03/17 16:30:05 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:30:05 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:30:05 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 16:30:05 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:30:05 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:30:05 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:30:05 - tasks.dispatcher - INFO -   d_time: 0:00:00.000016, exitcode: True
+2015/03/17 16:30:05 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:39:02 - __main__ - INFO - 
+
+
+2015/03/17 16:39:02 - __main__ - INFO - [main] Entry point
+2015/03/17 16:39:02 - hwconfigs.internalconfigs - DEBUG -   [init_hw_configs]
+2015/03/17 16:39:02 - hwconfigs.externalconfigs - DEBUG -   [init_hw_configs]
+2015/03/17 16:39:02 - core.deployment - DEBUG -   [init_suchai_repo]
+2015/03/17 16:39:02 - core.deployment - DEBUG -     [init_state_repo]
+2015/03/17 16:39:02 - core.deployment - DEBUG -     [init_command_repo]
+2015/03/17 16:39:02 - core.deployment - DEBUG -       Attaching CmdCON to CmdRepo ..
+2015/03/17 16:39:02 - core.deployment - DEBUG -       Attaching CmdRTC to CmdRepo ..
+2015/03/17 16:39:02 - core.deployment - DEBUG -       Attaching CmdCAM to CmdRepo ..
+2015/03/17 16:39:02 - core.deployment - DEBUG -       Commands successfully loaded to CmdRepo: 
+2015/03/17 16:39:02 - core.deployment - DEBUG -         get_command_byid(CmdCON, 0).name: con_error_cmd_toolong
+2015/03/17 16:39:02 - core.deployment - DEBUG -         get_command_byid(CmdCON, 1).name: con_debug_msg
+2015/03/17 16:39:02 - core.deployment - DEBUG -         get_command_byid(CmdCON, 2).name: con_error_count_ar
+2015/03/17 16:39:02 - core.deployment - DEBUG -         get_command_byid(CmdCON, 3).name: con_error_invalid_arg
+2015/03/17 16:39:02 - core.deployment - DEBUG -         get_command_byid(CmdCON, 4).name: con_error_unknown_cmd
+2015/03/17 16:39:02 - core.deployment - DEBUG -         get_command_byid(CmdCON, 5).name: con_help
+2015/03/17 16:39:02 - core.deployment - DEBUG -         get_command_byid(CmdCON, 6).name: con_promt
+2015/03/17 16:39:02 - core.deployment - DEBUG -         get_command_byid(CmdRTC, 0).name: rtc_debug
+2015/03/17 16:39:02 - core.deployment - DEBUG -         get_command_byid(CmdRTC, 1).name: rtc_get_time_now
+2015/03/17 16:39:02 - core.deployment - DEBUG -         get_command_byid(CmdCAM, 0).name: cam_debug
+2015/03/17 16:39:02 - core.deployment - DEBUG -         get_command_byid(CmdCAM, 1).name: cam_take_photo
+2015/03/17 16:39:02 - core.deployment - DEBUG -     [init_data_repo]
+2015/03/17 16:39:02 - core.deployment - DEBUG - [launch_tasks]
+2015/03/17 16:39:02 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/17 16:39:02 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/17 16:39:02 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/17 16:39:02 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/17 16:39:02 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/17 16:39:02 - core.deployment - INFO - Starting nominal operations ..
+2015/03/17 16:39:02 - tasks.dispatcher - DEBUG - name task_dispatcher, pid 25865, is_alive True, exitcode None
+2015/03/17 16:39:02 - tasks.comunications - DEBUG - name task_comunications, pid 25866, is_alive True, exitcode None
+2015/03/17 16:39:02 - tasks.housekeeping - DEBUG - name task_housekeeping, pid 25869, is_alive True, exitcode None
+2015/03/17 16:39:02 - tasks.flightplan - DEBUG - name task_flightplant, pid 25868, is_alive True, exitcode None
+2015/03/17 16:39:02 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:39:02 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 16:39:02 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:39:02 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:39:02 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:39:02 - tasks.dispatcher - INFO -   d_time: 0:00:00.000058, exitcode: True
+2015/03/17 16:39:02 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:39:02 - tasks.console - DEBUG - name task_console, pid 25867, is_alive True, exitcode None
+2015/03/17 16:39:02 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:39:02 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 16:39:02 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:39:02 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:39:02 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:39:02 - tasks.dispatcher - INFO -   d_time: 0:00:00.000029, exitcode: True
+2015/03/17 16:39:02 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:39:02 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:39:02 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 16:39:02 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:39:02 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:39:02 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:39:02 - tasks.dispatcher - INFO -   d_time: 0:00:00.000024, exitcode: True
+2015/03/17 16:39:02 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:39:02 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:39:02 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 16:39:02 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:39:02 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:39:02 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:39:02 - tasks.dispatcher - INFO -   d_time: 0:00:00.000021, exitcode: True
+2015/03/17 16:39:02 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:39:02 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:39:02 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 16:39:02 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:39:02 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:39:02 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:39:02 - tasks.dispatcher - INFO -   d_time: 0:00:00.000022, exitcode: True
+2015/03/17 16:39:02 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:39:02 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:39:02 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 16:39:02 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:39:02 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:39:02 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:39:02 - tasks.dispatcher - INFO -   d_time: 0:00:00.000021, exitcode: True
+2015/03/17 16:39:02 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:39:02 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:39:02 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 16:39:02 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:39:02 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:39:02 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:39:02 - tasks.dispatcher - INFO -   d_time: 0:00:00.000026, exitcode: True
+2015/03/17 16:39:02 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:39:02 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:39:02 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 16:39:02 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:39:02 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:39:02 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:39:02 - tasks.dispatcher - INFO -   d_time: 0:00:00.000022, exitcode: True
+2015/03/17 16:39:02 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:39:02 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:39:02 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 16:39:02 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:39:02 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:39:02 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:39:02 - tasks.dispatcher - INFO -   d_time: 0:00:00.000022, exitcode: True
+2015/03/17 16:39:02 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:39:02 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:39:02 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 16:39:02 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:39:02 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:39:02 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:39:02 - tasks.dispatcher - INFO -   d_time: 0:00:00.000021, exitcode: True
+2015/03/17 16:39:02 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:39:06 - __main__ - INFO - 
+
+
+2015/03/17 16:39:06 - __main__ - INFO - [main] Entry point
+2015/03/17 16:39:06 - hwconfigs.internalconfigs - DEBUG -   [init_hw_configs]
+2015/03/17 16:39:06 - hwconfigs.externalconfigs - DEBUG -   [init_hw_configs]
+2015/03/17 16:39:06 - core.deployment - DEBUG -   [init_suchai_repo]
+2015/03/17 16:39:06 - core.deployment - DEBUG -     [init_state_repo]
+2015/03/17 16:39:06 - core.deployment - DEBUG -     [init_command_repo]
+2015/03/17 16:39:06 - core.deployment - DEBUG -       Attaching CmdCON to CmdRepo ..
+2015/03/17 16:39:06 - core.deployment - DEBUG -       Attaching CmdRTC to CmdRepo ..
+2015/03/17 16:39:06 - core.deployment - DEBUG -       Attaching CmdCAM to CmdRepo ..
+2015/03/17 16:39:06 - core.deployment - DEBUG -       Commands successfully loaded to CmdRepo: 
+2015/03/17 16:39:06 - core.deployment - DEBUG -         get_command_byid(CmdCON, 0).name: con_error_cmd_toolong
+2015/03/17 16:39:06 - core.deployment - DEBUG -         get_command_byid(CmdCON, 1).name: con_debug_msg
+2015/03/17 16:39:06 - core.deployment - DEBUG -         get_command_byid(CmdCON, 2).name: con_error_count_ar
+2015/03/17 16:39:06 - core.deployment - DEBUG -         get_command_byid(CmdCON, 3).name: con_error_invalid_arg
+2015/03/17 16:39:06 - core.deployment - DEBUG -         get_command_byid(CmdCON, 4).name: con_error_unknown_cmd
+2015/03/17 16:39:06 - core.deployment - DEBUG -         get_command_byid(CmdCON, 5).name: con_help
+2015/03/17 16:39:06 - core.deployment - DEBUG -         get_command_byid(CmdCON, 6).name: con_promt
+2015/03/17 16:39:06 - core.deployment - DEBUG -         get_command_byid(CmdRTC, 0).name: rtc_debug
+2015/03/17 16:39:06 - core.deployment - DEBUG -         get_command_byid(CmdRTC, 1).name: rtc_get_time_now
+2015/03/17 16:39:06 - core.deployment - DEBUG -         get_command_byid(CmdCAM, 0).name: cam_debug
+2015/03/17 16:39:06 - core.deployment - DEBUG -         get_command_byid(CmdCAM, 1).name: cam_take_photo
+2015/03/17 16:39:06 - core.deployment - DEBUG -     [init_data_repo]
+2015/03/17 16:39:06 - core.deployment - DEBUG - [launch_tasks]
+2015/03/17 16:39:06 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/17 16:39:06 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/17 16:39:06 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/17 16:39:06 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/17 16:39:06 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/17 16:39:06 - core.deployment - INFO - Starting nominal operations ..
+2015/03/17 16:39:06 - tasks.dispatcher - DEBUG - name task_dispatcher, pid 25885, is_alive True, exitcode None
+2015/03/17 16:39:06 - tasks.comunications - DEBUG - name task_comunications, pid 25886, is_alive True, exitcode None
+2015/03/17 16:39:06 - tasks.console - DEBUG - name task_console, pid 25887, is_alive True, exitcode None
+2015/03/17 16:39:06 - tasks.flightplan - DEBUG - name task_flightplant, pid 25888, is_alive True, exitcode None
+2015/03/17 16:39:06 - tasks.housekeeping - DEBUG - name task_housekeeping, pid 25889, is_alive True, exitcode None
+2015/03/17 16:39:06 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:39:06 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 16:39:06 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:39:06 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:39:06 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:39:06 - tasks.dispatcher - INFO -   d_time: 0:00:00.000081, exitcode: True
+2015/03/17 16:39:06 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:39:06 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:39:06 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 16:39:06 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:39:06 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:39:06 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:39:06 - tasks.dispatcher - INFO -   d_time: 0:00:00.000112, exitcode: True
+2015/03/17 16:39:06 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:39:06 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:39:06 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 16:39:06 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:39:06 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:39:06 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:39:06 - tasks.dispatcher - INFO -   d_time: 0:00:00.000107, exitcode: True
+2015/03/17 16:39:06 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:39:06 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:39:06 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 16:39:06 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:39:06 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:39:06 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:39:06 - tasks.dispatcher - INFO -   d_time: 0:00:00.000097, exitcode: True
+2015/03/17 16:39:06 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:39:06 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:39:06 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 16:39:06 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:39:06 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:39:06 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:39:06 - tasks.dispatcher - INFO -   d_time: 0:00:00.000105, exitcode: True
+2015/03/17 16:39:06 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:39:06 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:39:06 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 16:39:06 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:39:06 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:39:06 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:39:06 - tasks.dispatcher - INFO -   d_time: 0:00:00.000104, exitcode: True
+2015/03/17 16:39:06 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:39:06 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:39:06 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 16:39:06 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:39:06 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:39:06 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:39:06 - tasks.dispatcher - INFO -   d_time: 0:00:00.000105, exitcode: True
+2015/03/17 16:39:06 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:39:06 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:39:06 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 16:39:06 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:39:06 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:39:06 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:39:06 - tasks.dispatcher - INFO -   d_time: 0:00:00.000040, exitcode: True
+2015/03/17 16:39:06 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:39:06 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:39:06 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 16:39:06 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:39:06 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:39:06 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:39:06 - tasks.dispatcher - INFO -   d_time: 0:00:00.000041, exitcode: True
+2015/03/17 16:39:06 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:39:06 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:39:06 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 16:39:06 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:39:06 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:39:06 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:39:06 - tasks.dispatcher - INFO -   d_time: 0:00:00.000026, exitcode: True
+2015/03/17 16:39:06 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:39:10 - __main__ - INFO - 
+
+
+2015/03/17 16:39:10 - __main__ - INFO - [main] Entry point
+2015/03/17 16:39:10 - hwconfigs.internalconfigs - DEBUG -   [init_hw_configs]
+2015/03/17 16:39:10 - hwconfigs.externalconfigs - DEBUG -   [init_hw_configs]
+2015/03/17 16:39:10 - core.deployment - DEBUG -   [init_suchai_repo]
+2015/03/17 16:39:10 - core.deployment - DEBUG -     [init_state_repo]
+2015/03/17 16:39:10 - core.deployment - DEBUG -     [init_command_repo]
+2015/03/17 16:39:10 - core.deployment - DEBUG -       Attaching CmdCON to CmdRepo ..
+2015/03/17 16:39:10 - core.deployment - DEBUG -       Attaching CmdRTC to CmdRepo ..
+2015/03/17 16:39:10 - core.deployment - DEBUG -       Attaching CmdCAM to CmdRepo ..
+2015/03/17 16:39:10 - core.deployment - DEBUG -       Commands successfully loaded to CmdRepo: 
+2015/03/17 16:39:10 - core.deployment - DEBUG -         get_command_byid(CmdCON, 0).name: con_error_cmd_toolong
+2015/03/17 16:39:10 - core.deployment - DEBUG -         get_command_byid(CmdCON, 1).name: con_debug_msg
+2015/03/17 16:39:10 - core.deployment - DEBUG -         get_command_byid(CmdCON, 2).name: con_error_count_ar
+2015/03/17 16:39:10 - core.deployment - DEBUG -         get_command_byid(CmdCON, 3).name: con_error_invalid_arg
+2015/03/17 16:39:10 - core.deployment - DEBUG -         get_command_byid(CmdCON, 4).name: con_error_unknown_cmd
+2015/03/17 16:39:10 - core.deployment - DEBUG -         get_command_byid(CmdCON, 5).name: con_help
+2015/03/17 16:39:10 - core.deployment - DEBUG -         get_command_byid(CmdCON, 6).name: con_promt
+2015/03/17 16:39:10 - core.deployment - DEBUG -         get_command_byid(CmdRTC, 0).name: rtc_debug
+2015/03/17 16:39:10 - core.deployment - DEBUG -         get_command_byid(CmdRTC, 1).name: rtc_get_time_now
+2015/03/17 16:39:10 - core.deployment - DEBUG -         get_command_byid(CmdCAM, 0).name: cam_debug
+2015/03/17 16:39:10 - core.deployment - DEBUG -         get_command_byid(CmdCAM, 1).name: cam_take_photo
+2015/03/17 16:39:10 - core.deployment - DEBUG -     [init_data_repo]
+2015/03/17 16:39:10 - core.deployment - DEBUG - [launch_tasks]
+2015/03/17 16:39:10 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/17 16:39:10 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/17 16:39:10 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/17 16:39:10 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/17 16:39:10 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/17 16:39:10 - core.deployment - INFO - Starting nominal operations ..
+2015/03/17 16:39:10 - tasks.dispatcher - DEBUG - name task_dispatcher, pid 25895, is_alive True, exitcode None
+2015/03/17 16:39:10 - tasks.comunications - DEBUG - name task_comunications, pid 25896, is_alive True, exitcode None
+2015/03/17 16:39:10 - tasks.flightplan - DEBUG - name task_flightplant, pid 25898, is_alive True, exitcode None
+2015/03/17 16:39:10 - tasks.console - DEBUG - name task_console, pid 25897, is_alive True, exitcode None
+2015/03/17 16:39:10 - tasks.housekeeping - DEBUG - name task_housekeeping, pid 25899, is_alive True, exitcode None
+2015/03/17 16:39:10 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:39:10 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 16:39:10 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:39:10 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:39:10 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:39:10 - tasks.dispatcher - INFO -   d_time: 0:00:00.000079, exitcode: True
+2015/03/17 16:39:10 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:39:10 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:39:10 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 16:39:10 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:39:10 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:39:10 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:39:10 - tasks.dispatcher - INFO -   d_time: 0:00:00.000070, exitcode: True
+2015/03/17 16:39:10 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:39:10 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:39:10 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 16:39:10 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:39:10 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:39:10 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:39:10 - tasks.dispatcher - INFO -   d_time: 0:00:00.000057, exitcode: True
+2015/03/17 16:39:10 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:39:10 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:39:10 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 16:39:10 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:39:10 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:39:10 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:39:10 - tasks.dispatcher - INFO -   d_time: 0:00:00.000054, exitcode: True
+2015/03/17 16:39:10 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:39:10 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:39:10 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 16:39:10 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:39:10 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:39:10 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:39:10 - tasks.dispatcher - INFO -   d_time: 0:00:00.000063, exitcode: True
+2015/03/17 16:39:10 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:39:10 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:39:10 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 16:39:10 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:39:10 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:39:10 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:39:10 - tasks.dispatcher - INFO -   d_time: 0:00:00.000052, exitcode: True
+2015/03/17 16:39:10 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:39:10 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:39:10 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 16:39:10 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:39:10 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:39:10 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:39:10 - tasks.dispatcher - INFO -   d_time: 0:00:00.000056, exitcode: True
+2015/03/17 16:39:10 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:39:10 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:39:10 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 16:39:10 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:39:10 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:39:10 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:39:10 - tasks.dispatcher - INFO -   d_time: 0:00:00.000024, exitcode: True
+2015/03/17 16:39:10 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:39:10 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:39:10 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 16:39:10 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:39:10 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:39:10 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:39:10 - tasks.dispatcher - INFO -   d_time: 0:00:00.000025, exitcode: True
+2015/03/17 16:39:10 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:39:10 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:39:10 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 16:39:10 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:39:10 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:39:10 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:39:10 - tasks.dispatcher - INFO -   d_time: 0:00:00.000084, exitcode: True
+2015/03/17 16:39:10 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:40:13 - __main__ - INFO - 
+
+
+2015/03/17 16:40:13 - __main__ - INFO - [main] Entry point
+2015/03/17 16:40:13 - hwconfigs.internalconfigs - DEBUG -   [init_hw_configs]
+2015/03/17 16:40:13 - hwconfigs.externalconfigs - DEBUG -   [init_hw_configs]
+2015/03/17 16:40:13 - core.deployment - DEBUG -   [init_suchai_repo]
+2015/03/17 16:40:13 - core.deployment - DEBUG -     [init_state_repo]
+2015/03/17 16:40:13 - core.deployment - DEBUG -     [init_command_repo]
+2015/03/17 16:40:13 - core.deployment - DEBUG -       Attaching CmdCON to CmdRepo ..
+2015/03/17 16:40:13 - core.deployment - DEBUG -       Attaching CmdRTC to CmdRepo ..
+2015/03/17 16:40:13 - core.deployment - DEBUG -       Commands successfully loaded to CmdRepo: 
+2015/03/17 16:40:13 - core.deployment - DEBUG -         get_command_byid(CmdCON, 0).name: con_error_cmd_toolong
+2015/03/17 16:40:13 - core.deployment - DEBUG -         get_command_byid(CmdCON, 1).name: con_debug_msg
+2015/03/17 16:40:13 - core.deployment - DEBUG -         get_command_byid(CmdCON, 2).name: con_error_count_ar
+2015/03/17 16:40:13 - core.deployment - DEBUG -         get_command_byid(CmdCON, 3).name: con_error_invalid_arg
+2015/03/17 16:40:13 - core.deployment - DEBUG -         get_command_byid(CmdCON, 4).name: con_error_unknown_cmd
+2015/03/17 16:40:13 - core.deployment - DEBUG -         get_command_byid(CmdCON, 5).name: con_help
+2015/03/17 16:40:13 - core.deployment - DEBUG -         get_command_byid(CmdCON, 6).name: con_promt
+2015/03/17 16:40:13 - core.deployment - DEBUG -         get_command_byid(CmdRTC, 0).name: rtc_debug
+2015/03/17 16:40:13 - core.deployment - DEBUG -         get_command_byid(CmdRTC, 1).name: rtc_get_time_now
+2015/03/17 16:40:13 - core.deployment - DEBUG -     [init_data_repo]
+2015/03/17 16:40:13 - core.deployment - DEBUG - [launch_tasks]
+2015/03/17 16:40:13 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/17 16:40:13 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/17 16:40:13 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/17 16:40:13 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/17 16:40:13 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/17 16:40:13 - core.deployment - INFO - Starting nominal operations ..
+2015/03/17 16:40:13 - tasks.dispatcher - DEBUG - name task_dispatcher, pid 25947, is_alive True, exitcode None
+2015/03/17 16:40:13 - tasks.comunications - DEBUG - name task_comunications, pid 25948, is_alive True, exitcode None
+2015/03/17 16:40:13 - tasks.console - DEBUG - name task_console, pid 25949, is_alive True, exitcode None
+2015/03/17 16:40:13 - tasks.flightplan - DEBUG - name task_flightplant, pid 25950, is_alive True, exitcode None
+2015/03/17 16:40:13 - tasks.housekeeping - DEBUG - name task_housekeeping, pid 25951, is_alive True, exitcode None
+2015/03/17 16:40:13 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:40:13 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 16:40:13 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:40:13 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:40:13 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:40:13 - tasks.dispatcher - INFO -   d_time: 0:00:00.000109, exitcode: True
+2015/03/17 16:40:13 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:40:13 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:40:13 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 16:40:13 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:40:13 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:40:13 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:40:13 - tasks.dispatcher - INFO -   d_time: 0:00:00.000057, exitcode: True
+2015/03/17 16:40:13 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:40:13 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:40:13 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 16:40:13 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:40:13 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:40:13 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:40:13 - tasks.dispatcher - INFO -   d_time: 0:00:00.000087, exitcode: True
+2015/03/17 16:40:13 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:40:13 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:40:13 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 16:40:13 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:40:13 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:40:13 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:40:13 - tasks.dispatcher - INFO -   d_time: 0:00:00.000082, exitcode: True
+2015/03/17 16:40:13 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:40:13 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:40:13 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 16:40:13 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:40:13 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:40:13 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:40:13 - tasks.dispatcher - INFO -   d_time: 0:00:00.000043, exitcode: True
+2015/03/17 16:40:13 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:40:13 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:40:13 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 16:40:13 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:40:13 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:40:13 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:40:13 - tasks.dispatcher - INFO -   d_time: 0:00:00.000035, exitcode: True
+2015/03/17 16:40:13 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:40:13 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:40:13 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 16:40:13 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:40:13 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:40:13 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:40:13 - tasks.dispatcher - INFO -   d_time: 0:00:00.000041, exitcode: True
+2015/03/17 16:40:13 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:40:13 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:40:13 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 16:40:13 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:40:13 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:40:13 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:40:13 - tasks.dispatcher - INFO -   d_time: 0:00:00.000035, exitcode: True
+2015/03/17 16:40:13 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:40:13 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:40:13 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 16:40:13 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:40:13 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:40:13 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:40:13 - tasks.dispatcher - INFO -   d_time: 0:00:00.000042, exitcode: True
+2015/03/17 16:40:13 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:40:13 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:40:13 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 16:40:13 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:40:13 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:40:13 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:40:13 - tasks.dispatcher - INFO -   d_time: 0:00:00.000039, exitcode: True
+2015/03/17 16:40:13 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:40:18 - __main__ - INFO - 
+
+
+2015/03/17 16:40:18 - __main__ - INFO - [main] Entry point
+2015/03/17 16:40:18 - hwconfigs.internalconfigs - DEBUG -   [init_hw_configs]
+2015/03/17 16:40:18 - hwconfigs.externalconfigs - DEBUG -   [init_hw_configs]
+2015/03/17 16:40:18 - core.deployment - DEBUG -   [init_suchai_repo]
+2015/03/17 16:40:18 - core.deployment - DEBUG -     [init_state_repo]
+2015/03/17 16:40:18 - core.deployment - DEBUG -     [init_command_repo]
+2015/03/17 16:40:18 - core.deployment - DEBUG -       Attaching CmdCON to CmdRepo ..
+2015/03/17 16:40:18 - core.deployment - DEBUG -       Attaching CmdRTC to CmdRepo ..
+2015/03/17 16:40:18 - core.deployment - DEBUG -       Commands successfully loaded to CmdRepo: 
+2015/03/17 16:40:18 - core.deployment - DEBUG -         get_command_byid(CmdCON, 0).name: con_error_cmd_toolong
+2015/03/17 16:40:18 - core.deployment - DEBUG -         get_command_byid(CmdCON, 1).name: con_debug_msg
+2015/03/17 16:40:18 - core.deployment - DEBUG -         get_command_byid(CmdCON, 2).name: con_error_count_ar
+2015/03/17 16:40:18 - core.deployment - DEBUG -         get_command_byid(CmdCON, 3).name: con_error_invalid_arg
+2015/03/17 16:40:18 - core.deployment - DEBUG -         get_command_byid(CmdCON, 4).name: con_error_unknown_cmd
+2015/03/17 16:40:18 - core.deployment - DEBUG -         get_command_byid(CmdCON, 5).name: con_help
+2015/03/17 16:40:18 - core.deployment - DEBUG -         get_command_byid(CmdCON, 6).name: con_promt
+2015/03/17 16:40:18 - core.deployment - DEBUG -         get_command_byid(CmdRTC, 0).name: rtc_debug
+2015/03/17 16:40:18 - core.deployment - DEBUG -         get_command_byid(CmdRTC, 1).name: rtc_get_time_now
+2015/03/17 16:40:18 - core.deployment - DEBUG -     [init_data_repo]
+2015/03/17 16:40:18 - core.deployment - DEBUG - [launch_tasks]
+2015/03/17 16:40:18 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/17 16:40:18 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/17 16:40:18 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/17 16:40:18 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/17 16:40:18 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/17 16:40:18 - core.deployment - INFO - Starting nominal operations ..
+2015/03/17 16:40:18 - tasks.dispatcher - DEBUG - name task_dispatcher, pid 25958, is_alive True, exitcode None
+2015/03/17 16:40:18 - tasks.comunications - DEBUG - name task_comunications, pid 25959, is_alive True, exitcode None
+2015/03/17 16:40:18 - tasks.housekeeping - DEBUG - name task_housekeeping, pid 25962, is_alive True, exitcode None
+2015/03/17 16:40:18 - tasks.flightplan - DEBUG - name task_flightplant, pid 25961, is_alive True, exitcode None
+2015/03/17 16:40:18 - tasks.console - DEBUG - name task_console, pid 25960, is_alive True, exitcode None
+2015/03/17 16:40:18 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:40:18 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 16:40:18 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:40:18 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:40:18 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:40:18 - tasks.dispatcher - INFO -   d_time: 0:00:00.000036, exitcode: True
+2015/03/17 16:40:18 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:40:18 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:40:18 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 16:40:18 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:40:18 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:40:18 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:40:18 - tasks.dispatcher - INFO -   d_time: 0:00:00.000025, exitcode: True
+2015/03/17 16:40:18 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:40:18 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:40:18 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 16:40:18 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:40:18 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:40:18 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:40:18 - tasks.dispatcher - INFO -   d_time: 0:00:00.000011, exitcode: True
+2015/03/17 16:40:18 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:40:18 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:40:18 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 16:40:18 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:40:18 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:40:18 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:40:18 - tasks.dispatcher - INFO -   d_time: 0:00:00.000016, exitcode: True
+2015/03/17 16:40:18 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:40:18 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:40:18 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 16:40:18 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:40:18 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:40:18 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:40:18 - tasks.dispatcher - INFO -   d_time: 0:00:00.000015, exitcode: True
+2015/03/17 16:40:18 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:40:18 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:40:18 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 16:40:18 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:40:18 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:40:18 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:40:18 - tasks.dispatcher - INFO -   d_time: 0:00:00.000016, exitcode: True
+2015/03/17 16:40:18 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:40:18 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:40:18 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 16:40:18 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:40:18 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:40:18 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:40:18 - tasks.dispatcher - INFO -   d_time: 0:00:00.000021, exitcode: True
+2015/03/17 16:40:18 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:40:18 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:40:18 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 16:40:18 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:40:18 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:40:18 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:40:18 - tasks.dispatcher - INFO -   d_time: 0:00:00.000016, exitcode: True
+2015/03/17 16:40:18 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:40:18 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:40:18 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 16:40:18 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:40:18 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:40:18 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:40:18 - tasks.dispatcher - INFO -   d_time: 0:00:00.000015, exitcode: True
+2015/03/17 16:40:18 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:40:18 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:40:18 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 16:40:18 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:40:18 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:40:18 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:40:18 - tasks.dispatcher - INFO -   d_time: 0:00:00.000016, exitcode: True
+2015/03/17 16:40:18 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:40:39 - __main__ - INFO - 
+
+
+2015/03/17 16:40:39 - __main__ - INFO - [main] Entry point
+2015/03/17 16:40:39 - hwconfigs.internalconfigs - DEBUG -   [init_hw_configs]
+2015/03/17 16:40:39 - hwconfigs.externalconfigs - DEBUG -   [init_hw_configs]
+2015/03/17 16:40:39 - core.deployment - DEBUG -   [init_suchai_repo]
+2015/03/17 16:40:39 - core.deployment - DEBUG -     [init_state_repo]
+2015/03/17 16:40:39 - core.deployment - DEBUG -     [init_command_repo]
+2015/03/17 16:40:39 - core.deployment - DEBUG -       Attaching CmdCON to CmdRepo ..
+2015/03/17 16:40:39 - core.deployment - DEBUG -       Attaching CmdRTC to CmdRepo ..
+2015/03/17 16:40:39 - core.deployment - DEBUG -       Commands successfully loaded to CmdRepo: 
+2015/03/17 16:40:39 - core.deployment - DEBUG -         get_command_byid(CmdCON, 0).name: con_error_cmd_toolong
+2015/03/17 16:40:39 - core.deployment - DEBUG -         get_command_byid(CmdCON, 1).name: con_debug_msg
+2015/03/17 16:40:39 - core.deployment - DEBUG -         get_command_byid(CmdCON, 2).name: con_error_count_ar
+2015/03/17 16:40:39 - core.deployment - DEBUG -         get_command_byid(CmdCON, 3).name: con_error_invalid_arg
+2015/03/17 16:40:39 - core.deployment - DEBUG -         get_command_byid(CmdCON, 4).name: con_error_unknown_cmd
+2015/03/17 16:40:39 - core.deployment - DEBUG -         get_command_byid(CmdCON, 5).name: con_help
+2015/03/17 16:40:39 - core.deployment - DEBUG -         get_command_byid(CmdCON, 6).name: con_promt
+2015/03/17 16:40:39 - core.deployment - DEBUG -         get_command_byid(CmdRTC, 0).name: rtc_debug
+2015/03/17 16:40:39 - core.deployment - DEBUG -         get_command_byid(CmdRTC, 1).name: rtc_get_time_now
+2015/03/17 16:40:39 - core.deployment - DEBUG -     [init_data_repo]
+2015/03/17 16:40:39 - core.deployment - DEBUG - [launch_tasks]
+2015/03/17 16:40:39 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/17 16:40:39 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/17 16:40:39 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/17 16:40:39 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/17 16:40:39 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/17 16:40:39 - core.deployment - INFO - Starting nominal operations ..
+2015/03/17 16:40:39 - tasks.dispatcher - DEBUG - name task_dispatcher, pid 25987, is_alive True, exitcode None
+2015/03/17 16:40:39 - tasks.comunications - DEBUG - name task_comunications, pid 25988, is_alive True, exitcode None
+2015/03/17 16:40:39 - tasks.housekeeping - DEBUG - name task_housekeeping, pid 25991, is_alive True, exitcode None
+2015/03/17 16:40:39 - tasks.flightplan - DEBUG - name task_flightplant, pid 25990, is_alive True, exitcode None
+2015/03/17 16:40:39 - tasks.console - DEBUG - name task_console, pid 25989, is_alive True, exitcode None
+2015/03/17 16:40:39 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:40:39 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 16:40:39 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:40:39 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:40:39 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:40:39 - tasks.dispatcher - INFO -   d_time: 0:00:00.000085, exitcode: True
+2015/03/17 16:40:39 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:40:39 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:40:39 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 16:40:39 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:40:39 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:40:39 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:40:39 - tasks.dispatcher - INFO -   d_time: 0:00:00.000034, exitcode: True
+2015/03/17 16:40:39 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:40:39 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:40:39 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 16:40:39 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:40:39 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:40:39 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:40:39 - tasks.dispatcher - INFO -   d_time: 0:00:00.000024, exitcode: True
+2015/03/17 16:40:39 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:40:39 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:40:39 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 16:40:39 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:40:39 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:40:39 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:40:39 - tasks.dispatcher - INFO -   d_time: 0:00:00.000039, exitcode: True
+2015/03/17 16:40:39 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:40:39 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:40:39 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 16:40:39 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:40:39 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:40:39 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:40:39 - tasks.dispatcher - INFO -   d_time: 0:00:00.000023, exitcode: True
+2015/03/17 16:40:39 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:40:39 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:40:39 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 16:40:39 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:40:39 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:40:39 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:40:39 - tasks.dispatcher - INFO -   d_time: 0:00:00.000039, exitcode: True
+2015/03/17 16:40:39 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:40:39 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:40:39 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 16:40:39 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:40:39 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:40:39 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:40:39 - tasks.dispatcher - INFO -   d_time: 0:00:00.000042, exitcode: True
+2015/03/17 16:40:39 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:40:39 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:40:39 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 16:40:39 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:40:39 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:40:39 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:40:39 - tasks.dispatcher - INFO -   d_time: 0:00:00.000047, exitcode: True
+2015/03/17 16:40:39 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:40:39 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:40:39 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 16:40:39 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:40:39 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:40:39 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:40:39 - tasks.dispatcher - INFO -   d_time: 0:00:00.000080, exitcode: True
+2015/03/17 16:40:39 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:40:39 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:40:39 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 16:40:39 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:40:39 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:40:39 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:40:39 - tasks.dispatcher - INFO -   d_time: 0:00:00.000053, exitcode: True
+2015/03/17 16:40:39 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:40:41 - __main__ - INFO - 
+
+
+2015/03/17 16:40:41 - __main__ - INFO - [main] Entry point
+2015/03/17 16:40:41 - hwconfigs.internalconfigs - DEBUG -   [init_hw_configs]
+2015/03/17 16:40:41 - hwconfigs.externalconfigs - DEBUG -   [init_hw_configs]
+2015/03/17 16:40:41 - core.deployment - DEBUG -   [init_suchai_repo]
+2015/03/17 16:40:41 - core.deployment - DEBUG -     [init_state_repo]
+2015/03/17 16:40:41 - core.deployment - DEBUG -     [init_command_repo]
+2015/03/17 16:40:41 - core.deployment - DEBUG -       Attaching CmdCON to CmdRepo ..
+2015/03/17 16:40:41 - core.deployment - DEBUG -       Attaching CmdRTC to CmdRepo ..
+2015/03/17 16:40:41 - core.deployment - DEBUG -       Commands successfully loaded to CmdRepo: 
+2015/03/17 16:40:41 - core.deployment - DEBUG -         get_command_byid(CmdCON, 0).name: con_error_cmd_toolong
+2015/03/17 16:40:41 - core.deployment - DEBUG -         get_command_byid(CmdCON, 1).name: con_debug_msg
+2015/03/17 16:40:41 - core.deployment - DEBUG -         get_command_byid(CmdCON, 2).name: con_error_count_ar
+2015/03/17 16:40:41 - core.deployment - DEBUG -         get_command_byid(CmdCON, 3).name: con_error_invalid_arg
+2015/03/17 16:40:41 - core.deployment - DEBUG -         get_command_byid(CmdCON, 4).name: con_error_unknown_cmd
+2015/03/17 16:40:41 - core.deployment - DEBUG -         get_command_byid(CmdCON, 5).name: con_help
+2015/03/17 16:40:41 - core.deployment - DEBUG -         get_command_byid(CmdCON, 6).name: con_promt
+2015/03/17 16:40:41 - core.deployment - DEBUG -         get_command_byid(CmdRTC, 0).name: rtc_debug
+2015/03/17 16:40:41 - core.deployment - DEBUG -         get_command_byid(CmdRTC, 1).name: rtc_get_time_now
+2015/03/17 16:40:41 - core.deployment - DEBUG -     [init_data_repo]
+2015/03/17 16:40:41 - core.deployment - DEBUG - [launch_tasks]
+2015/03/17 16:40:41 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/17 16:40:41 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/17 16:40:41 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/17 16:40:41 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/17 16:40:41 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/17 16:40:41 - core.deployment - INFO - Starting nominal operations ..
+2015/03/17 16:40:41 - tasks.dispatcher - DEBUG - name task_dispatcher, pid 25996, is_alive True, exitcode None
+2015/03/17 16:40:41 - tasks.comunications - DEBUG - name task_comunications, pid 25997, is_alive True, exitcode None
+2015/03/17 16:40:41 - tasks.housekeeping - DEBUG - name task_housekeeping, pid 26000, is_alive True, exitcode None
+2015/03/17 16:40:41 - tasks.flightplan - DEBUG - name task_flightplant, pid 25999, is_alive True, exitcode None
+2015/03/17 16:40:41 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:40:41 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 16:40:41 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:40:41 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:40:41 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:40:41 - tasks.console - DEBUG - name task_console, pid 25998, is_alive True, exitcode None
+2015/03/17 16:40:41 - tasks.dispatcher - INFO -   d_time: 0:00:00.000030, exitcode: True
+2015/03/17 16:40:41 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:40:41 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:40:41 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 16:40:41 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:40:41 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:40:41 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:40:41 - tasks.dispatcher - INFO -   d_time: 0:00:00.000033, exitcode: True
+2015/03/17 16:40:41 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:40:41 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:40:41 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 16:40:41 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:40:41 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:40:41 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:40:41 - tasks.dispatcher - INFO -   d_time: 0:00:00.000023, exitcode: True
+2015/03/17 16:40:41 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:40:41 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:40:41 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 16:40:41 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:40:41 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:40:41 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:40:41 - tasks.dispatcher - INFO -   d_time: 0:00:00.000022, exitcode: True
+2015/03/17 16:40:41 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:40:41 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:40:41 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 16:40:41 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:40:41 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:40:41 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:40:41 - tasks.dispatcher - INFO -   d_time: 0:00:00.000022, exitcode: True
+2015/03/17 16:40:41 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:40:41 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:40:41 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 16:40:41 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:40:41 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:40:41 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:40:41 - tasks.dispatcher - INFO -   d_time: 0:00:00.000021, exitcode: True
+2015/03/17 16:40:41 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:40:41 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:40:41 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 16:40:41 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:40:41 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:40:41 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:40:41 - tasks.dispatcher - INFO -   d_time: 0:00:00.000025, exitcode: True
+2015/03/17 16:40:41 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:40:41 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:40:41 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 16:40:41 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:40:41 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:40:41 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:40:41 - tasks.dispatcher - INFO -   d_time: 0:00:00.000016, exitcode: True
+2015/03/17 16:40:41 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:40:41 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:40:41 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 16:40:41 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:40:41 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:40:41 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:40:41 - tasks.dispatcher - INFO -   d_time: 0:00:00.000016, exitcode: True
+2015/03/17 16:40:41 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 16:40:41 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 16:40:41 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 16:40:41 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 16:40:41 - tasks.dispatcher - INFO -   >>
+2015/03/17 16:40:41 - tasks.dispatcher - INFO -   <<
+2015/03/17 16:40:41 - tasks.dispatcher - INFO -   d_time: 0:00:00.000016, exitcode: True
+2015/03/17 16:40:41 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 17:10:35 - __main__ - INFO - 
+
+
+2015/03/17 17:10:35 - __main__ - INFO - [main] Entry point
+2015/03/17 17:10:35 - hwconfigs.internalconfigs - DEBUG -   [init_hw_configs]
+2015/03/17 17:10:35 - hwconfigs.externalconfigs - DEBUG -   [init_hw_configs]
+2015/03/17 17:10:35 - core.deployment - DEBUG -   [init_suchai_repo]
+2015/03/17 17:10:35 - core.deployment - DEBUG -     [init_state_repo]
+2015/03/17 17:10:35 - core.deployment - DEBUG -     [init_command_repo]
+2015/03/17 17:10:35 - core.deployment - DEBUG -       Attaching CmdCON to CmdRepo ..
+2015/03/17 17:10:35 - core.deployment - DEBUG -       Attaching CmdRTC to CmdRepo ..
+2015/03/17 17:10:35 - core.deployment - DEBUG -       Commands successfully loaded to CmdRepo: 
+2015/03/17 17:10:35 - core.deployment - DEBUG -         get_command_byid(CmdCON, 0).name: con_error_cmd_toolong
+2015/03/17 17:10:35 - core.deployment - DEBUG -         get_command_byid(CmdCON, 1).name: con_debug_msg
+2015/03/17 17:10:35 - core.deployment - DEBUG -         get_command_byid(CmdCON, 2).name: con_error_count_ar
+2015/03/17 17:10:35 - core.deployment - DEBUG -         get_command_byid(CmdCON, 3).name: con_error_invalid_arg
+2015/03/17 17:10:35 - core.deployment - DEBUG -         get_command_byid(CmdCON, 4).name: con_error_unknown_cmd
+2015/03/17 17:10:35 - core.deployment - DEBUG -         get_command_byid(CmdCON, 5).name: con_help
+2015/03/17 17:10:35 - core.deployment - DEBUG -         get_command_byid(CmdCON, 6).name: con_promt
+2015/03/17 17:10:35 - core.deployment - DEBUG -         get_command_byid(CmdRTC, 0).name: rtc_debug
+2015/03/17 17:10:35 - core.deployment - DEBUG -         get_command_byid(CmdRTC, 1).name: rtc_get_time_now
+2015/03/17 17:10:35 - core.deployment - DEBUG -     [init_data_repo]
+2015/03/17 17:10:35 - core.deployment - DEBUG - [launch_tasks]
+2015/03/17 17:10:35 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/17 17:10:35 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/17 17:10:35 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/17 17:10:35 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/17 17:10:35 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/17 17:10:35 - core.deployment - INFO - Starting nominal operations ..
+2015/03/17 17:10:35 - tasks.dispatcher - DEBUG - name task_dispatcher, pid 26705, is_alive True, exitcode None
+2015/03/17 17:10:35 - tasks.comunications - DEBUG - name task_comunications, pid 26706, is_alive True, exitcode None
+2015/03/17 17:10:35 - tasks.housekeeping - DEBUG - name task_housekeeping, pid 26709, is_alive True, exitcode None
+2015/03/17 17:10:35 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 17:10:35 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 17:10:35 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 17:10:35 - tasks.dispatcher - INFO -   >>
+2015/03/17 17:10:35 - tasks.dispatcher - INFO -   <<
+2015/03/17 17:10:35 - tasks.dispatcher - INFO -   d_time: 0:00:00.000038, exitcode: True
+2015/03/17 17:10:35 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 17:10:35 - tasks.flightplan - DEBUG - name task_flightplant, pid 26708, is_alive True, exitcode None
+2015/03/17 17:10:35 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 17:10:35 - tasks.console - DEBUG - name task_console, pid 26707, is_alive True, exitcode None
+2015/03/17 17:10:35 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 17:10:35 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 17:10:35 - tasks.dispatcher - INFO -   >>
+2015/03/17 17:10:35 - tasks.dispatcher - INFO -   <<
+2015/03/17 17:10:35 - tasks.dispatcher - INFO -   d_time: 0:00:00.000030, exitcode: True
+2015/03/17 17:10:35 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 17:10:35 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 17:10:35 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 17:10:35 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 17:10:35 - tasks.dispatcher - INFO -   >>
+2015/03/17 17:10:35 - tasks.dispatcher - INFO -   <<
+2015/03/17 17:10:35 - tasks.dispatcher - INFO -   d_time: 0:00:00.000020, exitcode: True
+2015/03/17 17:10:35 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 17:10:35 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 17:10:35 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 17:10:35 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 17:10:35 - tasks.dispatcher - INFO -   >>
+2015/03/17 17:10:35 - tasks.dispatcher - INFO -   <<
+2015/03/17 17:10:35 - tasks.dispatcher - INFO -   d_time: 0:00:00.000021, exitcode: True
+2015/03/17 17:10:35 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 17:10:35 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 17:10:35 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 17:10:35 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 17:10:35 - tasks.dispatcher - INFO -   >>
+2015/03/17 17:10:35 - tasks.dispatcher - INFO -   <<
+2015/03/17 17:10:35 - tasks.dispatcher - INFO -   d_time: 0:00:00.000018, exitcode: True
+2015/03/17 17:10:35 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 17:10:35 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 17:10:35 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 17:10:35 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 17:10:35 - tasks.dispatcher - INFO -   >>
+2015/03/17 17:10:35 - tasks.dispatcher - INFO -   <<
+2015/03/17 17:10:35 - tasks.dispatcher - INFO -   d_time: 0:00:00.000026, exitcode: True
+2015/03/17 17:10:35 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 17:10:35 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 17:10:35 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 17:10:35 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 17:10:35 - tasks.dispatcher - INFO -   >>
+2015/03/17 17:10:35 - tasks.dispatcher - INFO -   <<
+2015/03/17 17:10:35 - tasks.dispatcher - INFO -   d_time: 0:00:00.000022, exitcode: True
+2015/03/17 17:10:35 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 17:10:35 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 17:10:35 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 17:10:35 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 17:10:35 - tasks.dispatcher - INFO -   >>
+2015/03/17 17:10:35 - tasks.dispatcher - INFO -   <<
+2015/03/17 17:10:35 - tasks.dispatcher - INFO -   d_time: 0:00:00.000016, exitcode: True
+2015/03/17 17:10:35 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 17:10:35 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 17:10:35 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 17:10:35 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 17:10:35 - tasks.dispatcher - INFO -   >>
+2015/03/17 17:10:35 - tasks.dispatcher - INFO -   <<
+2015/03/17 17:10:35 - tasks.dispatcher - INFO -   d_time: 0:00:00.000016, exitcode: True
+2015/03/17 17:10:35 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 17:10:35 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 17:10:35 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 17:10:35 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 17:10:35 - tasks.dispatcher - INFO -   >>
+2015/03/17 17:10:35 - tasks.dispatcher - INFO -   <<
+2015/03/17 17:10:35 - tasks.dispatcher - INFO -   d_time: 0:00:00.000016, exitcode: True
+2015/03/17 17:10:35 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 17:11:00 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 17:11:00 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_console
+2015/03/17 17:11:00 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 17:11:00 - tasks.dispatcher - INFO -   >>
+2015/03/17 17:11:00 - tasks.dispatcher - INFO -   <<
+2015/03/17 17:11:00 - tasks.dispatcher - INFO -   d_time: 0:00:00.000019, exitcode: True
+2015/03/17 17:11:00 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 17:11:20 - __main__ - INFO - 
+
+
+2015/03/17 17:11:20 - __main__ - INFO - [main] Entry point
+2015/03/17 17:11:20 - hwconfigs.internalconfigs - DEBUG -   [init_hw_configs]
+2015/03/17 17:11:20 - hwconfigs.externalconfigs - DEBUG -   [init_hw_configs]
+2015/03/17 17:11:20 - core.deployment - DEBUG -   [init_suchai_repo]
+2015/03/17 17:11:20 - core.deployment - DEBUG -     [init_state_repo]
+2015/03/17 17:11:20 - core.deployment - DEBUG -     [init_command_repo]
+2015/03/17 17:11:20 - core.deployment - DEBUG -       Attaching CmdCON to CmdRepo ..
+2015/03/17 17:11:20 - core.deployment - DEBUG -       Attaching CmdRTC to CmdRepo ..
+2015/03/17 17:11:20 - core.deployment - DEBUG -       Commands successfully loaded to CmdRepo: 
+2015/03/17 17:11:20 - core.deployment - DEBUG -         get_command_byid(CmdCON, 0).name: con_error_cmd_toolong
+2015/03/17 17:11:20 - core.deployment - DEBUG -         get_command_byid(CmdCON, 1).name: con_debug_msg
+2015/03/17 17:11:20 - core.deployment - DEBUG -         get_command_byid(CmdCON, 2).name: con_error_count_ar
+2015/03/17 17:11:20 - core.deployment - DEBUG -         get_command_byid(CmdCON, 3).name: con_error_invalid_arg
+2015/03/17 17:11:20 - core.deployment - DEBUG -         get_command_byid(CmdCON, 4).name: con_error_unknown_cmd
+2015/03/17 17:11:20 - core.deployment - DEBUG -         get_command_byid(CmdCON, 5).name: con_help
+2015/03/17 17:11:20 - core.deployment - DEBUG -         get_command_byid(CmdCON, 6).name: con_promt
+2015/03/17 17:11:20 - core.deployment - DEBUG -         get_command_byid(CmdRTC, 0).name: rtc_debug
+2015/03/17 17:11:20 - core.deployment - DEBUG -         get_command_byid(CmdRTC, 1).name: rtc_get_time_now
+2015/03/17 17:11:20 - core.deployment - DEBUG -     [init_data_repo]
+2015/03/17 17:11:20 - core.deployment - DEBUG - [launch_tasks]
+2015/03/17 17:11:20 - core.deployment - DEBUG - task_dispatcher, None, False, None
+2015/03/17 17:11:20 - core.deployment - DEBUG - task_comunications, None, False, None
+2015/03/17 17:11:20 - core.deployment - DEBUG - task_console, None, False, None
+2015/03/17 17:11:20 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/03/17 17:11:20 - core.deployment - DEBUG - task_housekeeping, None, False, None
+2015/03/17 17:11:20 - core.deployment - INFO - Starting nominal operations ..
+2015/03/17 17:11:20 - tasks.dispatcher - DEBUG - name task_dispatcher, pid 26766, is_alive True, exitcode None
+2015/03/17 17:11:20 - tasks.comunications - DEBUG - name task_comunications, pid 26767, is_alive True, exitcode None
+2015/03/17 17:11:20 - tasks.housekeeping - DEBUG - name task_housekeeping, pid 26770, is_alive True, exitcode None
+2015/03/17 17:11:20 - tasks.flightplan - DEBUG - name task_flightplant, pid 26769, is_alive True, exitcode None
+2015/03/17 17:11:20 - tasks.console - DEBUG - name task_console, pid 26768, is_alive True, exitcode None
+2015/03/17 17:11:20 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 17:11:20 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 17:11:20 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 17:11:20 - tasks.dispatcher - INFO -   >>
+2015/03/17 17:11:20 - tasks.dispatcher - INFO -   <<
+2015/03/17 17:11:20 - tasks.dispatcher - INFO -   d_time: 0:00:00.000038, exitcode: True
+2015/03/17 17:11:20 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 17:11:20 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 17:11:20 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 17:11:20 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 17:11:20 - tasks.dispatcher - INFO -   >>
+2015/03/17 17:11:20 - tasks.dispatcher - INFO -   <<
+2015/03/17 17:11:20 - tasks.dispatcher - INFO -   d_time: 0:00:00.000032, exitcode: True
+2015/03/17 17:11:20 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 17:11:20 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 17:11:20 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 17:11:20 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 17:11:20 - tasks.dispatcher - INFO -   >>
+2015/03/17 17:11:20 - tasks.dispatcher - INFO -   <<
+2015/03/17 17:11:20 - tasks.dispatcher - INFO -   d_time: 0:00:00.000026, exitcode: True
+2015/03/17 17:11:20 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 17:11:20 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 17:11:20 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 17:11:20 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 17:11:20 - tasks.dispatcher - INFO -   >>
+2015/03/17 17:11:20 - tasks.dispatcher - INFO -   <<
+2015/03/17 17:11:20 - tasks.dispatcher - INFO -   d_time: 0:00:00.000023, exitcode: True
+2015/03/17 17:11:20 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 17:11:20 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 17:11:20 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 17:11:20 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 17:11:20 - tasks.dispatcher - INFO -   >>
+2015/03/17 17:11:20 - tasks.dispatcher - INFO -   <<
+2015/03/17 17:11:20 - tasks.dispatcher - INFO -   d_time: 0:00:00.000025, exitcode: True
+2015/03/17 17:11:20 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 17:11:20 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 17:11:20 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 17:11:20 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 17:11:20 - tasks.dispatcher - INFO -   >>
+2015/03/17 17:11:20 - tasks.dispatcher - INFO -   <<
+2015/03/17 17:11:20 - tasks.dispatcher - INFO -   d_time: 0:00:00.000022, exitcode: True
+2015/03/17 17:11:20 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 17:11:20 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 17:11:20 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 17:11:20 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 17:11:20 - tasks.dispatcher - INFO -   >>
+2015/03/17 17:11:20 - tasks.dispatcher - INFO -   <<
+2015/03/17 17:11:20 - tasks.dispatcher - INFO -   d_time: 0:00:00.000025, exitcode: True
+2015/03/17 17:11:20 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 17:11:20 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 17:11:20 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 17:11:20 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 17:11:20 - tasks.dispatcher - INFO -   >>
+2015/03/17 17:11:20 - tasks.dispatcher - INFO -   <<
+2015/03/17 17:11:20 - tasks.dispatcher - INFO -   d_time: 0:00:00.000023, exitcode: True
+2015/03/17 17:11:20 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 17:11:20 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 17:11:20 - tasks.dispatcher - INFO -   Cmd: con_help, CmdGroup: CmdCON, Listener: task_housekeeping
+2015/03/17 17:11:20 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 17:11:20 - tasks.dispatcher - INFO -   >>
+2015/03/17 17:11:20 - tasks.dispatcher - INFO -   <<
+2015/03/17 17:11:20 - tasks.dispatcher - INFO -   d_time: 0:00:00.000026, exitcode: True
+2015/03/17 17:11:20 - tasks.dispatcher - INFO - ----------------------
+2015/03/17 17:11:20 - tasks.dispatcher - INFO - [task_dispatcher]
+2015/03/17 17:11:20 - tasks.dispatcher - INFO -   Cmd: rtc_get_time_now, CmdGroup: CmdRTC, Listener: task_housekeeping
+2015/03/17 17:11:20 - tasks.dispatcher - INFO -   Cmd sysReq: 1, System soc: 2, executable: True
+2015/03/17 17:11:20 - tasks.dispatcher - INFO -   >>
+2015/03/17 17:11:20 - tasks.dispatcher - INFO -   <<
+2015/03/17 17:11:20 - tasks.dispatcher - INFO -   d_time: 0:00:00.000029, exitcode: True
+2015/03/17 17:11:20 - tasks.dispatcher - INFO - ----------------------
