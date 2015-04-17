@@ -58,31 +58,65 @@ SCH_CAM_ONBOARD = 0                         # ///< Onboard => I2C1 en uso
 #define SCH_PAY_BATTERY_ONBOARD             (1)  ///< 1 = Onboard 0 = Offboard
 #define SCH_PAY_DEBUG_ONBOARD               (1)  ///< 1 = Onboard 0 = Offboard
 
+
 # /* Command Repo configs */
-SCH_GID_PPC = 0x10          # ///< Indicates the belonging of a certain CmdId. E.g. (cmdId = 0x0A01 and cmdBar=0x0A) => command 0x01 belongs to cmdBar
-SCH_GNM_PPC = "CmdPPC"
-SCH_GID_CON = 0x20          # ///< Indicates the belonging of a certain CmdId. E.g. (cmdId = 0x0A01 and cmdBar=0x0A) => command 0x01 belongs to cmdBar
-SCH_GNM_CON = "CmdCON"
-SCH_GID_TRX = 0x30          # ///< Indicates the belonging of a certain CmdId. E.g. (cmdId = 0x0A01 and cmdBar=0x0A) => command 0x01 belongs to cmdBar
-SCH_GNM_TRX = "CmdTRX"
-SCH_GID_EPS = 0x40          # ///< Indicates the belonging of a certain CmdId. E.g. (cmdId = 0x0A01 and cmdBar=0x0A) => command 0x01 belongs to cmdBar
-SCH_GNM_EPS = "CmdEPS"
-SCH_GID_DRP = 0x50          # ///< Indicates the belonging of a certain CmdId. E.g. (cmdId = 0x0A01 and cmdBar=0x0A) => command 0x01 belongs to cmdBar
-SCH_GNM_DRP = "CmdDRP"
-SCH_GID_CAM = 0x60          # ///< Indicates the belonging of a certain CmdId. E.g. (cmdId = 0x0A01 and cmdBar=0x0A) => command 0x01 belongs to cmdBar
-SCH_GNM_CAM = "CmdCAM"
-SCH_GID_RTC = 0x70          # ///< Indicates the belonging of a certain CmdId. E.g. (cmdId = 0x0A01 and cmdBar=0x0A) => command 0x01 belongs to cmdBar
-SCH_GNM_RTC = "CmdRTC"
-SCH_GID_TCM = 0x80          # ///< Indicates the belonging of a certain CmdId. E.g. (cmdId = 0x0A01 and cmdBar=0x0A) => command 0x01 belongs to cmdBar
-SCH_GNM_TCM = "CmdTCM"
-SCH_GID_SRP = 0x90          # ///< Indicates the belonging of a certain CmdId. E.g. (cmdId = 0x0A01 and cmdBar=0x0A) => command 0x01 belongs to cmdBar
-SCH_GNM_SRP = "CmdSRP"
-SCH_GID_THK = 0xA0          # ///< Indicates the belonging of a certain CmdId. E.g. (cmdId = 0x0A01 and cmdBar=0x0A) => command 0x01 belongs to cmdBar
-SCH_GNM_THK = "CmdTHK"
+class ConfigCmdgroup():
+    """Indicates the belonging of a certain CmdId.
+     E.g.
+      If PPC = 0x0100 cmds in range 0x0100-0x01FF belongs to PPC.
+      If CON = 0x0200  cmds in range 0x0200-0x02FF belongs to CON
+      """
+    SCH_GID_PPC = 0x0100
+    SCH_GNM_PPC = "CmdPPC"
+    SCH_GID_CON = 0x0200
+    SCH_GNM_CON = "CmdCON"
+    SCH_GID_TRX = 0x0300
+    SCH_GNM_TRX = "CmdTRX"
+    SCH_GID_EPS = 0x0400
+    SCH_GNM_EPS = "CmdEPS"
+    SCH_GID_DRP = 0x0500
+    SCH_GNM_DRP = "CmdDRP"
+    SCH_GID_CAM = 0x0600
+    SCH_GNM_CAM = "CmdCAM"
+    SCH_GID_RTC = 0x0700
+    SCH_GNM_RTC = "CmdRTC"
+    SCH_GID_TCM = 0x0800
+    SCH_GNM_TCM = "CmdTCM"
+    SCH_GID_SRP = 0x0900
+    SCH_GNM_SRP = "CmdSRP"
+    SCH_GID_THK = 0x0A00
+    SCH_GNM_THK = "CmdTHK"
 
 
-SCH_DATA_FOLDER = "runtimefiles/data/"
-SCH_STATE_FOLDER = "runtimefiles/state/"
+#Listeners Id = taskorigId
+class ConfigTaskorig():
+    TCONSOLE = 0x0001
+    THOUSEKEEPING = 0x0002
+    TCOMUNICATIONS = 0x0003
+    TFLIGHTPLAN = 0x0004
+    TFLIGHTPLAN2 = 0x0005
+    TFLIGHTPLAN3 = 0x0006
+    TDEPLOYMENT = 0x0007
+
+
+class ConfigPermanentMem():
+    SCH_DATA_FOLDER = "runtimefiles/data/"
+    SCH_STATE_FOLDER = "runtimefiles/state/"
+
+
+class GnrlCmds():
+    #define CMD_CMDNULL     (0xFFFF)    ///< Dummy command id. Represent a null command
+    CMD_NULL = 0xFFFF
+    #define CMD_STOP        (0xFFFE)    ///< Reserved id. Represent a stop or separation code
+    CMD_STOP = 0xFFFE
+
+
+#define CMD_SYSREQ_MIN      (1)     ///< Min energy level possible
+#define CMD_SYSREQ_MAX      (9)     ///< Max energy level possible
+class Sysreqs():
+    SYSREQ_MIN = 1
+    SYSREQ_MAX = 10
+
 # /* TRX and COMM configs */
 #define SCH_TRX_BEACON_PERIOD              (4*60)   ///< [s] Periodo del beacon en segundos (UINT16)
 #define SCH_TRX_BEACON_WPM                 (20)     ///< Velocidad del beacon en palabras por minuto 1-255
@@ -116,7 +150,7 @@ SCH_TASKEXECUTER_INSIDE_TASKDISPATCHER = 1      # ///< 0=taskExecuter como tarea
 #  * Cantidad de telecomandos en cola para ser procesados por el SUCHAI
 #  * Max internal (not Transceiver mem) TeleCMD buffer length considering TC in
 #  * format [0xTCID|0xARGM|.....|0xSTOP] in frames of 63 bytes each one.
-#  * So 15 commands plus 15 args, that means 62 bytes (15 cmd + 15 param + 1 stop)
+#  * So 15 commands plus 15 args, that means 62 bytes (15 cmd + 15 cmdParam + 1 stop)
 #  */
 #define SCH_DATAREPOSITORY_MAX_BUFF_TELECMD (10*2)
 #define SCH_TC_BUFF_EXTMEMORY               (1)   ///< 1=buffer en la memSD 0=buff en mem RAM

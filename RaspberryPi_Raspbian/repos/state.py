@@ -4,6 +4,7 @@ __author__ = 'toopazo'
 
 from core import shared_resources # for access to deployment.statusRepositorySem
 from core import gnrl_services
+from repos import data
 from enum import Enum, unique
 import logging
 logger = logging.getLogger(__name__)
@@ -116,7 +117,7 @@ class StateVar(Enum):
 
     @staticmethod
     def get_string(state_var):
-        if hasattr(state_var, "name"):
+        if hasattr(state_var, "cmdName"):
             return state_var.name
         else:
             return -1
@@ -133,7 +134,7 @@ class StateVar(Enum):
         elif state_var == StateVar.eps_soc:
             value = 2
         elif state_var == StateVar.ppc_resetCounter:
-            value = gnrl_services.PersistenMem.read_state_var(StateVar.ppc_resetCounter.name)
+            value = data.PersistenMem.read_state_var(StateVar.ppc_resetCounter.name)
         else:
             value = -1
             arg = "get_value(%s) does NOT exists" % state_var
@@ -151,13 +152,13 @@ class StateVar(Enum):
         #--------------------
         # ppc_resetCounter
         # read
-        val = gnrl_services.PersistenMem.read_state_var(StateVar.ppc_resetCounter.name)
+        val = data.PersistenMem.read_state_var(StateVar.ppc_resetCounter.name)
         # write new val
         val = int(val)
         val += 1
-        gnrl_services.PersistenMem.write_state_var(StateVar.ppc_resetCounter.name, val)
+        data.PersistenMem.write_state_var(StateVar.ppc_resetCounter.name, val)
         #check
-        val = gnrl_services.PersistenMem.read_state_var(StateVar.ppc_resetCounter.name)
+        val = data.PersistenMem.read_state_var(StateVar.ppc_resetCounter.name)
         if val == 1:
             gnrl_services.console_print("          First time on, ppc_resetCounter = %s" % val)
         else:
@@ -180,7 +181,7 @@ if __name__ == "__main__":
     pass
     # # print("testing StateVar enum class ..")
     # # print("StateVar.AntSwitch_isOpen => ", StateVar.AntSwitch_isOpen)
-    # # print("StateVar.AntSwitch_isOpen.groupName => ", StateVar.AntSwitch_isOpen.groupName)
+    # # print("StateVar.AntSwitch_isOpen.cmdgroupName => ", StateVar.AntSwitch_isOpen.cmdgroupName)
     # # print("StateVar.AntSwitch_isOpen.value => ", StateVar.AntSwitch_isOpen.value)
     # # print("StateVar(5) => ", StateVar(5))
     #

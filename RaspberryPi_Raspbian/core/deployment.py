@@ -1,17 +1,18 @@
 # -*- coding: utf-8 -*-
 __author__ = 'toopazo'
 
-from tasks import comunications
-from tasks import console
-from tasks import dispatcher
-from tasks import flightplan
-from tasks import housekeeping
+from Listeners import comunications
+from Listeners import console
+from Listeners import dispatcher
+from Listeners import flightplan
+from Listeners import housekeeping
 
 from core import gnrl_services
 import SUCHAI_config
 
 from repos import state
 from repos import command
+from repos import data
 from repos.cmds import cmdcon
 from repos.cmds import cmdrtc
 if SUCHAI_config.SCH_CAM_ONBOARD == 1:
@@ -24,6 +25,8 @@ logger = logging.getLogger(__name__)
 
 
 def init_state_repo():
+    # modify specific reset-dependant STA_StateVar vars
+
     arg = "    [init_state_repo]"
     logger.debug(arg)
     gnrl_services.console_print(arg)
@@ -32,27 +35,29 @@ def init_state_repo():
 
 
 def init_command_repo():
+    # loads cmdXXX repos to be used
+
     arg = "    [init_command_repo]"
     logger.debug(arg)
     gnrl_services.console_print(arg)
 
     # add cmds to cmdRepo
-    cmd_group_xxx = cmdcon.CmdGroupCON()
-    command.CmdRepo.add_cmd_group(cmd_group_xxx)
-    arg = "      Attaching %s to CmdRepo .." % cmd_group_xxx.groupName
+    cmdgroup_j = cmdcon.CmdgroupCON()
+    command.CmdRepo.add_cmdgroup(cmdgroup_j)
+    arg = "      Attaching %s to CmdRepo .." % cmdgroup_j.cmdgroupName
     logger.debug(arg)
     gnrl_services.console_print(arg)
 
-    cmd_group_xxx = cmdrtc.CmdGroupRTC()
-    command.CmdRepo.add_cmd_group(cmd_group_xxx)
-    arg = "      Attaching %s to CmdRepo .." % cmd_group_xxx.groupName
+    cmdgroup_j = cmdrtc.CmdgroupRTC()
+    command.CmdRepo.add_cmdgroup(cmdgroup_j)
+    arg = "      Attaching %s to CmdRepo .." % cmdgroup_j.cmdgroupName
     logger.debug(arg)
     gnrl_services.console_print(arg)
 
     if SUCHAI_config.SCH_CAM_ONBOARD == 1:
-        cmd_group_xxx = cmdcam.CmdGroupCAM()
-        command.CmdRepo.add_cmd_group(cmd_group_xxx)
-        arg = "      Attaching %s to CmdRepo .." % cmd_group_xxx.groupName
+        cmdgroup_j = cmdcam.CmdgroupCAM()
+        command.CmdRepo.add_cmdgroup(cmdgroup_j)
+        arg = "      Attaching %s to CmdRepo .." % cmdgroup_j.cmdgroupName
         logger.debug(arg)
         gnrl_services.console_print(arg)
     else:
@@ -62,19 +67,24 @@ def init_command_repo():
     arg = "      Commands successfully loaded to CmdRepo: "
     logger.debug(arg)
     gnrl_services.console_print(arg)
-    for j in range(0, len(command.CmdRepo.cmd_group_buffer)):
-        cmd_group_xxx = command.CmdRepo.cmd_group_buffer[j]
-        for i in range(0, cmd_group_xxx.get_ncmds()):
-            cmd_i = command.CmdRepo.get_command_byid(cmd_group_xxx.groupName, i)
-            arg = "        get_command_byid(%s, %s).name: %s" % (cmd_group_xxx.groupName, i, cmd_i.name)
+    for j in range(0, command.CmdRepo.get_num_cmdgroups()):
+        cmdgroup_j = command.CmdRepo.get_cmdgroup(j)
+        for i in range(0, cmdgroup_j.get_num_cmds()):
+            cmd_i = cmdgroup_j.get_cmd(i)
+            arg = "        %s.get_cmd(%s) => cmdId: 0x%0.4X, cmdName: %s, " %\
+                  (cmdgroup_j.cmdgroupName, i, cmd_i.cmdId, cmd_i.cmdName)
             gnrl_services.console_print(arg)
             logger.debug(arg)
 
 
 def init_data_repo():
+    # prepares permanent memory to be used by bus and paylaods
+
     arg = "    [init_data_repo]"
     logger.debug(arg)
     gnrl_services.console_print(arg)
+
+    data.init()
 
 
 def init_suchai_repos():
@@ -84,64 +94,64 @@ def init_suchai_repos():
     # /* Repositories */
     init_state_repo()       # modify specific reset-dependant STA_StateVar vars
     init_command_repo()     # loads cmdXXX repos to be used
-    init_data_repo()        # prepares GnrlPurposeBuff to be used
+    init_data_repo()        # prepares permanent memory to be used by bus and paylaods
 
 
-def launch_tasks():
-    arg = "[launch_tasks]"
+def launch_listeners():
+    arg = "[launch_listeners]"
     logger.debug(arg)
     gnrl_services.console_print(arg)
 
-    handler = dispatcher.taskHandler
+    handler = dispatcher.listenerHandler
     arg = "%s, %s, %s, %s" % (handler.name, handler.pid, handler.is_alive(), handler.exitcode)
     logger.debug(arg)
-    handler = comunications.taskHandler
+    handler = comunications.listenerHandler
     arg = "%s, %s, %s, %s" % (handler.name, handler.pid, handler.is_alive(), handler.exitcode)
     logger.debug(arg)
-    handler = console.taskHandler
+    handler = console.listenerHandler
     arg = "%s, %s, %s, %s" % (handler.name, handler.pid, handler.is_alive(), handler.exitcode)
     logger.debug(arg)
-    handler = flightplan.taskHandler
+    handler = flightplan.listenerHandler
     arg = "%s, %s, %s, %s" % (handler.name, handler.pid, handler.is_alive(), handler.exitcode)
     logger.debug(arg)
-    handler = housekeeping.taskHandler
+    handler = housekeeping.listenerHandler
     arg = "%s, %s, %s, %s" % (handler.name, handler.pid, handler.is_alive(), handler.exitcode)
     logger.debug(arg)
 
     # time.sleep(2)
     logger.info("Starting nominal operations ..")
 
-    dispatcher.taskHandler.start()
-    comunications.taskHandler.start()
-    console.taskHandler.start()
-    flightplan.taskHandler.start()
-    housekeeping.taskHandler.start()
+    dispatcher.listenerHandler.start()
+    comunications.listenerHandler.start()
+    console.listenerHandler.start()
+    flightplan.listenerHandler.start()
+    housekeeping.listenerHandler.start()
 
     # time.sleep(2)   # give time for every process to start
     # logger.debug("-------------------------")
 
-    dispatcher.taskHandler.join()
-    comunications.taskHandler.join()
-    console.taskHandler.join()
-    flightplan.taskHandler.join()
-    housekeeping.taskHandler.join()
+    dispatcher.listenerHandler.join()
+    comunications.listenerHandler.join()
+    console.listenerHandler.join()
+    flightplan.listenerHandler.join()
+    housekeeping.listenerHandler.join()
 
     # the systems should never reach this pont, otherwise an error occured
 
-    # handler = dispatcher.taskHandler
-    # arg = "%s, %s, %s, %s" % (handler.name, handler.pid, handler.is_alive(), handler.exitcode)
+    # handler = dispatcher.listenerHandler
+    # arg = "%s, %s, %s, %s" % (handler.cmdName, handler.pid, handler.is_alive(), handler.exitcode)
     # logger.debug(arg)
-    # handler = comunications.taskHandler
-    # arg = "%s, %s, %s, %s" % (handler.name, handler.pid, handler.is_alive(), handler.exitcode)
+    # handler = comunications.listenerHandler
+    # arg = "%s, %s, %s, %s" % (handler.cmdName, handler.pid, handler.is_alive(), handler.exitcode)
     # logger.debug(arg)
-    # handler = console.taskHandler
-    # arg = "%s, %s, %s, %s" % (handler.name, handler.pid, handler.is_alive(), handler.exitcode)
+    # handler = console.listenerHandler
+    # arg = "%s, %s, %s, %s" % (handler.cmdName, handler.pid, handler.is_alive(), handler.exitcode)
     # logger.debug(arg)
-    # handler = flightplan.taskHandler
-    # arg = "%s, %s, %s, %s" % (handler.name, handler.pid, handler.is_alive(), handler.exitcode)
+    # handler = flightplan.listenerHandler
+    # arg = "%s, %s, %s, %s" % (handler.cmdName, handler.pid, handler.is_alive(), handler.exitcode)
     # logger.debug(arg)
-    # handler = housekeeping.taskHandler
-    # arg = "%s, %s, %s, %s" % (handler.name, handler.pid, handler.is_alive(), handler.exitcode)
+    # handler = housekeeping.listenerHandler
+    # arg = "%s, %s, %s, %s" % (handler.cmdName, handler.pid, handler.is_alive(), handler.exitcode)
     # logger.debug(arg)
     #
     # logger.debug("-------------------------")

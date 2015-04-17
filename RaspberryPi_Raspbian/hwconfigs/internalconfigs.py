@@ -8,7 +8,7 @@ logger = logging.getLogger(__name__)
 
 
 def init_hw_configs():
-    arg = "  [init_hw_configs]"
+    arg = "  [init_hw_configs] Internal configs .."
     gnrl_services.console_print(arg)
     logger.debug(arg)
 

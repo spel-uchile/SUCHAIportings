@@ -38,7 +38,6 @@ from core import shared_resources
 import SUCHAI_config
 
 import sys
-from core import suchai_types
 from core import gnrl_services
 
 # /* Config Words */
@@ -103,9 +102,9 @@ def main():
     # dep_init_suchai_repos();
     deployment.init_suchai_repos()
 
-    # /* Crating SUCHAI tasks */
+    # /* Crating SUCHAI Listeners */
     # dep_init_suchai_tasks();
-    deployment.launch_tasks()   # blocking call, waits child prcesses to join
+    deployment.launch_listeners()   # blocking call, waits child prcesses to join
 
     # not necessary in this porting
     # # /* Start the scheduler. Should never return */

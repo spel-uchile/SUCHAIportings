@@ -1,55 +1,61 @@
 # -*- coding: utf-8 -*-
 __author__ = 'toopazo'
 
-from core import suchai_types
+import SUCHAI_config
 from core import gnrl_services
 import logging
 logger = logging.getLogger(__name__)
 
 
 class Cmd():
-    def __init__(self, name, sysreq, funct):
-        self.name = name
-        self.sysReq = sysreq
-        self.funct = funct
+    def __init__(self, name, cmdid, sysreq, funct):
+    # def __init__(self, cmdName, sysreq, cmdFunct):
+        self.cmdName = name
+        self.cmdId = cmdid
+        self.cmdSysReq = sysreq
+        self.cmdFunct = funct
 
-    # def exec(self):
-    #     raise NotImplementedError
+    def exec(self, cmd_param):
+        res = self.cmdFunct(cmd_param)
+        return res
 
 
 #base class for CmdCON, CmdPPC, etc
-class CmdGroup():
+class Cmdgroup():
 
     def __init__(self):
-        self.groupName = ""
-        self.groupId = 0
-        self.cmdBuffer = []        # buffer of Cmd objects
+        self.cmdgroupName = ""
+        self.cmdgroupId = 0
+        self.cmdgroupCmdBuffer = []        # buffer of Cmd objects
 
     #@staticmethod
     def on_reset(self):
         raise NotImplementedError
 
     #@staticmethod
-    def get_ncmds(self):
+    def get_num_cmds(self):
         #raise NotImplementedError
-        return len(self.cmdBuffer)
+        return len(self.cmdgroupCmdBuffer)
+
+    def get_cmd(self, i):
+        return self.cmdgroupCmdBuffer[i]
 
 
 # manages acces to te cmdRepo
 class CmdRepo():
     # #define CMD_BUFF_CMDXX_LEN SCH_NUM_CMDXXX
-    cmd_group_buffer = []
+    cmdrepoCmdgroupBuffer = []
 
     # void repo_set_cmdXXX_hanlder(CmdRepo_cmdXXX_handler cmdPPC_handler);
     @staticmethod
-    def add_cmd_group(cmd_group):
-        # if hasattr(cmd_group, "cmdBuffer"):
-        #     CmdRepo.cmd_group_buffer.append(cmd_group)
-        #     print("cmd_group.groupName =>", cmd_group.groupName)  # debug
+    def add_cmdgroup(cmd_group):
+        # if hasattr(cmd_group, "cmdgroupCmdBuffer"):
+        #     CmdRepo.cmdrepoCmdgroupBuffer.append(cmd_group)
+        #     print("cmd_group.cmdgroupName =>", cmd_group.cmdgroupName)  # debug
         try:
-            CmdRepo.cmd_group_buffer.append(cmd_group)
-            # print("cmd_group.groupName =>", cmd_group.groupName)  # debug
-            # print(CmdRepo.cmd_group_buffer)
+            CmdRepo.cmdrepoCmdgroupBuffer.append(cmd_group)
+            # print("cmd_group.cmdgroupName =>", cmd_group.cmdgroupName)  # debug
+            # print(CmdRepo.cmdrepoCmdgroupBuffer)
 
             #execute onReset of added cmd_group
             cmd_group.on_reset()
@@ -57,142 +63,81 @@ class CmdRepo():
             pass
 
     @staticmethod
-    def get_ncmds(cmd_group_name):
-        for i in range(0, len(CmdRepo.cmd_group_buffer)):
-            cmd_group = CmdRepo.cmd_group_buffer[i]
-            if cmd_group.groupName == cmd_group_name:
-                try:
-                    nc = cmd_group.get_ncmds()
-                    return nc
-                except AttributeError:
-                    return 0
+    def get_num_cmdgroups():
+        return len(CmdRepo.cmdrepoCmdgroupBuffer)
 
-    #TODO modified by toopazo to ease porting
-    # cmdBuffer repo_getFunction(int cmdID);
     @staticmethod
-    def get_command_byid(cmd_group_name, cmd_id):
-        """ Search inside cmd_group_buffer after the cmd_group that matches the cmd_id key,
-         then for cmd_id inside cmd_group and return the associated Cmd.funct """
+    def get_cmdgroup(i):
+        return CmdRepo.cmdrepoCmdgroupBuffer[i]
+
+    @staticmethod
+    def get_cmd_name_by_id(cmd_id):
+        cmd_x = CmdRepo.get_cmd_by_id(cmd_id)
+        return cmd_x.cmdName
+
+    @staticmethod
+    def get_cmd_sysreq_by_id(cmd_id):
+        cmd_x = CmdRepo.get_cmd_by_id(cmd_id)
+        return cmd_x.cmdSysReq
+
+    # @staticmethod
+    # def get_cmd_funct_by_id(cmd_id):
+    #     cmd_x = CmdRepo.get_cmd_by_id(cmd_id)
+    #     return cmd_x.cmdFunct
+
+    @staticmethod
+    def get_cmd_by_id(cmd_id):
+        """ Search inside cmdrepoCmdgroupBuffer after the cmd_group that matches the cmd_id key,
+         then for cmd_id inside cmd_group and return the associated Cmd.cmdFunct """
+        # cmd_id = "A00F"
+        # cmd_id = "1003"
+        cmd_id = int(cmd_id)
+        cmdgroup_id = int(cmd_id >> 8)*0x100    # get cmdgroupId part from the cmdId
+        cmd_num = int(cmd_id & int('00001111', 2))
+        # print("cmdgroup_id 0x%x = %s" % (cmdgroup_id, cmdgroup_id))
+        # print("cmd_num 0x%x = %s" % (cmd_num, cmd_num))
         res = None
-        for i in range(0, len(CmdRepo.cmd_group_buffer)):
-            cmd_group = CmdRepo.cmd_group_buffer[i]
-            #print("CmdRepo.cmd_group_buffer[i].groupName => %s" % CmdRepo.cmd_group_buffer[i].groupName)
-            if cmd_group.groupName == cmd_group_name:
+        for i in range(0, len(CmdRepo.cmdrepoCmdgroupBuffer)):
+            cmdgroup_i = CmdRepo.get_cmdgroup(i)
+            #print("CmdRepo.cmdrepoCmdgroupBuffer[i].cmdgroupName => %s" % CmdRepo.cmdrepoCmdgroupBuffer[i].cmdgroupName)
+            if cmdgroup_i.cmdgroupId == cmdgroup_id:
+                # # se necesita revisar uno por uno ya que el buffer podria
+                # # estar desordenado y el Enum 0 no ser el cmdgroupCmdBuffer[0]
+                # for j in range(0, len(cmdgroup_i.cmdgroupCmdBuffer)):
+                #     cmd_j = cmdgroup_i.cmdgroupCmdBuffer[j]
+                #     print(cmd_j.cmdName)
+                #     if cmd_j.value == cmd_num:
+                #         res = cmdgroup_i.cmdgroupCmdBuffer[cmd_num]
+                #         return res
+                # #if there is no match for cmd_j in cmdgroupCmdBuffer return cmdnull
+                # res = CmdRepo.cmdnull
+                # return res
+
+                # si cmdgroupCmdBuffer coincide con Enum de cmdgroup_i
+                # entocnes es valido simplemente ir por el i-esimo
                 try:
-                    res = cmd_group.cmdBuffer[cmd_id]
-                    #print(cmd_group.groupName)
+                    res = cmdgroup_i.get_cmd(cmd_num)
+                    # print(res.cmdName)
                 except IndexError:
                     res = CmdRepo.cmdnull
                 return res
         return res
 
-    #TODO modified by toopazo to ease porting
-    @staticmethod
-    def get_command_byname(cmd_group_name, cmd_name):
-        """ Search inside cmd_group_buffer after the cmd_group that matches the cmd_group_name key,
-         then for cmd_name inside cmd_group and return the associated Cmd.funct """
-        res = None
-        for i in range(0, len(CmdRepo.cmd_group_buffer)):
-            cmd_group = CmdRepo.cmd_group_buffer[i]
-            # print("cmd_group.groupName => %s" % cmd_group.groupName)
-            if cmd_group.groupName == cmd_group_name:
-                for j in range(0, len(cmd_group.cmdBuffer)):
-                    cmd_j = cmd_group.cmdBuffer[j]
-                    # print("cmd_j.name => %s" % cmd_j.name)
-                    if cmd_j.name == cmd_name:
-                        res = cmd_j
-                        return res
-        return res
-
-    #TODO modified by toopazo to ease porting
-    @staticmethod
-    def get_function_byname(cmd_group_name, cmd_name):
-        """ Search inside cmd_group_buffer after the cmd_group that matches the cmd_group_name key,
-         then for cmd_id inside cmd_group and return the associated Cmd.funct """
-        res = None
-        for i in range(0, len(CmdRepo.cmd_group_buffer)):
-            cmd_group = CmdRepo.cmd_group_buffer[i]
-            # print("cmd_group.groupName => %s" % cmd_group.groupName)
-            if cmd_group.groupName == cmd_group_name:
-                for j in range(0, len(cmd_group.cmdBuffer)):
-                    cmd_j = cmd_group.cmdBuffer[j]
-                    # print("cmd_j.name => %s" % cmd_j.name)
-                    if cmd_j.name == cmd_name:
-                        res = cmd_j.funct
-                        return res
-        return res
-
-    #TODO modified by toopazo to ease porting
-    # cmdBuffer repo_getFunction(int cmdID);
-    @staticmethod
-    def get_function_byid(cmd_group_name, cmd_id):
-        """ Search inside cmd_group_buffer after the cmd_group that matches the cmd_id key,
-         then for cmd_id inside cmd_group and return the associated Cmd.funct """
-        res = None
-        for i in range(0, len(CmdRepo.cmd_group_buffer)):
-            cmd_group = CmdRepo.cmd_group_buffer[i]
-            #print("CmdRepo.cmd_group_buffer[i].groupName => %s" % CmdRepo.cmd_group_buffer[i].groupName)
-            if cmd_group.groupName == cmd_group_name:
-                try:
-                    res = cmd_group.cmdBuffer[cmd_id].funct
-                    #print(cmd_group.groupName)
-                except IndexError:
-                    res = CmdRepo.cmdnull
-                return res
-        return res
-
-    # int repo_getsysReq(int cmdID);
-    @staticmethod
-    def get_sysreq_byid(cmd_group_name, cmd_name):
-        """ Search inside cmd_group_buffer after the cmd_group that matches the cmd_name key,
-         then for cmd_name inside cmd_group and return the associated Cmd.sysReq """
-        res = None
-        for i in range(0, len(CmdRepo.cmd_group_buffer)):
-            cmd_group = CmdRepo.cmd_group_buffer[i]
-            #print("CmdRepo.cmd_group_buffer[i].groupName => %s" % CmdRepo.cmd_group_buffer[i].groupName)
-            if cmd_group.groupName == cmd_group_name:
-                try:
-                    res = cmd_group.cmdBuffer[cmd_name].sysReq
-                    #print(cmd_group.groupName)
-                except IndexError:
-                    res = suchai_types.SysReqs.SYSREQ_MAX
-                return res
-        return res
-
-    #TODO modified by toopazo to ease porting
-    @staticmethod
-    def get_sysreq_byname(cmd_group_name, cmd_name):
-        """ Search inside cmd_group_buffer after the cmd_group that matches the cmd_group_name key,
-         then for cmd_id inside cmd_group and return the associated Cmd.sysReq """
-        res = None
-        for i in range(0, len(CmdRepo.cmd_group_buffer)):
-            cmd_group = CmdRepo.cmd_group_buffer[i]
-            # print("cmd_group.groupName => %s" % cmd_group.groupName)
-            if cmd_group.groupName == cmd_group_name:
-                for j in range(0, len(cmd_group.cmdBuffer)):
-                    cmd_j = cmd_group.cmdBuffer[j]
-                    cmd_sysreq_j = cmd_j.sysReq
-                    # print("cmd_j.name => %s" % cmd_j.name)
-                    # print("cmd_sysreq_j => %s" % cmd_sysreq_j)
-                    if cmd_j.name == cmd_name:
-                        res = cmd_sysreq_j
-                        return res
-        return res
-
-    # int cmdNULL(void *param);
+    # int cmdNULL(void *cmdParam);
     @staticmethod
     def cmdnull(param):
-        arg = "cmdnull used with param: %s" % param
+        arg = "cmdnull used with cmdParam: %s" % param
         logger.error(arg)
         gnrl_services.console_print(arg)
         return True
 
-    cmdnull = Cmd(name="cmdnull",
-                  sysreq=suchai_types.SysReqs.SYSREQ_MIN,
+    cmdnull = Cmd(cmdid=SUCHAI_config.GnrlCmds.CMD_NULL,
+                  name="cmdnull",
+                  sysreq=SUCHAI_config.Sysreqs.SYSREQ_MIN,
                   funct=cmdnull)
 
-# cmdBuffer repo_getCmd(int cmdID);
+# cmdgroupCmdBuffer repo_getCmd(int cmdID);
 
 
-# int repo_setCmd(int cmdID, cmdBuffer function);
+# int repo_setCmd(int cmdID, cmdgroupCmdBuffer function);
 # int repo_onResetCmdRepo(void);
