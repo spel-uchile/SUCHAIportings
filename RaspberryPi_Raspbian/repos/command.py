@@ -15,7 +15,7 @@ class Cmd():
         self.cmdSysReq = sysreq
         self.cmdFunct = funct
 
-    def exec(self, cmd_param):
+    def exect(self, cmd_param):
         res = self.cmdFunct(cmd_param)
         return res
 

@@ -58,7 +58,7 @@ def listener_dispatcher():
             gnrl_services.console_print(arg)
 
             i_time = datetime.datetime.now()
-            exitcode = dispatched_cmd.exec(dispatched_cmd_cmdparam)
+            exitcode = dispatched_cmd.exect(dispatched_cmd_cmdparam)
             f_time = datetime.datetime.now()
 
             arg = "  <<"

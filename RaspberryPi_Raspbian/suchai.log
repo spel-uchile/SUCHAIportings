@@ -32684,3 +32684,233 @@ Suchai Sw: Entry point ..
 2015/04/17 17:55:23 - Listeners.dispatcher - INFO -   <<
 2015/04/17 17:55:23 - Listeners.dispatcher - INFO -   d_time: 0:00:00.000021, exitcode: True
 2015/04/17 17:55:23 - Listeners.dispatcher - INFO - ----------------------
+2015/05/20 17:02:57 - __main__ - INFO - 
+
+
+2015/05/20 17:02:57 - __main__ - INFO - [main] Entry point
+2015/05/20 17:02:57 - hwconfigs.internalconfigs - DEBUG -   [init_hw_configs] Internal configs ..
+2015/05/20 17:02:57 - hwconfigs.externalconfigs - DEBUG -   [init_hw_configs] External configs ..
+2015/05/20 17:02:57 - core.deployment - DEBUG -   [init_suchai_repo]
+2015/05/20 17:02:57 - core.deployment - DEBUG -     [init_state_repo]
+2015/05/20 17:02:57 - core.deployment - DEBUG -     [init_command_repo]
+2015/05/20 17:02:57 - core.deployment - DEBUG -       Attaching CmdCON to CmdRepo ..
+2015/05/20 17:02:57 - core.deployment - DEBUG -       Attaching CmdRTC to CmdRepo ..
+2015/05/20 17:02:57 - core.deployment - DEBUG -       Commands successfully loaded to CmdRepo: 
+2015/05/20 17:02:57 - core.deployment - DEBUG -         CmdCON.get_cmd(0) => cmdId: 0x0200, cmdName: con_help, 
+2015/05/20 17:02:57 - core.deployment - DEBUG -         CmdCON.get_cmd(1) => cmdId: 0x0201, cmdName: con_promt, 
+2015/05/20 17:02:57 - core.deployment - DEBUG -         CmdCON.get_cmd(2) => cmdId: 0x0202, cmdName: con_error_cmd_toolong, 
+2015/05/20 17:02:57 - core.deployment - DEBUG -         CmdCON.get_cmd(3) => cmdId: 0x0203, cmdName: con_debug_msg, 
+2015/05/20 17:02:57 - core.deployment - DEBUG -         CmdCON.get_cmd(4) => cmdId: 0x0204, cmdName: con_error_unknown_cmd, 
+2015/05/20 17:02:57 - core.deployment - DEBUG -         CmdCON.get_cmd(5) => cmdId: 0x0205, cmdName: con_error_invalid_arg, 
+2015/05/20 17:02:57 - core.deployment - DEBUG -         CmdCON.get_cmd(6) => cmdId: 0x0206, cmdName: con_error_count_ar, 
+2015/05/20 17:02:57 - core.deployment - DEBUG -         CmdCON.get_cmd(7) => cmdId: 0x0207, cmdName: con_debug7, 
+2015/05/20 17:02:57 - core.deployment - DEBUG -         CmdCON.get_cmd(8) => cmdId: 0x0208, cmdName: con_debug8, 
+2015/05/20 17:02:57 - core.deployment - DEBUG -         CmdCON.get_cmd(9) => cmdId: 0x0209, cmdName: con_debug9, 
+2015/05/20 17:02:57 - core.deployment - DEBUG -         CmdCON.get_cmd(10) => cmdId: 0x020A, cmdName: con_debug10, 
+2015/05/20 17:02:57 - core.deployment - DEBUG -         CmdCON.get_cmd(11) => cmdId: 0x020B, cmdName: con_debug11, 
+2015/05/20 17:02:57 - core.deployment - DEBUG -         CmdCON.get_cmd(12) => cmdId: 0x020C, cmdName: con_debug12, 
+2015/05/20 17:02:57 - core.deployment - DEBUG -         CmdCON.get_cmd(13) => cmdId: 0x020D, cmdName: con_debug13, 
+2015/05/20 17:02:57 - core.deployment - DEBUG -         CmdCON.get_cmd(14) => cmdId: 0x020E, cmdName: con_debug14, 
+2015/05/20 17:02:57 - core.deployment - DEBUG -         CmdCON.get_cmd(15) => cmdId: 0x020F, cmdName: con_debug15, 
+2015/05/20 17:02:57 - core.deployment - DEBUG -         CmdCON.get_cmd(16) => cmdId: 0x0210, cmdName: con_debug16, 
+2015/05/20 17:02:57 - core.deployment - DEBUG -         CmdCON.get_cmd(17) => cmdId: 0x0211, cmdName: con_debug17, 
+2015/05/20 17:02:57 - core.deployment - DEBUG -         CmdRTC.get_cmd(0) => cmdId: 0x0700, cmdName: rtc_debug, 
+2015/05/20 17:02:57 - core.deployment - DEBUG -         CmdRTC.get_cmd(1) => cmdId: 0x0701, cmdName: rtc_get_time_now, 
+2015/05/20 17:02:57 - core.deployment - DEBUG -     [init_data_repo]
+2015/05/20 17:02:57 - core.deployment - DEBUG - [launch_listeners]
+2015/05/20 17:02:57 - core.deployment - DEBUG - listener_dispatcher, None, False, None
+2015/05/20 17:02:57 - core.deployment - DEBUG - listener_comunications, None, False, None
+2015/05/20 17:02:57 - core.deployment - DEBUG - listener_console, None, False, None
+2015/05/20 17:02:57 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/05/20 17:02:57 - core.deployment - DEBUG - listener_housekeeping, None, False, None
+2015/05/20 17:02:57 - core.deployment - INFO - Starting nominal operations ..
+2015/05/20 17:02:57 - Listeners.dispatcher - DEBUG - cmdName listener_dispatcher, pid 23870, is_alive True, exitcode None
+2015/05/20 17:02:57 - Listeners.comunications - DEBUG - cmdName listener_comunications, pid 23871, is_alive True, exitcode None
+2015/05/20 17:02:57 - Listeners.console - DEBUG - cmdName listener_console, pid 23872, is_alive True, exitcode None
+2015/05/20 17:02:57 - Listeners.housekeeping - DEBUG - cmdName listener_housekeeping, pid 23874, is_alive True, exitcode None
+2015/05/20 17:02:57 - Listeners.flightplan - DEBUG - cmdName task_flightplant, pid 23873, is_alive True, exitcode None
+2015/05/20 17:02:57 - Listeners.dispatcher - INFO - [listener_dispatcher]
+2015/05/20 17:02:57 - Listeners.dispatcher - INFO -   Cmdid: 0x0200, CmdName: con_help, Listener: 0x0002
+2015/05/20 17:02:57 - Listeners.dispatcher - INFO -   Cmd cmdSysReq: 1, System soc: 2, executable: True
+2015/05/20 17:02:57 - Listeners.dispatcher - INFO -   >>
+2015/05/20 17:02:57 - Listeners.dispatcher - INFO -   <<
+2015/05/20 17:02:57 - Listeners.dispatcher - INFO -   d_time: 0:00:00.000031, exitcode: True
+2015/05/20 17:02:57 - Listeners.dispatcher - INFO - ----------------------
+2015/05/20 17:02:57 - Listeners.dispatcher - INFO - [listener_dispatcher]
+2015/05/20 17:02:57 - Listeners.dispatcher - INFO -   Cmdid: 0x0701, CmdName: rtc_get_time_now, Listener: 0x0002
+2015/05/20 17:02:57 - Listeners.dispatcher - INFO -   Cmd cmdSysReq: 1, System soc: 2, executable: True
+2015/05/20 17:02:57 - Listeners.dispatcher - INFO -   >>
+2015/05/20 17:02:57 - Listeners.dispatcher - INFO -   <<
+2015/05/20 17:02:57 - Listeners.dispatcher - INFO -   d_time: 0:00:00.000030, exitcode: True
+2015/05/20 17:02:57 - Listeners.dispatcher - INFO - ----------------------
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO - [listener_dispatcher]
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO -   Cmdid: 0x0200, CmdName: con_help, Listener: 0x0002
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO -   Cmd cmdSysReq: 1, System soc: 2, executable: True
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO -   >>
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO -   <<
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO -   d_time: 0:00:00.000016, exitcode: True
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO - ----------------------
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO - [listener_dispatcher]
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO -   Cmdid: 0x0701, CmdName: rtc_get_time_now, Listener: 0x0002
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO -   Cmd cmdSysReq: 1, System soc: 2, executable: True
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO -   >>
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO -   <<
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO -   d_time: 0:00:00.000014, exitcode: True
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO - ----------------------
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO - [listener_dispatcher]
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO -   Cmdid: 0x0200, CmdName: con_help, Listener: 0x0002
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO -   Cmd cmdSysReq: 1, System soc: 2, executable: True
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO -   >>
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO -   <<
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO -   d_time: 0:00:00.000015, exitcode: True
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO - ----------------------
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO - [listener_dispatcher]
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO -   Cmdid: 0x0701, CmdName: rtc_get_time_now, Listener: 0x0002
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO -   Cmd cmdSysReq: 1, System soc: 2, executable: True
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO -   >>
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO -   <<
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO -   d_time: 0:00:00.000014, exitcode: True
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO - ----------------------
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO - [listener_dispatcher]
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO -   Cmdid: 0x0200, CmdName: con_help, Listener: 0x0002
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO -   Cmd cmdSysReq: 1, System soc: 2, executable: True
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO -   >>
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO -   <<
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO -   d_time: 0:00:00.000016, exitcode: True
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO - ----------------------
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO - [listener_dispatcher]
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO -   Cmdid: 0x0701, CmdName: rtc_get_time_now, Listener: 0x0002
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO -   Cmd cmdSysReq: 1, System soc: 2, executable: True
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO -   >>
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO -   <<
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO -   d_time: 0:00:00.000014, exitcode: True
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO - ----------------------
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO - [listener_dispatcher]
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO -   Cmdid: 0x0200, CmdName: con_help, Listener: 0x0002
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO -   Cmd cmdSysReq: 1, System soc: 2, executable: True
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO -   >>
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO -   <<
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO -   d_time: 0:00:00.000015, exitcode: True
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO - ----------------------
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO - [listener_dispatcher]
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO -   Cmdid: 0x0701, CmdName: rtc_get_time_now, Listener: 0x0002
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO -   Cmd cmdSysReq: 1, System soc: 2, executable: True
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO -   >>
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO -   <<
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO -   d_time: 0:00:00.000016, exitcode: True
+2015/05/20 17:02:58 - Listeners.dispatcher - INFO - ----------------------
+2015/05/20 17:34:02 - __main__ - INFO - 
+
+
+2015/05/20 17:34:02 - __main__ - INFO - [main] Entry point
+2015/05/20 17:34:02 - hwconfigs.internalconfigs - DEBUG -   [init_hw_configs] Internal configs ..
+2015/05/20 17:34:02 - hwconfigs.externalconfigs - DEBUG -   [init_hw_configs] External configs ..
+2015/05/20 17:34:02 - core.deployment - DEBUG -   [init_suchai_repo]
+2015/05/20 17:34:02 - core.deployment - DEBUG -     [init_state_repo]
+2015/05/20 17:34:02 - core.deployment - DEBUG -     [init_command_repo]
+2015/05/20 17:34:02 - core.deployment - DEBUG -       Attaching CmdCON to CmdRepo ..
+2015/05/20 17:34:02 - core.deployment - DEBUG -       Attaching CmdRTC to CmdRepo ..
+2015/05/20 17:34:02 - core.deployment - DEBUG -       Commands successfully loaded to CmdRepo: 
+2015/05/20 17:34:02 - core.deployment - DEBUG -         CmdCON.get_cmd(0) => cmdId: 0x0200, cmdName: con_help, 
+2015/05/20 17:34:02 - core.deployment - DEBUG -         CmdCON.get_cmd(1) => cmdId: 0x0201, cmdName: con_promt, 
+2015/05/20 17:34:02 - core.deployment - DEBUG -         CmdCON.get_cmd(2) => cmdId: 0x0202, cmdName: con_error_cmd_toolong, 
+2015/05/20 17:34:02 - core.deployment - DEBUG -         CmdCON.get_cmd(3) => cmdId: 0x0203, cmdName: con_debug_msg, 
+2015/05/20 17:34:02 - core.deployment - DEBUG -         CmdCON.get_cmd(4) => cmdId: 0x0204, cmdName: con_error_unknown_cmd, 
+2015/05/20 17:34:02 - core.deployment - DEBUG -         CmdCON.get_cmd(5) => cmdId: 0x0205, cmdName: con_error_invalid_arg, 
+2015/05/20 17:34:02 - core.deployment - DEBUG -         CmdCON.get_cmd(6) => cmdId: 0x0206, cmdName: con_error_count_ar, 
+2015/05/20 17:34:02 - core.deployment - DEBUG -         CmdCON.get_cmd(7) => cmdId: 0x0207, cmdName: con_debug7, 
+2015/05/20 17:34:02 - core.deployment - DEBUG -         CmdCON.get_cmd(8) => cmdId: 0x0208, cmdName: con_debug8, 
+2015/05/20 17:34:02 - core.deployment - DEBUG -         CmdCON.get_cmd(9) => cmdId: 0x0209, cmdName: con_debug9, 
+2015/05/20 17:34:02 - core.deployment - DEBUG -         CmdCON.get_cmd(10) => cmdId: 0x020A, cmdName: con_debug10, 
+2015/05/20 17:34:02 - core.deployment - DEBUG -         CmdCON.get_cmd(11) => cmdId: 0x020B, cmdName: con_debug11, 
+2015/05/20 17:34:02 - core.deployment - DEBUG -         CmdCON.get_cmd(12) => cmdId: 0x020C, cmdName: con_debug12, 
+2015/05/20 17:34:02 - core.deployment - DEBUG -         CmdCON.get_cmd(13) => cmdId: 0x020D, cmdName: con_debug13, 
+2015/05/20 17:34:02 - core.deployment - DEBUG -         CmdCON.get_cmd(14) => cmdId: 0x020E, cmdName: con_debug14, 
+2015/05/20 17:34:02 - core.deployment - DEBUG -         CmdCON.get_cmd(15) => cmdId: 0x020F, cmdName: con_debug15, 
+2015/05/20 17:34:02 - core.deployment - DEBUG -         CmdCON.get_cmd(16) => cmdId: 0x0210, cmdName: con_debug16, 
+2015/05/20 17:34:02 - core.deployment - DEBUG -         CmdCON.get_cmd(17) => cmdId: 0x0211, cmdName: con_debug17, 
+2015/05/20 17:34:02 - core.deployment - DEBUG -         CmdRTC.get_cmd(0) => cmdId: 0x0700, cmdName: rtc_debug, 
+2015/05/20 17:34:02 - core.deployment - DEBUG -         CmdRTC.get_cmd(1) => cmdId: 0x0701, cmdName: rtc_get_time_now, 
+2015/05/20 17:34:02 - core.deployment - DEBUG -     [init_data_repo]
+2015/05/20 17:34:02 - core.deployment - DEBUG - [launch_listeners]
+2015/05/20 17:34:02 - core.deployment - DEBUG - listener_dispatcher, None, False, None
+2015/05/20 17:34:02 - core.deployment - DEBUG - listener_comunications, None, False, None
+2015/05/20 17:34:02 - core.deployment - DEBUG - listener_console, None, False, None
+2015/05/20 17:34:02 - core.deployment - DEBUG - task_flightplant, None, False, None
+2015/05/20 17:34:02 - core.deployment - DEBUG - listener_housekeeping, None, False, None
+2015/05/20 17:34:02 - core.deployment - INFO - Starting nominal operations ..
+2015/05/20 17:34:02 - Listeners.dispatcher - DEBUG - cmdName listener_dispatcher, pid 24451, is_alive True, exitcode None
+2015/05/20 17:34:02 - Listeners.comunications - DEBUG - cmdName listener_comunications, pid 24452, is_alive True, exitcode None
+2015/05/20 17:34:02 - Listeners.flightplan - DEBUG - cmdName task_flightplant, pid 24454, is_alive True, exitcode None
+2015/05/20 17:34:02 - Listeners.console - DEBUG - cmdName listener_console, pid 24453, is_alive True, exitcode None
+2015/05/20 17:34:02 - Listeners.housekeeping - DEBUG - cmdName listener_housekeeping, pid 24455, is_alive True, exitcode None
+2015/05/20 17:34:02 - Listeners.dispatcher - INFO - [listener_dispatcher]
+2015/05/20 17:34:02 - Listeners.dispatcher - INFO -   Cmdid: 0x0200, CmdName: con_help, Listener: 0x0002
+2015/05/20 17:34:02 - Listeners.dispatcher - INFO -   Cmd cmdSysReq: 1, System soc: 2, executable: True
+2015/05/20 17:34:02 - Listeners.dispatcher - INFO -   >>
+2015/05/20 17:34:02 - Listeners.dispatcher - INFO -   <<
+2015/05/20 17:34:02 - Listeners.dispatcher - INFO -   d_time: 0:00:00.000030, exitcode: True
+2015/05/20 17:34:02 - Listeners.dispatcher - INFO - ----------------------
+2015/05/20 17:34:02 - Listeners.dispatcher - INFO - [listener_dispatcher]
+2015/05/20 17:34:02 - Listeners.dispatcher - INFO -   Cmdid: 0x0701, CmdName: rtc_get_time_now, Listener: 0x0002
+2015/05/20 17:34:02 - Listeners.dispatcher - INFO -   Cmd cmdSysReq: 1, System soc: 2, executable: True
+2015/05/20 17:34:02 - Listeners.dispatcher - INFO -   >>
+2015/05/20 17:34:02 - Listeners.dispatcher - INFO -   <<
+2015/05/20 17:34:02 - Listeners.dispatcher - INFO -   d_time: 0:00:00.000025, exitcode: True
+2015/05/20 17:34:02 - Listeners.dispatcher - INFO - ----------------------
+2015/05/20 17:34:02 - Listeners.dispatcher - INFO - [listener_dispatcher]
+2015/05/20 17:34:02 - Listeners.dispatcher - INFO -   Cmdid: 0x0200, CmdName: con_help, Listener: 0x0002
+2015/05/20 17:34:02 - Listeners.dispatcher - INFO -   Cmd cmdSysReq: 1, System soc: 2, executable: True
+2015/05/20 17:34:02 - Listeners.dispatcher - INFO -   >>
+2015/05/20 17:34:02 - Listeners.dispatcher - INFO -   <<
+2015/05/20 17:34:02 - Listeners.dispatcher - INFO -   d_time: 0:00:00.000011, exitcode: True
+2015/05/20 17:34:02 - Listeners.dispatcher - INFO - ----------------------
+2015/05/20 17:34:02 - Listeners.dispatcher - INFO - [listener_dispatcher]
+2015/05/20 17:34:02 - Listeners.dispatcher - INFO -   Cmdid: 0x0701, CmdName: rtc_get_time_now, Listener: 0x0002
+2015/05/20 17:34:02 - Listeners.dispatcher - INFO -   Cmd cmdSysReq: 1, System soc: 2, executable: True
+2015/05/20 17:34:02 - Listeners.dispatcher - INFO -   >>
+2015/05/20 17:34:02 - Listeners.dispatcher - INFO -   <<
+2015/05/20 17:34:02 - Listeners.dispatcher - INFO -   d_time: 0:00:00.000013, exitcode: True
+2015/05/20 17:34:02 - Listeners.dispatcher - INFO - ----------------------
+2015/05/20 17:34:03 - Listeners.dispatcher - INFO - [listener_dispatcher]
+2015/05/20 17:34:03 - Listeners.dispatcher - INFO -   Cmdid: 0x0200, CmdName: con_help, Listener: 0x0002
+2015/05/20 17:34:03 - Listeners.dispatcher - INFO -   Cmd cmdSysReq: 1, System soc: 2, executable: True
+2015/05/20 17:34:03 - Listeners.dispatcher - INFO -   >>
+2015/05/20 17:34:03 - Listeners.dispatcher - INFO -   <<
+2015/05/20 17:34:03 - Listeners.dispatcher - INFO -   d_time: 0:00:00.000013, exitcode: True
+2015/05/20 17:34:03 - Listeners.dispatcher - INFO - ----------------------
+2015/05/20 17:34:03 - Listeners.dispatcher - INFO - [listener_dispatcher]
+2015/05/20 17:34:03 - Listeners.dispatcher - INFO -   Cmdid: 0x0701, CmdName: rtc_get_time_now, Listener: 0x0002
+2015/05/20 17:34:03 - Listeners.dispatcher - INFO -   Cmd cmdSysReq: 1, System soc: 2, executable: True
+2015/05/20 17:34:03 - Listeners.dispatcher - INFO -   >>
+2015/05/20 17:34:03 - Listeners.dispatcher - INFO -   <<
+2015/05/20 17:34:03 - Listeners.dispatcher - INFO -   d_time: 0:00:00.000013, exitcode: True
+2015/05/20 17:34:03 - Listeners.dispatcher - INFO - ----------------------
+2015/05/20 17:34:03 - Listeners.dispatcher - INFO - [listener_dispatcher]
+2015/05/20 17:34:03 - Listeners.dispatcher - INFO -   Cmdid: 0x0200, CmdName: con_help, Listener: 0x0002
+2015/05/20 17:34:03 - Listeners.dispatcher - INFO -   Cmd cmdSysReq: 1, System soc: 2, executable: True
+2015/05/20 17:34:03 - Listeners.dispatcher - INFO -   >>
+2015/05/20 17:34:03 - Listeners.dispatcher - INFO -   <<
+2015/05/20 17:34:03 - Listeners.dispatcher - INFO -   d_time: 0:00:00.000019, exitcode: True
+2015/05/20 17:34:03 - Listeners.dispatcher - INFO - ----------------------
+2015/05/20 17:34:03 - Listeners.dispatcher - INFO - [listener_dispatcher]
+2015/05/20 17:34:03 - Listeners.dispatcher - INFO -   Cmdid: 0x0701, CmdName: rtc_get_time_now, Listener: 0x0002
+2015/05/20 17:34:03 - Listeners.dispatcher - INFO -   Cmd cmdSysReq: 1, System soc: 2, executable: True
+2015/05/20 17:34:03 - Listeners.dispatcher - INFO -   >>
+2015/05/20 17:34:03 - Listeners.dispatcher - INFO -   <<
+2015/05/20 17:34:03 - Listeners.dispatcher - INFO -   d_time: 0:00:00.000013, exitcode: True
+2015/05/20 17:34:03 - Listeners.dispatcher - INFO - ----------------------
+2015/05/20 17:34:03 - Listeners.dispatcher - INFO - [listener_dispatcher]
+2015/05/20 17:34:03 - Listeners.dispatcher - INFO -   Cmdid: 0x0200, CmdName: con_help, Listener: 0x0002
+2015/05/20 17:34:03 - Listeners.dispatcher - INFO -   Cmd cmdSysReq: 1, System soc: 2, executable: True
+2015/05/20 17:34:03 - Listeners.dispatcher - INFO -   >>
+2015/05/20 17:34:03 - Listeners.dispatcher - INFO -   <<
+2015/05/20 17:34:03 - Listeners.dispatcher - INFO -   d_time: 0:00:00.000014, exitcode: True
+2015/05/20 17:34:03 - Listeners.dispatcher - INFO - ----------------------
+2015/05/20 17:34:03 - Listeners.dispatcher - INFO - [listener_dispatcher]
+2015/05/20 17:34:03 - Listeners.dispatcher - INFO -   Cmdid: 0x0701, CmdName: rtc_get_time_now, Listener: 0x0002
+2015/05/20 17:34:03 - Listeners.dispatcher - INFO -   Cmd cmdSysReq: 1, System soc: 2, executable: True
+2015/05/20 17:34:03 - Listeners.dispatcher - INFO -   >>
+2015/05/20 17:34:03 - Listeners.dispatcher - INFO -   <<
+2015/05/20 17:34:03 - Listeners.dispatcher - INFO -   d_time: 0:00:00.000014, exitcode: True
+2015/05/20 17:34:03 - Listeners.dispatcher - INFO - ----------------------

@@ -29,50 +29,63 @@ Esta seccion resume las configs hechas para lograr correr el Sw SUCHAI en la tar
 modulo python enum34 ya que la Edison solo cuenta con python 2.7 (el port esta hecho para python3), pero en el camino 
 se debieron arreglar problemas de config de la red en la Edison
 
-  Grupo I) conectividad en la red y ssh
-  
-    1) "desactivar usb0"	Para evitar conflictos entre wlan0 y usb0 se debe desactivar usb0 con
-				ifconfig usb0 down
-				    
-    2) "add default routing"	Ver routing tables con "sudo route -n"
+Grupo I) conectividad en la red y ssh
+
+    * Seguir paso a paso el 	https://software.intel.com/en-us/iot/library/edison-getting-started 
+    Official Getting Started		
+    
+    * Ejecutar script para 	Create the script: root@edison:/etc/init.d# chmod +x /etc/init.d/wifi.sh
+    desactivar iface usb0 en	Edit: #deactivate iface usb0 beacuse it creates conflicts with wlan0
+    cada reboot			      sleep 15
+				      ifconfig usb0 down
+				Give execute permission: root@edison:/etc/init.d# chmod +x /etc/init.d/wifi.sh
+				Activate script: root@edison:/etc/init.d# update-rc.d wifi.sh defaults
+				Source: "startup script edison" => http://stephaniemoyerman.com/?p=41
+  			    
+    * Add default routing	Ver routing tables con "sudo route -n"
 				Kernel IP routing table
 				Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
 				default         dlinkrouter     0.0.0.0         UG    0      0        0 wlan0
 				192.168.2.0     *               255.255.255.0   U     0      0        0 wlan0
-				Si falta la primera fila agregar default con 
+				Solo si falta la primera fila agregar default con:
 				route add default gw 192.168.2.1 wlan0
 
-    3) "connect trough ssh"	You have to edit the system service to allow shh without a password.
+    * Connect trough ssh	You have to edit the system service to allow shh without a password.
 				vi /lib/systemd/system/sshd.socket
 				In this file, comment out the line BindToDevice=usb0 with a #
 				Then reboot and you should be able to ssh without a password.
 				    
-    4) "test ping" 		Si funcionan correctamente
+    * Test connectivity		Si funcionan correctamente
 				ping www.google.cl
 				ping 192.168.2.195 (IP del host PC) 
 				http://192.168.2.105/ y/o http://plancton.local/ 
 				Significa que hay conectividad con todos los puntos de la red y se puede seguir
 
   Grupo II) instalar pip on edison, ver http://blogs.bu.edu/mhirsch/2014/11/installing-python-pip-on-intel-edison/
+  o http://mendrugory.weebly.com/blog/intel-edison-and-python
 				
-    5) "update firmware"	sudo apt-get install dfu-util
-				sudo bash flashall.sh (dentro del directorio de la imagen descargada)
 
-    6) "configs de la Edison"	edison_configure --setup
-
-    7) "update repos"		echo "src intel-iotdk http://iotdk.intel.com/repos/1.1/intelgalactic" > /etc/opkg/intel-iotdk.conf
+    * Update repos		echo "src intel-iotdk http://iotdk.intel.com/repos/1.1/intelgalactic" > /etc/opkg/intel-iotdk.conf
 				opkg update
 				opkg upgrade
 			    
-    8) "add unofficial repos"	vi /etc/opkg/base-feeds.conf and paste in
+    * Add unofficial repos	create, edit and save: vi /etc/opkg/base-feeds.conf
 				src/gz all http://repo.opkg.net/edison/repo/all
 				src/gz edison http://repo.opkg.net/edison/repo/edison
 				src/gz core2-32 http://repo.opkg.net/edison/repo/core2-32
+				And finally: opkg update
 
-    9) "pip"			opkg install python-pip
+    * Install pip		opkg install python-pip
 			    
   Grupo III) install enum34 on edison, para correr SUCHAI en python < 3.0
   
-    10) "enum34"		pip install enum34
+    * Install "enum34"		pip install enum34
+				Just in case pip is miss-configured see http://ubuntuforums.org/showthread.php?t=2167383
+				and execute curl https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py | sudo python
+				
+  Grupo IV) install python3 if needed
+  
+  * Build from source		After googling "install python3 ediosn" found instructions on this link https://communities.intel.com/thread/59799
+	      
 
 #######################################################################################################################
