@@ -1,11 +1,133 @@
 
 #include "p_queue.h"
 
+static unsigned char verbose_level = 3;
 
-OSQueueDescriptor OSQueueCreate(unsigned int max_num_items, int num_bytes){
-    // Open a queue with the attribute structure
+OSQueueDescriptor OSQueueCreate(const char *name, size_t max_num_items, size_t items_size){
     mqd_t mqdes;
     struct mq_attr attr;
-    mqdes = mq_open ("sideshow-bob", O_RDWR | O_CREAT, 0664, &attr);
+    attr.mq_flags = 0;
+    attr.mq_maxmsg = max_num_items;
+    attr.mq_msgsize = items_size;
+    attr.mq_curmsgs = 0;
+    char name_str[80];
+    strcpy(name_str, "/");
+    strcat(name_str, name);
+    if(verbose_level >= 2){
+        printf("name = %s \n", name_str);
+        printf("attr.mq_flags = %ld \n", attr.mq_flags);
+        printf("attr.mq_maxmsg = %ld \n", attr.mq_maxmsg);
+        printf("attr.mq_msgsize = %ld \n", attr.mq_msgsize);
+        printf("attr.mq_mq_curmsgs = %ld \n", attr.mq_curmsgs);
+    }
+    
+    mqdes = mq_open(name_str, O_CREAT | O_RDWR, 0777, &attr);
+    if(mqdes ==  -1){
+        int errsv = errno;
+        perror("mq_open() failed");
+        return errsv;
+    }
+    
+    if(verbose_level >= 2){
+        printf("mq_open() succeeded, mqdes = %d\n", mqdes);
+    }
+    
     return mqdes;
+}
+
+
+int OSQueueClose(mqd_t mqdes, const char *name){
+    char name_str[80];
+    strcpy(name_str, "/");
+    strcat(name_str, name);
+    
+    int stat;
+    stat = mq_close(mqdes);
+    if(stat ==  -1){
+        int errsv = errno;
+        perror("mq_close() failed");
+        return errsv;
+    }
+    stat = mq_unlink(name_str);
+    if(stat ==  -1){
+        int errsv = errno;
+        perror("mq_unlink() failed");
+        return errsv;
+    }
+    return stat;
+}
+
+int OSQueueSend(mqd_t mqdes, const char *msg_ptr, size_t msg_len){
+    int stat;
+    stat = mq_send(mqdes, msg_ptr, msg_len, 1);
+    if(stat ==  -1){
+        int errsv = errno;
+        perror("mq_send() failed");
+        return errsv;
+    }
+    return stat;
+}
+
+
+int OSQueueReceive(mqd_t mqdes, char *buffer, size_t buffer_len){
+    int stat;
+    stat = mq_receive(mqdes, buffer, buffer_len, NULL);
+    if(stat ==  -1){
+        int errsv = errno;
+        perror("mq_receive() failed");
+        return errsv;
+    }
+    return stat;
+}
+
+void OSQueueUnitTesting(void){
+    typedef struct ctrl_command{
+        int cmdId;                  ///< Command id, represent the desired command
+        int param;                  ///< Command parameter
+        int idOrig;                 ///< Metadata: Id of sender subsystem
+        int sysReq;                 ///< Metadata: Level of energylp the command requires
+    }MyDispCmd;
+    
+    /// initialize queue
+    OSQueueDescriptor dispatcherQueue;
+    dispatcherQueue = OSQueueCreate("dispatcherQueue", 10, sizeof(MyDispCmd));
+
+    ///// message 1
+    //            xQueueSend(dispatcherQueue, &NewCmd, portMAX_DELAY);
+    //        status = xQueueReceive(dispatcherQueue, &newCmd, portMAX_DELAY);
+    const char *buffer = "Hello msg \n";
+    int buffer_len = strlen(buffer)+1;
+    int stat = OSQueueSend(dispatcherQueue, buffer, buffer_len);
+    printf("sizeof(buffer) = %ld \n", (long int)strlen(buffer));
+    printf("OSQueueSend(dispatcherQueue, buffer, sizeof(buffer)) = %d \n", stat);
+
+    char buffer2[80];
+    size_t buffer2_len = sizeof(buffer2);
+    stat = OSQueueReceive(dispatcherQueue, buffer2, buffer2_len);
+    printf("OSQueueReceive(dispatcherQueue, buffer2, buffer2_len) = %d \n", stat);
+    printf("%s", buffer2);
+    
+    ///// message 2
+    MyDispCmd newCmd;
+    newCmd.cmdId = 0x6000;
+    newCmd.idOrig = 0x1101;
+    newCmd.param = 1;
+    newCmd.sysReq = 3;
+    int newCmd_len = sizeof(newCmd);
+    stat = OSQueueSend(dispatcherQueue, (const char *)&newCmd, newCmd_len);
+    printf("sizeof(buffer) = %ld \n", (long int)strlen(buffer));
+    printf("OSQueueSend(dispatcherQueue, buffer, sizeof(buffer)) = %d \n", stat);
+
+    MyDispCmd newCmd2;
+    size_t newCmd2_len = sizeof(newCmd2);
+    stat = OSQueueReceive(dispatcherQueue, (char *)&newCmd2, newCmd2_len);
+    printf("OSQueueReceive(dispatcherQueue, &newCmd2, newCmd2_len) = %d \n", stat);
+    printf("newCmd.cmdId 0x%X \n", (unsigned int)newCmd.cmdId);
+    printf("newCmd.idOrig 0x%X \n", (unsigned int)newCmd.idOrig);
+    printf("newCmd.param %d \n", newCmd.param);
+    printf("newCmd.sysReq %d \n", newCmd.sysReq);
+    
+    //// close queue
+    stat = OSQueueClose(dispatcherQueue, "dispatcherQueue");
+    printf("OSQueueClose(dispatcherQueue, \"dispatcherQueue\") = %d \n", stat);
 }

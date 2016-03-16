@@ -56,19 +56,21 @@ OSQueueDescriptor dispatcherQueue, i2cRxQueue, executerCmdQueue, executerStatQue
  * 
  */
 int main(int argc, char** argv) {
-
+    int stat;
+    
     printf("[SUCHAI] Hello world \n");
 
     /* Initializing shared Queues */
-    dispatcherQueue = OSQueueCreate(25, sizeof(DispCmd));
-//    #if(SCH_TASKEXECUTER_INSIDE_TASKDISPATCHER==1)
-//        //no Queue creation
-//    #else
-//        executerCmdQueue = xQueueCreate(1,sizeof(ExeCmd));
-//        executerStatQueue = xQueueCreate(1,sizeof(int));
-//    #endif
-//    i2cRxQueue = xQueueCreate(I2C_MTU, sizeof(char));   //TRX_GOMSPACE
-//
+    dispatcherQueue = OSQueueCreate("dispatcherQueue", 10, sizeof(DispCmd));
+
+    #if(SCH_TASKEXECUTER_INSIDE_TASKDISPATCHER==1)
+        //no Queue creation
+    #else
+        executerCmdQueue = xQueueCreate(1,sizeof(ExeCmd));
+        executerStatQueue = xQueueCreate(1,sizeof(int));
+    #endif
+    //i2cRxQueue = OSQueueCreate("i2cRxQueue", 10, sizeof(char)); //I2C_MTU, sizeof(char));   //TRX_GOMSPACE
+
 //    /* Initializing shared Semaphore */
 //    statusRepositorySem = xSemaphoreCreateMutex();
 //    consolePrintfSem = xSemaphoreCreateMutex();
@@ -95,23 +97,23 @@ int main(int argc, char** argv) {
 /////////////////////////////////////////////////
 //// Uncomment section only for debug purposes //
 /////////////////////////////////////////////////
-//
-//    /* Crating SUCHAI tasks */
-//    dep_init_suchai_tasks();
-//
-//    /* Start the scheduler. Should never return */
-//    printf("\nStarting FreeRTOS [->]\r\n");
-//    vTaskStartScheduler();
-//
-//    while(1)
-//    {
-//        /*
-//         * El sistema solo llega hasta aca si el Scheduler falla debido
-//         * a falta de memoria u otro problema
-//         */
-//        printf("\n>>FreeRTOS [FAIL]\n");
-//        ppc_reset(NULL);
-//    }
+
+    /* Crating SUCHAI tasks */
+    dep_init_suchai_tasks();
+
+    /* Start the scheduler. Should never return */
+    printf("\nStarting FreeRTOS [->]\r\n");
+    vTaskStartScheduler();
+
+    /*
+     * El sistema solo llega hasta aca si el Scheduler falla debido
+     * a falta de memoria u otro problema
+     */
+    printf("[SUCHAI] Scheduler failed \n");
+    //ppc_reset(NULL);
+    
+    stat = OSQueueClose(dispatcherQueue, "dispatcherQueue");
+    printf("OSQueueClose(dispatcherQueue, \"dispatcherQueue\") = %d \n", stat);
 
     return (EXIT_SUCCESS);
 }
