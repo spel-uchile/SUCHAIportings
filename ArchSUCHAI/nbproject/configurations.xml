@@ -9,12 +9,10 @@
           <logicalFolder name="freertos" displayName="freertos" projectFiles="true">
           </logicalFolder>
           <logicalFolder name="posix" displayName="posix" projectFiles="true">
-            <logicalFolder name="include" displayName="include" projectFiles="true">
-              <itemPath>OS_calls/Arch/posix/include/p_console.h</itemPath>
-              <itemPath>OS_calls/Arch/posix/include/p_file.h</itemPath>
-              <itemPath>OS_calls/Arch/posix/include/p_queue.h</itemPath>
-              <itemPath>OS_calls/Arch/posix/include/p_tasks.h</itemPath>
-            </logicalFolder>
+            <itemPath>OS_calls/Arch/posix/p_console.h</itemPath>
+            <itemPath>OS_calls/Arch/posix/p_file.h</itemPath>
+            <itemPath>OS_calls/Arch/posix/p_queue.h</itemPath>
+            <itemPath>OS_calls/Arch/posix/p_tasks.h</itemPath>
           </logicalFolder>
         </logicalFolder>
         <logicalFolder name="include" displayName="include" projectFiles="true">
@@ -120,33 +118,21 @@
           </incDir>
         </cTool>
       </compileType>
-      <item path="OS_calls/Arch/posix/include/p_console.h"
-            ex="false"
-            tool="3"
-            flavor2="0">
-      </item>
-      <item path="OS_calls/Arch/posix/include/p_file.h"
-            ex="false"
-            tool="3"
-            flavor2="0">
-      </item>
-      <item path="OS_calls/Arch/posix/include/p_queue.h"
-            ex="false"
-            tool="3"
-            flavor2="0">
-      </item>
-      <item path="OS_calls/Arch/posix/include/p_tasks.h"
-            ex="false"
-            tool="3"
-            flavor2="0">
-      </item>
       <item path="OS_calls/Arch/posix/p_console.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="OS_calls/Arch/posix/p_console.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="OS_calls/Arch/posix/p_file.c" ex="false" tool="0" flavor2="0">
       </item>
+      <item path="OS_calls/Arch/posix/p_file.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="OS_calls/Arch/posix/p_queue.c" ex="false" tool="0" flavor2="0">
       </item>
+      <item path="OS_calls/Arch/posix/p_queue.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="OS_calls/Arch/posix/p_tasks.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="OS_calls/Arch/posix/p_tasks.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="OS_calls/include/os_console.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -233,33 +219,21 @@
           <commandLine>-lrt</commandLine>
         </linkerTool>
       </compileType>
-      <item path="OS_calls/Arch/posix/include/p_console.h"
-            ex="false"
-            tool="3"
-            flavor2="0">
-      </item>
-      <item path="OS_calls/Arch/posix/include/p_file.h"
-            ex="false"
-            tool="3"
-            flavor2="0">
-      </item>
-      <item path="OS_calls/Arch/posix/include/p_queue.h"
-            ex="false"
-            tool="3"
-            flavor2="0">
-      </item>
-      <item path="OS_calls/Arch/posix/include/p_tasks.h"
-            ex="false"
-            tool="3"
-            flavor2="0">
-      </item>
       <item path="OS_calls/Arch/posix/p_console.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="OS_calls/Arch/posix/p_console.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="OS_calls/Arch/posix/p_file.c" ex="false" tool="0" flavor2="0">
       </item>
+      <item path="OS_calls/Arch/posix/p_file.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="OS_calls/Arch/posix/p_queue.c" ex="false" tool="0" flavor2="0">
       </item>
+      <item path="OS_calls/Arch/posix/p_queue.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="OS_calls/Arch/posix/p_tasks.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="OS_calls/Arch/posix/p_tasks.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="OS_calls/include/os_console.h" ex="false" tool="3" flavor2="0">
       </item>
