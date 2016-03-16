@@ -1,0 +1,880 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.6"/>
+<title>Comandos del sistema de vuelo: Referencia del Archivo cmdPayload.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="banner_suchai_small.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Comandos del sistema de vuelo
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.6 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+      <li><a href="globals.html"><span>Globales</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('cmd_payload_8h.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>&apos;defines&apos;</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Funciones</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia del Archivo cmdPayload.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;FreeRTOS.h&quot;</code><br/>
+<code>#include &quot;queue.h&quot;</code><br/>
+<code>#include &quot;langmuir.h&quot;</code><br/>
+<code>#include &quot;fis_payload.h&quot;</code><br/>
+<code>#include &quot;camera.h&quot;</code><br/>
+<code>#include &quot;dig_gyro.h&quot;</code><br/>
+<code>#include &quot;sensTemp.h&quot;</code><br/>
+<code>#include &quot;memEEPROM.h&quot;</code><br/>
+<code>#include &quot;javad_gps.h&quot;</code><br/>
+<code>#include &quot;nanopower.h&quot;</code><br/>
+<code>#include &quot;cmdIncludes.h&quot;</code><br/>
+<code>#include &quot;dataRepository.h&quot;</code><br/>
+<code>#include &quot;stateRepository.h&quot;</code><br/>
+<code>#include &quot;<a class="el" href="cmd_e_p_s_8h_source.html">cmdEPS.h</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="cmd_r_t_c_8h_source.html">cmdRTC.h</a>&quot;</code><br/>
+</div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Dependencia gráfica adjunta para cmdPayload.h:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="cmd_payload_8h__incl.png" border="0" usemap="#cmd_payload_8h" alt=""/></div>
+<map name="cmd_payload_8h" id="cmd_payload_8h">
+</map>
+</div>
+</div><div class="textblock"><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Gráfico de los archivos que directa o indirectamente incluyen a este archivo:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="cmd_payload_8h__dep__incl.png" border="0" usemap="#cmd_payload_8hdep" alt=""/></div>
+<map name="cmd_payload_8hdep" id="cmd_payload_8hdep">
+</map>
+</div>
+</div>
+<p><a href="cmd_payload_8h_source.html">Ir al código fuente de este archivo.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Funciones</h2></td></tr>
+<tr class="memitem:a319d711d845d9e4b3d2bcd67b31a558a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cmd_payload_8h.html#a319d711d845d9e4b3d2bcd67b31a558a">pay_fp2_default_fsm</a> (void *param)</td></tr>
+<tr class="separator:a319d711d845d9e4b3d2bcd67b31a558a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1db416f484dbc243a5ddd8508da35cf6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cmd_payload_8h.html#a1db416f484dbc243a5ddd8508da35cf6">pay_init_langmuirProbe</a> (void *param)</td></tr>
+<tr class="separator:a1db416f484dbc243a5ddd8508da35cf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e312bc90de616e8e08c7e672218b40e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cmd_payload_8h.html#a1e312bc90de616e8e08c7e672218b40e">pay_adhoc_langmuirProbe</a> (void *param)</td></tr>
+<tr class="separator:a1e312bc90de616e8e08c7e672218b40e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a617bb34cd28cf1c2984a25765aaf2fe4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cmd_payload_8h.html#a617bb34cd28cf1c2984a25765aaf2fe4">pay_take_gps</a> (void *param)</td></tr>
+<tr class="separator:a617bb34cd28cf1c2984a25765aaf2fe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ccf197e879d305b64f16324bece61e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cmd_payload_8h.html#a8ccf197e879d305b64f16324bece61e8">pay_save_date_time_to_Payload_Buff</a> (DAT_Payload_Buff pay_i)</td></tr>
+<tr class="separator:a8ccf197e879d305b64f16324bece61e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2dbf9cc89c20982ddd5cccc492e3e65b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cmd_payload_8h.html#a2dbf9cc89c20982ddd5cccc492e3e65b">pay_fp2_simultaneous</a> (void)</td></tr>
+<tr class="separator:a2dbf9cc89c20982ddd5cccc492e3e65b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad26374ae256f194c1788919faebf9c8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cmd_payload_8h.html#aad26374ae256f194c1788919faebf9c8">pay_fp2_get_exec_rate</a> (DAT_Payload_Buff pay_i)</td></tr>
+<tr class="separator:aad26374ae256f194c1788919faebf9c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f532fe8da9bcf3ede4df1c90fa779be"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cmd_payload_8h.html#a6f532fe8da9bcf3ede4df1c90fa779be">pay_fp2_get_run_take_num_exec_times</a> (DAT_Payload_Buff pay_i)</td></tr>
+<tr class="separator:a6f532fe8da9bcf3ede4df1c90fa779be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab357fe26e021fcb8a5f8352041230cc8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cmd_payload_8h.html#ab357fe26e021fcb8a5f8352041230cc8">pay_fp2_exec_run_xxx</a> (DAT_Payload_Buff pay_i, PAY_xxx_State state)</td></tr>
+<tr class="separator:ab357fe26e021fcb8a5f8352041230cc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bb68526a8080162fae08bd22697c99f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cmd_payload_8h.html#a6bb68526a8080162fae08bd22697c99f">pay_set_state</a> (DAT_Payload_Buff pay_i, PAY_xxx_State state)</td></tr>
+<tr class="separator:a6bb68526a8080162fae08bd22697c99f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68351173d8cf08fd14e210d1f678070e"><td class="memItemLeft" align="right" valign="top">PAY_xxx_State&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cmd_payload_8h.html#a68351173d8cf08fd14e210d1f678070e">pay_get_state</a> (DAT_Payload_Buff pay_i)</td></tr>
+<tr class="separator:a68351173d8cf08fd14e210d1f678070e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><dl class="section author"><dt>Autor</dt><dd>Tomas Opazo T </dd></dl>
+<dl class="section date"><dt>Fecha</dt><dd>2013 </dd></dl>
+<dl class="section copyright"><dt>Copyright</dt><dd>GNU Public License.</dd></dl>
+<p>Este header contiene las definiciones de comandos asociados a los diferentes payloads. La logica de trabajo de los payloads es: tomar datos y guardarlos en memoria externa de manera periodica hasta que la memoria se llena. Una vez que su buffer se vacia, producto de enviar la informacion como telemtria, retoma su funcionamiento. Los comandos permiten controlar la logica de la maquina de estados de cada payload, funciones de debugm asi como ejecutar de manera independiente cada uno. </p>
+
+<p>Definición en el archivo <a class="el" href="cmd_payload_8h_source.html">cmdPayload.h</a>.</p>
+</div><h2 class="groupheader">Documentación de las enumeraciones</h2>
+<a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485">PAY_CmdIndx</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Lista de comandos disponibles. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Valores de enumeraciones</th></tr><tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485a34d9d9b390077133f25b310cd4db1051"></a>pay_test_dataRepo</em>&#160;</td><td class="fielddoc">
+<p>0x6000, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485a34d9d9b390077133f25b310cd4db1051">pay_test_dataRepo</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485a391cd25c9520aee0ea69c765f757d053"></a>pay_fp2_default_fsm</em>&#160;</td><td class="fielddoc">
+<p>0x6001 //0x6001, referencia: <a class="el" href="cmd_payload_8h.html#a319d711d845d9e4b3d2bcd67b31a558a">pay_fp2_default_fsm</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485a0f3550871b21f5fc1082afc4aa1cd76e"></a>pay_isAlive_tmEstado</em>&#160;</td><td class="fielddoc">
+<p>0x6002, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485a0f3550871b21f5fc1082afc4aa1cd76e">pay_isAlive_tmEstado</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485ae273fe198e8246204a98d556d229ffaa"></a>pay_get_state_tmEstado</em>&#160;</td><td class="fielddoc">
+<p>0x6003, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485ae273fe198e8246204a98d556d229ffaa">pay_get_state_tmEstado</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485a3c1d28dde231a3d1eb9e265c7de2c28b"></a>pay_set_state_tmEstado</em>&#160;</td><td class="fielddoc">
+<p>0x6004 //0x6004, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485a3c1d28dde231a3d1eb9e265c7de2c28b">pay_set_state_tmEstado</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485a9f72e4675423b3396be412ad43c2a327"></a>pay_init_tmEstado</em>&#160;</td><td class="fielddoc">
+<p>0x6005, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485a9f72e4675423b3396be412ad43c2a327">pay_init_tmEstado</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485abfda2a08658aa14b91ba76d08ff388b1"></a>pay_take_tmEstado</em>&#160;</td><td class="fielddoc">
+<p>0x6006, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485abfda2a08658aa14b91ba76d08ff388b1">pay_take_tmEstado</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485ae1465497426d9fbb5acaa58bfd807c0d"></a>pay_stop_tmEstado</em>&#160;</td><td class="fielddoc">
+<p>0x6007, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485ae1465497426d9fbb5acaa58bfd807c0d">pay_stop_tmEstado</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485a7d1bea98bf1445a257d4a738748bdb74"></a>pay_isAlive_sensTemp</em>&#160;</td><td class="fielddoc">
+<p>0x6008 //0x6008, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485a7d1bea98bf1445a257d4a738748bdb74">pay_isAlive_sensTemp</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485a25a1a02e8d7367869607c11055cb8c77"></a>pay_get_state_sensTemp</em>&#160;</td><td class="fielddoc">
+<p>0x6009, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485a25a1a02e8d7367869607c11055cb8c77">pay_get_state_sensTemp</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485a1366d2d673f1f6afdade11592946dc60"></a>pay_set_state_sensTemp</em>&#160;</td><td class="fielddoc">
+<p>0x600a //0x600A, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485a1366d2d673f1f6afdade11592946dc60">pay_set_state_sensTemp</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485aea4a5f7f1cd8f277c6f415ba3729adea"></a>pay_init_sensTemp</em>&#160;</td><td class="fielddoc">
+<p>0x600b, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485aea4a5f7f1cd8f277c6f415ba3729adea">pay_init_sensTemp</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485a4558acd1d3d123704b93e6a4cbbc35f4"></a>pay_take_sensTemp</em>&#160;</td><td class="fielddoc">
+<p>0x600c, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485a4558acd1d3d123704b93e6a4cbbc35f4">pay_take_sensTemp</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485a9a69e327800983d8b0f16e2b750d5743"></a>pay_stop_sensTemp</em>&#160;</td><td class="fielddoc">
+<p>0x600d, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485a9a69e327800983d8b0f16e2b750d5743">pay_stop_sensTemp</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485a0336808abdb940885204dde01dbd2131"></a>pay_debug_sensTemp</em>&#160;</td><td class="fielddoc">
+<p>0x600e, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485a0336808abdb940885204dde01dbd2131">pay_debug_sensTemp</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485a22e0c0ad21d32248926e0630c13bf29c"></a>pay_isAlive_gyro</em>&#160;</td><td class="fielddoc">
+<p>0x600f //0x600F, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485a22e0c0ad21d32248926e0630c13bf29c">pay_isAlive_gyro</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485a62efdc608a4c7521c1b80f5f677f0947"></a>pay_get_state_gyro</em>&#160;</td><td class="fielddoc">
+<p>0x6010 //0x6010, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485a62efdc608a4c7521c1b80f5f677f0947">pay_get_state_gyro</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485a5060a3758a31292753260404c27b966d"></a>pay_set_state_gyro</em>&#160;</td><td class="fielddoc">
+<p>0x6011, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485a5060a3758a31292753260404c27b966d">pay_set_state_gyro</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485a0f02d55cd51d5ca2f2614a0663a2d438"></a>pay_init_gyro</em>&#160;</td><td class="fielddoc">
+<p>0x6012, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485a0f02d55cd51d5ca2f2614a0663a2d438">pay_init_gyro</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485a8131ef2a6a44abb2c700001929bad6d2"></a>pay_take_gyro</em>&#160;</td><td class="fielddoc">
+<p>0x6013 //0x6013, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485a8131ef2a6a44abb2c700001929bad6d2">pay_take_gyro</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485aff5608b72602dfa9436009ad24949575"></a>pay_stop_gyro</em>&#160;</td><td class="fielddoc">
+<p>0x6014, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485aff5608b72602dfa9436009ad24949575">pay_stop_gyro</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485a17aedcfaf23d708ed8a81445c355b474"></a>pay_debug_gyro</em>&#160;</td><td class="fielddoc">
+<p>0x6015, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485a17aedcfaf23d708ed8a81445c355b474">pay_debug_gyro</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485a6b2d4c218918d5e8d5c7a6cd5dbcec54"></a>pay_isAlive_camera</em>&#160;</td><td class="fielddoc">
+<p>0x6016 //0x6016, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485a6b2d4c218918d5e8d5c7a6cd5dbcec54">pay_isAlive_camera</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485ab0abda109172a40c8b057e3108d2b724"></a>pay_get_state_camera</em>&#160;</td><td class="fielddoc">
+<p>0x6017, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485ab0abda109172a40c8b057e3108d2b724">pay_get_state_camera</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485aa549540adecf0f859a8205f72dbf1f92"></a>pay_set_state_camera</em>&#160;</td><td class="fielddoc">
+<p>0x6018, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485aa549540adecf0f859a8205f72dbf1f92">pay_set_state_camera</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485a7cffd30a846d8f2072c40475a780a4da"></a>pay_init_camera</em>&#160;</td><td class="fielddoc">
+<p>0x6019, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485a7cffd30a846d8f2072c40475a780a4da">pay_init_camera</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485aa7659d8e83995a05736ede1a4b9a4351"></a>pay_take_camera</em>&#160;</td><td class="fielddoc">
+<p>0x601a //0x601A, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485aa7659d8e83995a05736ede1a4b9a4351">pay_take_camera</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485a8749af6b19f5a65026372ce8d720ebfb"></a>pay_stop_camera</em>&#160;</td><td class="fielddoc">
+<p>0x601b //0x601B, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485a8749af6b19f5a65026372ce8d720ebfb">pay_stop_camera</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485aa096e4efe485ad204b8d80e71235aa0b"></a>pay_takePhoto_camera</em>&#160;</td><td class="fielddoc">
+<p>0x601c //0x601C, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485aa096e4efe485ad204b8d80e71235aa0b">pay_takePhoto_camera</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485a47eff56b7df28e7ecf35264a1569c20a"></a>pay_get_savedPhoto_camera</em>&#160;</td><td class="fielddoc">
+<p>0x601d //0x601D, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485a47eff56b7df28e7ecf35264a1569c20a">pay_get_savedPhoto_camera</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485a0c76ac7e840f5eae78d3e7922f57908d"></a>pay_isAlive_gps</em>&#160;</td><td class="fielddoc">
+<p>0x601e //0X601E, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485a0c76ac7e840f5eae78d3e7922f57908d">pay_isAlive_gps</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485ae42b505603a61b656f87e22c67e3550c"></a>pay_get_state_gps</em>&#160;</td><td class="fielddoc">
+<p>0x601f //0x601F, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485ae42b505603a61b656f87e22c67e3550c">pay_get_state_gps</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485aa38af62534c26db72ec7c905d9385f53"></a>pay_set_state_gps</em>&#160;</td><td class="fielddoc">
+<p>0x6020 //0x6020, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485aa38af62534c26db72ec7c905d9385f53">pay_set_state_gps</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485a7edf1d41480ae2fba14ae77737e2922f"></a>pay_init_gps</em>&#160;</td><td class="fielddoc">
+<p>0x6021 //0X6021, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485a7edf1d41480ae2fba14ae77737e2922f">pay_init_gps</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485a218f4c75cc0057d2183a32faf4c83d00"></a>pay_take_gps</em>&#160;</td><td class="fielddoc">
+<p>0x6022, referencia: <a class="el" href="cmd_payload_8h.html#a617bb34cd28cf1c2984a25765aaf2fe4">pay_take_gps</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485a0565072c4bd8d7a082455b797e9fb9f9"></a>pay_stop_gps</em>&#160;</td><td class="fielddoc">
+<p>0x6023, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485a0565072c4bd8d7a082455b797e9fb9f9">pay_stop_gps</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485a794f1f5bcfff0967a8042400e0740055"></a>pay_isAlive_expFis</em>&#160;</td><td class="fielddoc">
+<p>0x6024 //0X6024, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485a794f1f5bcfff0967a8042400e0740055">pay_isAlive_expFis</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485a0a293c8ea0b7b0e429ad17382f693cf9"></a>pay_get_state_expFis</em>&#160;</td><td class="fielddoc">
+<p>0x6025 //0x6025, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485a0a293c8ea0b7b0e429ad17382f693cf9">pay_get_state_expFis</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485a20e08e0da71414a366b1953547431b4f"></a>pay_set_state_expFis</em>&#160;</td><td class="fielddoc">
+<p>0x6026 //0x6026, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485a20e08e0da71414a366b1953547431b4f">pay_set_state_expFis</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485a470e75169d78f824feb9a3a46ae6200d"></a>pay_init_expFis</em>&#160;</td><td class="fielddoc">
+<p>0x6027 //0x6027, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485a470e75169d78f824feb9a3a46ae6200d">pay_init_expFis</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485a77f4daaf30abdf27757e3cba92dc2738"></a>pay_take_expFis</em>&#160;</td><td class="fielddoc">
+<p>0x6028 //0x6028, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485a77f4daaf30abdf27757e3cba92dc2738">pay_take_expFis</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485a8adb04f3ac08e8cb3cad2b459dba625b"></a>pay_stop_expFis</em>&#160;</td><td class="fielddoc">
+<p>0x6029 //0x6029, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485a8adb04f3ac08e8cb3cad2b459dba625b">pay_stop_expFis</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485a2477012f52001bb63e3039acd9f7fd4a"></a>pay_adhoc_expFis</em>&#160;</td><td class="fielddoc">
+<p>0x602a //0x602A, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485a2477012f52001bb63e3039acd9f7fd4a">pay_adhoc_expFis</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485a442a4d1433bf64f461c1a576cf080784"></a>pay_gps_updateRTC</em>&#160;</td><td class="fielddoc">
+<p>0x602e, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485a442a4d1433bf64f461c1a576cf080784">pay_gps_updateRTC</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485a8b74ec9f13873ecc1c6831e69366ba26"></a>pay_gps_serial</em>&#160;</td><td class="fielddoc">
+<p>0x602f, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485a8b74ec9f13873ecc1c6831e69366ba26">pay_gps_serial</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485abbf00feef7d32bea8577e142288b0e63"></a>pay_gps_senddn</em>&#160;</td><td class="fielddoc">
+<p>0x6030, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485abbf00feef7d32bea8577e142288b0e63">pay_gps_senddn</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485affbd08b83fbd3b0da64246bca0df0a7e"></a>pay_gps_jmesg</em>&#160;</td><td class="fielddoc">
+<p>0x6031, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485affbd08b83fbd3b0da64246bca0df0a7e">pay_gps_jmesg</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485aef20f9e6aed834f3adcb442406bdf909"></a>pay_gps_jsat</em>&#160;</td><td class="fielddoc">
+<p>0x6032, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485aef20f9e6aed834f3adcb442406bdf909">pay_gps_jsat</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485a8a5ec07338a6b26606a26e144fce4c72"></a>pay_isAlive_battery</em>&#160;</td><td class="fielddoc">
+<p>0x6033, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485a8a5ec07338a6b26606a26e144fce4c72">pay_isAlive_battery</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485ac84902e45e48868ad4e84da22ef25de0"></a>pay_get_state_battery</em>&#160;</td><td class="fielddoc">
+<p>0x6034, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485ac84902e45e48868ad4e84da22ef25de0">pay_get_state_battery</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485a3162ef8199564d992f8c4886eeceb3b8"></a>pay_set_state_battery</em>&#160;</td><td class="fielddoc">
+<p>0x6035, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485a3162ef8199564d992f8c4886eeceb3b8">pay_set_state_battery</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485a5136c99fa0f529fef573ccb65687fde7"></a>pay_init_battery</em>&#160;</td><td class="fielddoc">
+<p>0x6036, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485a5136c99fa0f529fef573ccb65687fde7">pay_init_battery</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485ad1b993994cecbd698a667922f5e41e8d"></a>pay_take_battery</em>&#160;</td><td class="fielddoc">
+<p>0x6037, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485ad1b993994cecbd698a667922f5e41e8d">pay_take_battery</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485a5d111358efa4aae0fe819381d3da20bc"></a>pay_stop_battery</em>&#160;</td><td class="fielddoc">
+<p>0x6038, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485a5d111358efa4aae0fe819381d3da20bc">pay_stop_battery</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485a1da7a60ba753e16e853a66e32ef7ff61"></a>pay_execute_experiment_battery</em>&#160;</td><td class="fielddoc">
+<p>0x6039 , referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485a1da7a60ba753e16e853a66e32ef7ff61">pay_execute_experiment_battery</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485a513ce0c85988728dd499e8ced475bddb"></a>pay_isAlive_debug</em>&#160;</td><td class="fielddoc">
+<p>0x603a, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485a513ce0c85988728dd499e8ced475bddb">pay_isAlive_debug</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485a7f908a69d4c443e1c3aafd98b899f193"></a>pay_get_state_debug</em>&#160;</td><td class="fielddoc">
+<p>0x603b, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485a7f908a69d4c443e1c3aafd98b899f193">pay_get_state_debug</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485aa778a8c7c7f7937d1211f25bde7f7fd2"></a>pay_set_state_debug</em>&#160;</td><td class="fielddoc">
+<p>0x603c, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485aa778a8c7c7f7937d1211f25bde7f7fd2">pay_set_state_debug</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485adb6188392f53bcf82145acfabcd93a8a"></a>pay_init_debug</em>&#160;</td><td class="fielddoc">
+<p>0x603d, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485adb6188392f53bcf82145acfabcd93a8a">pay_init_debug</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485ab8c4a25b192202aa30ed2826f70f2fec"></a>pay_take_debug</em>&#160;</td><td class="fielddoc">
+<p>0x603e, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485ab8c4a25b192202aa30ed2826f70f2fec">pay_take_debug</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485ac93cd5c806c215ee1f34288b9081f894"></a>pay_stop_debug</em>&#160;</td><td class="fielddoc">
+<p>0x603f, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485ac93cd5c806c215ee1f34288b9081f894">pay_stop_debug</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485a6cacc9fedcb1f045a3e9fb0e76bdfb8c"></a>pay_isAlive_langmuirProbe</em>&#160;</td><td class="fielddoc">
+<p>0x6040, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485a6cacc9fedcb1f045a3e9fb0e76bdfb8c">pay_isAlive_langmuirProbe</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485a3667832e9dc56bedb9ba1b08c76fdfcf"></a>pay_get_state_langmuirProbe</em>&#160;</td><td class="fielddoc">
+<p>0x6041, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485a3667832e9dc56bedb9ba1b08c76fdfcf">pay_get_state_langmuirProbe</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485a1672812fc5d9a46437718ef28e7dab6c"></a>pay_set_state_langmuirProbe</em>&#160;</td><td class="fielddoc">
+<p>0x6042 //Ox6042, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485a1672812fc5d9a46437718ef28e7dab6c">pay_set_state_langmuirProbe</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485a61f62aefc638715eff196e13de291f3b"></a>pay_init_langmuirProbe</em>&#160;</td><td class="fielddoc">
+<p>0x6043, referencia: <a class="el" href="cmd_payload_8h.html#a1db416f484dbc243a5ddd8508da35cf6">pay_init_langmuirProbe</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485a5b704c0218956b7c4d691b89a35300e9"></a>pay_take_langmuirProbe</em>&#160;</td><td class="fielddoc">
+<p>0x6044, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485a5b704c0218956b7c4d691b89a35300e9">pay_take_langmuirProbe</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485acf47943aef70ccf5b3e57c4ecc1a3cc4"></a>pay_stop_langmuirProbe</em>&#160;</td><td class="fielddoc">
+<p>0x6045, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485acf47943aef70ccf5b3e57c4ecc1a3cc4">pay_stop_langmuirProbe</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485acaed5c324181ccb54660e28fa5b05a55"></a>pay_send_to_langmuirProbe</em>&#160;</td><td class="fielddoc">
+<p>0x6046 //Ox6046, referencia: <a class="el" href="cmd_payload_8h.html#aacb0d113d084b7cf943b93c6061cd485acaed5c324181ccb54660e28fa5b05a55">pay_send_to_langmuirProbe</a> </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aacb0d113d084b7cf943b93c6061cd485a765d781ba015da3143f7b90eb87985ee"></a>pay_adhoc_langmuirProbe</em>&#160;</td><td class="fielddoc">
+<p>0x6047 69 &lt;=&gt; Ox6047, referencia: <a class="el" href="cmd_payload_8h.html#a1e312bc90de616e8e08c7e672218b40e">pay_adhoc_langmuirProbe</a> </p>
+</td></tr>
+</table>
+
+<p>Definición en la línea <a class="el" href="cmd_payload_8h_source.html#l00043">43</a> del archivo <a class="el" href="cmd_payload_8h_source.html">cmdPayload.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones</h2>
+<a class="anchor" id="a319d711d845d9e4b3d2bcd67b31a558a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int pay_fp2_default_fsm </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>param</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">param</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd></dd></dl>
+
+<p>Definición en la línea <a class="el" href="cmd_payload_8c_source.html#l00137">137</a> del archivo <a class="el" href="cmd_payload_8c_source.html">cmdPayload.c</a>.</p>
+
+<p>Hace referencia a <a class="el" href="cmd_payload_8c_source.html#l01488">pay_fp2_simultaneous()</a>.</p>
+
+<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Gráfico de llamadas para esta función:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="cmd_payload_8h_a319d711d845d9e4b3d2bcd67b31a558a_cgraph.png" border="0" usemap="#cmd_payload_8h_a319d711d845d9e4b3d2bcd67b31a558a_cgraph" alt=""/></div>
+<map name="cmd_payload_8h_a319d711d845d9e4b3d2bcd67b31a558a_cgraph" id="cmd_payload_8h_a319d711d845d9e4b3d2bcd67b31a558a_cgraph">
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a1db416f484dbc243a5ddd8508da35cf6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int pay_init_langmuirProbe </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>param</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Init. </p>
+<p>langmuir probe including deployment </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">param</td><td>1-Force deploymeny, 0-Deploy only first time </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>Bool, langmuir is alive </dd></dl>
+
+<p>Definición en la línea <a class="el" href="cmd_payload_8c_source.html#l01138">1138</a> del archivo <a class="el" href="cmd_payload_8c_source.html">cmdPayload.c</a>.</p>
+
+<p>Hace referencia a <a class="el" href="cmd_payload_8h_source.html#l00119">pay_isAlive_langmuirProbe</a> y <a class="el" href="cmd_payload_8c_source.html#l02001">pay_save_date_time_to_Payload_Buff()</a>.</p>
+
+<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Gráfico de llamadas para esta función:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="cmd_payload_8h_a1db416f484dbc243a5ddd8508da35cf6_cgraph.png" border="0" usemap="#cmd_payload_8h_a1db416f484dbc243a5ddd8508da35cf6_cgraph" alt=""/></div>
+<map name="cmd_payload_8h_a1db416f484dbc243a5ddd8508da35cf6_cgraph" id="cmd_payload_8h_a1db416f484dbc243a5ddd8508da35cf6_cgraph">
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a1e312bc90de616e8e08c7e672218b40e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int pay_adhoc_langmuirProbe </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>param</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Comando para debug de langmuir. </p>
+<p>Muestra en panatalla los datos solicitados el instrumento, que puede ser: calibraciom, plasma o sweep. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">param</td><td>0-calibracion, 1-plasma, 2-sweep </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>Resultado de la operacion: 1-exito, 0-error </dd></dl>
+
+<p>Definición en la línea <a class="el" href="cmd_payload_8c_source.html#l01205">1205</a> del archivo <a class="el" href="cmd_payload_8c_source.html">cmdPayload.c</a>.</p>
+
+<p>Hace referencia a <a class="el" href="cmd_payload_8c_source.html#l02001">pay_save_date_time_to_Payload_Buff()</a>.</p>
+
+<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="closed.png" alt="+"/> Gráfico de llamadas para esta función:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="cmd_payload_8h_a1e312bc90de616e8e08c7e672218b40e_cgraph.png" border="0" usemap="#cmd_payload_8h_a1e312bc90de616e8e08c7e672218b40e_cgraph" alt=""/></div>
+<map name="cmd_payload_8h_a1e312bc90de616e8e08c7e672218b40e_cgraph" id="cmd_payload_8h_a1e312bc90de616e8e08c7e672218b40e_cgraph">
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a617bb34cd28cf1c2984a25765aaf2fe4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int pay_take_gps </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>param</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Takes samples from GPS, executing any of available commands. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">param</td><td>Command sent to GPS see gps_exec_cmd </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>null, but print gps buffer </dd></dl>
+
+<p>Definición en la línea <a class="el" href="cmd_payload_8c_source.html#l00954">954</a> del archivo <a class="el" href="cmd_payload_8c_source.html">cmdPayload.c</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8ccf197e879d305b64f16324bece61e8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void pay_save_date_time_to_Payload_Buff </td>
+          <td>(</td>
+          <td class="paramtype">DAT_Payload_Buff&#160;</td>
+          <td class="paramname"><em>pay_i</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pay_i</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definición en la línea <a class="el" href="cmd_payload_8c_source.html#l02001">2001</a> del archivo <a class="el" href="cmd_payload_8c_source.html">cmdPayload.c</a>.</p>
+
+<p>Referenciado por <a class="el" href="cmd_payload_8c_source.html#l01205">pay_adhoc_langmuirProbe()</a> y <a class="el" href="cmd_payload_8c_source.html#l01138">pay_init_langmuirProbe()</a>.</p>
+
+<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="closed.png" alt="+"/> Gráfico de llamadas a esta función:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="cmd_payload_8h_a8ccf197e879d305b64f16324bece61e8_icgraph.png" border="0" usemap="#cmd_payload_8h_a8ccf197e879d305b64f16324bece61e8_icgraph" alt=""/></div>
+<map name="cmd_payload_8h_a8ccf197e879d305b64f16324bece61e8_icgraph" id="cmd_payload_8h_a8ccf197e879d305b64f16324bece61e8_icgraph">
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a2dbf9cc89c20982ddd5cccc492e3e65b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void pay_fp2_simultaneous </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check the payloads "simultaneouslly" and execute it in reentrant calling multiples. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dispatcherQueue</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definición en la línea <a class="el" href="cmd_payload_8c_source.html#l01488">1488</a> del archivo <a class="el" href="cmd_payload_8c_source.html">cmdPayload.c</a>.</p>
+
+<p>Hace referencia a <a class="el" href="cmd_payload_8c_source.html#l01729">pay_fp2_exec_run_xxx()</a>, <a class="el" href="cmd_payload_8c_source.html#l01628">pay_fp2_get_exec_rate()</a>, <a class="el" href="cmd_payload_8c_source.html#l01674">pay_fp2_get_run_take_num_exec_times()</a>, <a class="el" href="cmd_payload_8c_source.html#l01959">pay_set_state()</a> y <a class="el" href="cmd_r_t_c_8h_source.html#l00033">rtc_print</a>.</p>
+
+<p>Referenciado por <a class="el" href="cmd_payload_8c_source.html#l00137">pay_fp2_default_fsm()</a>.</p>
+
+<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="closed.png" alt="+"/> Gráfico de llamadas para esta función:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="cmd_payload_8h_a2dbf9cc89c20982ddd5cccc492e3e65b_cgraph.png" border="0" usemap="#cmd_payload_8h_a2dbf9cc89c20982ddd5cccc492e3e65b_cgraph" alt=""/></div>
+<map name="cmd_payload_8h_a2dbf9cc89c20982ddd5cccc492e3e65b_cgraph" id="cmd_payload_8h_a2dbf9cc89c20982ddd5cccc492e3e65b_cgraph">
+</map>
+</div>
+</p>
+
+<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="closed.png" alt="+"/> Gráfico de llamadas a esta función:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="cmd_payload_8h_a2dbf9cc89c20982ddd5cccc492e3e65b_icgraph.png" border="0" usemap="#cmd_payload_8h_a2dbf9cc89c20982ddd5cccc492e3e65b_icgraph" alt=""/></div>
+<map name="cmd_payload_8h_a2dbf9cc89c20982ddd5cccc492e3e65b_icgraph" id="cmd_payload_8h_a2dbf9cc89c20982ddd5cccc492e3e65b_icgraph">
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="aad26374ae256f194c1788919faebf9c8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int pay_fp2_get_exec_rate </td>
+          <td>(</td>
+          <td class="paramtype">DAT_Payload_Buff&#160;</td>
+          <td class="paramname"><em>pay_i</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the number of tick before a pay_i is executed. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pay_i</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>Return the number of ticks before a pay_i is executed </dd></dl>
+
+<p>Definición en la línea <a class="el" href="cmd_payload_8c_source.html#l01628">1628</a> del archivo <a class="el" href="cmd_payload_8c_source.html">cmdPayload.c</a>.</p>
+
+<p>Referenciado por <a class="el" href="cmd_payload_8c_source.html#l01488">pay_fp2_simultaneous()</a>.</p>
+
+<p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="closed.png" alt="+"/> Gráfico de llamadas a esta función:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="cmd_payload_8h_aad26374ae256f194c1788919faebf9c8_icgraph.png" border="0" usemap="#cmd_payload_8h_aad26374ae256f194c1788919faebf9c8_icgraph" alt=""/></div>
+<map name="cmd_payload_8h_aad26374ae256f194c1788919faebf9c8_icgraph" id="cmd_payload_8h_aad26374ae256f194c1788919faebf9c8_icgraph">
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a6f532fe8da9bcf3ede4df1c90fa779be"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int pay_fp2_get_run_take_num_exec_times </td>
+          <td>(</td>
+          <td class="paramtype">DAT_Payload_Buff&#160;</td>
+          <td class="paramname"><em>pay_i</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the number of times pay_i is to be executed. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pay_i</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>Return TRUE = isDOne, FLASE = contiune pay_take </dd></dl>
+
+<p>Definición en la línea <a class="el" href="cmd_payload_8c_source.html#l01674">1674</a> del archivo <a class="el" href="cmd_payload_8c_source.html">cmdPayload.c</a>.</p>
+
+<p>Referenciado por <a class="el" href="cmd_payload_8c_source.html#l01488">pay_fp2_simultaneous()</a>.</p>
+
+<p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="closed.png" alt="+"/> Gráfico de llamadas a esta función:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="cmd_payload_8h_a6f532fe8da9bcf3ede4df1c90fa779be_icgraph.png" border="0" usemap="#cmd_payload_8h_a6f532fe8da9bcf3ede4df1c90fa779be_icgraph" alt=""/></div>
+<map name="cmd_payload_8h_a6f532fe8da9bcf3ede4df1c90fa779be_icgraph" id="cmd_payload_8h_a6f532fe8da9bcf3ede4df1c90fa779be_icgraph">
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ab357fe26e021fcb8a5f8352041230cc8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void pay_fp2_exec_run_xxx </td>
+          <td>(</td>
+          <td class="paramtype">DAT_Payload_Buff&#160;</td>
+          <td class="paramname"><em>pay_i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PAY_xxx_State&#160;</td>
+          <td class="paramname"><em>state</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Exectutes the correspnding Cmd for each pay_i and sta_pay_xxx_state. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pay_i</td><td></td></tr>
+    <tr><td class="paramname">run_state</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definición en la línea <a class="el" href="cmd_payload_8c_source.html#l01729">1729</a> del archivo <a class="el" href="cmd_payload_8c_source.html">cmdPayload.c</a>.</p>
+
+<p>Hace referencia a <a class="el" href="cmd_payload_8h_source.html#l00107">pay_init_battery</a>, <a class="el" href="cmd_payload_8h_source.html#l00074">pay_init_camera</a>, <a class="el" href="cmd_payload_8h_source.html#l00115">pay_init_debug</a>, <a class="el" href="cmd_payload_8h_source.html#l00090">pay_init_expFis</a>, <a class="el" href="cmd_payload_8h_source.html#l00083">pay_init_gps</a>, <a class="el" href="cmd_payload_8h_source.html#l00066">pay_init_gyro</a>, <a class="el" href="cmd_payload_8h_source.html#l00122">pay_init_langmuirProbe</a>, <a class="el" href="cmd_payload_8h_source.html#l00058">pay_init_sensTemp</a>, <a class="el" href="cmd_payload_8h_source.html#l00051">pay_init_tmEstado</a>, <a class="el" href="cmd_payload_8h_source.html#l00109">pay_stop_battery</a>, <a class="el" href="cmd_payload_8h_source.html#l00076">pay_stop_camera</a>, <a class="el" href="cmd_payload_8h_source.html#l00117">pay_stop_debug</a>, <a class="el" href="cmd_payload_8h_source.html#l00092">pay_stop_expFis</a>, <a class="el" href="cmd_payload_8h_source.html#l00085">pay_stop_gps</a>, <a class="el" href="cmd_payload_8h_source.html#l00068">pay_stop_gyro</a>, <a class="el" href="cmd_payload_8h_source.html#l00124">pay_stop_langmuirProbe</a>, <a class="el" href="cmd_payload_8h_source.html#l00060">pay_stop_sensTemp</a>, <a class="el" href="cmd_payload_8h_source.html#l00053">pay_stop_tmEstado</a>, <a class="el" href="cmd_payload_8h_source.html#l00108">pay_take_battery</a>, <a class="el" href="cmd_payload_8h_source.html#l00075">pay_take_camera</a>, <a class="el" href="cmd_payload_8h_source.html#l00116">pay_take_debug</a>, <a class="el" href="cmd_payload_8h_source.html#l00091">pay_take_expFis</a>, <a class="el" href="cmd_payload_8h_source.html#l00084">pay_take_gps</a>, <a class="el" href="cmd_payload_8h_source.html#l00067">pay_take_gyro</a>, <a class="el" href="cmd_payload_8h_source.html#l00123">pay_take_langmuirProbe</a>, <a class="el" href="cmd_payload_8h_source.html#l00059">pay_take_sensTemp</a> y <a class="el" href="cmd_payload_8h_source.html#l00052">pay_take_tmEstado</a>.</p>
+
+<p>Referenciado por <a class="el" href="cmd_payload_8c_source.html#l01488">pay_fp2_simultaneous()</a>.</p>
+
+<p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="closed.png" alt="+"/> Gráfico de llamadas a esta función:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="cmd_payload_8h_ab357fe26e021fcb8a5f8352041230cc8_icgraph.png" border="0" usemap="#cmd_payload_8h_ab357fe26e021fcb8a5f8352041230cc8_icgraph" alt=""/></div>
+<map name="cmd_payload_8h_ab357fe26e021fcb8a5f8352041230cc8_icgraph" id="cmd_payload_8h_ab357fe26e021fcb8a5f8352041230cc8_icgraph">
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a6bb68526a8080162fae08bd22697c99f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void pay_set_state </td>
+          <td>(</td>
+          <td class="paramtype">DAT_Payload_Buff&#160;</td>
+          <td class="paramname"><em>pay_i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PAY_xxx_State&#160;</td>
+          <td class="paramname"><em>state</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the state of pay_i. </p>
+<p>Used to control execution, by FP2 and others </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pay_i</td><td></td></tr>
+    <tr><td class="paramname">state</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definición en la línea <a class="el" href="cmd_payload_8c_source.html#l01959">1959</a> del archivo <a class="el" href="cmd_payload_8c_source.html">cmdPayload.c</a>.</p>
+
+<p>Hace referencia a <a class="el" href="cmd_payload_8h_source.html#l00106">pay_set_state_battery</a>, <a class="el" href="cmd_payload_8h_source.html#l00073">pay_set_state_camera</a>, <a class="el" href="cmd_payload_8h_source.html#l00114">pay_set_state_debug</a>, <a class="el" href="cmd_payload_8h_source.html#l00089">pay_set_state_expFis</a>, <a class="el" href="cmd_payload_8h_source.html#l00082">pay_set_state_gps</a>, <a class="el" href="cmd_payload_8h_source.html#l00065">pay_set_state_gyro</a>, <a class="el" href="cmd_payload_8h_source.html#l00121">pay_set_state_langmuirProbe</a>, <a class="el" href="cmd_payload_8h_source.html#l00057">pay_set_state_sensTemp</a> y <a class="el" href="cmd_payload_8h_source.html#l00050">pay_set_state_tmEstado</a>.</p>
+
+<p>Referenciado por <a class="el" href="cmd_payload_8c_source.html#l01488">pay_fp2_simultaneous()</a> y <a class="el" href="cmd_t_c_m_8c_source.html#l00109">tcm_sendTM_pay_i()</a>.</p>
+
+<p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-11-trigger" src="closed.png" alt="+"/> Gráfico de llamadas a esta función:</div>
+<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="cmd_payload_8h_a6bb68526a8080162fae08bd22697c99f_icgraph.png" border="0" usemap="#cmd_payload_8h_a6bb68526a8080162fae08bd22697c99f_icgraph" alt=""/></div>
+<map name="cmd_payload_8h_a6bb68526a8080162fae08bd22697c99f_icgraph" id="cmd_payload_8h_a6bb68526a8080162fae08bd22697c99f_icgraph">
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a68351173d8cf08fd14e210d1f678070e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PAY_xxx_State pay_get_state </td>
+          <td>(</td>
+          <td class="paramtype">DAT_Payload_Buff&#160;</td>
+          <td class="paramname"><em>pay_i</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get pay_i execution state. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pay_i</td><td></td></tr>
+    <tr><td class="paramname">state</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definición en la línea <a class="el" href="cmd_payload_8c_source.html#l01916">1916</a> del archivo <a class="el" href="cmd_payload_8c_source.html">cmdPayload.c</a>.</p>
+
+<p>Hace referencia a <a class="el" href="cmd_payload_8h_source.html#l00105">pay_get_state_battery</a>, <a class="el" href="cmd_payload_8h_source.html#l00072">pay_get_state_camera</a>, <a class="el" href="cmd_payload_8h_source.html#l00113">pay_get_state_debug</a>, <a class="el" href="cmd_payload_8h_source.html#l00088">pay_get_state_expFis</a>, <a class="el" href="cmd_payload_8h_source.html#l00081">pay_get_state_gps</a>, <a class="el" href="cmd_payload_8h_source.html#l00064">pay_get_state_gyro</a>, <a class="el" href="cmd_payload_8h_source.html#l00120">pay_get_state_langmuirProbe</a>, <a class="el" href="cmd_payload_8h_source.html#l00056">pay_get_state_sensTemp</a> y <a class="el" href="cmd_payload_8h_source.html#l00049">pay_get_state_tmEstado</a>.</p>
+
+<p>Referenciado por <a class="el" href="cmd_t_c_m_8c_source.html#l00086">tcm_sendTM_all_pay_i()</a>, <a class="el" href="cmd_t_c_m_8c_source.html#l00109">tcm_sendTM_pay_i()</a> y <a class="el" href="cmd_t_c_m_8c_source.html#l00451">tcm_sendTM_payload()</a>.</p>
+
+<p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-12-trigger" src="closed.png" alt="+"/> Gráfico de llamadas a esta función:</div>
+<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-12-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="cmd_payload_8h_a68351173d8cf08fd14e210d1f678070e_icgraph.png" border="0" usemap="#cmd_payload_8h_a68351173d8cf08fd14e210d1f678070e_icgraph" alt=""/></div>
+<map name="cmd_payload_8h_a68351173d8cf08fd14e210d1f678070e_icgraph" id="cmd_payload_8h_a68351173d8cf08fd14e210d1f678070e_icgraph">
+</map>
+</div>
+</p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_50dbddc3964bed395c069eeeaf99d62d.html">Payloads</a></li><li class="navelem"><a class="el" href="dir_d58dceb465d827f66f2b67a30f32c409.html">Cmd</a></li><li class="navelem"><a class="el" href="dir_a7f0250d9a2907fa238ed51e3c9db635.html">include</a></li><li class="navelem"><a class="el" href="cmd_payload_8h.html">cmdPayload.h</a></li>
+    <li class="footer">Generado el Lunes, 15 de Febrero de 2016 14:40:08 para Comandos del sistema de vuelo por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
+  </ul>
+</div>
+</body>
+</html>

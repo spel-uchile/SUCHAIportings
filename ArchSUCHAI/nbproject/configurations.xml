@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="OS_calls" displayName="OS_calls" projectFiles="true">
+        <logicalFolder name="Arch" displayName="Arch" projectFiles="true">
+          <logicalFolder name="freertos" displayName="freertos" projectFiles="true">
+          </logicalFolder>
+          <logicalFolder name="posix" displayName="posix" projectFiles="true">
+            <logicalFolder name="include" displayName="include" projectFiles="true">
+              <itemPath>OS_calls/Arch/posix/include/p_console.h</itemPath>
+              <itemPath>OS_calls/Arch/posix/include/p_file.h</itemPath>
+              <itemPath>OS_calls/Arch/posix/include/p_queue.h</itemPath>
+              <itemPath>OS_calls/Arch/posix/include/p_tasks.h</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="include" displayName="include" projectFiles="true">
+          <itemPath>OS_calls/include/os_console.h</itemPath>
+          <itemPath>OS_calls/include/os_file.h</itemPath>
+          <itemPath>OS_calls/include/os_queue.h</itemPath>
+          <itemPath>OS_calls/include/os_tasks.h</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="System" displayName="System" projectFiles="true">
+        <logicalFolder name="include" displayName="include" projectFiles="true">
+          <itemPath>System/include/DebugIncludes.h</itemPath>
+          <itemPath>System/include/cmdIncludes.h</itemPath>
+          <itemPath>System/include/cmdRepository.h</itemPath>
+          <itemPath>System/include/dataRepository.h</itemPath>
+          <itemPath>System/include/stateRepository.h</itemPath>
+          <itemPath>System/include/suchaiDeployment.h</itemPath>
+          <itemPath>System/include/taskDispatcher.h</itemPath>
+          <itemPath>System/include/taskExecuter.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="RepoCmd" displayName="RepoCmd" projectFiles="true">
+          <logicalFolder name="include" displayName="include" projectFiles="true">
+            <itemPath>System/RepoCmd/include/cmdCON.h</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="Tasks" displayName="Tasks" projectFiles="true">
+          <logicalFolder name="include" displayName="include" projectFiles="true">
+            <itemPath>System/Tasks/include/taskConsole.h</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="OS_calls" displayName="OS_calls" projectFiles="true">
+        <logicalFolder name="Arch" displayName="Arch" projectFiles="true">
+          <logicalFolder name="freertos" displayName="freertos" projectFiles="true">
+          </logicalFolder>
+          <logicalFolder name="posix" displayName="posix" projectFiles="true">
+            <itemPath>OS_calls/Arch/posix/p_console.c</itemPath>
+            <itemPath>OS_calls/Arch/posix/p_file.c</itemPath>
+            <itemPath>OS_calls/Arch/posix/p_queue.c</itemPath>
+            <itemPath>OS_calls/Arch/posix/p_tasks.c</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+        <itemPath>OS_calls/os_console.c</itemPath>
+        <itemPath>OS_calls/os_file.c</itemPath>
+        <itemPath>OS_calls/os_queue.c</itemPath>
+        <itemPath>OS_calls/os_tasks.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="System" displayName="System" projectFiles="true">
+        <logicalFolder name="RepoCmd" displayName="RepoCmd" projectFiles="true">
+          <itemPath>System/RepoCmd/cmdCON.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="Tasks" displayName="Tasks" projectFiles="true">
+          <itemPath>System/Tasks/taskConsole.c</itemPath>
+        </logicalFolder>
+        <itemPath>System/cmdRepository.c</itemPath>
+        <itemPath>System/dataRepository.c</itemPath>
+        <itemPath>System/stateRepository.c</itemPath>
+        <itemPath>System/suchaiDeployment.c</itemPath>
+        <itemPath>System/taskDispatcher.c</itemPath>
+        <itemPath>System/taskExecuter.c</itemPath>
+      </logicalFolder>
+      <itemPath>main.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>System</Elem>
+    <Elem>OS_calls</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <incDir>
+            <pElem>System/include</pElem>
+            <pElem>System/RepoCmd/include</pElem>
+            <pElem>System/Tasks/include</pElem>
+            <pElem>OS_calls/include</pElem>
+          </incDir>
+        </cTool>
+      </compileType>
+      <item path="OS_calls/Arch/posix/include/p_console.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="OS_calls/Arch/posix/include/p_file.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="OS_calls/Arch/posix/include/p_queue.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="OS_calls/Arch/posix/include/p_tasks.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="OS_calls/Arch/posix/p_console.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="OS_calls/Arch/posix/p_file.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="OS_calls/Arch/posix/p_queue.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="OS_calls/Arch/posix/p_tasks.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="OS_calls/include/os_console.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="OS_calls/include/os_file.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="OS_calls/include/os_queue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="OS_calls/include/os_tasks.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="OS_calls/os_console.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="OS_calls/os_file.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="OS_calls/os_queue.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="OS_calls/os_tasks.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="System/RepoCmd/cmdCON.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="System/RepoCmd/include/cmdCON.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="System/Tasks/include/taskConsole.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="System/Tasks/taskConsole.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="System/cmdRepository.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="System/dataRepository.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="System/include/DebugIncludes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="System/include/cmdIncludes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="System/include/cmdRepository.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="System/include/dataRepository.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="System/include/stateRepository.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="System/include/suchaiDeployment.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="System/include/taskDispatcher.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="System/include/taskExecuter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="System/stateRepository.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="System/suchaiDeployment.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="System/taskDispatcher.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="System/taskExecuter.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+          <incDir>
+            <pElem>System/include</pElem>
+            <pElem>System/RepoCmd/include</pElem>
+            <pElem>System/Tasks/include</pElem>
+            <pElem>OS_calls/include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <commandLine>-lrt</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="OS_calls/Arch/posix/include/p_console.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="OS_calls/Arch/posix/include/p_file.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="OS_calls/Arch/posix/include/p_queue.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="OS_calls/Arch/posix/include/p_tasks.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="OS_calls/Arch/posix/p_console.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="OS_calls/Arch/posix/p_file.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="OS_calls/Arch/posix/p_queue.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="OS_calls/Arch/posix/p_tasks.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="OS_calls/include/os_console.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="OS_calls/include/os_file.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="OS_calls/include/os_queue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="OS_calls/include/os_tasks.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="OS_calls/os_console.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="OS_calls/os_file.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="OS_calls/os_queue.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="OS_calls/os_tasks.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="System/RepoCmd/cmdCON.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="System/RepoCmd/include/cmdCON.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="System/Tasks/include/taskConsole.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="System/Tasks/taskConsole.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="System/cmdRepository.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="System/dataRepository.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="System/include/DebugIncludes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="System/include/cmdIncludes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="System/include/cmdRepository.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="System/include/dataRepository.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="System/include/stateRepository.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="System/include/suchaiDeployment.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="System/include/taskDispatcher.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="System/include/taskExecuter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="System/stateRepository.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="System/suchaiDeployment.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="System/taskDispatcher.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="System/taskExecuter.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
