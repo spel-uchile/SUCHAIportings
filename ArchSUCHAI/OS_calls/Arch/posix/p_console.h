@@ -21,6 +21,12 @@ extern "C" {
 #include <unistd.h>    
 #include <stdlib.h>
 #include <stdio.h>
+    
+typedef struct{
+    char *cmdname;
+    unsigned int cmdid;
+    int param;
+}ParsedInput;
 
 /**
  * Read from the console, and returns a parsed list
@@ -52,7 +58,7 @@ extern "C" {
  * 
  * @return 
  */    
-char *OSW_ConsoleInputParser(void);
+ParsedInput OSW_ConsoleInputParser(void);
     
 ////////////////////////////////////////////////////////////////////////////////
 #ifdef __cplusplus

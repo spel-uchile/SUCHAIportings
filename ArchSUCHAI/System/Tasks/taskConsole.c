@@ -79,7 +79,10 @@ void *taskConsole(void *param)
 
         /* Parsing command - return CmdDisp structure*/
         printf(">> ");
-        newCmd = OSW_ConsoleInputParser();
+        ParsedInput newpi = OSW_ConsoleInputParser();
+        //newCmd.cmdId = newpi.cmdname;
+        newCmd.cmdId = newpi.cmdid;
+        newCmd.param = newpi.param;
 //        char buffer[100];
 //        int a = scanf("%s", buffer);
 //        printf("%s \r\n", buffer);
