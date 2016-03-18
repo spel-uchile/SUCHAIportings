@@ -12,6 +12,7 @@
             <sourceRootList>
                 <sourceRootElem>System</sourceRootElem>
                 <sourceRootElem>OS_calls</sourceRootElem>
+                <sourceRootElem>Drivers</sourceRootElem>
             </sourceRootList>
             <confList>
                 <confElem>

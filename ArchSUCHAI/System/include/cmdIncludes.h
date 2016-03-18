@@ -29,7 +29,7 @@ typedef void (*onResetFunction)( void );
  * function
  */
 typedef struct exec_command{
-    int param;                  ///< Command parameter
+    unsigned int param;         ///< Command parameter
     cmdFunction fnct;           ///< Command function
 }ExeCmd;
 
@@ -38,10 +38,10 @@ typedef struct exec_command{
  * that represent the function to call, a parameter and other command's meta-data
  */
 typedef struct ctrl_command{
-    int cmdId;                  ///< Command id, represent the desired command
+    unsigned int cmdId;         ///< Command id, represent the desired command
     int param;                  ///< Command parameter
-    int idOrig;                 ///< Metadata: Id of sender subsystem
-    int sysReq;                 ///< Metadata: Level of energylp the command requires
+    unsigned int idOrig;        ///< Metadata: Id of sender subsystem
+    unsigned int sysReq;        ///< Metadata: Level of energylp the command requires
 }DispCmd;
 
 

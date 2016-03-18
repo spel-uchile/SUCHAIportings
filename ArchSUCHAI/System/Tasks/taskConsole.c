@@ -18,12 +18,10 @@
 // * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // */
 //
-//#include "taskConsole.h"
-//
-////extern xQueueHandle dispatcherQueue;
-//
-//
-//
+#include "taskConsole.h"
+
+extern OSW_QueueDescriptor dispatcherQueue;
+
 const char console_baner[] =
 "______________________________________________________________________________\n\
                      ___ _   _  ___ _  _   _   ___ \n\
@@ -31,68 +29,90 @@ const char console_baner[] =
                     \\__ \\ |_| | (__| __ |/ _ \\ | | \n\
                     |___/\\___/ \\___|_||_/_/ \\_\\___|\n\
 ______________________________________________________________________________\n\n";
+//"\n\n====== WELCOME TO THE SUCHAI CONSOLE - PRESS ANY KEY TO START ======\n\r"
 
+static int verbose_level = 1;
 
-////"\n\n====== WELCOME TO THE SUCHAI CONSOLE - PRESS ANY KEY TO START ======\n\r"
-//
-//void taskConsole(void *param)
-//{
-//#if (SCH_TCONSOLE_VERBOSE)
-//    printf(">>[Console] Started\r\n");
-//#endif
-//
-//    //char ret[10];
-//
-//    const unsigned int Delayms = 250 / portTICK_RATE_MS;
-//    DispCmd NewCmd;
-//    NewCmd.idOrig = SCH_TCONSOLE_IDORIG; /* Consola */
-//    NewCmd.cmdId = CMD_CMDNULL;  /* cmdNULL */
-//    NewCmd.param = 0;
-//
-//    /*Avoid the acummulation of commands while the SUCHAI is still deploying.. */
-////    #if (SCH_THOUSEKEEPING_USE == 1)
-////        portTickType xLastWakeTime = xTaskGetTickCount();
-////        portTickType check_deployment_time = (10000) / portTICK_RATE_MS;      /* check every 10sec  */
-////        while( TRUE ){
-////            /* TODO: Infinite loop if EEPROM is not onboard */
-////            if( sta_get_BusStateVar(sta_dep_ant_deployed)==1 ){
-////                break;
-////            }
-////            vTaskDelayUntil(&xLastWakeTime, check_deployment_time);
-////        }
-////    #endif
-//
-//    /* Initializing console */
-//    con_init();
-//
-//#if (SCH_TCONSOLE_VERBOSE>=1)
-//    __delay_ms(500);    //helps printing a cleaner banner (avoid interruption)
-//    printf((char *)console_baner);
-//#endif
-//
-//    while(1)
-//    {
-//        vTaskDelay(Delayms);     //just delay is enough
-//        //vTaskDelayUntil(&xLastWakeTime, Delayms);
-//
-//        /* Parsing command - return CmdDisp structure*/
-//        NewCmd = con_cmd_handler();
-//
-//        /* cmdId = 0xFFFF means no new command */
-//        if(NewCmd.cmdId != CMD_CMDNULL)
-//        {
-//            printf("\r\n");
-//
-//            #if (SCH_TCONSOLE_VERBOSE >=1)
-//                /* Print the command code */
-////                sprintf( ret, "0x%X", (unsigned int)NewCmd.cmdId );
-////                con_printf("[Console] Se genera comando: ");
-////                con_printf(ret); con_printf("\n\0");
-//                printf("[Console] Se genera comando: 0x%X \r\n", (unsigned int)NewCmd.cmdId);
-//            #endif
-//
-//            /* Queue NewCmd - Blocking */
-//            xQueueSend(dispatcherQueue, &NewCmd, portMAX_DELAY);
+void *taskConsole(void *param)
+{
+    printf("[taskConsole] Started \r\n");
+
+    //char ret[10];
+
+    //const unsigned int Delayms = 250 / portTICK_RATE_MS;
+    const unsigned int Delayms = 0.250;
+    DispCmd newCmd;
+    newCmd.idOrig = SCH_TCONSOLE_IDORIG; /* Consola */
+    newCmd.cmdId = CMD_CMDNULL;  /* cmdNULL */
+    newCmd.param = 0;
+
+    /*Avoid the acummulation of commands while the SUCHAI is still deploying.. */
+//    #if (SCH_THOUSEKEEPING_USE == 1)
+//        portTickType xLastWakeTime = xTaskGetTickCount();
+//        portTickType check_deployment_time = (10000) / portTICK_RATE_MS;      /* check every 10sec  */
+//        while( TRUE ){
+//            /* TODO: Infinite loop if EEPROM is not onboard */
+//            if( sta_get_BusStateVar(sta_dep_ant_deployed)==1 ){
+//                break;
+//            }
+//            vTaskDelayUntil(&xLastWakeTime, check_deployment_time);
 //        }
-//    }
-//}
+//    #endif
+
+    /* Initializing console */
+//    con_init();
+
+#if (SCH_TCONSOLE_VERBOSE>=1)
+    //__delay_ms(500);    //helps printing a cleaner banner (avoid interruption)
+    OSW_GnrlcallsSleep(0.5);
+    printf((char *)console_baner);
+#endif
+
+    while(1)
+    {
+        if(verbose_level >= 1){
+            printf("[taskConsole] main loop \r\n");
+        }
+        //vTaskDelay(Delayms);     //just delay is enough
+        OSW_GnrlcallsSleep(Delayms);
+        //vTaskDelayUntil(&xLastWakeTime, Delayms);
+
+        /* Parsing command - return CmdDisp structure*/
+        printf(">> ");
+        newCmd = OSW_ConsoleInputParser();
+//        char buffer[100];
+//        int a = scanf("%s", buffer);
+//        printf("%s \r\n", buffer);
+//        newCmd.cmdId = con_id_help;
+//        newCmd.idOrig = 0x1101;
+//        newCmd.param = 1;
+//        newCmd.sysReq = 2;
+
+        /* cmdId = 0xFFFF means no new command */
+        if(newCmd.cmdId != CMD_CMDNULL)
+        {
+            //printf("\r\n");
+
+            switch(verbose_level){
+                case 0:
+                    break;
+                case 1:
+                    printf("[taskConsole] Sending: cmd 0x%X, param %d \r\n",
+                            newCmd.cmdId, newCmd.param);
+                    //printf("[taskConsole] Sending: 0x%X %d [cmd param] \r\n",
+                    //        newCmd.cmdId, newCmd.param);
+                    break;
+                case 2:
+                    printf("[taskConsole] newCmd.cmdId 0x%X \n", newCmd.cmdId);
+                    printf("[taskConsole] newCmd.idOrig 0x%X \n", newCmd.idOrig);
+                    printf("[taskConsole] newCmd.param %d \n", newCmd.param);
+                    printf("[taskConsole] newCmd.sysReq %u \n", newCmd.sysReq);
+                    break;
+            }
+
+            /* Queue newCmd - Blocking */
+            //xQueueSend(dispatcherQueue, &newCmd, portMAX_DELAY);
+            OSW_QueueSend(dispatcherQueue, (const char *)&newCmd, sizeof(newCmd));
+        }
+    }
+}

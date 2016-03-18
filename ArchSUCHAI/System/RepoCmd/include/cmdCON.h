@@ -13,8 +13,13 @@
 #ifndef CMD_CONSOLE_H
 #define CMD_CONSOLE_H
 
-#include "os_console.h"
+#include "osw_console.h"
+
+#include "cmdIncludes.h"
+#include "cmdCON.h"
 #include "SUCHAI_config.h"
+
+#include <stdio.h>
 
 /**
  * Lista de comandos disponibles.

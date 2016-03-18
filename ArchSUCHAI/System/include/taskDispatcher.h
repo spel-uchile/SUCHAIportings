@@ -14,9 +14,11 @@
 
 //#include "FreeRTOS.h"
 //#include "queue.h"
+#include "osw_queue.h"
+#include "osw_gnrlcalls.h"
 
 #include "cmdIncludes.h"    //DispCmd
 #include "cmdRepository.h"  //repo_getsysReq
 
-void taskDispatcher(void *param);
+void *taskDispatcher(void *param);
 bool check_if_executable(DispCmd *newCmd);

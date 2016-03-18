@@ -15,6 +15,8 @@
 #include "DebugIncludes.h"
 #include "SUCHAI_config.h"
 
+#include <stdio.h>
+
 /*
 extern cmdFunction tcmFunction[];
 extern int trx_sysReq[];

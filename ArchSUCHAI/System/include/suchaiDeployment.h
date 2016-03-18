@@ -21,6 +21,9 @@
 //#include "list.h"
 //
 //#include "pic_pc104_config.h"
+#include "osw_tasks.h"
+#include "osw_queue.h"
+#include "osw_gnrlcalls.h"
 
 #include "cmdIncludes.h"
 #include "cmdRepository.h"
@@ -37,7 +40,7 @@
 
 void dep_init_suchai_hw(void);
 void dep_init_suchai_repos(void);
-void dep_init_suchai_tasks(void);
+void dep_InitSystem(void);
 
 int dep_init_sysbus_hw(void *param);
 int dep_init_dataRepo(void *param);

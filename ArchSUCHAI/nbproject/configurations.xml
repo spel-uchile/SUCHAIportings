@@ -11,15 +11,17 @@
           <logicalFolder name="posix" displayName="posix" projectFiles="true">
             <itemPath>OS_calls/Arch/posix/p_console.h</itemPath>
             <itemPath>OS_calls/Arch/posix/p_file.h</itemPath>
+            <itemPath>OS_calls/Arch/posix/p_gnrlcalls.h</itemPath>
             <itemPath>OS_calls/Arch/posix/p_queue.h</itemPath>
             <itemPath>OS_calls/Arch/posix/p_tasks.h</itemPath>
           </logicalFolder>
         </logicalFolder>
         <logicalFolder name="include" displayName="include" projectFiles="true">
-          <itemPath>OS_calls/include/os_console.h</itemPath>
-          <itemPath>OS_calls/include/os_file.h</itemPath>
-          <itemPath>OS_calls/include/os_queue.h</itemPath>
-          <itemPath>OS_calls/include/os_tasks.h</itemPath>
+          <itemPath>OS_calls/include/osw_console.h</itemPath>
+          <itemPath>OS_calls/include/osw_file.h</itemPath>
+          <itemPath>OS_calls/include/osw_gnrlcalls.h</itemPath>
+          <itemPath>OS_calls/include/osw_queue.h</itemPath>
+          <itemPath>OS_calls/include/osw_tasks.h</itemPath>
         </logicalFolder>
       </logicalFolder>
       <logicalFolder name="System" displayName="System" projectFiles="true">
@@ -59,14 +61,11 @@
           <logicalFolder name="posix" displayName="posix" projectFiles="true">
             <itemPath>OS_calls/Arch/posix/p_console.c</itemPath>
             <itemPath>OS_calls/Arch/posix/p_file.c</itemPath>
+            <itemPath>OS_calls/Arch/posix/p_gnrlcalls.c</itemPath>
             <itemPath>OS_calls/Arch/posix/p_queue.c</itemPath>
             <itemPath>OS_calls/Arch/posix/p_tasks.c</itemPath>
           </logicalFolder>
         </logicalFolder>
-        <itemPath>OS_calls/os_console.c</itemPath>
-        <itemPath>OS_calls/os_file.c</itemPath>
-        <itemPath>OS_calls/os_queue.c</itemPath>
-        <itemPath>OS_calls/os_tasks.c</itemPath>
       </logicalFolder>
       <logicalFolder name="System" displayName="System" projectFiles="true">
         <logicalFolder name="RepoCmd" displayName="RepoCmd" projectFiles="true">
@@ -99,6 +98,7 @@
   <sourceRootList>
     <Elem>System</Elem>
     <Elem>OS_calls</Elem>
+    <Elem>Drivers</Elem>
   </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -126,6 +126,10 @@
       </item>
       <item path="OS_calls/Arch/posix/p_file.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="OS_calls/Arch/posix/p_gnrlcalls.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="OS_calls/Arch/posix/p_gnrlcalls.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="OS_calls/Arch/posix/p_queue.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="OS_calls/Arch/posix/p_queue.h" ex="false" tool="3" flavor2="0">
@@ -134,21 +138,15 @@
       </item>
       <item path="OS_calls/Arch/posix/p_tasks.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="OS_calls/include/os_console.h" ex="false" tool="3" flavor2="0">
+      <item path="OS_calls/include/osw_console.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="OS_calls/include/os_file.h" ex="false" tool="3" flavor2="0">
+      <item path="OS_calls/include/osw_file.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="OS_calls/include/os_queue.h" ex="false" tool="3" flavor2="0">
+      <item path="OS_calls/include/osw_gnrlcalls.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="OS_calls/include/os_tasks.h" ex="false" tool="3" flavor2="0">
+      <item path="OS_calls/include/osw_queue.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="OS_calls/os_console.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="OS_calls/os_file.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="OS_calls/os_queue.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="OS_calls/os_tasks.c" ex="false" tool="0" flavor2="0">
+      <item path="OS_calls/include/osw_tasks.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="System/RepoCmd/cmdCON.c" ex="false" tool="0" flavor2="0">
       </item>
@@ -216,7 +214,7 @@
           <developmentMode>5</developmentMode>
         </asmTool>
         <linkerTool>
-          <commandLine>-lrt</commandLine>
+          <commandLine>-lrt -lpthread</commandLine>
         </linkerTool>
       </compileType>
       <item path="OS_calls/Arch/posix/p_console.c" ex="false" tool="0" flavor2="0">
@@ -227,6 +225,10 @@
       </item>
       <item path="OS_calls/Arch/posix/p_file.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="OS_calls/Arch/posix/p_gnrlcalls.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="OS_calls/Arch/posix/p_gnrlcalls.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="OS_calls/Arch/posix/p_queue.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="OS_calls/Arch/posix/p_queue.h" ex="false" tool="3" flavor2="0">
@@ -235,21 +237,15 @@
       </item>
       <item path="OS_calls/Arch/posix/p_tasks.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="OS_calls/include/os_console.h" ex="false" tool="3" flavor2="0">
+      <item path="OS_calls/include/osw_console.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="OS_calls/include/os_file.h" ex="false" tool="3" flavor2="0">
+      <item path="OS_calls/include/osw_file.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="OS_calls/include/os_queue.h" ex="false" tool="3" flavor2="0">
+      <item path="OS_calls/include/osw_gnrlcalls.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="OS_calls/include/os_tasks.h" ex="false" tool="3" flavor2="0">
+      <item path="OS_calls/include/osw_queue.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="OS_calls/os_console.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="OS_calls/os_file.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="OS_calls/os_queue.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="OS_calls/os_tasks.c" ex="false" tool="0" flavor2="0">
+      <item path="OS_calls/include/osw_tasks.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="System/RepoCmd/cmdCON.c" ex="false" tool="0" flavor2="0">
       </item>

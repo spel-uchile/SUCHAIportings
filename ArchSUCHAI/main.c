@@ -40,17 +40,22 @@
 //    PPC_DEFAULT_CW3();
 //#endif
 
-#include "os_queue.h"
+#include "osw_queue.h"
+#include "osw_tasks.h"
+#include "osw_gnrlcalls.h"
+#include <stdlib.h>
+#include <stdio.h>
+#include <unistd.h>
 
 #include "cmdIncludes.h"
 
-OSQueueDescriptor dispatcherQueue, i2cRxQueue, executerCmdQueue, executerStatQueue;
+OSW_QueueDescriptor dispatcherQueue, i2cRxQueue, executerCmdQueue, executerStatQueue;
 
 //OSSemaphoreHandler statusRepositorySem, consolePrintfSem, rtcPrintSem;
 //
-//OSTaskHandler taskDeploymentHandle, taskDispatcherHandle;
-//OSTaskHandler taskComunicationsHandle, taskConsoleHandle, taskFlightPlanHandle,
-//            taskFlightPlan2Handle, taskFlightPlan3Handle, taskHouskeepingHandle;
+OSW_TaskDescriptor taskDeploymentDescriptor, taskDispatcherDescriptor, 
+        taskComunicationsDescriptor, taskConsoleDescriptor, taskFlightPlanDescriptor,
+        taskFlightPlan2Descriptor, taskFlightPlan3Descriptor, taskHouskeepingDescriptor;
 
 /*
  * 
@@ -59,9 +64,11 @@ int main(int argc, char** argv) {
     int stat;
     
     printf("[SUCHAI] Hello world \n");
+    OSW_TaskUnitTesting();
+    OSW_QueueUnitTesting();
 
     /* Initializing shared Queues */
-    dispatcherQueue = OSQueueCreate("dispatcherQueue", 10, sizeof(DispCmd));
+    dispatcherQueue = OSW_QueueCreate("dispatcherQueue", 10, sizeof(DispCmd));
 
     #if(SCH_TASKEXECUTER_INSIDE_TASKDISPATCHER==1)
         //no Queue creation
@@ -98,12 +105,16 @@ int main(int argc, char** argv) {
 //// Uncomment section only for debug purposes //
 /////////////////////////////////////////////////
 
+    dep_init_cmdRepo(NULL);     //loads cmdXXX repos to be used
+        
     /* Crating SUCHAI tasks */
-    dep_init_suchai_tasks();
+    //sleep(5);
+    dep_InitSystem();
 
     /* Start the scheduler. Should never return */
-    printf("\nStarting FreeRTOS [->]\r\n");
-    vTaskStartScheduler();
+//    printf("\nStarting FreeRTOS [->]\r\n");
+//    vTaskStartScheduler();
+    OSW_GnrlcallsSleep(3);
 
     /*
      * El sistema solo llega hasta aca si el Scheduler falla debido
@@ -112,7 +123,7 @@ int main(int argc, char** argv) {
     printf("[SUCHAI] Scheduler failed \n");
     //ppc_reset(NULL);
     
-    stat = OSQueueClose(dispatcherQueue, "dispatcherQueue");
+    stat = OSW_QueueClose(dispatcherQueue, "dispatcherQueue");
     printf("OSQueueClose(dispatcherQueue, \"dispatcherQueue\") = %d \n", stat);
 
     return (EXIT_SUCCESS);

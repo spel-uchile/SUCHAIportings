@@ -37,12 +37,9 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 OBJECTFILES= \
 	${OBJECTDIR}/OS_calls/Arch/posix/p_console.o \
 	${OBJECTDIR}/OS_calls/Arch/posix/p_file.o \
+	${OBJECTDIR}/OS_calls/Arch/posix/p_gnrlcalls.o \
 	${OBJECTDIR}/OS_calls/Arch/posix/p_queue.o \
 	${OBJECTDIR}/OS_calls/Arch/posix/p_tasks.o \
-	${OBJECTDIR}/OS_calls/os_console.o \
-	${OBJECTDIR}/OS_calls/os_file.o \
-	${OBJECTDIR}/OS_calls/os_queue.o \
-	${OBJECTDIR}/OS_calls/os_tasks.o \
 	${OBJECTDIR}/System/RepoCmd/cmdCON.o \
 	${OBJECTDIR}/System/Tasks/taskConsole.o \
 	${OBJECTDIR}/System/cmdRepository.o \
@@ -88,6 +85,11 @@ ${OBJECTDIR}/OS_calls/Arch/posix/p_file.o: OS_calls/Arch/posix/p_file.c
 	${RM} "$@.d"
 	$(COMPILE.c) -g -ISystem/include -ISystem/RepoCmd/include -ISystem/Tasks/include -IOS_calls/include -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/OS_calls/Arch/posix/p_file.o OS_calls/Arch/posix/p_file.c
 
+${OBJECTDIR}/OS_calls/Arch/posix/p_gnrlcalls.o: OS_calls/Arch/posix/p_gnrlcalls.c 
+	${MKDIR} -p ${OBJECTDIR}/OS_calls/Arch/posix
+	${RM} "$@.d"
+	$(COMPILE.c) -g -ISystem/include -ISystem/RepoCmd/include -ISystem/Tasks/include -IOS_calls/include -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/OS_calls/Arch/posix/p_gnrlcalls.o OS_calls/Arch/posix/p_gnrlcalls.c
+
 ${OBJECTDIR}/OS_calls/Arch/posix/p_queue.o: OS_calls/Arch/posix/p_queue.c 
 	${MKDIR} -p ${OBJECTDIR}/OS_calls/Arch/posix
 	${RM} "$@.d"
@@ -97,26 +99,6 @@ ${OBJECTDIR}/OS_calls/Arch/posix/p_tasks.o: OS_calls/Arch/posix/p_tasks.c
 	${MKDIR} -p ${OBJECTDIR}/OS_calls/Arch/posix
 	${RM} "$@.d"
 	$(COMPILE.c) -g -ISystem/include -ISystem/RepoCmd/include -ISystem/Tasks/include -IOS_calls/include -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/OS_calls/Arch/posix/p_tasks.o OS_calls/Arch/posix/p_tasks.c
-
-${OBJECTDIR}/OS_calls/os_console.o: OS_calls/os_console.c 
-	${MKDIR} -p ${OBJECTDIR}/OS_calls
-	${RM} "$@.d"
-	$(COMPILE.c) -g -ISystem/include -ISystem/RepoCmd/include -ISystem/Tasks/include -IOS_calls/include -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/OS_calls/os_console.o OS_calls/os_console.c
-
-${OBJECTDIR}/OS_calls/os_file.o: OS_calls/os_file.c 
-	${MKDIR} -p ${OBJECTDIR}/OS_calls
-	${RM} "$@.d"
-	$(COMPILE.c) -g -ISystem/include -ISystem/RepoCmd/include -ISystem/Tasks/include -IOS_calls/include -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/OS_calls/os_file.o OS_calls/os_file.c
-
-${OBJECTDIR}/OS_calls/os_queue.o: OS_calls/os_queue.c 
-	${MKDIR} -p ${OBJECTDIR}/OS_calls
-	${RM} "$@.d"
-	$(COMPILE.c) -g -ISystem/include -ISystem/RepoCmd/include -ISystem/Tasks/include -IOS_calls/include -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/OS_calls/os_queue.o OS_calls/os_queue.c
-
-${OBJECTDIR}/OS_calls/os_tasks.o: OS_calls/os_tasks.c 
-	${MKDIR} -p ${OBJECTDIR}/OS_calls
-	${RM} "$@.d"
-	$(COMPILE.c) -g -ISystem/include -ISystem/RepoCmd/include -ISystem/Tasks/include -IOS_calls/include -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/OS_calls/os_tasks.o OS_calls/os_tasks.c
 
 ${OBJECTDIR}/System/RepoCmd/cmdCON.o: System/RepoCmd/cmdCON.c 
 	${MKDIR} -p ${OBJECTDIR}/System/RepoCmd

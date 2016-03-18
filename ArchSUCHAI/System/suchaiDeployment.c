@@ -19,15 +19,15 @@
  */
 #include "suchaiDeployment.h"
 
-//FreeRTOS tasks and Queue Handlers
-//extern xTaskHandle taskComunicationsHandle;
-//extern xTaskHandle taskDispatcherHandle;
-//extern xTaskHandle taskConsoleHandle;
-//extern xTaskHandle taskFlightPlanHandle;
-//extern xTaskHandle taskFlightPlan2Handle;
-//extern xTaskHandle taskFlightPlan3Handle;
-//extern xTaskHandle taskHouskeepingHandle;
-//extern xQueueHandle dispatcherQueue;
+// OSW tasks and Queue Descriptors
+extern OSW_TaskDescriptor taskComunicationsDescriptor;
+extern OSW_TaskDescriptor taskDispatcherDescriptor;
+extern OSW_TaskDescriptor taskConsoleDescriptor;
+extern OSW_TaskDescriptor taskFlightPlanDescriptor;
+extern OSW_TaskDescriptor taskFlightPlan2Descriptor;
+extern OSW_TaskDescriptor taskFlightPlan3Descriptor;
+extern OSW_TaskDescriptor taskHouskeepingDescriptor;
+extern OSW_QueueDescriptor dispatcherQueue;
 
 //void dep_init_suchai_hw(void)
 //{
@@ -79,7 +79,7 @@
 //
 //extern cmdFunction trxFunction[];
 //extern cmdFunction ppcFunction[];
-//extern cmdFunction conFunction[];
+extern cmdFunction conFunction[];
 //extern cmdFunction epsFunction[];
 //extern cmdFunction drpFunction[];
 //extern cmdFunction srpFunction[];
@@ -89,7 +89,7 @@
 //extern cmdFunction thkFunction[];
 //extern int trx_sysReq[];
 //extern int ppc_sysReq[];
-//extern int con_sysReq[];
+extern int con_sysReq[];
 //extern int eps_sysReq[];
 //extern int drp_sysReq[];
 //extern int srp_sysReq[];
@@ -97,38 +97,38 @@
 //extern int rtc_sysReq[];
 //extern int tcm_sysReq[];
 //extern int thk_sysReq[];
-///**
-// * Initializes command repository
-// *
-// * @param param Not used
-// * @return 1
-// */
-//int dep_init_cmdRepo(void *param)
-//{
-//    #if (SCH_TDEPLOYMENT_VERBOSE>=1)
-//        printf("\n[dep_init_cmdRepo] Initializing command repository..\r\n");
+/**
+ * Initializes command repository
+ *
+ * @param param Not used
+ * @return 1
+ */
+int dep_init_cmdRepo(void *param)
+{
+    #if (SCH_TDEPLOYMENT_VERBOSE>=1)
+        printf("\n[dep_init_cmdRepo] Initializing command repository..\r\n");
+    #endif
+
+//    #if (SCH_TASKDEPLOYMENT_VERBOSE>=2)
+//        printf("    * Commands rep.\r\n");
 //    #endif
-//
-////    #if (SCH_TASKDEPLOYMENT_VERBOSE>=2)
-////        printf("    * Commands rep.\r\n");
-////    #endif
-////    repo_onResetCmdRepo();
-//
-//    #if (SCH_TDEPLOYMENT_VERBOSE>=2)
-//        printf("    * Attaching cmdCON..\r\n");
-//    #endif
-//    CmdRepo_cmdXXX_handler cmdCON_handler;
-//    cmdCON_handler.cmdOwn = SCH_CMD_CON;
-//    cmdCON_handler.nCmd = CON_NCMD;
-//    cmdCON_handler.p_xxxFunction = conFunction;
-//    cmdCON_handler.p_xxxSysReq = con_sysReq;
-//    cmdCON_handler.xxx_onReset = con_onResetCmdCON;
-//    repo_set_cmdXXX_hanlder(cmdCON_handler);
-//
-//    // ...
-//
-//    return 1;
-//}
+//    repo_onResetCmdRepo();
+
+    #if (SCH_TDEPLOYMENT_VERBOSE>=2)
+        printf("    * Attaching cmdCON..\r\n");
+    #endif
+    CmdRepo_cmdXXX_handler cmdCON_handler;
+    cmdCON_handler.cmdOwn = SCH_CMD_CON;
+    cmdCON_handler.nCmd = CON_NCMD;
+    cmdCON_handler.p_xxxFunction = conFunction;
+    cmdCON_handler.p_xxxSysReq = con_sysReq;
+    cmdCON_handler.xxx_onReset = con_onResetCmdCON;
+    repo_set_cmdXXX_hanlder(cmdCON_handler);
+
+    // ...
+
+    return 1;
+}
 //
 ///**
 // * Initializes data repository
@@ -219,30 +219,58 @@
 // * @param param Not used
 // * @return 1 success, 0 fails
 // */
-//void dep_init_suchai_tasks(void)
-//{
-//    /* Crating base tasks */
-//    printf("\n[main] Starting base tasks...\r\n");
-//    #if(SCH_TASKEXECUTER_INSIDE_TASKDISPATCHER==1)
-//        xTaskCreate(taskDispatcher, (signed char *)"DIS", 4.5*configMINIMAL_STACK_SIZE, NULL, 4, &taskDispatcherHandle);
-//    #else
-//        xTaskCreate(taskExecuter, (signed char *)"EXE", 3*configMINIMAL_STACK_SIZE, NULL, 4, &taskExecuterHandle);
-//        xTaskCreate(taskDispatcher, (signed char *)"DIS", 1.5*configMINIMAL_STACK_SIZE, NULL, 3, &taskDispatcherHandle);
-//    #endif
-//
-//    /* Creating other tasks*/
-//    #if (SCH_TDEPLOYMENT_VERBOSE>=1)
-//        printf("\n[dep_launch_tasks] Starting all tasks...\r\n");
-//    #endif
-//
-//    #if (SCH_TCONSOLE_USE == 1)
-//        #if (SCH_TDEPLOYMENT_VERBOSE>=2)
-//            printf("    * Creating taskConsole\r\n");
-//        #endif
-//        xTaskCreate(taskConsole, (signed char *)"CON", 1.5*configMINIMAL_STACK_SIZE, NULL, 2, &taskConsoleHandle);
-//        __delay_ms(300);
-//    #endif
-//}
+void dep_InitSystem(void)
+{
+    /* Crating System tasks */
+    printf("\n[main] Starting System tasks ..\r\n");
+    #if(SCH_TASKEXECUTER_INSIDE_TASKDISPATCHER==1)
+        #if(SCH_TDEPLOYMENT_VERBOSE>=2)
+            printf("    * Creating taskDispatcher \r\n");
+        #endif
+        OSW_TaskCreate(&taskDispatcherDescriptor, taskDispatcher, NULL, 4.5);
+    #else
+        OSW_TaskCreate(taskExecuter, (signed char *)"EXE", 3*configMINIMAL_STACK_SIZE, NULL, 4, &taskExecuterDescriptor);
+        OSW_TaskCreate(taskDispatcher, (signed char *)"DIS", 1.5*configMINIMAL_STACK_SIZE, NULL, 3, &taskDispatcherDescriptor);
+    #endif
+
+    #if (SCH_TCONSOLE_USE == 1)
+        #if (SCH_TDEPLOYMENT_VERBOSE>=2)
+            printf("    * Creating taskConsole\r\n");
+        #endif
+        //OSW_GnrlcallsSleep(0.3);        
+        OSW_TaskCreate(&taskConsoleDescriptor, taskConsole, NULL, 1.5);
+    #endif
+
+    /* Creating System tasks*/
+    #if (SCH_TDEPLOYMENT_VERBOSE>=1)
+        printf("\n[dep_launch_tasks] Starting Application tasks ..\r\n");
+    #endif
+
+    /* Joining System tasks */
+    printf("\n[main] Joining System tasks...\r\n");
+    #if(SCH_TASKEXECUTER_INSIDE_TASKDISPATCHER==1)
+        #if(SCH_TDEPLOYMENT_VERBOSE>=2)
+            printf("    * Joining taskDispatcher \r\n");
+        #endif
+        OSW_TaskJoin(taskDispatcherDescriptor, NULL);
+    #else
+        OSW_TaskJoin(taskExecuterDescriptor, NULL);
+        OSW_TaskJoin(taskDispatcherDescriptor, NULL);
+    #endif
+
+    #if (SCH_TCONSOLE_USE == 1)
+        #if(SCH_TDEPLOYMENT_VERBOSE>=2)
+            printf("    * Joining taskConsole\r\n");
+        #endif
+        OSW_TaskJoin(taskConsoleDescriptor, NULL);
+    #endif    
+
+    /* Joining Application tasks*/
+    #if (SCH_TDEPLOYMENT_VERBOSE>=1)
+        printf("\n[dep_launch_tasks] Starting Application tasks ..\r\n");
+    #endif
+
+}
 ///**
 // * Initializes all peripherals and subsystems.
 // * @param param Not used.

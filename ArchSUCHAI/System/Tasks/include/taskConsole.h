@@ -16,11 +16,17 @@
 
 //#include "FreeRTOS.h"
 //#include "queue.h"
-//#include "task.h"
+//#include "task.h
+#include "osw_queue.h"
+#include "osw_tasks.h"
+#include "osw_gnrlcalls.h"
+#include "osw_console.h"
 
-#include "os_console.h"
+//#include "console.h"
 #include "cmdIncludes.h"
+#include "cmdCON.h"
+#include <stdio.h>
 
-void taskConsole(void *param);
+void *taskConsole(void *param);
 
 #endif //T_CONSOLE_H
