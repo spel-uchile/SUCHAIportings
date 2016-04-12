@@ -12,7 +12,7 @@
 #define CMD_REPO_H
 
 #include "cmdIncludes.h"    //for CmdFunction
-#include "DebugIncludes.h"
+#include "debugIncludes.h"
 #include "SUCHAI_config.h"
 
 #include <stdio.h>

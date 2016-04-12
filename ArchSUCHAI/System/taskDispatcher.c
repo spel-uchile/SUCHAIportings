@@ -67,7 +67,7 @@ void *taskDispatcher(void *param)
             {
                 #if (SCH_TDISPATCHER_VERBOSE >=1)
                     /* IMPRIMIR LOS COMANDOS QUE SE VAN A EJECUTAR */
-                    printf("[Dispatcher] Orig: 0x%X | Cmd: 0x%X | Param: %d\n",
+                    printf("[Dispatcher] Orig: 0x%04X | Cmd: 0x%04X | Param: %04d\n",
                             (unsigned int)idOrig, (unsigned int)cmdId, cmdParam );
                 #endif
 

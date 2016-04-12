@@ -7,7 +7,21 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/toopazo/repos/SUCHAIportings/ArchSUCHAI/ArchSUCHAI/main.c</file>
+            <file>file:/home/toopazo/repos/SUCHAIportings/ArchSUCHAI/System/RepoCmd/include/cmdCON.h</file>
+            <file>file:/home/toopazo/repos/SUCHAIportings/ArchSUCHAI/System/suchaiDeployment.c</file>
+            <file>file:/home/toopazo/repos/SUCHAIportings/ArchSUCHAI/OS_calls/Arch/posix/p_queue.c</file>
+            <file>file:/home/toopazo/repos/SUCHAIportings/ArchSUCHAI/OS_calls/Arch/posix/p_queue.h</file>
+            <file>file:/home/toopazo/repos/SUCHAIportings/ArchSUCHAI/main.c</file>
+            <file>file:/home/toopazo/repos/SUCHAIportings/ArchSUCHAI/System/Tasks/taskConsole.c</file>
+            <file>file:/home/toopazo/repos/SUCHAIportings/ArchSUCHAI/OS_calls/Arch/posix/p_console.c</file>
+            <file>file:/home/toopazo/repos/SUCHAIportings/ArchSUCHAI/System/include/suchaiDeployment.h</file>
+            <file>file:/home/toopazo/repos/SUCHAIportings/ArchSUCHAI/System/taskDispatcher.c</file>
+            <file>file:/home/toopazo/repos/SUCHAIportings/ArchSUCHAI/OS_calls/Arch/posix/p_console.h</file>
+            <file>file:/home/toopazo/repos/SUCHAIportings/ArchSUCHAI/System/include/cmdIncludes.h</file>
+            <file>file:/home/toopazo/repos/SUCHAIportings/ArchSUCHAI/SUCHAI_config.h</file>
+            <file>file:/home/toopazo/repos/SUCHAIportings/ArchSUCHAI/OS_calls/Arch/posix/p_gnrlcalls.h</file>
+            <file>file:/home/toopazo/repos/SUCHAIportings/ArchSUCHAI/System/RepoCmd/cmdCON.c</file>
+            <file>file:/home/toopazo/repos/SUCHAIportings/ArchSUCHAI/System/cmdRepository.c</file>
         </group>
     </open-files>
 </project-private>

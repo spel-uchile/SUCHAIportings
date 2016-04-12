@@ -27,8 +27,8 @@ void con_onResetCmdCON(void){
 
     conFunction[(unsigned char)con_id_help] = con_help;
     con_sysReq[(unsigned char)con_id_help]  = CMD_SYSREQ_MIN;
-//    conFunction[(unsigned char)con_id_promt] = con_promt;
-//    con_sysReq[(unsigned char)con_id_promt]  = CMD_SYSREQ_MIN;
+    conFunction[(unsigned char)con_id_promt] = con_promt;
+    con_sysReq[(unsigned char)con_id_promt]  = CMD_SYSREQ_MIN;
 //    conFunction[(unsigned char)con_id_error_cmd_toolong] = con_error_cmd_toolong;
 //    con_sysReq[(unsigned char)con_id_error_cmd_toolong]  = CMD_SYSREQ_MIN;
 //    conFunction[(unsigned char)con_id_debug_msg] = con_debug_msg;
@@ -122,13 +122,13 @@ int con_help(void *param)
     return 1;
 }
 
-///**
-// * Display a generic propmp
-// * @param param void
-// * @return 1 - OK
-// */
-//int con_promt(void *param)
-//{
-//    con_printf(">>");
-//    return 1;
-//}
+/**
+ * Display a generic propmp
+ * @param param void
+ * @return 1 - OK
+ */
+int con_promt(void *param)
+{
+    printf(">>");
+    return 1;
+}

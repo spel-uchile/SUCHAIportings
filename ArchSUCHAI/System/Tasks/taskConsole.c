@@ -77,16 +77,13 @@ void *taskConsole(void *param)
         OSW_GnrlcallsSleep(Delayms);
         //vTaskDelayUntil(&xLastWakeTime, Delayms);
 
-        /* Parsing command - return CmdDisp structure*/
-        printf(">> ");
-        ParsedInput newpi = OSW_ConsoleInputParser();
-        //newCmd.cmdId = newpi.cmdname;
-        newCmd.cmdId = newpi.cmdid;
-        newCmd.param = newpi.param;
+        ParsedInput newPI = OSW_ConsoleInputParser();
+        newCmd.cmdId = newPI.cmdId;
+        newCmd.param = newPI.param;
 //        char buffer[100];
 //        int a = scanf("%s", buffer);
 //        printf("%s \r\n", buffer);
-//        newCmd.cmdId = con_id_help;
+//        newCmd.cmdId = con_id_help;/
 //        newCmd.idOrig = 0x1101;
 //        newCmd.param = 1;
 //        newCmd.sysReq = 2;

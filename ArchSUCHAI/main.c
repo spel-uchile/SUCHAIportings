@@ -64,8 +64,8 @@ int main(int argc, char** argv) {
     int stat;
     
     printf("[SUCHAI] Hello world \n");
-    OSW_TaskUnitTesting();
-    OSW_QueueUnitTesting();
+//    OSW_TaskUnitTesting();
+//    OSW_QueueUnitTesting();
 
     /* Initializing shared Queues */
     dispatcherQueue = OSW_QueueCreate("dispatcherQueue", 10, sizeof(DispCmd));

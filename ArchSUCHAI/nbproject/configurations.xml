@@ -26,10 +26,10 @@
       </logicalFolder>
       <logicalFolder name="System" displayName="System" projectFiles="true">
         <logicalFolder name="include" displayName="include" projectFiles="true">
-          <itemPath>System/include/DebugIncludes.h</itemPath>
           <itemPath>System/include/cmdIncludes.h</itemPath>
           <itemPath>System/include/cmdRepository.h</itemPath>
           <itemPath>System/include/dataRepository.h</itemPath>
+          <itemPath>System/include/debugIncludes.h</itemPath>
           <itemPath>System/include/stateRepository.h</itemPath>
           <itemPath>System/include/suchaiDeployment.h</itemPath>
           <itemPath>System/include/taskDispatcher.h</itemPath>
@@ -46,6 +46,7 @@
           </logicalFolder>
         </logicalFolder>
       </logicalFolder>
+      <itemPath>SUCHAI_config.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -148,6 +149,8 @@
       </item>
       <item path="OS_calls/include/osw_tasks.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="SUCHAI_config.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="System/RepoCmd/cmdCON.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="System/RepoCmd/include/cmdCON.h" ex="false" tool="3" flavor2="0">
@@ -160,13 +163,13 @@
       </item>
       <item path="System/dataRepository.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="System/include/DebugIncludes.h" ex="false" tool="3" flavor2="0">
-      </item>
       <item path="System/include/cmdIncludes.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="System/include/cmdRepository.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="System/include/dataRepository.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="System/include/debugIncludes.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="System/include/stateRepository.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -247,6 +250,8 @@
       </item>
       <item path="OS_calls/include/osw_tasks.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="SUCHAI_config.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="System/RepoCmd/cmdCON.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="System/RepoCmd/include/cmdCON.h" ex="false" tool="3" flavor2="0">
@@ -259,13 +264,13 @@
       </item>
       <item path="System/dataRepository.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="System/include/DebugIncludes.h" ex="false" tool="3" flavor2="0">
-      </item>
       <item path="System/include/cmdIncludes.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="System/include/cmdRepository.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="System/include/dataRepository.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="System/include/debugIncludes.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="System/include/stateRepository.h" ex="false" tool="3" flavor2="0">
       </item>

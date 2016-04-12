@@ -21,12 +21,30 @@ extern "C" {
 #include <unistd.h>    
 #include <stdlib.h>
 #include <stdio.h>
+//#include <errno.h>
+#include <stdbool.h>
     
+/* Add commands definitions*/
+#include "cmdCON.h"
+
+
+#define CON_BUF_WIDTH 32
+#define CON_ARG_WIDTH 8
+
+#define CON_ARG_QTY 8   
+        
 typedef struct{
-    char *cmdname;
-    unsigned int cmdid;
+    //char *cmdName;
+    unsigned int cmdId;
     int param;
 }ParsedInput;
+
+void con_init(void);
+void con_char_handler(char newchar);
+void con_cmd_from_entry(char *entry);
+ParsedInput con_cmd_handler(void);
+bool con_set_active(bool on_off);
+bool StrIsInt(char *str);    
 
 /**
  * Read from the console, and returns a parsed list
